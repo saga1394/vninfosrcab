@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>亚投行承诺支持越南基建 — 越南组观察</title>
+<style>
+:root {
+  --paper: #f7f3ea;
+  --card: #fdfbf5;
+  --ink: #33291f;
+  --ink-dim: #8a8070;
+  --accent: #b4532a;
+  --accent-deep: #8f3f1e;
+  --accent-wash: #f3e6d8;
+  --fr: #35558a;
+  --in: #a06b12;
+  --line: #e3dac7;
+  --guide: rgba(51, 41, 31, 0.10);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { font-size: clamp(17px, 4.9vw, 23px); height: 100%; }
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+  line-height: 1.7;
+  height: 100%;
+  overflow: hidden;
+}
+.serif { font-family: Georgia, "Times New Roman", "Noto Serif SC", "Source Han Serif SC", "STSong", "SimSun", serif; }
+
+/* ---------- 舞台：3:4 基准框 ---------- */
+#book { height: 100dvh; display: flex; flex-direction: column; }
+.stage { flex: 1; display: flex; align-items: center; justify-content: center; padding: 8px; overflow: hidden; }
+.frame {
+  display: none;
+  flex-direction: column;
+  width: min(100%, calc((100dvh - 96px) * 0.75));
+  aspect-ratio: 3 / 4;
+  border: 1px solid var(--guide);
+  border-radius: 6px;
+  padding: 1.05rem 1rem;
+  overflow: hidden;
+}
+.frame.active { display: flex; }
+
+/* 纵向满铺工具 */
+.grow { flex: 1 1 auto; display: flex; flex-direction: column; justify-content: center; min-height: 0; }
+.stack { flex: 1 1 auto; display: flex; flex-direction: column; min-height: 0; }
+.stack > * { flex: 1 1 0; display: flex; flex-direction: column; justify-content: center; min-height: 0; }
+
+/* ---------- 通用 ---------- */
+h1 { font-size: 2rem; line-height: 1.32; font-weight: 700; margin-bottom: 0.75rem; }
+.key-line {
+  font-size: 1.18rem; font-weight: 800; line-height: 1.5; color: var(--accent-deep);
+  background: var(--accent-wash); border-left: 5px solid var(--accent);
+  border-radius: 0 10px 10px 0; padding: 0.75rem 0.9rem;
+}
+.lead { font-size: 1.06rem; line-height: 1.85; color: #3f3729; }
+h2 { font-size: 1.52rem; font-weight: 700; line-height: 1.38; flex: none; }
+.sec-no { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.18em; color: var(--accent); margin-bottom: 0.45rem; flex: none; }
+
+/* ---------- 亚投行要点 ---------- */
+.item { border-top: 1px solid var(--line); padding-top: 0.5rem; }
+.item:first-child { border-top: none; padding-top: 0; }
+.item .k { font-size: 0.78rem; font-weight: 700; color: var(--accent); letter-spacing: 0.1em; margin-bottom: 0.15rem; }
+.item p { font-size: 1.03rem; color: #4d4436; line-height: 1.7; }
+.item p b { color: var(--accent-deep); }
+
+/* ---------- 清单 ---------- */
+.q { border-top: 1px solid var(--line); padding-top: 0.35rem; }
+.q:first-child { border-top: none; padding-top: 0; }
+.q .n { font-size: 0.98rem; font-weight: 700; }
+.q .n .f { font-size: 0.72rem; font-weight: 700; margin-left: 0.4rem; }
+.q .d { font-size: 0.85rem; color: #5a5142; line-height: 1.5; }
+.f-fr { color: var(--fr); }
+.f-in { color: var(--in); }
+.f-mu { color: var(--ink-dim); }
+
+.spectrum { flex: none; margin-top: 0.55rem; padding-top: 0.55rem; border-top: 2px solid var(--accent); }
+.spectrum p { font-size: 0.87rem; color: #6b4a33; line-height: 1.55; }
+.spectrum b { color: var(--accent-deep); }
+
+/* ---------- 角度 ---------- */
+.ch { border-top: 1px solid var(--line); padding-top: 0.45rem; }
+.ch:first-child { border-top: none; padding-top: 0; }
+.ch .t { font-size: 1.06rem; font-weight: 700; margin-bottom: 0.15rem; }
+.ch .t .n { color: var(--accent); margin-right: 0.35rem; }
+.ch .d { font-size: 0.94rem; color: #4d4436; line-height: 1.62; }
+.ch .d em { font-style: normal; color: var(--accent-deep); font-weight: 600; }
+
+.key-block { flex: none; background: var(--accent-wash); border: 2px solid var(--accent); border-radius: 10px; padding: 0.75rem 0.9rem; margin-top: 0.7rem; }
+.key-block h4 { font-size: 1.04rem; color: var(--accent-deep); font-weight: 800; margin-bottom: 0.3rem; }
+.key-block ul { list-style: none; }
+.key-block li { font-size: 0.94rem; color: #6b4a33; line-height: 1.58; padding-left: 0.85rem; position: relative; margin-bottom: 0.2rem; }
+.key-block li:last-child { margin-bottom: 0; }
+.key-block li::before { content: "—"; position: absolute; left: 0; color: var(--accent); }
+.key-block b { color: var(--accent-deep); font-weight: 800; }
+
+.brand-block { flex: none; text-align: center; margin-top: auto; padding-top: 0.8rem; }
+.brand-block .brand { font-size: 0.98rem; font-weight: 700; letter-spacing: 0.08em; border-top: 2px solid var(--ink); padding-top: 0.6rem; }
+.brand-block .brand .bar { color: var(--ink-dim); font-weight: 400; margin: 0 0.3rem; }
+.brand-block .note { font-size: 0.68rem; color: var(--ink-dim); margin-top: 0.25rem; line-height: 1.5; }
+
+/* ---------- 导航 ---------- */
+#navbar {
+  flex: none;
+  height: 3.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  background: var(--paper);
+  border-top: 1px solid var(--line);
+}
+#navbar button {
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+  font-size: 0.86rem;
+  font-weight: 600;
+  padding: 0.42rem 1rem;
+  border-radius: 1.4rem;
+  cursor: pointer;
+}
+#navbar button:disabled { opacity: 0.3; }
+#navbar button.next { background: var(--accent); border-color: var(--accent); color: #fdfbf5; }
+.dots { display: flex; gap: 0.32rem; align-items: center; }
+.dot { width: 7px; height: 7px; border-radius: 50%; background: var(--line); transition: all .25s; cursor: pointer; }
+.dot.on { background: var(--accent); width: 18px; border-radius: 4px; }
+#pcount { font-size: 0.74rem; color: var(--ink-dim); letter-spacing: 0.1em; min-width: 2.2rem; text-align: center; }
+</style>
+</head>
+<body>
+<div id="book">
+  <div class="stage">
+
+    <!-- ============ 1 封面 ============ -->
+    <div class="frame active" id="p1">
+      <div style="flex:none">
+        <h1 class="serif">亚投行承诺支持越南基建</h1>
+        <div class="key-line serif">行长邹加怡（前中国财政部副部长）提议参照 IFC/ADB 模式联合募资、在越南国内市场发债</div>
+      </div>
+      <div class="grow">
+        <p class="lead">9月12日，越南政府总理黎明兴在新德里出席金砖国家领导人第十八次会晤期间，会见亚洲基础设施投资银行行长邹加怡。亚投行承诺继续支持越南大型基础设施项目，双方同意将合作从逐个项目转向计划式合作，并讨论参照 IFC/ADB 模式联合募资、在越南国内市场发债。同一周，法国与印度方向亦有多条基建相关表态。</p>
+      </div>
+    </div>
+
+    <!-- ============ 2 亚投行 ============ -->
+    <div class="frame" id="p2">
+      <div style="flex:none">
+        <div class="sec-no">亚投行 · 9月12日 · 新德里</div>
+        <h2 class="serif">从「逐项目合作」转向「计划式合作」</h2>
+      </div>
+      <div class="stack" style="margin-top:0.6rem">
+        <div class="item">
+          <div class="k">支持领域</div>
+          <p>大型基建：绿色与能源转型、城市发展、区域互联互通；增加项目准备与创新融资结构的技术援助。</p>
+        </div>
+        <div class="item">
+          <div class="k">机制</div>
+          <p>参照 IFC/ADB 模式：与越南金融机构<b>联合募资</b>、在越南国内市场<b>发债</b>、构建可落地项目组合。</p>
+        </div>
+        <div class="item">
+          <div class="k">敞口</div>
+          <p>交通基建、铁路互联、绿色转型、清洁能源、城市发展、跨境互联项目，欢迎进入合作清单。</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ 3 不止亚投行 ============ -->
+    <div class="frame" id="p3">
+      <h2 class="serif">不止亚投行</h2>
+      <div class="stack" style="margin-top:0.5rem">
+        <div class="q">
+          <div class="n">TotalEnergies × T&amp;T<span class="f f-fr">法国</span></div>
+          <div class="d">LNG 燃气发电 1500MW（龙山）· 15.4 亿美元 · MOU · 已纳入修订版 PDP8</div>
+        </div>
+        <div class="q">
+          <div class="n">TotalEnergies × PV GAS<span class="f f-fr">法国</span></div>
+          <div class="d">LNG / 可再生能源 / LPG · MOU</div>
+        </div>
+        <div class="q">
+          <div class="n">Rothschild &amp; Co<span class="f f-fr">法国</span></div>
+          <div class="d">信用评级 / 资本市场 / 盘活国资 + 基建筹资 · 工作会谈</div>
+        </div>
+        <div class="q">
+          <div class="n">Vietjet × CFM<span class="f f-fr">法国 / 美国</span></div>
+          <div class="d">LEAP 发动机 MRO · LOI</div>
+        </div>
+        <div class="q">
+          <div class="n">越法企业论坛 8 份文件<span class="f f-fr">法国</span></div>
+          <div class="d">化工 / 能源 / 航空 / IT / 医疗 · 合作文件签署</div>
+        </div>
+        <div class="q">
+          <div class="n">Decathlon 迪卡侬<span class="f f-fr">法国</span></div>
+          <div class="d">制造产能 + 零售分销 · 存量扩张意向</div>
+        </div>
+        <div class="q">
+          <div class="n">ACME Group<span class="f f-in">印度</span></div>
+          <div class="d">太阳能 / 绿色氢能 · 投资意向</div>
+        </div>
+        <div class="q">
+          <div class="n">GMR Group<span class="f f-in">印度</span></div>
+          <div class="d">机场开发运营 / 机场科技 · 意向（2026.5 已签 MOU）</div>
+        </div>
+        <div class="q">
+          <div class="n">AIIB 亚投行<span class="f f-mu">多边（中国主导）</span></div>
+          <div class="d">基建融资 / 绿色转型 / 城市 · 计划式合作承诺</div>
+        </div>
+      </div>
+      <div class="spectrum">
+        <p><b>资金端</b>：亚投行、罗斯柴尔德　<b>资产端</b>：道达尔、GMR、ACME、CFM</p>
+      </div>
+    </div>
+
+    <!-- ============ 4 角度 + 需求侧 ============ -->
+    <div class="frame" id="p4">
+      <h2 class="serif">场合变了，说法也变了</h2>
+      <div class="stack" style="margin-top:0.5rem">
+        <div class="ch">
+          <div class="t serif"><span class="n">1</span>场合升格</div>
+          <div class="d">以往多是地方招商会、部委工作层会见；这次集中在国事访问与金砖峰会。</div>
+        </div>
+        <div class="ch">
+          <div class="t serif"><span class="n">2</span>说法变了</div>
+          <div class="d">亚投行谈<em>发债与计划式合作</em>；道达尔绑定<em>国企 PV GAS</em>；GMR 对接<em>36 机场规划</em>。</div>
+        </div>
+        <div class="ch">
+          <div class="t serif"><span class="n">3</span>表态先行，看资金走向</div>
+          <div class="d">9 项披露中仅龙山 LNG 有明确金额（<em>15.4 亿美元</em>），其余为 MOU / LOI / 意向。</div>
+        </div>
+      </div>
+      <div class="key-block">
+        <h4>需求侧数字</h4>
+        <ul>
+          <li>2026–2030 年全社会投资需占 GDP 的 <b>40% 以上</b>，<b>公共投资只占五分之一</b>。</li>
+          <li>需动员资金为 <b>2020–2025 年的两倍</b>，ICOR 控制在 4.5–4.8。</li>
+          <li>筹资指向债券市场与境外资本，正与穆迪、惠誉、标普协调评级。</li>
+        </ul>
+      </div>
+      <div class="brand-block">
+        <div class="brand serif">【太空建筑观察<span class="bar">|</span>越南组】</div>
+        <div class="note">数据来源：越通社 / 人民报 / VnExpress / Báo Đầu tư 等公开报道 · 不构成投资建议</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ============ Nav ============ -->
+  <div id="navbar">
+    <button id="prev" disabled>‹ 上一页</button>
+    <div class="dots" id="dots"></div>
+    <span id="pcount">1/4</span>
+    <button id="next" class="next">下一页 ›</button>
+  </div>
+</div>
+
+<script>
+var pages = document.querySelectorAll('.frame');
+var cur = 0;
+var dotsBox = document.getElementById('dots');
+var prevBtn = document.getElementById('prev');
+var nextBtn = document.getElementById('next');
+var pcount = document.getElementById('pcount');
+
+pages.forEach(function (_, i) {
+  var d = document.createElement('div');
+  d.className = 'dot' + (i === 0 ? ' on' : '');
+  d.onclick = function () { go(i); };
+  dotsBox.appendChild(d);
+});
+var dots = document.querySelectorAll('.dot');
+
+function go(n) {
+  if (n < 0 || n >= pages.length) return;
+  pages[cur].classList.remove('active');
+  dots[cur].classList.remove('on');
+  cur = n;
+  pages[cur].classList.add('active');
+  dots[cur].classList.add('on');
+  pcount.textContent = (cur + 1) + '/' + pages.length;
+  prevBtn.disabled = cur === 0;
+  nextBtn.disabled = cur === pages.length - 1;
+}
+prevBtn.onclick = function () { go(cur - 1); };
+nextBtn.onclick = function () { go(cur + 1); };
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'ArrowRight' || e.key === 'PageDown') go(cur + 1);
+  if (e.key === 'ArrowLeft' || e.key === 'PageUp') go(cur - 1);
+});
+
+var sx = 0, sy = 0;
+document.addEventListener('touchstart', function (e) {
+  sx = e.touches[0].clientX; sy = e.touches[0].clientY;
+}, { passive: true });
+document.addEventListener('touchend', function (e) {
+  var dx = e.changedTouches[0].clientX - sx;
+  var dy = e.changedTouches[0].clientY - sy;
+  if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+    if (dx < 0) go(cur + 1); else go(cur - 1);
+  }
+}, { passive: true });
+</script>
+</body>
+</html>

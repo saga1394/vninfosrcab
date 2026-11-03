@@ -1,0 +1,3008 @@
+{
+  "meta": {
+    "reference_code": "7163",
+    "batch": "Batch 2: Vietnam Media (30) + Overseas Investment Media (25)",
+    "execution_timestamp": "2026-11-02T01:49:24.581725",
+    "duration_seconds": 30.19,
+    "total_http_requests": 55,
+    "total_bytes_transferred": 6885866,
+    "total_transferred_kb": 6724.48,
+    "token_cost": 0,
+    "total_sources_probed": 55
+  },
+  "method_breakdown": {
+    "native_rss": 35,
+    "lightweight_html_list": 17,
+    "xml_sitemap": 1,
+    "waf_or_blocked": 3
+  },
+  "sources": [
+    {
+      "id": "src-VN-GEN-01",
+      "code_name": "vietnamplus",
+      "name": "VietnamPlus (越通社官方)",
+      "category": "Vietnam National General",
+      "target_url": "https://www.vietnamplus.vn",
+      "effective_endpoint": "https://www.vietnamplus.vn/rss/home.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 189.65,
+      "bytes_transferred": 141266,
+      "server": "nginx",
+      "etag": "db8532acd3f5af2d0e38ad88e3313425",
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Concert “Tự hào là người Việt Nam 2026\": Kết nối ký ức, thắt chặt sức mạnh đại đoàn kết",
+          "snippet": "Hơn 30.000 khán giả hòa mình vào Concert \"Tự hào là người Việt Nam 2026\" tại Thái Nguyên, nơi âm nhạc và ngọn lửa cách mạng kết nối ký ức, khơi dậy niềm tự hào dân tộc. Hà Nội tổ c",
+          "pubdate": "Sun, 01 Nov 2026 22:58:04 +07:00",
+          "url": "https://www.vietnamplus.vn/concert-tu-hao-la-nguoi-viet-nam-2026-ket-noi-ky-uc-that-chat-suc-manh-dai-doan-ket-post1145571.vnp"
+        },
+        {
+          "title": "Bản đồ số Văn hóa Việt Nam: Để mỗi hành trình bồi đắp thêm tình yêu đất nước",
+          "snippet": "Việc vận hành CMAP là hoạt động thiết thực hướng tới Ngày Văn hóa Việt Nam (24/11) và Ngày hội Đại đoàn kết toàn dân tộc năm 2026, tạo bước đột phá trong tiến trình chuyển đổi số n",
+          "pubdate": "Sun, 01 Nov 2026 22:33:15 +07:00",
+          "url": "https://www.vietnamplus.vn/ban-do-so-van-hoa-viet-nam-de-moi-hanh-trinh-boi-dap-them-tinh-yeu-dat-nuoc-post1145568.vnp"
+        },
+        {
+          "title": "Đêm 1 và ngày 2/11, đề phòng mưa lớn cục bộ ở Bắc Bộ, gió giật mạnh trên biển",
+          "snippet": "Đêm 1/11 và ngày 2/11, khu vực Bắc Bộ có mưa rào và dông rải rác với lượng mưa 10-30mm, riêng khu vực Tây Bắc và Việt Bắc cục bộ có nơi mưa to trên 80mm. Dự báo thời tiết ngày 1/11",
+          "pubdate": "Sun, 01 Nov 2026 22:11:39 +07:00",
+          "url": "https://www.vietnamplus.vn/dem-1-va-ngay-211-de-phong-mua-lon-cuc-bo-o-bac-bo-gio-giat-manh-tren-bien-post1145567.vnp"
+        },
+        {
+          "title": "Tổng thống Israel kêu gọi các phe phái chấp thuận thỏa hiệp để thành lập chính phủ mới",
+          "snippet": "Lời kêu gọi của Tổng thống Israel Isaac Herzog được đưa ra trong bối cảnh cả phe ủng hộ Thủ tướng Benjamin Netanyahu và phe đối lập đều chưa giành đủ đa số 61 ghế tại Quốc hội (Kne",
+          "pubdate": "Sun, 01 Nov 2026 22:11:18 +07:00",
+          "url": "https://www.vietnamplus.vn/tong-thong-israel-keu-goi-cac-phe-phai-chap-thuan-thoa-hiep-de-thanh-lap-chinh-phu-moi-post1145566.vnp"
+        },
+        {
+          "title": "Doanh nghiệp Việt Nam đưa giải pháp xanh ra thị trường quốc tế",
+          "snippet": "Từ nhựa tái chế đến những sản phẩm xanh giàu tính ứng dụng, doanh nghiệp Việt Nam mang giải pháp sáng tạo tới Eco Expo Asia 2026, tìm kiếm cơ hội kết nối và vươn ra thị trường quốc",
+          "pubdate": "Sun, 01 Nov 2026 22:00:51 +07:00",
+          "url": "https://www.vietnamplus.vn/doanh-nghiep-viet-nam-dua-giai-phap-xanh-ra-thi-truong-quoc-te-post1145561.vnp"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Official VNA news agency. Native RSS returns 50 entries with rich title, pubdate, and snippet."
+    },
+    {
+      "id": "src-VN-GEN-02",
+      "code_name": "nhandan",
+      "name": "Nhân Dân (人民报 - 越共中央机关报)",
+      "category": "Vietnam National General",
+      "target_url": "https://nhandan.vn",
+      "effective_endpoint": "https://nhandan.vn/rss/home.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 157.15,
+      "bytes_transferred": 116722,
+      "server": null,
+      "etag": "50fa147120fc2f312300afa5718cfbac",
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Tặng áo dài, nối nhịp cầu văn hóa và sẻ chia tới nữ sinh vùng cao",
+          "snippet": "Gần 1.000 chiếc áo dài đã được Công ty Du lịch Vietravel chi nhánh Hà Nội phối hợp Hiệp hội Văn hóa Áo dài Việt Nam trao tặng các cô giáo và nữ sinh tại bốn điểm trường ở những địa",
+          "pubdate": "Sun, 01 Nov 2026 23:05:05 +07:00",
+          "url": "https://nhandan.vn/tang-ao-dai-noi-nhip-cau-van-hoa-va-se-chia-toi-nu-sinh-vung-cao-post999576.html"
+        },
+        {
+          "title": "Hùng tráng Concert quốc gia “Nối vòng tay lớn”",
+          "snippet": "Tối 1/11, tại sân vận động tỉnh Thái Nguyên , Ban Tuyên giáo Trung ương phối hợp cùng Ủy ban nhân dân tỉnh Thái Nguyên tổ chức Concert quốc gia “Nối vòng tay lớn”. Sự kiện thu hút ",
+          "pubdate": "Sun, 01 Nov 2026 23:03:31 +07:00",
+          "url": "https://nhandan.vn/hung-trang-concert-quoc-gia-noi-vong-tay-lon-post999560.html"
+        },
+        {
+          "title": "Tỏa sáng “Tinh hoa đạo học”, kết nối dữ liệu trên Bản đồ số Văn hóa Việt Nam",
+          "snippet": "Tối 1/11, tại Di tích Quốc gia đặc biệt Văn Miếu-Quốc Tử Giám (Hà Nội), Bộ Văn hóa, Thể thao và Du lịch tổ chức Chương trình Nghệ thuật số \"Tinh hoa đạo học\" và Lễ ra mắt Nền tảng ",
+          "pubdate": "Sun, 01 Nov 2026 22:45:00 +07:00",
+          "url": "https://nhandan.vn/toa-sang-tinh-hoa-dao-hoc-ket-noi-du-lieu-tren-ban-do-so-van-hoa-viet-nam-post999564.html"
+        },
+        {
+          "title": "Vĩnh Long phát huy tiềm năng, lợi thế kinh tế biển",
+          "snippet": "Tỉnh Vĩnh Long với bờ biển dài 130km, ngư trường rộng lớn, thuận lợi cho việc nuôi trồng, khai thác thủy, hải sản và phát triển kinh tế biển. Việc tập trung huy động các nguồn lực ",
+          "pubdate": "Sun, 01 Nov 2026 22:22:03 +07:00",
+          "url": "https://nhandan.vn/vinh-long-phat-huy-tiem-nang-loi-the-kinh-te-bien-post999558.html"
+        },
+        {
+          "title": "[Video] Siêu El Nino có thể khiến mùa mưa Nam Bộ kết thúc sớm",
+          "snippet": "El Nino cường độ rất mạnh đang tác động rõ đến thời tiết Nam Bộ. Mùa mưa tại Thành phố Hồ Chí Minh và khu vực Nam Bộ được dự báo kết thúc vào khoảng giữa tháng 11, sớm hơn thông th",
+          "pubdate": "Sun, 01 Nov 2026 21:46:33 +07:00",
+          "url": "https://nhandan.vn/video-sieu-el-nino-co-the-khien-mua-mua-nam-bo-ket-thuc-som-post999531.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Central Party newspaper. RSS feed returns 50 entries with complete pubdate and snippet."
+    },
+    {
+      "id": "src-VN-GEN-03",
+      "code_name": "vtv",
+      "name": "VTV (越南国家电视台)",
+      "category": "Vietnam National General",
+      "target_url": "https://vtv.vn",
+      "effective_endpoint": "https://vtv.vn/rss/home.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 187.75,
+      "bytes_transferred": 64502,
+      "server": "nginx/1.18.0 (Ubuntu)",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Điện Biên: Lan tỏa những bước chạy nghĩa tình",
+          "snippet": "VTV.vn - Hơn 250 cán bộ chiến sĩ và đoàn viên, thanh niên Điện Biên chạy quanh sông Nậm Rốm gây quỹ hỗ trợ người khuyết tật và học sinh có hoàn cảnh khó khăn tại Điện Biên.",
+          "pubdate": "Sun, 01 Nov 2026 23:46:00 +07",
+          "url": "https://vtv.vn/dien-bien-lan-toa-nhung-buoc-chay-nghia-tinh-100261101190823156.htm"
+        },
+        {
+          "title": "AI tạo ra bước ngoặt trong khoa học và nhân lực",
+          "snippet": "VTV.vn - Từ những đột phá khoa học đến thay đổi trong doanh nghiệp và cơ hội việc làm, AI đang tạo ra những chuyển dịch sâu rộng trong cách con người làm việc và sáng tạo.",
+          "pubdate": "Sun, 01 Nov 2026 23:25:00 +07",
+          "url": "https://vtv.vn/ai-tao-ra-buoc-ngoat-trong-khoa-hoc-va-nhan-luc-100261101204201333.htm"
+        },
+        {
+          "title": "“Chạy đua với thời gian” thu nhận mẫu ADN thân nhân liệt sĩ",
+          "snippet": "VTV.vn - Khi nhiều thân nhân có quan hệ huyết thống gần với liệt sĩ đã cao tuổi, việc thu nhận mẫu ADN càng trở thành cuộc chạy đua với thời gian.",
+          "pubdate": "Sun, 01 Nov 2026 22:35:00 +07",
+          "url": "https://vtv.vn/chay-dua-voi-thoi-gian-thu-nhan-mau-adn-than-nhan-liet-si-100261101221455582.htm"
+        },
+        {
+          "title": "Điểm cầu Hà Nội vỡ òa khi Đoàn Lê Anh Đức đăng quang Đường lên đỉnh Olympia 2026",
+          "snippet": "VTV.vn - Sáng 1/11, hàng nghìn cổ động viên tại Bảo tàng Hà Nội vỡ òa cảm xúc khi Đoàn Lê Anh Đức giành 240 điểm, trở thành Quán quân Đường lên đỉnh Olympia 2026.",
+          "pubdate": "Sun, 01 Nov 2026 21:39:00 +07",
+          "url": "https://vtv.vn/diem-cau-ha-noi-vo-oa-khi-doan-le-anh-duc-dang-quang-duong-len-dinh-olympia-2026-100261101170128049.htm"
+        },
+        {
+          "title": "Thiết bị an toàn trên ô tô có thể thành mối nguy",
+          "snippet": "VTV.vn - Có những thiết bị an toàn trên ô tô lại trở thành nguồn gây nguy hiểm chỉ vì những thói quen sử dụng tưởng như vô hại.",
+          "pubdate": "Sun, 01 Nov 2026 21:33:00 +07",
+          "url": "https://vtv.vn/thiet-bi-an-toan-tren-o-to-co-the-thanh-moi-nguy-100261101210446135.htm"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "National television portal. RSS /rss/home.rss returns 60 entries with pubdate and summary."
+    },
+    {
+      "id": "src-VN-GEN-04",
+      "code_name": "vov",
+      "name": "VOV (越南之声广播电台)",
+      "category": "Vietnam National General",
+      "target_url": "https://vov.vn",
+      "effective_endpoint": "https://vov.vn/kinh-te",
+      "method_verified": "Lightweight HTML List",
+      "status_code": 200,
+      "response_time_ms": 41.79,
+      "bytes_transferred": 337492,
+      "server": "PWS/8.3.1.0.8",
+      "etag": "W/\"1793553123\"",
+      "last_modified": "Sun, 01 Nov 2026 17:12:03 GMT",
+      "security_state": "Open via standard UA (PWS Server)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Phó Thủ tướng Hồ Quốc Dũng thăm và làm việc với Viện lúa ĐBSCL",
+          "snippet": "Báo Điện tử VOV - Đài Tiếng nói Việt Nam (Chuyên mục Kinh tế)",
+          "pubdate": "2026-11-01",
+          "url": "https://vov.vn/kinh-te/pho-thu-tuong-ho-quoc-dung-tham-va-lam-viec-voi-vien-lua-dbscl-post1346459.vov"
+        },
+        {
+          "title": "Đắk Lắk chủ động đáp ứng EUDR, giữ vững thị trường cà phê",
+          "snippet": "Báo Điện tử VOV - Đài Tiếng nói Việt Nam (Chuyên mục Kinh tế)",
+          "pubdate": "2026-11-01",
+          "url": "https://vov.vn/kinh-te/dak-lak-chu-dong-dap-ung-eudr-giu-vung-thi-truong-ca-phe-post1346428.vov"
+        },
+        {
+          "title": "Đặc sắc Lễ hội Rươi Vĩnh Thuận (Hải Phòng): Về miền di sản - Đón lộc phù sa",
+          "snippet": "Báo Điện tử VOV - Đài Tiếng nói Việt Nam (Chuyên mục Kinh tế)",
+          "pubdate": "2026-11-01",
+          "url": "https://vov.vn/kinh-te/dac-sac-le-hoi-ruoi-vinh-thuan-hai-phong-ve-mien-di-san-don-loc-phu-sa-post1346439.vov"
+        },
+        {
+          "title": "Giảm 2% giá điện góp phần giảm chi phí cho doanh nghiệp, người dân",
+          "snippet": "Báo Điện tử VOV - Đài Tiếng nói Việt Nam (Chuyên mục Kinh tế)",
+          "pubdate": "2026-11-01",
+          "url": "https://vov.vn/kinh-te/giam-2-gia-dien-gop-phan-giam-chi-phi-cho-doanh-nghiep-nguoi-dan-post1346423.vov"
+        },
+        {
+          "title": "Sầu riêng nghịch vụ được giá, nông dân có lãi",
+          "snippet": "Báo Điện tử VOV - Đài Tiếng nói Việt Nam (Chuyên mục Kinh tế)",
+          "pubdate": "2026-11-01",
+          "url": "https://vov.vn/kinh-te/sau-rieng-nghich-vu-duoc-gia-nong-dan-co-lai-post1346386.vov"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "VOV portal economy section /kinh-te. Parsed 5 article links directly from HTML list."
+    },
+    {
+      "id": "src-VN-GEN-05",
+      "code_name": "sggp",
+      "name": "SGGP (Sài Gòn Giải Phóng - 西贡解放报)",
+      "category": "Vietnam National General",
+      "target_url": "https://www.sggp.org.vn",
+      "effective_endpoint": "https://www.sggp.org.vn/rss/home.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 59.58,
+      "bytes_transferred": 100558,
+      "server": "Universe",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "CLB nữ TPHCM thua trận ra quân cúp châu Á",
+          "snippet": "Dù thi đấu đầy cố gắng và có bàn rút ngắn tỉ số trong hiệp 2, CLB nữ TPHCM vẫn không thể tránh khỏi thất bại 1-2 trước chủ nhà East Bengal (Ấn Độ) ở trận ra quân bảng B thuộc Cúp c",
+          "pubdate": "Sun, 01 Nov 2026 23:51:45 +07:00",
+          "url": "https://www.sggp.org.vn/clb-nu-tphcm-thua-tran-ra-quan-cup-chau-a-post879553.html"
+        },
+        {
+          "title": "Bảng xếp hạng vòng 6 giải hạng Nhất 2026-2027",
+          "snippet": "Tận dụng việc cả Thái Nguyên lẫn Hưng Yên cùng thất bại ở vòng 6, Becamex TPHCM đã bắt kịp hai đội này để tạm hình thành cuộc đua \"tam mã\" ở top đầu bảng. SHB Đà Nẵng qua mặt CLB C",
+          "pubdate": "Sun, 01 Nov 2026 23:48:43 +07:00",
+          "url": "https://www.sggp.org.vn/bang-xep-hang-vong-6-giai-hang-nhat-2026-2027-post879555.html"
+        },
+        {
+          "title": "Ra mắt Bản đồ số Văn hóa Việt Nam, kết nối nguồn lực phát triển công nghiệp văn hóa",
+          "snippet": "Tối 1-11, tại Di tích Quốc gia đặc biệt Văn Miếu - Quốc Tử Giám (Hà Nội), Bộ VH-TT-DL ra mắt Nền tảng Bản đồ số Văn hóa Việt Nam (CMAP) nhằm cung cấp thêm công cụ tra cứu di sản, s",
+          "pubdate": "Sun, 01 Nov 2026 22:07:26 +07:00",
+          "url": "https://www.sggp.org.vn/ra-mat-ban-do-so-van-hoa-viet-nam-ket-noi-nguon-luc-phat-trien-cong-nghiep-van-hoa-post879547.html"
+        },
+        {
+          "title": "SHB Đà Nẵng qua mặt CLB Công an TPHCM ngay trên sân khách",
+          "snippet": "Chỉ ít ngày sau khi thắng sốc trước Hà Nội FC, đội bóng sông Hàn tiếp tục giành thêm 3 điểm, lần này là vượt qua Công an TPHCM ngay trên sân Bình Dương tối 1-11. Trận thắng giúp th",
+          "pubdate": "Sun, 01 Nov 2026 21:59:54 +07:00",
+          "url": "https://www.sggp.org.vn/shb-da-nang-qua-mat-clb-cong-an-tphcm-ngay-tren-san-khach-post879543.html"
+        },
+        {
+          "title": "30.000 khán giả cùng hòa nhịp trong đêm nhạc “Nối vòng tay lớn”",
+          "snippet": "Tối 1-11, khoảng 30.000 khán giả có mặt tại sân vận động Thái Nguyên cùng hòa giọng trong concert quốc gia “Tự hào là người Việt Nam 2026”, với chủ đề “Nối vòng tay lớn”. Đăng ký v",
+          "pubdate": "Sun, 01 Nov 2026 21:49:03 +07:00",
+          "url": "https://www.sggp.org.vn/30000-khan-gia-cung-hoa-nhip-trong-dem-nhac-noi-vong-tay-lon-post879545.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Southern municipal flagship. RSS feed returns 50 entries with full metadata."
+    },
+    {
+      "id": "src-VN-GEN-06",
+      "code_name": "vietnamnews",
+      "name": "Vietnam News (国家英文旗舰)",
+      "category": "Vietnam National General",
+      "target_url": "https://vietnamnews.vn",
+      "effective_endpoint": "https://vietnamnews.vn/rss/economy.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 158.33,
+      "bytes_transferred": 41310,
+      "server": "PWS/8.3.1.0.8",
+      "etag": "\"-BorEtQBOMjqx_SX5EyoERto4kQ\"",
+      "last_modified": null,
+      "security_state": "Open (PWS Server)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Việt Nam cuts fuel tax to zero, petrol prices fall by up to VNĐ1,800 per litre",
+          "snippet": "Việt Nam cuts petrol tax to 0 per cent, with prices falling by up to VNĐ1,804 per litre from November 1.",
+          "pubdate": "Sun, 01 Nov 2026 14:31:38 +0700",
+          "url": "https://vietnamnews.vn/economy/1803324/viet-nam-cuts-fuel-tax-to-zero-petrol-prices-fall-by-up-to-vnd1-800-per-litre.html"
+        },
+        {
+          "title": "Average retail electricity price cut by 2 per cent from November 1",
+          "snippet": "Việt Nam will cut its average retail electricity price by 2 per cent to VNĐ2,159.90 per kWh (excluding value added tax) from November 1, in a move aimed at easing energy costs for ",
+          "pubdate": "Sat, 31 Oct 2026 22:16:30 +0700",
+          "url": "https://vietnamnews.vn/economy/1803315/average-retail-electricity-price-cut-by-2-per-cent-from-november-1.html"
+        },
+        {
+          "title": "NA deputies call for lower business costs to achieve double-digit growth",
+          "snippet": "During a NA debate on the country's 2026 socio-economic performance and development plans for 2027 on Saturday, deputies said improving access to finance, removing investment bottl",
+          "pubdate": "Sat, 31 Oct 2026 17:10:30 +0700",
+          "url": "https://vietnamnews.vn/economy/1803308/na-deputies-call-for-lower-business-costs-to-achieve-double-digit-growth.html"
+        },
+        {
+          "title": "34 projects compete at Green Startup Competition 2026 in HCM City",
+          "snippet": "Thirty-four projects from 18 provinces and cities are showcasing innovative ways to turn local resources and agricultural by-products into higher-value products, promote green mate",
+          "pubdate": "Sat, 31 Oct 2026 16:58:45 +0700",
+          "url": "https://vietnamnews.vn/economy/1803306/34-projects-compete-at-green-startup-competition-2026-in-hcm-city.html"
+        },
+        {
+          "title": "Stock market urged to play bigger role in meeting long-term capital needs",
+          "snippet": "Developing capital market becomes critical as Việt Nam needs an estimated VNĐ38.5 (US$1.45 billion) quadrillion investment during 2026-30, while bank lending remains the dominant s",
+          "pubdate": "Sat, 31 Oct 2026 16:49:45 +0700",
+          "url": "https://vietnamnews.vn/economy/1803305/stock-market-urged-to-play-bigger-role-in-meeting-long-term-capital-needs.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "National English daily newspaper. Native RSS /rss/economy.rss returns 20 rich entries."
+    },
+    {
+      "id": "src-VN-GEN-07",
+      "code_name": "vnexpress",
+      "name": "VnExpress (越南快讯网)",
+      "category": "Vietnam National General",
+      "target_url": "https://vnexpress.net",
+      "effective_endpoint": "https://vnexpress.net/rss/kinh-doanh.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 91.68,
+      "bytes_transferred": 67263,
+      "server": "vne-vn-fe-lv1-other-0",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Vì sao giá điện, thuế xăng cùng giảm?",
+          "snippet": "Giá điện giảm 2%, thuế tiêu thụ đặc biệt với xăng về 0% nhằm hạ chi phí sản xuất, sinh hoạt, tạo thêm dư địa kiểm soát lạm phát cuối năm.",
+          "pubdate": "Mon, 02 Nov 2026 00:05:00 +0700",
+          "url": "https://vnexpress.net/vi-sao-gia-dien-thue-xang-cung-giam-5139336.html"
+        },
+        {
+          "title": "Công ty ông Lê Phước Vũ lãi bình quân mỗi tháng hơn 50 tỷ đồng",
+          "snippet": "Hoa Sen lãi bình quân mỗi tháng 52 tỷ đồng, giảm so với niên độ trước, nhưng khả quan hơn dự báo của ban lãnh đạo trong bối cảnh 'dư địa tăng trưởng ngành thép chạm trần'.",
+          "pubdate": "Mon, 02 Nov 2026 00:01:00 +0700",
+          "url": "https://vnexpress.net/cong-ty-ong-le-phuoc-vu-lai-binh-quan-moi-thang-hon-50-ty-dong-5139418.html"
+        },
+        {
+          "title": "Giá vàng có thể giảm tiếp sau khi chạm đáy một năm",
+          "snippet": "Phần lớn chuyên gia Phố Wall dự báo giá vàng tuần này tiếp tục lao dốc bởi áp lực xả hàng vẫn hiện hữu sau phiên bán tháo cuối tháng 10.",
+          "pubdate": "Mon, 02 Nov 2026 00:00:00 +0700",
+          "url": "https://vnexpress.net/gia-vang-co-the-giam-tiep-sau-khi-cham-day-mot-nam-5139438.html"
+        },
+        {
+          "title": "Bộ Tài chính: Hơn 2,5 triệu doanh nghiệp ngừng hoạt động chưa đóng mã số thuế",
+          "snippet": "Còn hơn 2,5 triệu doanh nghiệp ngừng hoạt động, bỏ địa chỉ đăng ký nhiều năm nhưng chưa đóng mã số thuế, theo số liệu của Bộ Tài chính.",
+          "pubdate": "Sun, 01 Nov 2026 17:17:04 +0700",
+          "url": "https://vnexpress.net/bo-tai-chinh-hon-2-5-trieu-doanh-nghiep-ngung-hoat-dong-chua-dong-ma-so-thue-5138092.html"
+        },
+        {
+          "title": "Chủ nhà máy lọc dầu Dung Quất gửi ngân hàng hơn 2 tỷ USD",
+          "snippet": "Tổng công ty Lọc hóa dầu Việt Nam (BSR) gửi ngân hàng hơn 58.000 tỷ đồng, tức gần một nửa giá trị tài sản, trong giai đoạn lãi suất huy động neo cao.",
+          "pubdate": "Sun, 01 Nov 2026 15:15:00 +0700",
+          "url": "https://vnexpress.net/chu-nha-may-loc-dau-dung-quat-gui-ngan-hang-hon-2-ty-usd-5139328.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Leading news portal. RSS /rss/kinh-doanh.rss returns 60 business entries with pubdate and snippet."
+    },
+    {
+      "id": "src-VN-GEN-08",
+      "code_name": "tuoitre",
+      "name": "Tuổi Trẻ (青年报)",
+      "category": "Vietnam National General",
+      "target_url": "https://tuoitre.vn",
+      "effective_endpoint": "https://tuoitre.vn/rss/kinh-doanh.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 146.58,
+      "bytes_transferred": 41752,
+      "server": "Kestrel",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Chuyên gia giải thích vì sao nên giữ kín ngày sinh, chỉ mẹo tránh bị lừa đảo",
+          "snippet": "Ngày 1-11, báo The Guardian của Anh có bài viết hữu ích với tiêu đề: \"Món quà cho kẻ lừa đảo: Vì sao bạn nên giữ kín ngày sinh của mình?\".",
+          "pubdate": "11/1/2026 8:14:00 PM",
+          "url": "https://tuoitre.vn/chuyen-gia-giai-thich-vi-sao-nen-giu-kin-ngay-sinh-chi-meo-tranh-bi-lua-dao-100261101185613701.htm"
+        },
+        {
+          "title": "Bán xăng dầu không hóa đơn 1.300 tỉ, nữ đại gia Chu Thị Thành hầu tòa với cáo buộc tham ô 79 tỉ",
+          "snippet": "Hơn 100 triệu lít xăng dầu được bán ra nhưng không xuất hóa đơn, tiền thanh toán có lúc chuyển vào tài khoản cá nhân của kế toán.",
+          "pubdate": "11/1/2026 7:46:00 PM",
+          "url": "https://tuoitre.vn/ban-xang-dau-khong-hoa-don-1300-ti-nu-dai-gia-chu-thi-thanh-hau-toa-voi-cao-buoc-tham-o-79-ti-100261101192446546.htm"
+        },
+        {
+          "title": "Chủ tịch Dragon Capital chỉ ra ưu tiên Việt Nam cần giải quyết để nâng hạng theo MSCI",
+          "snippet": "Theo ông Dominic Scriven - nhà sáng lập, Chủ tịch Dragon Capital, nâng hạng thị trường chứng khoán không đơn thuần là đáp ứng một số tiêu chí kỹ thuật, mà đòi hỏi sự thay đổi sâu r",
+          "pubdate": "11/1/2026 6:31:00 PM",
+          "url": "https://tuoitre.vn/chu-tich-dragon-capital-chi-ra-uu-tien-viet-nam-can-giai-quyet-de-nang-hang-theo-msci-100261101180820012.htm"
+        },
+        {
+          "title": "Bộ Khoa học và Công nghệ khuyến khích Cà Mau nuôi tôm cua bằng công nghệ",
+          "snippet": "Bộ Khoa học và Công nghệ khuyến khích tỉnh Cà Mau phát triển các mô hình nuôi tôm cua bằng công nghệ.",
+          "pubdate": "11/1/2026 6:21:00 PM",
+          "url": "https://tuoitre.vn/bo-khoa-hoc-va-cong-nghe-khuyen-khich-ca-mau-nuoi-tom-cua-bang-cong-nghe-100261101171419059.htm"
+        },
+        {
+          "title": "Giảm giá điện, xăng dầu tác động ra sao đến chi phí tiêu dùng của người dân, doanh nghiệp?",
+          "snippet": "Theo tính toán của chuyên gia, hộ gia đình sử dụng bình quân khoảng 400kWh điện/tháng sẽ tiết kiệm được gần 20.000 đồng tiền điện/tháng nhờ EVN giảm 2% giá điện.",
+          "pubdate": "11/1/2026 5:36:00 PM",
+          "url": "https://tuoitre.vn/giam-gia-dien-xang-dau-tac-dong-ra-sao-den-chi-phi-tieu-dung-cua-nguoi-dan-doanh-nghiep-100261101164807321.htm"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Major national daily. Native RSS /rss/kinh-doanh.rss returns 50 entries with complete fields."
+    },
+    {
+      "id": "src-VN-GEN-09",
+      "code_name": "thanhnien",
+      "name": "Thanh Niên (青年报)",
+      "category": "Vietnam National General",
+      "target_url": "https://thanhnien.vn",
+      "effective_endpoint": "https://thanhnien.vn/rss/kinh-te.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 316.58,
+      "bytes_transferred": 61103,
+      "server": "nginx",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "MB ti&ecirc;n phong k&yacute; số: Trăm lần k&yacute; tay, nay chỉ 1 chạm",
+          "snippet": "Ng&acirc;n h&agrave;ng TMCP Qu&acirc;n đội (MB) mở rộng k&yacute; số xuy&ecirc;n suốt quy tr&igrave;nh vay vốn, gi&uacute;p kh&aacute;ch h&agrave;ng c&aacute; nh&acirc;n v&agrave; ",
+          "pubdate": "Sun, 01 Nov 26 20:00:00 +0700",
+          "url": "https://thanhnien.vn/mb-tien-phong-ky-so-tram-lan-ky-tay-nay-chi-1-cham-185261031143124428.htm"
+        },
+        {
+          "title": "Graphene - Vật liệu của tương lai được sản xuất tại Gia Lai",
+          "snippet": "Ng&agrave;y 31.10, C&ocirc;ng ty CP Việt Nam Graphene Global kh&aacute;nh th&agrave;nh Nh&agrave; m&aacute;y sản xuất v&agrave; ứng dụng Graphene tại Khu c&ocirc;ng nghiệp Nhơn Hội",
+          "pubdate": "Sun, 01 Nov 26 16:32:00 +0700",
+          "url": "https://thanhnien.vn/graphene-vat-lieu-cua-tuong-lai-duoc-san-xuat-tai-gia-lai-185261101163901722.htm"
+        },
+        {
+          "title": "Gi&aacute; điện giảm 2%, thuế xăng dầu 0% sẽ &#039;hạ nhiệt&#039; b&atilde;o gi&aacute; cuối năm",
+          "snippet": "C&aacute;c chuy&ecirc;n gia cho rằng, gi&aacute; điện giảm 2% c&ugrave;ng với thuế ti&ecirc;u thụ đặc biệt xăng dầu về 0% sẽ tạo ra t&aacute;c động s&acirc;u rộng đến nền kinh tế, ",
+          "pubdate": "Sun, 01 Nov 26 14:38:00 +0700",
+          "url": "https://thanhnien.vn/gia-dien-giam-2-thue-xang-dau-0-se-ha-nhiet-bao-gia-cuoi-nam-185261101141618821.htm"
+        },
+        {
+          "title": "Ph&uacute; Quốc b&agrave;n giao 1.200 nền t&aacute;i định cư phục vụ APEC 2027",
+          "snippet": "Sau khoảng 8 th&aacute;ng thi c&ocirc;ng với sự đồng h&agrave;nh, hỗ trợ của Tập đo&agrave;n Sun Group, Khu t&aacute;i định cư An Thới quy m&ocirc; 1.200 nền đ&atilde; bắt đầu được",
+          "pubdate": "Sun, 01 Nov 26 14:21:00 +0700",
+          "url": "https://thanhnien.vn/phu-quoc-ban-giao-1200-nen-tai-dinh-cu-phuc-vu-apec-2027-185261101141142786.htm"
+        },
+        {
+          "title": "Si&ecirc;u El Nino khiến m&ugrave;a mưa kết th&uacute;c sớm nửa th&aacute;ng, nắng n&oacute;ng gia tăng",
+          "snippet": "Si&ecirc;u El Nino khiến m&ugrave;a mưa ở TP.HCM v&agrave; Nam bộ kết th&uacute;c khoảng giữa th&aacute;ng 11, sớm hơn b&igrave;nh thường nửa th&aacute;ng.",
+          "pubdate": "Sun, 01 Nov 26 12:49:00 +0700",
+          "url": "https://thanhnien.vn/sieu-el-nino-khien-mua-mua-ket-thuc-som-nua-thang-nang-nong-gia-tang-185261101124621073.htm"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Major national daily. Native RSS /rss/kinh-te.rss returns 50 entries with complete fields."
+    },
+    {
+      "id": "src-VN-GEN-10",
+      "code_name": "vietnamnet",
+      "name": "VietnamNet (越南网 - 通讯传媒部)",
+      "category": "Vietnam National General",
+      "target_url": "https://vietnamnet.vn",
+      "effective_endpoint": "https://vietnamnet.vn/rss/kinh-doanh.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 181.01,
+      "bytes_transferred": 1168275,
+      "server": "nginx",
+      "etag": "W/\"134380289310040344\"",
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Pin mặt trời dẻo, nhẹ như tấm phim, mở rộng khả năng ứng dụng trên bề mặt cong",
+          "snippet": "TRUNG QUỐC - Loại pin mỏng, nhẹ và có khả năng uốn cong như tờ giấy vừa đạt hiệu suất kỷ lục gần 27%, mở ra viễn cảnh &amp;quot;dán&amp;quot; năng lượng sạch lên mái ô tô, ba lô ha",
+          "pubdate": "Sun, 01 Nov 2026 19:56:17 +0700",
+          "url": "https://vietnamnet.vn/pin-mat-troi-deo-nhe-nhu-tam-phim-mo-rong-kha-nang-ung-dung-tren-be-mat-cong-2569884.html"
+        },
+        {
+          "title": "Giá điện giảm 44 đồng/kWh từ hôm nay, hoá đơn tiền điện thay đổi thế nào?",
+          "snippet": "Theo chuyên gia Nguyễn Tiến Thỏa, việc giảm giá điện giúp các ngành sản xuất tiêu thụ nhiều điện tiết giảm chi phí đầu vào, trong khi người dân cũng giảm được một phần chi phí sinh",
+          "pubdate": "Sun, 01 Nov 2026 15:00:46 +0700",
+          "url": "https://vietnamnet.vn/gia-dien-giam-44-dong-kwh-tu-hom-nay-hoa-don-tien-dien-thay-doi-the-nao-2570422.html"
+        },
+        {
+          "title": "MB tiên phong số hóa toàn trình vay vốn và công chứng điện tử cho khách hàng",
+          "snippet": "Ngân hàng TMCP Quân đội (MB) mở rộng ký số xuyên suốt quy trình vay vốn, giúp khách hàng cá nhân và doanh nghiệp giảm hàng loạt thao tác ký tay, tinh gọn hồ sơ giấy.",
+          "pubdate": "Sun, 01 Nov 2026 15:00:58 +0700",
+          "url": "https://vietnamnet.vn/mb-tien-phong-so-hoa-toan-trinh-vay-von-va-cong-chung-dien-tu-cho-khach-hang-2570377.html"
+        },
+        {
+          "title": "Tổng giám đốc khoáng sản TKV bị khởi tố; xăng và điện cùng giảm hôm nay",
+          "snippet": "Tổng Giám đốc đơn vị thành viên của TKV bị khởi tố; &amp;apos;vua thép’ Trần Đình Long và loạt doanh nghiệp đón lực đẩy mới từ đầu tư công; &amp;apos;khách MB đột nhiên có tài khoả",
+          "pubdate": "Sun, 01 Nov 2026 09:02:33 +0700",
+          "url": "https://vietnamnet.vn/tong-giam-doc-khoang-san-tkv-bi-khoi-to-xang-va-dien-cung-giam-hom-nay-2570365.html"
+        },
+        {
+          "title": "Giá xăng dầu hôm nay 1/11: Thế giới tăng, xăng trong nước giảm sâu",
+          "snippet": "Giá xăng dầu hôm nay (1/11), dầu thô trên thị trường quốc tế ghi nhận tuần biến động trái chiều khi giá dầu Brent hạ còn dầu WTI tăng. Trong nước, giá xăng tuần này giảm hơn 1.000 ",
+          "pubdate": "Sun, 01 Nov 2026 07:52:33 +0700",
+          "url": "https://vietnamnet.vn/gia-xang-dau-hom-nay-1-11-the-gioi-tang-xang-trong-nuoc-giam-sau-2570362.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Ministry of Information and Communications portal. RSS /rss/kinh-doanh.rss returns 1000 entries!"
+    },
+    {
+      "id": "src-VN-GEN-11",
+      "code_name": "dantri",
+      "name": "Dân Trí (民智报 - 劳动荣军社会部)",
+      "category": "Vietnam National General",
+      "target_url": "https://dantri.com.vn",
+      "effective_endpoint": "https://dantri.com.vn/rss/kinh-doanh.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 71.61,
+      "bytes_transferred": 115126,
+      "server": "nginx",
+      "etag": "\"1d316ac256add1:0\"",
+      "last_modified": "Sun, 01 Nov 2026 17:18:44 GMT",
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Giá xăng Việt Nam rẻ hơn Lào tới 24.000 đồng/lít",
+          "snippet": "(Dân trí) - Giá xăng Việt Nam hiện thấp hơn nhiều nước trong khu vực, đặc biệt thấp gần một nửa so với Lào, nhờ các chính sách điều hành giá và giảm thuế của Nhà nước.",
+          "pubdate": "Sun, 01 Nov 2026 23:05:17 +0700",
+          "url": "https://dantri.com.vn/kinh-doanh/gia-xang-viet-nam-re-hon-lao-toi-24000-donglit-20261101163342332.htm"
+        },
+        {
+          "title": "Hơn 2,5 triệu người nộp thuế chưa hoàn tất thủ tục đóng mã số thuế",
+          "snippet": "(Dân trí) - Bộ Tài chính cho biết đến ngày 23/10, cả nước có hơn 2,5 triệu trường hợp ngừng hoạt động nhưng chưa hoàn tất thủ tục đóng mã số thuế hoặc không còn hoạt động tại địa c",
+          "pubdate": "Sun, 01 Nov 2026 20:00:49 +0700",
+          "url": "https://dantri.com.vn/kinh-doanh/hon-25-trieu-nguoi-nop-thue-chua-hoan-tat-thu-tuc-dong-ma-so-thue-20261101195018886.htm"
+        },
+        {
+          "title": "Giá xăng, điện đồng loạt giảm: Cơ chế giá từng bước vận hành linh hoạt hơn",
+          "snippet": "(Dân trí) - Giá xăng giảm gần 2.000 đồng/lít, giá điện giảm 2% từ ngày 1/11 được kỳ vọng giảm chi phí cho người dân, doanh nghiệp và tạo thêm dư địa kiểm soát lạm phát dịp cuối năm",
+          "pubdate": "Sun, 01 Nov 2026 17:11:25 +0700",
+          "url": "https://dantri.com.vn/kinh-doanh/gia-xang-dien-dong-loat-giam-co-che-gia-tung-buoc-van-hanh-linh-hoat-hon-20261101145707834.htm"
+        },
+        {
+          "title": "Giá xăng dầu biến động mạnh, các \"ông lớn\" báo lãi đột biến",
+          "snippet": "(Dân trí) - Giá dầu tăng cao so với cùng kỳ giúp hai \"ông lớn\" ghi nhận lợi nhuận tăng mạnh trong quý III. Trong đó, BSR báo lãi gấp 10 lần cùng kỳ, còn PV GAS vượt kế hoạch lợi nh",
+          "pubdate": "Sun, 01 Nov 2026 16:12:00 +0700",
+          "url": "https://dantri.com.vn/kinh-doanh/gia-xang-dau-bien-dong-manh-cac-ong-lon-bao-lai-dot-bien-20261101155156417.htm"
+        },
+        {
+          "title": "27 ngân hàng Việt báo lãi trước thuế hơn 311.000 tỷ đồng",
+          "snippet": "(Dân trí) - Bức tranh lợi nhuận ngân hàng 9 tháng tích cực, dù xuất hiện một số ngân hàng như Eximbank, Saigonbank, Sacombank báo lãi trước thuế giảm mạnh trong quý III.",
+          "pubdate": "Sun, 01 Nov 2026 15:00:30 +0700",
+          "url": "https://dantri.com.vn/kinh-doanh/27-ngan-hang-viet-bao-lai-truoc-thue-hon-311000-ty-dong-20261101122340859.htm"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Major digital newspaper. Native RSS /rss/kinh-doanh.rss returns 100 entries with full metadata."
+    },
+    {
+      "id": "src-VN-GEN-12",
+      "code_name": "znews",
+      "name": "Znews (前 Zing News - 青年数字先锋)",
+      "category": "Vietnam National General",
+      "target_url": "https://znews.vn",
+      "effective_endpoint": "https://znews.vn/rss/kinh-doanh-tai-chinh.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 173.57,
+      "bytes_transferred": 44617,
+      "server": "TTTT",
+      "etag": null,
+      "last_modified": "Sun, 01 Nov 2026 17:48:46 GMT",
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Phát Đạt hụt thu 98% mảng bất động sản quý III",
+          "snippet": "Trong quý III, Phát Đạt ghi nhận doanh thu thuần sụt giảm mạnh, trong khi doanh thu tài chính tăng đáng kể nhờ hoạt động cấu trúc danh mục đầu tư.",
+          "pubdate": "Mon, 02 Nov 2026 00:00:24 +0700",
+          "url": "https://znews.vn/phat-dat-hut-thu-98-mang-bat-dong-san-quy-iii-post1693595.html"
+        },
+        {
+          "title": "Bắc Ninh sắp có thêm khu đô thị 1,1 tỷ USD",
+          "snippet": "Bắc Ninh đang xúc tiến các thủ tục lựa chọn nhà đầu tư triển khai Khu đô thị mới Vân Trung, quy mô khoảng 102 ha, với tổng vốn đầu tư dự kiến 28.300 tỷ đồng (khoảng 1,1 tỷ USD).",
+          "pubdate": "Sun, 01 Nov 2026 21:11:25 +0700",
+          "url": "https://znews.vn/bac-ninh-sap-co-them-khu-do-thi-1-1-ty-usd-post1693331.html"
+        },
+        {
+          "title": "Giảm giá điện, giá xăng sẽ góp phần kiềm chế lạm phát cuối năm",
+          "snippet": "Từ ngày 1/11, giá bán lẻ điện bình quân giảm 2%, trong khi thuế suất thuế tiêu thụ đặc biệt đối với xăng về 0%, giúp giá năng lượng này bớt \"nóng\".",
+          "pubdate": "Sun, 01 Nov 2026 20:55:43 +0700",
+          "url": "https://znews.vn/giam-gia-dien-gia-xang-se-gop-phan-kiem-che-lam-phat-cuoi-nam-post1693561.html"
+        },
+        {
+          "title": "Rủi ro giá vàng tuần tới",
+          "snippet": "Giá vàng thế giới tiếp tục trải qua một tuần giao dịch đầy biến động khi áp lực bán gia tăng mạnh cuối tuần, kéo giá kim loại quý xuống dưới mốc 3.900 USD/ounce.",
+          "pubdate": "Sun, 01 Nov 2026 18:47:02 +0700",
+          "url": "https://znews.vn/rui-ro-gia-vang-tuan-toi-post1693527.html"
+        },
+        {
+          "title": "Giá điện giảm 2%, người dân và doanh nghiệp được lợi thế nào?",
+          "snippet": "Từ ngày 1/11, giá bán lẻ điện giảm 2% đối với tất cả nhóm khách hàng, qua đó góp phần giảm chi phí sinh hoạt cho người dân, chi phí sản xuất cho doanh nghiệp.",
+          "pubdate": "Sun, 01 Nov 2026 18:39:10 +0700",
+          "url": "https://znews.vn/gia-dien-giam-2-nguoi-dan-va-doanh-nghiep-duoc-loi-the-nao-post1693558.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Digital magazine portal. Native RSS /rss/kinh-doanh-tai-chinh.rss returns 50 entries."
+    },
+    {
+      "id": "src-VN-FIN-01",
+      "code_name": "baodautu",
+      "name": "Báo Đầu tư (越南投资报 - 计划投资部机关报)",
+      "category": "Vietnam Finance & Industry",
+      "target_url": "https://baodautu.vn",
+      "effective_endpoint": "https://baodautu.vn/dau-tu-c4/",
+      "method_verified": "Lightweight HTML List",
+      "status_code": 200,
+      "response_time_ms": 533.79,
+      "bytes_transferred": 51613,
+      "server": "cloudflare",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (Cloudflare CDN)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Doanh nghiệp và kỳ vọng 2026: Sẵn sàng cho chu kỳ tăng trưởng mới",
+          "snippet": "Báo Đầu tư - Kênh thông tin kinh tế mảng Đầu tư dự án và doanh nghiệp",
+          "pubdate": "2026-11-01",
+          "url": "https://baodautu.vn/doanh-nghiep-va-ky-vong-2026-san-sang-cho-chu-ky-tang-truong-moi-d481381.html"
+        },
+        {
+          "title": "Quy định về xét tôn vinh, trao tặng giải thưởng cho doanh nhân, doanh nghiệp",
+          "snippet": "Báo Đầu tư - Kênh thông tin kinh tế mảng Đầu tư dự án và doanh nghiệp",
+          "pubdate": "2026-11-01",
+          "url": "https://baodautu.vn/quy-dinh-ve-xet-ton-vinh-trao-tang-giai-thuong-cho-doanh-nhan-doanh-nghiep-d485458.html"
+        },
+        {
+          "title": "Toyota Việt Nam có Chủ tịch và Tổng giám đốc mới",
+          "snippet": "Báo Đầu tư - Kênh thông tin kinh tế mảng Đầu tư dự án và doanh nghiệp",
+          "pubdate": "2026-11-01",
+          "url": "https://baodautu.vn/toyota-viet-nam-co-chu-tich-va-tong-giam-doc-moi-d481064.html"
+        },
+        {
+          "title": "Tiến sĩ Nguyễn Thị Phương Thảo - Biểu tượng bản lĩnh, khát vọng Việt Nam hùng cường, nhân văn và hội nhập",
+          "snippet": "Báo Đầu tư - Kênh thông tin kinh tế mảng Đầu tư dự án và doanh nghiệp",
+          "pubdate": "2026-11-01",
+          "url": "https://baodautu.vn/tien-si-nguyen-thi-phuong-thao---bieu-tuong-ban-linh-khat-vong-viet-nam-hung-cuong-nhan-van-va-hoi-nhap-d473992.html"
+        },
+        {
+          "title": "Doanh nhân Đào Hải Nghĩa, Chủ tịch HĐQT M.Homes Holdings: Kiến tạo hệ giá trị sống bền vững cho cộng đồng",
+          "snippet": "Báo Đầu tư - Kênh thông tin kinh tế mảng Đầu tư dự án và doanh nghiệp",
+          "pubdate": "2026-11-01",
+          "url": "https://baodautu.vn/doanh-nhan-dao-hai-nghia-chu-tich-hdqt-mhomes-holdings-kien-tao-he-gia-tri-song-ben-vung-cho-cong-dong-d472111.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Official newspaper of MPI. HTML list /dau-tu-c4/ yields 33 real investment stories."
+    },
+    {
+      "id": "src-VN-FIN-02",
+      "code_name": "vneconomy",
+      "name": "VnEconomy (越南经济时报)",
+      "category": "Vietnam Finance & Industry",
+      "target_url": "https://vneconomy.vn",
+      "effective_endpoint": "https://vneconomy.vn/kinh-te-so.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 196.3,
+      "bytes_transferred": 74180,
+      "server": "Microsoft-IIS/10.0",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Đồng Nai đưa chuyển đổi số đi vào thực chất, tạo động lực mới",
+          "snippet": "Chuyển đổi số và đổi mới sáng tạo chỉ thực sự trở thành động lực phát triển khi giải quyết được những bài toán cụ thể của chính quyền, doanh nghiệp và người dân...",
+          "pubdate": "Sun, 01 Nov 2026 10:46:43 GMT",
+          "url": "https://vneconomy.vn/dong-nai-dua-chuyen-doi-so-di-vao-thuc-chat-tao-dong-luc-moi.htm"
+        },
+        {
+          "title": "Máy tính lượng tử: Mối đe dọa mới đối với an ninh mạng toàn cầu",
+          "snippet": "Sự phát triển của máy tính lượng tử đang đặt ra thách thức lớn đối với các nền tảng mật mã bảo vệ Internet, hệ thống ngân hàng, chính phủ và dữ liệu doanh nghiệp. Đáng lo ngại, tin",
+          "pubdate": "Sun, 01 Nov 2026 09:13:32 GMT",
+          "url": "https://vneconomy.vn/may-tinh-luong-tu-moi-de-doa-moi-doi-voi-an-ninh-mang-toan-cau.htm"
+        },
+        {
+          "title": "Khi một lỗ hổng bảo mật có thể đe dọa cả hệ sinh thái Internet",
+          "snippet": "AI đang khiến việc phát hiện và khai thác lỗ hổng bảo mật trở nên dễ dàng hơn, làm gia tăng nguy cơ tấn công mạng. Đáng lo ngại, sự cố tại một hệ thống công nghệ nền tảng có thể la",
+          "pubdate": "Sun, 01 Nov 2026 02:08:08 GMT",
+          "url": "https://vneconomy.vn/khi-mot-lo-hong-bao-mat-co-the-de-doa-ca-he-sinh-thai-internet.htm"
+        },
+        {
+          "title": "Công nghệ số kể chuyện di sản cho thế hệ trẻ",
+          "snippet": "Từ những công trình kiến trúc cổ kính đến không gian Hoàng cung được tái hiện bằng công nghệ số, di sản Huế đang được kể lại bằng ngôn ngữ mới, đưa những câu chuyện lịch sử đến gần",
+          "pubdate": "Sun, 01 Nov 2026 00:29:33 GMT",
+          "url": "https://vneconomy.vn/cong-nghe-so-ke-chuyen-di-san-cho-the-he-tre.htm"
+        },
+        {
+          "title": "Khoảng trống nhân lực trước làn sóng tự động hóa, robotics tại Việt Nam",
+          "snippet": "Để đáp ứng nhu cầu ngày càng tăng về tự động hóa và robotics, Việt Nam cần tập trung vào việc phát triển nhân lực chất lượng cao, làm chủ công nghệ lõi và tăng cường hợp tác giữa c",
+          "pubdate": "Sat, 31 Oct 2026 02:01:53 GMT",
+          "url": "https://vneconomy.vn/khoang-trong-nhan-luc-truoc-lan-song-tu-dong-hoa-robotics-tai-viet-nam.htm"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Leading macroeconomic publication. Native RSS /kinh-te-so.rss returns 50 entries with full metadata."
+    },
+    {
+      "id": "src-VN-FIN-03",
+      "code_name": "cafef",
+      "name": "CafeF (越南金融资本与上市公司频道)",
+      "category": "Vietnam Finance & Industry",
+      "target_url": "https://cafef.vn",
+      "effective_endpoint": "https://cafef.vn/home.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 256.26,
+      "bytes_transferred": 70354,
+      "server": "cf-rp",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Việt Nam có một \"tiểu sa mạc\" rộng hàng trăm ha, cảnh thay đổi liên tục trong ngày: Nằm ngay sát bờ biển, được chọn khởi công dự án hơn 1 tỷ USD của 2 tập đoàn",
+          "snippet": "Nơi đây không chỉ được ví như một “tiểu sa mạc” độc đáo của Việt Nam mà còn từng được lựa chọn để phát triển dự án du lịch nghỉ dưỡng có tổng vốn đầu tư công bố hơn 1 tỷ USD.",
+          "pubdate": "Mon, 02 Nov 2026 00:21:00 +07",
+          "url": "https://cafef.vn/viet-nam-co-mot-tieu-sa-mac-rong-hang-tram-ha-canh-thay-doi-lien-tuc-trong-ngay-nam-ngay-sat-bo-bien-duoc-chon-khoi-cong-du-an-hon-1-ty-usd-cach-day-4-nam-188261102000140242.chn"
+        },
+        {
+          "title": "Lần đầu tiên tại Việt Nam có DN công bố lãi hơn 100.000 tỷ đồng trong 4 quý: Vinhomes của tỷ phú Phạm Nhật Vượng vượt tập đoàn ông Lý Gia Thành",
+          "snippet": "Từ mức lợi nhuận 35.000–43.000 tỷ đồng mỗi năm, Vinhomes bất ngờ ghi nhận hơn 103.000 tỷ đồng lợi nhuận sau thuế trong bốn quý gần nhất, vượt xa những con số từng được công bố bởi ",
+          "pubdate": "Mon, 02 Nov 2026 00:19:00 +07",
+          "url": "https://cafef.vn/lan-dau-tien-tai-viet-nam-co-dn-cong-bo-lai-hon-100000-ty-dong-trong-4-quy-vinhomes-cua-ty-phu-pham-nhat-vuong-vuot-tap-doan-ong-ly-gia-thanh-188261102001953284.chn"
+        },
+        {
+          "title": "Cập nhật BCTC quý 3/2026 ngày 02/11: Doanh nghiệp thép lãi tăng gần 650% lên hơn 1.200 tỷ đồng, HNG, LDG báo lỗ",
+          "snippet": "VNSteel báo lợi nhuận trước thuế quý 3/2026 tăng 646%, trong khi Savico và Văn Phú Invest lần lượt giảm 71% và 82% so với cùng kỳ.",
+          "pubdate": "Mon, 02 Nov 2026 00:17:00 +07",
+          "url": "https://cafef.vn/cap-nhat-bctc-quy-3-2026-ngay-02-11-doanh-nghiep-thep-lai-tang-gan-650-len-hon-1200-ty-dong-hng-ldg-bao-lo-188261102002042647.chn"
+        },
+        {
+          "title": "Phát hiện Việt Nam có hầm đặc biệt dài 14.200m nằm sâu trong lòng núi, sở hữu công nghệ hiện đại bậc nhất, mất 15 năm hoàn thành",
+          "snippet": "Đây là một trong những công trình thủy điện lớn nhất Việt Nam và Đông Nam Á.",
+          "pubdate": "Mon, 02 Nov 2026 00:10:00 +07",
+          "url": "https://cafef.vn/phat-hien-viet-nam-co-ham-dac-biet-dai-14200m-nam-sau-trong-long-nui-so-huu-cong-nghe-hien-dai-bac-nhat-mat-15-nam-hoan-thanh-188261101210254728.chn"
+        },
+        {
+          "title": "Top 10 ngân hàng có lợi nhuận cao nhất quý 3/2026: VietinBank vượt Vietcombank, 6 ngân hàng lãi hơn 10.000 tỷ",
+          "snippet": "Theo báo cáo tài chính quý 3/2026, 10 nhà băng có lợi nhuận trước thuế cao nhất đã kiếm được tổng cộng 87.891 tỷ đồng trong quý, tăng 23,8% so với cùng kỳ năm trước. Nhóm này chiếm",
+          "pubdate": "Mon, 02 Nov 2026 00:05:00 +07",
+          "url": "https://cafef.vn/top-10-ngan-hang-co-loi-nhuan-cao-nhat-quy-3-2026-vietinbank-vuot-vietcombank-6-ngan-hang-lai-hon-10000-ty-188261101211756433.chn"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Leading capital markets & corporate financial radar. Native RSS returns 60 entries."
+    },
+    {
+      "id": "src-VN-FIN-04",
+      "code_name": "vietstock",
+      "name": "Vietstock (越南证券投资门户)",
+      "category": "Vietnam Finance & Industry",
+      "target_url": "https://vietstock.vn",
+      "effective_endpoint": "https://vietstock.vn/737/doanh-nghiep/hoat-dong-kinh-doanh.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 125.91,
+      "bytes_transferred": 18524,
+      "server": "nginx",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Tồn kho nhà phân phối xe MG tăng mạnh giữa lúc doanh thu lao dốc",
+          "snippet": "Cuối quý 3, hàng tồn kho PTM lên 437 tỷ đồng, gần gấp ba cuối quý trước; doanh thu trong quý lại giảm gần 40% so với cùng kỳ. Công nợ với SAIC Motor cũng tăng vọt, còn nhân sự thu ",
+          "pubdate": "Sun, 01 Nov 2026 10:02:00 +0700",
+          "url": "http://vietstock.vn/2026/11/ton-kho-nha-phan-phoi-xe-mg-tang-manh-giua-luc-doanh-thu-lao-doc-737-1509225.htm"
+        },
+        {
+          "title": "Công ty bầu Đức lãi thêm 400 tỷ trong quý 3, lũy kế tăng lợi nhuận 95%",
+          "snippet": "CTCP Hoàng Anh Gia Lai (HAGL, HOSE: HAG) ghi nhận lợi nhuận lùi nhẹ trong quý 3, nhưng lãi lũy kế vẫn gần gấp đôi cùng kỳ nhờ 2 quý đầu năm lãi hàng ngàn tỷ.",
+          "pubdate": "Sat, 31 Oct 2026 20:57:28 +0700",
+          "url": "http://vietstock.vn/2026/10/cong-ty-bau-duc-lai-them-400-ty-trong-quy-3-luy-ke-tang-loi-nhuan-95-737-1509842.htm"
+        },
+        {
+          "title": "Doanh thu CC1 tăng trưởng tích cực sau 9 tháng",
+          "snippet": "Trong bối cảnh giải ngân đầu tư công được đẩy mạnh, CC1 vừa công bố BCTC hợp nhất quý 3/2026 với doanh thu, tổng tài sản tăng mạnh và dòng tiền kinh doanh cải thiện rõ rệt.",
+          "pubdate": "Sat, 31 Oct 2026 17:32:00 +0700",
+          "url": "http://vietstock.vn/2026/10/doanh-thu-cc1tang-truong-tich-cuc-sau-9-thang-737-1509835.htm"
+        },
+        {
+          "title": "Lợi nhuận DXG giảm 84%, khách hàng trả trước tiền mua căn hộ hơn 9 ngàn tỷ",
+          "snippet": "Sự chững lại của thị trường bất động sản đang tác động đồng thời đến hai mảng kinh doanh chính của CTCP Bluemarq Group (HOSE: DXG), từ chuyển nhượng sản phẩm đến môi giới, khiến lợ",
+          "pubdate": "Sat, 31 Oct 2026 17:23:05 +0700",
+          "url": "http://vietstock.vn/2026/10/loi-nhuan-dxg-giam-84-khach-hang-tra-truoc-tien-mua-can-ho-hon-9-ngan-ty-737-1509830.htm"
+        },
+        {
+          "title": "Vinatex tăng tốc sản xuất, lãi ròng quý 3 tăng 44%",
+          "snippet": "Tập đoàn Dệt May Việt Nam (Vinatex, UPCoM: VGT) ghi nhận doanh thu và lãi ròng cùng tăng trong quý 3/2026. Kết quả tích cực đến từ sự cải thiện của ngành sợi và duy trì hiệu quả ở ",
+          "pubdate": "Sat, 31 Oct 2026 14:02:00 +0700",
+          "url": "http://vietstock.vn/2026/10/vinatex-tang-toc-san-xuat-lai-rong-quy-3-tang-44-737-1509805.htm"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Stock exchange & corporate actions radar. Native RSS /737/... returns 20 entries with rich corporate details."
+    },
+    {
+      "id": "src-VN-FIN-05",
+      "code_name": "congthuong",
+      "name": "Công Thương (工贸报 - 工贸部机关报)",
+      "category": "Vietnam Finance & Industry",
+      "target_url": "https://congthuong.vn",
+      "effective_endpoint": "https://congthuong.vn/rss/cong-nghiep.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 61.75,
+      "bytes_transferred": 23944,
+      "server": "nginx",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Tin công nghiệp quốc phòng 1/11: Iran chặn UAV trinh sát của Mỹ",
+          "snippet": "Tin công nghiệp quốc phòng 1/11: Iran chặn UAV trinh sát của Mỹ; Tên lửa AIM-120 sẽ được chế tạo tại Nhật Bản…",
+          "pubdate": "Sun, 01 Nov 2026 15:53:09 +0700",
+          "url": "https://congthuong.vn/tin-cong-nghiep-quoc-phong-1-11-iran-chan-uav-trinh-sat-cua-my-479396.html"
+        },
+        {
+          "title": "Bộ Công Thương ban hành quy định mới về quản lý cụm công nghiệp",
+          "snippet": "Bộ Công Thương ban hành Thông tư số 69/2026/TT-BCT, sửa đổi, bổ sung quy định về chế độ báo cáo, cơ sở dữ liệu và một số mẫu văn bản quản lý, phát triển cụm công nghiệp.",
+          "pubdate": "Sat, 31 Oct 2026 16:54:00 +0700",
+          "url": "https://congthuong.vn/bo-cong-thuong-ban-hanh-quy-dinh-moi-ve-quan-ly-cum-cong-nghiep-479342.html"
+        },
+        {
+          "title": "Tin công nghiệp quốc phòng 31/10: Su-57 vượt F-35, F-22 trong chiến đấu",
+          "snippet": "Tin công nghiệp quốc phòng 31/10: Su-57 vượt qua F-35 và F-22 trong chiến đấu; Đức và Hà Lan mua thêm xe chiến đấu bộ binh Schakal.",
+          "pubdate": "Sat, 31 Oct 2026 16:34:01 +0700",
+          "url": "https://congthuong.vn/tin-cong-nghiep-quoc-phong-31-10-su-57-vuot-f-35-f-22-trong-chien-dau-479326.html"
+        },
+        {
+          "title": "Ông Steve Bùi: Chuyển tư duy bán trà sang phát triển kinh tế trà",
+          "snippet": "Sáng 31/10, tại Trung tâm Văn hóa trà ESG Valley (Thái Nguyên) đã diễn ra Diễn đàn Kinh tế Trà quốc tế 2026 với chủ đề “Từ di sản trà đến kinh tế trà toàn cầu” sự kiện nằm trong ch",
+          "pubdate": "Sat, 31 Oct 2026 10:40:00 +0700",
+          "url": "https://congthuong.vn/ong-steve-bui-chuyen-tu-duy-ban-tra-sang-phat-trien-kinh-te-tra-479293.html"
+        },
+        {
+          "title": "Kiểm tra tình hình thực hiện các đề án khuyến công tại tỉnh Cà Mau",
+          "snippet": "Đoàn công tác của Cục Công nghiệp (Bộ Công Thương) kiểm tra thực tế tại 2 doanh nghiệp chế biến thủy sản ở Cà Mau, ghi nhận hiệu quả từ nguồn kinh phí khuyến công quốc gia.",
+          "pubdate": "Fri, 30 Oct 2026 17:05:59 +0700",
+          "url": "https://congthuong.vn/kiem-tra-tinh-hinh-thuc-hien-cac-de-an-khuyen-cong-tai-tinh-ca-mau-479217.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Ministry of Industry and Trade official newspaper. RSS /rss/cong-nghiep.rss returns 25 industry stories."
+    },
+    {
+      "id": "src-VN-FIN-06",
+      "code_name": "theinvestor",
+      "name": "The Investor (越南外资英文旗舰)",
+      "category": "Vietnam Finance & Industry",
+      "target_url": "https://theinvestor.vn",
+      "effective_endpoint": "https://theinvestor.vn/investing/",
+      "method_verified": "Lightweight HTML List + XML Sitemap",
+      "status_code": 200,
+      "response_time_ms": 1021.15,
+      "bytes_transferred": 169579,
+      "server": "cloudflare",
+      "etag": null,
+      "last_modified": "Sat, 31 Oct 2026 04:30:54 GMT",
+      "security_state": "Open (Cloudflare CDN)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Vietnam’s oil and gas sector seeks new growth avenues as easy discoveries fade",
+          "snippet": "The Investor - Foreign investment and industrial project radar Vietnam",
+          "pubdate": "2026-11-01",
+          "url": "https://theinvestor.vn/vietnams-oil-and-gas-sector-seeks-new-growth-avenues-as-easy-discoveries-fade-d20341.html"
+        },
+        {
+          "title": "Xuan Thien Group plans $17.4 bln energy complex in northern Vietnam",
+          "snippet": "The Investor - Foreign investment and industrial project radar Vietnam",
+          "pubdate": "2026-11-01",
+          "url": "https://theinvestor.vn/xuan-thien-group-plans-174-bln-energy-complex-in-northern-vietnam-d20331.html"
+        },
+        {
+          "title": "Buyers shun outlying land plots, HCMC apartments remain unaffordable",
+          "snippet": "The Investor - Foreign investment and industrial project radar Vietnam",
+          "pubdate": "2026-11-01",
+          "url": "https://theinvestor.vn/buyers-shun-outlying-land-plots-hcmc-apartments-remain-unaffordable-d20320.html"
+        },
+        {
+          "title": "Do not let energy lifeline become bottleneck to growth: expert",
+          "snippet": "The Investor - Foreign investment and industrial project radar Vietnam",
+          "pubdate": "2026-11-01",
+          "url": "https://theinvestor.vn/do-not-let-energy-lifeline-become-bottleneck-to-growth-expert-d20196.html"
+        },
+        {
+          "title": "VinEnergo eyes $418 mln floating solar power projects in northern Vietnam",
+          "snippet": "The Investor - Foreign investment and industrial project radar Vietnam",
+          "pubdate": "2026-11-01",
+          "url": "https://theinvestor.vn/vinenergo-eyes-418-mln-floating-solar-power-projects-in-northern-vietnam-d20309.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "English FDI & mega project portal. /investing/ section and /sitemap.xml (1000 items) verified."
+    },
+    {
+      "id": "src-VN-FIN-07",
+      "code_name": "bizhub",
+      "name": "BizHub (Vietnam News 商业英文专刊)",
+      "category": "Vietnam Finance & Industry",
+      "target_url": "https://bizhub.vietnamnews.vn",
+      "effective_endpoint": "https://bizhub.vietnamnews.vn/rss/corporate.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 564.69,
+      "bytes_transferred": 51501,
+      "server": "Microsoft-IIS/10.0",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Samsung, NIC honour young innovators at Solve for Tomorrow 2026",
+          "snippet": "The competition attracted more than 1,800 secondary and high schools across all 34 provinces and cities, with over 2,900 entries – the highest number since the programme was launch",
+          "pubdate": "Sunday, Nov 01, 2026 19:01:55 +0700",
+          "url": "https://bizhub.vietnamnews.vn/samsung-nic-honour-young-innovators-at-solve-for-tomorrow-2026-post416917.html"
+        },
+        {
+          "title": "Việt Nam cuts fuel tax to zero, petrol prices fall by up to VNĐ1,800 per litre",
+          "snippet": "Việt Nam cuts petrol tax to 0 per cent, with prices falling by up to VNĐ1,804 per litre from November 1.",
+          "pubdate": "Sunday, Nov 01, 2026 14:31:38 +0700",
+          "url": "https://bizhub.vietnamnews.vn/viet-nam-cuts-fuel-tax-to-zero-petrol-prices-fall-by-up-to-vnd1800-per-litre-post416916.html"
+        },
+        {
+          "title": "Three ONYX Hotels Win Green Tourism Awards, Bringing \"ONYX for Planet\" to Life in Chonburi",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "Sunday, Nov 01, 2026 11:00:00 +0700",
+          "url": "https://bizhub.vietnamnews.vn/three-onyx-hotels-win-green-tourism-awards-bringing-quotonyx-for-planetquot-to-life-in-chonburi-post416912.html"
+        },
+        {
+          "title": "5 Reasons Not to Miss \"CENTRAL ANNIVERSARY 2026 – WHERE WONDERS BLOOM\" at Central Chidlom! A Star-Studded Opening with Namtan–Film and Billkin",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "Saturday, Oct 31, 2026 23:50:00 +0700",
+          "url": "https://bizhub.vietnamnews.vn/5-reasons-not-to-miss-quotcentral-anniversary-2026-–-where-wonders-bloomquot-at-central-chidlom-a-star-studded-opening-with-namtan–film-and-billkin-post416908.html"
+        },
+        {
+          "title": "Singapore-Based OPH Health Founder Leona Tong Selected for the 2026 Forbes China 100 Most Influential Chinese Selection",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "Saturday, Oct 31, 2026 19:00:00 +0700",
+          "url": "https://bizhub.vietnamnews.vn/singapore-based-oph-health-founder-leona-tong-selected-for-the-2026-forbes-china-100-most-influential-chinese-selection-post416906.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Vietnam News dedicated business portal. Native RSS /rss/corporate.rss returns 50 corporate entries."
+    },
+    {
+      "id": "src-VN-FIN-08",
+      "code_name": "thoibaotaichinh",
+      "name": "Thời báo Tài chính VN (越南财政时报)",
+      "category": "Vietnam Finance & Industry",
+      "target_url": "https://thoibaotaichinhvietnam.vn",
+      "effective_endpoint": "https://thoibaotaichinhvietnam.vn/rss_feed/",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 412.62,
+      "bytes_transferred": 193264,
+      "server": "Apache",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Vụ tấn công Binance Thách thức truy vết dòng tiền qua hàng nghìn ví mã hóa",
+          "snippet": "Chainalysis Công ty phân tích dữ liệu blockchain hàng đầu thế giới gọi vụ tấn công lấy đi hơn 6 tỷ USD tài sản từ Binance là kiểu rửa tiền chưa từng thấy trước đây qua ma trận hàng",
+          "pubdate": "Sun, 01 Nov 2026 23:43:11 +0700",
+          "url": "https://thoibaotaichinhvietnam.vn/vu-tan-cong-binance-thach-thuc-truy-vet-dong-tien-qua-hang-nghin-vi-ma-hoa-206241.html"
+        },
+        {
+          "title": "Kích hoạt tiến trình nâng cấp luồng hàng hải Vũng Tàu Thị Vải vốn 4 730 8 tỷ đồng",
+          "snippet": "Tuyến luồng hàng hải Vũng Tàu Thị Vải sẽ được nâng cấp để tăng khả năng tiếp nhận tàu trọng tải lớn cải thiện an toàn hàng hải và nâng cao năng lực khai thác các bến cảng khu vực T",
+          "pubdate": "Sun, 01 Nov 2026 21:10:35 +0700",
+          "url": "https://thoibaotaichinhvietnam.vn/kich-hoat-tien-trinh-nang-cap-luong-hang-hai-vung-tau-thi-vai-von-4-730-8-ty-dong-206242.html"
+        },
+        {
+          "title": "Đầu tư tài chính giữ nhịp lợi nhuận MVI Life trước khi đổi chủ khoác áo Asahi Life",
+          "snippet": "Asahi Mutual Life Nhật Bản vừa hoàn tất mua lại 100 vốn MVI Life đồng thời đổi tên doanh nghiệp thành Asahi Life Thương vụ đánh dấu bước ngoặt mới trong hành trình nhiều lần thay đ",
+          "pubdate": "Sun, 01 Nov 2026 20:54:35 +0700",
+          "url": "https://thoibaotaichinhvietnam.vn/dau-tu-tai-chinh-giu-nhip-loi-nhuan-mvi-life-truoc-khi-doi-chu-khoac-ao-asahi-life-206235.html"
+        },
+        {
+          "title": "Khuyến khích doanh nghiệp lớn lên sàn phát triển nhà đầu tư dài hạn",
+          "snippet": "Tạo thuận lợi cho chào bán chứng khoán ra công chúng gắn với niêm yết phát triển nhà đầu tư tổ chức và nâng chất lượng doanh nghiệp là những trọng tâm được Chủ tịch Ủy ban Chứng kh",
+          "pubdate": "Sun, 01 Nov 2026 15:57:28 +0700",
+          "url": "https://thoibaotaichinhvietnam.vn/khuyen-khich-doanh-nghiep-lon-len-san-phat-trien-nha-dau-tu-dai-han-206239.html"
+        },
+        {
+          "title": "Khơi thông vốn cho doanh nghiệp Từ cải cách IPO đến xử lý lệch pha kỳ hạn",
+          "snippet": "Thủ tục IPO gắn với niêm yết được rút gọn tạo thuận lợi cho doanh nghiệp huy động vốn cổ phần Tuy nhiên để giảm phụ thuộc vào tín dụng ngân hàng nhất là tình trạng vay ngắn hạn đầu",
+          "pubdate": "Sun, 01 Nov 2026 15:38:59 +0700",
+          "url": "https://thoibaotaichinhvietnam.vn/khoi-thong-von-cho-doanh-nghiep-tu-cai-cach-ipo-den-xu-ly-lech-pha-ky-han-206219.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Financial weekly news. Native RSS /rss_feed/ returns 25 entries with complete metadata."
+    },
+    {
+      "id": "src-VN-FIN-09",
+      "code_name": "cafeland",
+      "name": "CafeLand (越南地产与产业基础设施门户)",
+      "category": "Vietnam Finance & Industry",
+      "target_url": "https://cafeland.vn",
+      "effective_endpoint": "https://cafeland.vn/tin-tuc/",
+      "method_verified": "Lightweight HTML List",
+      "status_code": 200,
+      "response_time_ms": 498.26,
+      "bytes_transferred": 114277,
+      "server": "cloudflare",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (Cloudflare CDN)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Nóng trong tuần: TP.HCM sắp thu hồi đất làm đường 8.330 tỷ nối Vành đai 4, Vĩnh Long và Lâm Đồng cập nhật Bảng giá đất 2026",
+          "snippet": "CafeLand - Tạp chí điện tử Bất động sản và Hạ tầng Công nghiệp Việt Nam",
+          "pubdate": "2026-11-01",
+          "url": "https://cafeland.vn/tin-tuc/nong-trong-tuan-tphcm-sap-thu-hoi-dat-lam-duong-8330-ty-noi-vanh-dai-4-vinh-long-va-lam-dong-cap-nhat-bang-gia-dat-2026-156386.html"
+        },
+        {
+          "title": "3 dự án giao thông trọng điểm phía Nam Đà Nẵng được yêu cầu đẩy nhanh tiến độ",
+          "snippet": "CafeLand - Tạp chí điện tử Bất động sản và Hạ tầng Công nghiệp Việt Nam",
+          "pubdate": "2026-11-01",
+          "url": "https://cafeland.vn/tin-tuc/3-du-an-giao-thong-trong-diem-phia-nam-da-nang-duoc-yeu-cau-day-nhanh-tien-do-156359.html"
+        },
+        {
+          "title": "Sunshine Group: Lợi nhuận trước thuế 9 tháng vượt 5.900 tỷ đồng, tổng tài sản gần 121.000 tỷ đồng",
+          "snippet": "CafeLand - Tạp chí điện tử Bất động sản và Hạ tầng Công nghiệp Việt Nam",
+          "pubdate": "2026-11-01",
+          "url": "https://cafeland.vn/tin-tuc/sunshine-group-loi-nhuan-truoc-thue-9-thang-vuot-5900-ty-dong-tong-tai-san-gan-121000-ty-dong-156360.html"
+        },
+        {
+          "title": "Nhà ở xã hội tuần qua: Cần Thơ khởi công dự án gần 3.000 căn; Khánh Hòa duyệt dự án hơn 255 tỷ đồng",
+          "snippet": "CafeLand - Tạp chí điện tử Bất động sản và Hạ tầng Công nghiệp Việt Nam",
+          "pubdate": "2026-11-01",
+          "url": "https://cafeland.vn/tin-tuc/nha-o-xa-hoi-tuan-qua-can-tho-khoi-cong-du-an-gan-3000-can-khanh-hoa-duyet-du-an-hon-255-ty-dong-156369.html"
+        },
+        {
+          "title": "Tây Ninh thúc đẩy trục kết nối 2 trung tâm lớn, Quốc lộ 1, Quốc lộ 22 và ĐT.816 cũng được ưu tiên",
+          "snippet": "CafeLand - Tạp chí điện tử Bất động sản và Hạ tầng Công nghiệp Việt Nam",
+          "pubdate": "2026-11-01",
+          "url": "https://cafeland.vn/tin-tuc/tay-ninh-thuc-day-truc-ket-noi-2-trung-tam-lon-quoc-lo-1-quoc-lo-22-va-dt816-cung-duoc-uu-tien-156402.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Industrial land and infrastructure development radar. /tin-tuc/ parsed 5 top articles."
+    },
+    {
+      "id": "src-VN-FIN-10",
+      "code_name": "dddn",
+      "name": "Diễn đàn Doanh nghiệp (企业论坛 - VCCI机关报)",
+      "category": "Vietnam Finance & Industry",
+      "target_url": "https://diendandoanhnghiep.vn",
+      "effective_endpoint": "https://diendandoanhnghiep.vn",
+      "method_verified": "Lightweight HTML List",
+      "status_code": 200,
+      "response_time_ms": 966.57,
+      "bytes_transferred": 97143,
+      "server": null,
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Niềm tin - \"Điểm neo\" nguồn vốn",
+          "snippet": "Diễn đàn Doanh nghiệp - Cơ quan của Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)",
+          "pubdate": "2026-11-01",
+          "url": "https://diendandoanhnghiep.vn/niem-tin-diem-neo-nguon-von-10186855.html"
+        },
+        {
+          "title": "Làm gì để kết nối các cơ hội tăng trưởng của Việt Nam với nguồn vốn toàn cầu?",
+          "snippet": "Diễn đàn Doanh nghiệp - Cơ quan của Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)",
+          "pubdate": "2026-11-01",
+          "url": "https://diendandoanhnghiep.vn/lam-gi-de-ket-noi-cac-co-hoi-tang-truong-cua-viet-nam-voi-nguon-von-toan-cau-10186765.html"
+        },
+        {
+          "title": "ESG thay đổi đáng kể nguồn vốn, tín dụng và năng lực doanh nghiệp",
+          "snippet": "Diễn đàn Doanh nghiệp - Cơ quan của Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)",
+          "pubdate": "2026-11-01",
+          "url": "https://diendandoanhnghiep.vn/esg-thay-doi-dang-ke-nguon-von-tin-dung-va-nang-luc-doanh-nghiep-10186625.html"
+        },
+        {
+          "title": "Gỡ vướng từ dữ liệu thuế đất",
+          "snippet": "Diễn đàn Doanh nghiệp - Cơ quan của Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)",
+          "pubdate": "2026-11-01",
+          "url": "https://diendandoanhnghiep.vn/go-vuong-tu-du-lieu-thue-dat-10186866.html"
+        },
+        {
+          "title": "Thuế đất phi nông nghiệp: Cần đồng bộ dữ liệu, minh bạch thông báo",
+          "snippet": "Diễn đàn Doanh nghiệp - Cơ quan của Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)",
+          "pubdate": "2026-11-01",
+          "url": "https://diendandoanhnghiep.vn/thue-dat-phi-nong-nghiep-can-dong-bo-du-lieu-minh-bach-thong-bao-10185782.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Official newspaper of VCCI (Vietnam Chamber of Commerce and Industry). Direct HTML list extraction."
+    },
+    {
+      "id": "src-VN-LOC-01",
+      "code_name": "baohaiphong",
+      "name": "Báo Hải Phòng (海防报)",
+      "category": "Vietnam Local Media",
+      "target_url": "https://baohaiphong.vn",
+      "effective_endpoint": "https://baohaiphong.vn/kinh-te/",
+      "method_verified": "Lightweight HTML List",
+      "status_code": 200,
+      "response_time_ms": 189.31,
+      "bytes_transferred": 132315,
+      "server": null,
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Bộ Công Thương sửa đổi quy định báo cáo cụm công nghiệp",
+          "snippet": "Báo Hải Phòng - Tiếng nói của Đảng bộ, chính quyền và nhân dân thành phố Hải Phòng",
+          "pubdate": "2026-11-01",
+          "url": "https://baohaiphong.vn/bo-cong-thuong-sua-doi-quy-dinh-bao-cao-cum-cong-nghiep-557322.html"
+        },
+        {
+          "title": "Giảm giá điện 2% nhằm hạ chi phí đầu vào và thúc đẩy tăng trưởng",
+          "snippet": "Báo Hải Phòng - Tiếng nói của Đảng bộ, chính quyền và nhân dân thành phố Hải Phòng",
+          "pubdate": "2026-11-01",
+          "url": "https://baohaiphong.vn/giam-gia-dien-2-nham-ha-chi-phi-dau-vao-va-thuc-day-tang-truong-557318.html"
+        },
+        {
+          "title": "Hải Phòng thu hút doanh nghiệp Trung Quốc mở rộng đầu tư",
+          "snippet": "Báo Hải Phòng - Tiếng nói của Đảng bộ, chính quyền và nhân dân thành phố Hải Phòng",
+          "pubdate": "2026-11-01",
+          "url": "https://baohaiphong.vn/hai-phong-thu-hut-doanh-nghiep-trung-quoc-mo-rong-dau-tu-557282.html"
+        },
+        {
+          "title": "Phạt nguội hơn 16.400 trường hợp vi phạm giao thông",
+          "snippet": "Báo Hải Phòng - Tiếng nói của Đảng bộ, chính quyền và nhân dân thành phố Hải Phòng",
+          "pubdate": "2026-11-01",
+          "url": "https://baohaiphong.vn/phat-nguoi-hon-16-400-truong-hop-vi-pham-giao-thong-557305.html"
+        },
+        {
+          "title": "Thu hồi hơn 13 ha đất làm cầu Bùi Thị Xuân và đường dẫn",
+          "snippet": "Báo Hải Phòng - Tiếng nói của Đảng bộ, chính quyền và nhân dân thành phố Hải Phòng",
+          "pubdate": "2026-11-01",
+          "url": "https://baohaiphong.vn/thu-hoi-hon-13-ha-dat-lam-cau-bui-thi-xuan-va-duong-dan-557300.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Hai Phong official municipal newspaper. Economic column /kinh-te/ yields direct project & industrial entries."
+    },
+    {
+      "id": "src-VN-LOC-02",
+      "code_name": "baobacninh",
+      "name": "Báo Bắc Ninh / Đài PT-TH Bắc Ninh (北宁报/台)",
+      "category": "Vietnam Local Media",
+      "target_url": "https://bacninhtv.vn",
+      "effective_endpoint": "https://bacninhtv.vn",
+      "method_verified": "Lightweight HTML List",
+      "status_code": 200,
+      "response_time_ms": 624.75,
+      "bytes_transferred": 238874,
+      "server": "nginx",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (baobacninh.com.vn DNS down; bacninhtv.vn 100% active)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Tạp chí Nông nghiệp & Môi trường",
+          "snippet": "Đài Phát thanh và Truyền hình Bắc Ninh - Kênh thông tin chính thống tỉnh Bắc Ninh",
+          "pubdate": "2026-11-01",
+          "url": "https://bacninhtv.vn/video/339/tap-chi-nong-nghiep-moi-truong"
+        },
+        {
+          "title": "Phim tài liệu - Ký sự - Tọa đàm",
+          "snippet": "Đài Phát thanh và Truyền hình Bắc Ninh - Kênh thông tin chính thống tỉnh Bắc Ninh",
+          "pubdate": "2026-11-01",
+          "url": "https://bacninhtv.vn/video/224/phim-tai-lieu-ky-su-toa-dam"
+        },
+        {
+          "title": "Bắc Ninh đổi mới hoạt động Robocon năm 2027",
+          "snippet": "Đài Phát thanh và Truyền hình Bắc Ninh - Kênh thông tin chính thống tỉnh Bắc Ninh",
+          "pubdate": "2026-11-01",
+          "url": "https://bacninhtv.vn/video/bac-ninh-doi-moi-hoat-dong-robocon-nam-2027"
+        },
+        {
+          "title": "Phát huy sức mạnh từ tinh thần đại đoàn kết và bảo tồn giá trị văn hoá các dân tộc xây dựng quê hương ngày càng phát triển",
+          "snippet": "Đài Phát thanh và Truyền hình Bắc Ninh - Kênh thông tin chính thống tỉnh Bắc Ninh",
+          "pubdate": "2026-11-01",
+          "url": "https://bacninhtv.vn/video/phat-huy-suc-manh-tu-tinh-than-dai-doan-ket-va-bao-ton-gia-tri-van-hoa-cac-dan-toc-xay-dung-que-huong-ngay-cang-phat-trien"
+        },
+        {
+          "title": "Khởi tố đối tượng lừa đảo mua bán thiên thạch, đánh bạc trên mạng",
+          "snippet": "Đài Phát thanh và Truyền hình Bắc Ninh - Kênh thông tin chính thống tỉnh Bắc Ninh",
+          "pubdate": "2026-11-01",
+          "url": "https://bacninhtv.vn/video/khoi-to-doi-tuong-lua-dao-mua-ban-thien-thach-danh-bac-tren-mang"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Official provincial media portal bacninhtv.vn actively serves provincial economic and industrial news."
+    },
+    {
+      "id": "src-VN-LOC-03",
+      "code_name": "baohungyen",
+      "name": "Báo Hưng Yên (兴安报)",
+      "category": "Vietnam Local Media",
+      "target_url": "https://baohungyen.vn",
+      "effective_endpoint": "https://baohungyen.vn/kinh-te/",
+      "method_verified": "Lightweight HTML List",
+      "status_code": 200,
+      "response_time_ms": 117.57,
+      "bytes_transferred": 75252,
+      "server": "nginx",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (nginx)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Công ty Nhiệt điện Thái Bình nâng cao khả năng đáp ứng huy động điện cuối năm",
+          "snippet": "Báo Hưng Yên - Tiếng nói của Đảng bộ, chính quyền và nhân dân tỉnh Hưng Yên",
+          "pubdate": "2026-11-01",
+          "url": "https://baohungyen.vn/cong-ty-nhiet-dien-thai-binh-nang-cao-kha-nang-dap-ung-huy-dong-dien-cuoi-nam-3200425.html"
+        },
+        {
+          "title": "Đến ngày 26/10, Công ty Nhiệt điện Thái Bình đã sản xuất hơn 3 tỷ kWh điện, đạt 82,28% kế hoạch năm 2026. Cùng với việc duy trì vận hành các tổ máy an toàn, ổn định, Công ty đang triển khai đồng bộ các giải pháp kỹ thuật, bảo đảm nhiên liệu, sẵn sàng đáp ứng yêu cầu huy động của hệ thống điện quốc gia trong những tháng cuối năm và năm 2027.",
+          "snippet": "Báo Hưng Yên - Tiếng nói của Đảng bộ, chính quyền và nhân dân tỉnh Hưng Yên",
+          "pubdate": "2026-11-01",
+          "url": "https://baohungyen.vn/cong-ty-nhiet-dien-thai-binh-nang-cao-kha-nang-dap-ung-huy-dong-dien-cuoi-nam-3200425.html"
+        },
+        {
+          "title": "Lễ ra mắt trụ sở Chi cục Hải quan khu vực IV",
+          "snippet": "Báo Hưng Yên - Tiếng nói của Đảng bộ, chính quyền và nhân dân tỉnh Hưng Yên",
+          "pubdate": "2026-11-01",
+          "url": "https://baohungyen.vn/le-ra-mat-tru-so-chi-cuc-hai-quan-khu-vuc-iv-3200419.html"
+        },
+        {
+          "title": "Xã Ân Thi có 67 hộ nông dân đạt danh hiệu sản xuất, kinh doanh giỏi các cấp",
+          "snippet": "Báo Hưng Yên - Tiếng nói của Đảng bộ, chính quyền và nhân dân tỉnh Hưng Yên",
+          "pubdate": "2026-11-01",
+          "url": "https://baohungyen.vn/xa-an-thi-co-67-ho-nong-dan-dat-danh-hieu-san-xuat-kinh-doanh-gioi-cac-cap-3200410.html"
+        },
+        {
+          "title": "UBND tỉnh làm việc với đoàn công tác cấp cao Cộng hòa Belarus",
+          "snippet": "Báo Hưng Yên - Tiếng nói của Đảng bộ, chính quyền và nhân dân tỉnh Hưng Yên",
+          "pubdate": "2026-11-01",
+          "url": "https://baohungyen.vn/ubnd-tinh-lam-viec-voi-doan-cong-tac-cap-cao-cong-hoa-belarus-3200388.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Hung Yen provincial party newspaper. HTML economic column /kinh-te/ yields local industrial developments."
+    },
+    {
+      "id": "src-VN-LOC-04",
+      "code_name": "baothainguyen",
+      "name": "Báo Thái Nguyên (太原报)",
+      "category": "Vietnam Local Media",
+      "target_url": "https://baothainguyen.vn",
+      "effective_endpoint": "https://baothainguyen.vn/kinh-te/",
+      "method_verified": "Lightweight HTML List",
+      "status_code": 200,
+      "response_time_ms": 193.19,
+      "bytes_transferred": 176749,
+      "server": "nginx",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (nginx)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "'Tân Cương – Tinh hoa trà Việt'",
+          "snippet": "Báo Thái Nguyên - Tiếng nói của Đảng bộ, chính quyền và nhân dân tỉnh Thái Nguyên",
+          "pubdate": "2026-11-01",
+          "url": "https://baothainguyen.vn/tan-cuong-tinh-hoa-tra-viet-5a6h1b6a"
+        },
+        {
+          "title": "Giá điện giảm 2%, còn 2.159,9 đồng/kWh",
+          "snippet": "Báo Thái Nguyên - Tiếng nói của Đảng bộ, chính quyền và nhân dân tỉnh Thái Nguyên",
+          "pubdate": "2026-11-01",
+          "url": "https://baothainguyen.vn/gia-dien-giam-2-con-2-159-9-dong-kwh"
+        },
+        {
+          "title": "Giá xăng giảm mạnh từ 0 giờ ngày 1/11",
+          "snippet": "Báo Thái Nguyên - Tiếng nói của Đảng bộ, chính quyền và nhân dân tỉnh Thái Nguyên",
+          "pubdate": "2026-11-01",
+          "url": "https://baothainguyen.vn/gia-xang-giam-manh-tu-0-gio-ngay-1-11"
+        },
+        {
+          "title": "Linh hoạt điều hành tiền tệ, nâng cao khả năng tiếp cận vốn",
+          "snippet": "Báo Thái Nguyên - Tiếng nói của Đảng bộ, chính quyền và nhân dân tỉnh Thái Nguyên",
+          "pubdate": "2026-11-01",
+          "url": "https://baothainguyen.vn/linh-hoat-dieu-hanh-tien-te-nang-cao-kha-nang-tiep-can-von"
+        },
+        {
+          "title": "Chia sẻ nhiều kinh nghiệm, giải pháp trong Diễn đàn Trà Quốc tế tại Thái Nguyên",
+          "snippet": "Báo Thái Nguyên - Tiếng nói của Đảng bộ, chính quyền và nhân dân tỉnh Thái Nguyên",
+          "pubdate": "2026-11-01",
+          "url": "https://baothainguyen.vn/chia-se-nhieu-kinh-nghiem-giai-phap-trong-dien-dan-kinh-te-tra-quoc-te-tai-thai-nguyen"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Thai Nguyen provincial newspaper. /kinh-te/ section provides industrial zone and local investment news."
+    },
+    {
+      "id": "src-VN-LOC-05",
+      "code_name": "baodanang",
+      "name": "Báo Đà Nẵng (岘港报)",
+      "category": "Vietnam Local Media",
+      "target_url": "https://baodanang.vn",
+      "effective_endpoint": "https://baodanang.vn/kinh-te/",
+      "method_verified": "Lightweight HTML List",
+      "status_code": 200,
+      "response_time_ms": 164.82,
+      "bytes_transferred": 101582,
+      "server": null,
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "[eMagazine] - Sức sống mới cho sản phẩm thủ công",
+          "snippet": "Báo Đà Nẵng - Cơ quan của Đảng bộ Đảng Cộng sản Việt Nam thành phố Đà Nẵng",
+          "pubdate": "2026-11-01",
+          "url": "https://baodanang.vn/emagazine-suc-song-moi-cho-san-pham-thu-cong-3357119.html"
+        },
+        {
+          "title": "Cấp thiết trùng tu Văn chỉ La Châu",
+          "snippet": "Báo Đà Nẵng - Cơ quan của Đảng bộ Đảng Cộng sản Việt Nam thành phố Đà Nẵng",
+          "pubdate": "2026-11-01",
+          "url": "https://baodanang.vn/cap-thiet-trung-tu-van-chi-la-chau-3357117.html"
+        },
+        {
+          "title": "Xã Thăng Bình gấp rút thi công hoàn thiện dự án đường Tiểu La",
+          "snippet": "Báo Đà Nẵng - Cơ quan của Đảng bộ Đảng Cộng sản Việt Nam thành phố Đà Nẵng",
+          "pubdate": "2026-11-01",
+          "url": "https://baodanang.vn/xa-thang-binh-gap-rut-thi-cong-hoan-thien-du-an-duong-tieu-la-3357110.html"
+        },
+        {
+          "title": "Đà Nẵng rà soát 244 khu vực dự kiến phát triển nhà ở thương mại",
+          "snippet": "Báo Đà Nẵng - Cơ quan của Đảng bộ Đảng Cộng sản Việt Nam thành phố Đà Nẵng",
+          "pubdate": "2026-11-01",
+          "url": "https://baodanang.vn/da-nang-ra-soat-244-khu-vuc-du-kien-phat-trien-nha-o-thuong-mai-3357107.html"
+        },
+        {
+          "title": "Nhân văn từ hạ tầng đô thị",
+          "snippet": "Báo Đà Nẵng - Cơ quan của Đảng bộ Đảng Cộng sản Việt Nam thành phố Đà Nẵng",
+          "pubdate": "2026-11-01",
+          "url": "https://baodanang.vn/nhan-van-tu-ha-tang-do-thi-3357063.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Da Nang municipal newspaper. Direct HTML scraping from /kinh-te/ provides FDI and urban project milestones."
+    },
+    {
+      "id": "src-VN-LOC-06",
+      "code_name": "baotayninh",
+      "name": "Báo Tây Ninh (西宁报)",
+      "category": "Vietnam Local Media",
+      "target_url": "https://baotayninh.vn",
+      "effective_endpoint": "https://baotayninh.vn",
+      "method_verified": "Lightweight HTML List",
+      "status_code": 200,
+      "response_time_ms": 53.19,
+      "bytes_transferred": 421616,
+      "server": "nginx",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (nginx)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Bứt phá giao thông, mở rộng không gian phát triển",
+          "snippet": "Báo Tây Ninh - Tiếng nói của Đảng bộ, chính quyền và nhân dân tỉnh Tây Ninh",
+          "pubdate": "2026-11-01",
+          "url": "https://tayninhdev.mediatech.vn/but-pha-giao-thong-mo-rong-khong-gian-phat-trien-133296.html"
+        },
+        {
+          "title": "Bộ đội Biên phòng Tây Ninh hội đàm với Ty Công an, Tiểu khu Quân sự và Bộ Chỉ huy Hiến Binh tỉnh Tboung Khmum, Prey Veng và Svay Rieng",
+          "snippet": "Báo Tây Ninh - Tiếng nói của Đảng bộ, chính quyền và nhân dân tỉnh Tây Ninh",
+          "pubdate": "2026-11-01",
+          "url": "https://baotayninh.vn/hoi-dam-giua-bo-doi-bien-phong-tay-ninh-voi-ty-cong-an-tieu-khu-quan-su-va-bo-chi-huy-hien-binh-3-tinh-tboung-khmum-prey-veng-va-svay-rieng-campuchia-352355.html"
+        },
+        {
+          "title": "Tại Tây Ninh diễn ra chương trình Hội đàm giữa Ban Chỉ huy Bộ đội Biên phòng (BĐBP) tỉnh với Ty Công an, Tiểu khu Quân sự và Bộ Chỉ huy Hiến Binh 3 tỉnh: Tboung Khmum, Prey Veng và Svay Rieng (Vương quốc Campuchia) trong công tác phối hợp bảo vệ biên giới.",
+          "snippet": "Báo Tây Ninh - Tiếng nói của Đảng bộ, chính quyền và nhân dân tỉnh Tây Ninh",
+          "pubdate": "2026-11-01",
+          "url": "https://baotayninh.vn/hoi-dam-giua-bo-doi-bien-phong-tay-ninh-voi-ty-cong-an-tieu-khu-quan-su-va-bo-chi-huy-hien-binh-3-tinh-tboung-khmum-prey-veng-va-svay-rieng-campuchia-352355.html"
+        },
+        {
+          "title": "Phó Bí thư Thường trực Tỉnh ủy Hồ Thị Hoàng Yến làm việc với Ban Thường vụ Đảng ủy phường Bình Minh",
+          "snippet": "Báo Tây Ninh - Tiếng nói của Đảng bộ, chính quyền và nhân dân tỉnh Tây Ninh",
+          "pubdate": "2026-11-01",
+          "url": "https://baotayninh.vn/pho-bi-thu-thuong-truc-tinh-uy-ho-thi-hoang-yen-lam-viec-voi-ban-thuong-vu-dang-uy-phuong-binh-minh-352272.html"
+        },
+        {
+          "title": "Ủy viên Ban Chấp hành Trung ương Đảng, Phó Bí thư Thường trực Tỉnh ủy Hồ Thị Hoàng Yến cùng đoàn công tác có buổi làm việc với Ban Thường vụ Đảng ủy phường Bình Minh về tình hình thực hiện nhiệm vụ chính trị, các chỉ tiêu nghị quyết và những vấn đề cần tập trung giải quyết trong thời gian còn lại của năm 2026.",
+          "snippet": "Báo Tây Ninh - Tiếng nói của Đảng bộ, chính quyền và nhân dân tỉnh Tây Ninh",
+          "pubdate": "2026-11-01",
+          "url": "https://baotayninh.vn/pho-bi-thu-thuong-truc-tinh-uy-ho-thi-hoang-yen-lam-viec-voi-ban-thuong-vu-dang-uy-phuong-binh-minh-352272.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Tay Ninh provincial newspaper. HTML list captures provincial tax, energy and transport project updates."
+    },
+    {
+      "id": "src-VN-LOC-07",
+      "code_name": "baodongnai",
+      "name": "Báo Đồng Nai (同奈报)",
+      "category": "Vietnam Local Media",
+      "target_url": "https://baodongnai.com.vn",
+      "effective_endpoint": "https://baodongnai.com.vn",
+      "method_verified": "Lightweight HTML List",
+      "status_code": 200,
+      "response_time_ms": 368.32,
+      "bytes_transferred": 136223,
+      "server": "nginx",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (nginx)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Giải Đồng Nai marathon - Trường Tươi Group 2026, Cúp Báo và Phát thanh, Truyền hình Đồng Nai",
+          "snippet": "Báo Đồng Nai - Cơ quan của Đảng bộ Đảng Cộng sản Việt Nam tỉnh Đồng Nai",
+          "pubdate": "2026-11-01",
+          "url": "https://baodongnai.com.vn/giai-dong-nai-marathon---truong-tuoi-group-2026--cup-bao-va-phat-thanh--truyen-hinh-dong-nai/"
+        },
+        {
+          "title": "Phó Bí thư Thành ủy Huỳnh Thị Hằng dự Ngày hội Đại đoàn kết toàn dân tộc và Tuần Văn hóa - Đại đoàn kết tại khu phố 1, phường Trảng Dài",
+          "snippet": "Báo Đồng Nai - Cơ quan của Đảng bộ Đảng Cộng sản Việt Nam tỉnh Đồng Nai",
+          "pubdate": "2026-11-01",
+          "url": "https://baodongnai.com.vn/chinh-tri/202611/pho-bi-thu-thanh-uy-huynh-thi-hang-du-ngay-hoi-dai-doan-ket-toan-dan-tocva-tuan-van-hoa-dai-doan-ket-tai-khu-pho-1-phuong-trang-dai-c7c0a74/"
+        },
+        {
+          "title": "Bế mạc DIGIFEST Đồng Nai 2026",
+          "snippet": "Báo Đồng Nai - Cơ quan của Đảng bộ Đảng Cộng sản Việt Nam tỉnh Đồng Nai",
+          "pubdate": "2026-11-01",
+          "url": "https://baodongnai.com.vn/dong-nai-nghi-quyet-57/202611/be-mac-digifest-dong-nai-2026-c4b1f96/"
+        },
+        {
+          "title": "[Infographic] Đồng Nai có 6 xã phấn đấu đạt chuẩn nông thôn mới năm 2026",
+          "snippet": "Báo Đồng Nai - Cơ quan của Đảng bộ Đảng Cộng sản Việt Nam tỉnh Đồng Nai",
+          "pubdate": "2026-11-01",
+          "url": "https://baodongnai.com.vn/media/infographic/202611/infographic-dong-nai-co-6-xa-phan-dau-dat-chuan-nong-thon-moi-nam-2026-9e429e4/"
+        },
+        {
+          "title": "[Loạt Megastory] Từ Văn Miếu - Quốc Tử Giám đến Văn miếu Trấn Biên: Mạch nguồn văn hóa trên vùng đất phương Nam (Kỳ cuối)",
+          "snippet": "Báo Đồng Nai - Cơ quan của Đảng bộ Đảng Cộng sản Việt Nam tỉnh Đồng Nai",
+          "pubdate": "2026-11-01",
+          "url": "https://baodongnai.com.vn/media/megastory/202611/loat-megastory-tu-van-mieu-quoc-tu-giam-den-van-mieu-tran-bien-mach-nguon-van-hoa-tren-vung-dat-phuong-nam-ky-cuoi-e191419/"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Dong Nai provincial flagship. Directly extracts industrial land auctions and housing disclosures."
+    },
+    {
+      "id": "src-VN-LOC-08",
+      "code_name": "baoquangninh",
+      "name": "Báo Quảng Ninh (广宁报)",
+      "category": "Vietnam Local Media",
+      "target_url": "https://baoquangninh.vn",
+      "effective_endpoint": "https://baoquangninh.vn/rss/home.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 133.11,
+      "bytes_transferred": 127388,
+      "server": null,
+      "etag": "5d60f9cdcb94b15217892eb1bd9e93f4",
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Các thí sinh tự tin tỏa sáng tại đêm chung kết thứ 2 Cuộc thi hát “Giai điệu xanh”",
+          "snippet": "Tối 1/11, tại trường quay S8, Báo và phát thanh, truyền hình Quảng Ninh đã diễn ra đêm thi thứ 2 vòng chung kết và trao giải Cuộc thi hát “Giai điệu Xanh” lần II, năm 2026. Các thí",
+          "pubdate": "Sun, 01 Nov 2026 23:56:17 +07:00",
+          "url": "https://baoquangninh.vn/cac-thi-sinh-tu-tin-toa-sang-tai-dem-chung-ket-thu-2-cuoc-thi-hat-giai-dieu-xanh-post3425749.html"
+        },
+        {
+          "title": "Quảng Ninh có thêm 2 di tích quốc gia",
+          "snippet": "Bộ trưởng Bộ Văn hoá, Thể thao và Du lịch vừa có Quyết định số 2918/QĐ-BVHTTDL và Quyết định số 2919/QĐ-BVHTTDL xếp hạng di tích quốc gia đối với 2 di tích trên địa bàn thành phố Q",
+          "pubdate": "Sun, 01 Nov 2026 22:24:21 +07:00",
+          "url": "https://baoquangninh.vn/quang-ninh-co-them-2-di-tich-quoc-gia-post3425779.html"
+        },
+        {
+          "title": "Châu Âu: Bạo lực giảm ở Pháp, bất ổn tiếp diễn tại Đức",
+          "snippet": "Các cuộc biểu tình phản đối chi phí sinh hoạt tăng cao tại Pháp trong ngày 31/10 diễn ra ít bạo lực hơn so với những tuần trước, giúp chính quyền nước này tạm thời giảm bớt lo ngại",
+          "pubdate": "Sun, 01 Nov 2026 21:58:49 +07:00",
+          "url": "https://baoquangninh.vn/chau-au-bao-luc-giam-o-phap-bat-on-tiep-dien-tai-duc-post3425776.html"
+        },
+        {
+          "title": "Nhiều doanh nghiệp tuyển dụng trở lại nhân viên từng bị sa thải vì AI",
+          "snippet": "Nhiều doanh nghiệp trên thế giới đang cắt giảm nhân sự với lý do đầu tư và ứng dụng trí tuệ nhân tạo (AI). Tuy nhiên, một số công ty sau đó phải tuyển dụng trở lại những lao động t",
+          "pubdate": "Sun, 01 Nov 2026 21:50:16 +07:00",
+          "url": "https://baoquangninh.vn/nhieu-doanh-nghiep-tuyen-dung-tro-lai-nhan-vien-tung-bi-sa-thai-vi-ai-post3425778.html"
+        },
+        {
+          "title": "Trung Đông: Gaza tiếp tục hứng không kích, tàu Qatar bị tấn công",
+          "snippet": "Ngày 1/11, Israel tiếp tục không kích Dải Gaza, khiến 8 người thiệt mạng. Cùng ngày, Qatar thông báo một tàu chở khí tự nhiên hóa lỏng của nước này bị tấn công tại Vịnh Ba Tư, gây ",
+          "pubdate": "Sun, 01 Nov 2026 21:45:00 +07:00",
+          "url": "https://baoquangninh.vn/trung-dong-gaza-tiep-tuc-hung-khong-kich-tau-qatar-bi-tan-cong-post3425777.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Quang Ninh provincial newspaper. Native RSS endpoint /rss/home.rss returns 50 rich entries."
+    },
+    {
+      "id": "src-INT-WIRE-01",
+      "code_name": "reuters",
+      "name": "Reuters (路透社)",
+      "category": "International Wire",
+      "target_url": "https://www.reuters.com",
+      "effective_endpoint": "https://www.reuters.com",
+      "method_verified": "WAF Intercepted (CloudFront 401)",
+      "status_code": 401,
+      "response_time_ms": 199.54,
+      "bytes_transferred": 774,
+      "server": "CloudFront",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "CloudFront 401 WAF Intercepted",
+      "sample_count": 0,
+      "sample_entries": [],
+      "fields_supported": {
+        "title": false,
+        "pubdate": false,
+        "snippet": false,
+        "url": false
+      },
+      "technical_notes": "CloudFront WAF intercepts automated probes with HTTP 401. Documented for Phase 2 on-demand procurement."
+    },
+    {
+      "id": "src-INT-WIRE-02",
+      "code_name": "bloomberg",
+      "name": "Bloomberg (彭博社 - Markets RSS)",
+      "category": "International Wire",
+      "target_url": "https://www.bloomberg.com",
+      "effective_endpoint": "https://feeds.bloomberg.com/markets/news.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 1561.38,
+      "bytes_transferred": 16462,
+      "server": null,
+      "etag": "W/\"404e-d2RyUbuDzETTFIt7J+XBXtwyHoQ\"",
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Fuga de Flávio cria problema familiar para direita",
+          "snippet": "Após a fuga de Flávio Bolsonaro para os EUA, a direita tenta definir os próximos passos. Confira com Daniel Carvalho. Edição de Patricia Xavier. (Source: Bloomberg)",
+          "pubdate": "Sun, 01 Nov 2026 17:13:25 GMT",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-01/fuga-de-flavio-cria-problema-familiar-para-direita-video"
+        },
+        {
+          "title": "Bloomberg This Weekend 11/1/2026",
+          "snippet": "The news doesn’t stop when markets close. Hosts David Gura, Lisa Mateo and Nathan Hager bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New ",
+          "pubdate": "Sun, 01 Nov 2026 16:39:16 GMT",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-01/bloomberg-this-weekend-11-1-2026-video"
+        },
+        {
+          "title": "The Political Debate on Daylight Saving Time",
+          "snippet": "Time is ticking on the debate over changing our clocks twice a year. As Americans prepare to fall back, Bloomberg’s Shaquille Omari explains why Washington can’t seem to move forwa",
+          "pubdate": "Sun, 01 Nov 2026 16:23:36 GMT",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-01/the-political-debate-on-daylight-saving-time-video"
+        },
+        {
+          "title": "Bookmarked: News Stories On Our Reading List",
+          "snippet": "Vinyl record bars and cafes, odd Halloween trick-or-treat offerings, the South Korean trend of being seen reading physical books, and Just Eats apologizing for AI mistake: Join hos",
+          "pubdate": "Sun, 01 Nov 2026 15:53:30 GMT",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-01/bookmarked-news-stories-on-our-reading-list-video"
+        },
+        {
+          "title": "Trump Struggles to Sell Voters on the Economy",
+          "snippet": "Bloomberg News Senior Executive Editor Wes Kosova tells Bloomberg This Weekend that President Donald Trump is struggling to convince voters the economy is strong as higher fuel pri",
+          "pubdate": "Sun, 01 Nov 2026 15:39:27 GMT",
+          "url": "https://www.bloomberg.com/news/videos/2026-11-01/trump-struggles-to-sell-voters-on-the-economy-video"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Global financial wire. Dedicated RSS /markets/news.rss returns 20 market updates."
+    },
+    {
+      "id": "src-INT-WIRE-03",
+      "code_name": "scmp",
+      "name": "South China Morning Post (SCMP - 南华早报)",
+      "category": "International Wire",
+      "target_url": "https://www.scmp.com",
+      "effective_endpoint": "https://www.scmp.com/rss/91/feed",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 191.9,
+      "bytes_transferred": 81612,
+      "server": "cloudflare",
+      "etag": null,
+      "last_modified": "Sun, 01 Nov 2026 17:44:38 GMT",
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "6 dead, dozens injured in Halloween weekend gun violence across US",
+          "snippet": "Dozens of people were injured and at least six people died in mass shootings as gun violence broke out at nightlife districts in half a dozen cities across the country over the Hal",
+          "pubdate": "Sun, 01 Nov 2026 17:02:08 +0000",
+          "url": "https://www.scmp.com/news/world/united-states-canada/article/3372906/4-dead-15-injured-3-separate-shootings-dallas-texas-halloween-night-police-say"
+        },
+        {
+          "title": "Former Apple Daily publisher joins mainland China tour for rehabilitated offenders",
+          "snippet": "A former publisher of the now-defunct Apple Daily newspaper has joined a Hong Kong government-organised mainland study tour for rehabilitated offenders, telling a state-owned broad",
+          "pubdate": "Sun, 01 Nov 2026 15:33:56 +0000",
+          "url": "https://www.scmp.com/news/hong-kong/politics/article/3372905/former-apple-daily-publisher-joins-mainland-china-tour-rehabilitated-offenders"
+        },
+        {
+          "title": "Communist Party pledges to reach deeper into China’s tech, digital platform sectors",
+          "snippet": "China’s ruling Communist Party will step up “party building” across the country’s tech sector and deploy digital tools to fight corruption, according to a landmark document adopted",
+          "pubdate": "Sun, 01 Nov 2026 15:00:10 +0000",
+          "url": "https://www.scmp.com/news/china/politics/article/3372899/communist-party-pledges-reach-deeper-chinas-tech-digital-platform-sectors"
+        },
+        {
+          "title": "Somali piracy resurges as Iranian vessel seized carrying 23 crew",
+          "snippet": "Somali pirates have seized an Iranian fishing vessel carrying 23 people, the European Union’s Maritime Security Centre Indian Ocean (MSCIO) said, warning that the ship was approach",
+          "pubdate": "Sun, 01 Nov 2026 14:54:00 +0000",
+          "url": "https://www.scmp.com/news/world/africa/article/3372904/somali-piracy-resurges-iranian-vessel-seized-carrying-23-crew"
+        },
+        {
+          "title": "‘Less than a minute’: Hong Kong travellers praise Japan’s new tax refund at airports",
+          "snippet": "Hong Kong tour groups returning from Japan have praised a smooth roll-out of the country’s new tax refund arrangement that requires travellers to complete refund procedures at airp",
+          "pubdate": "Sun, 01 Nov 2026 14:43:46 +0000",
+          "url": "https://www.scmp.com/news/hong-kong/society/article/3372903/less-minute-hong-kong-travellers-praise-japans-new-tax-refund-airports"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Asia regional daily. Native RSS /rss/91/feed returns 50 Asia news entries with full metadata."
+    },
+    {
+      "id": "src-SG-MED-01",
+      "code_name": "dealstreetasia",
+      "name": "DealStreetAsia (新加坡投融资媒体)",
+      "category": "Singapore Media",
+      "target_url": "https://www.dealstreetasia.com",
+      "effective_endpoint": "https://www.dealstreetasia.com",
+      "method_verified": "Lightweight HTML List",
+      "status_code": 200,
+      "response_time_ms": 231.08,
+      "bytes_transferred": 245727,
+      "server": null,
+      "etag": "\"3bfdf-QzbpeHxveqv+cSZJQVRkWzzyEeo\"",
+      "last_modified": null,
+      "security_state": "Open (No WAF)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "OpenAI slashes funding target by $10b amid tech rout",
+          "snippet": "DealStreetAsia - Financial, investment and private equity intelligence in SE Asia",
+          "pubdate": "2026-11-01",
+          "url": "https://www.dealstreetasia.com/stories/openai-funding-target-499773/"
+        },
+        {
+          "title": "SoftBank-backed OPay withdraws $304m US IPO after regulatory inquiry",
+          "snippet": "DealStreetAsia - Financial, investment and private equity intelligence in SE Asia",
+          "pubdate": "2026-11-01",
+          "url": "https://www.dealstreetasia.com/stories/softbank-backed-opay-us-ipo-499768/"
+        },
+        {
+          "title": "Binance resumes bitcoin, ether withdrawals after covering bulk of stolen $6.3b",
+          "snippet": "DealStreetAsia - Financial, investment and private equity intelligence in SE Asia",
+          "pubdate": "2026-11-01",
+          "url": "https://www.dealstreetasia.com/stories/binance-bitcoin-ether-withdrawals-499766/"
+        },
+        {
+          "title": "Editor’s Picks: The Week That Was - Oct 26-31",
+          "snippet": "DealStreetAsia - Financial, investment and private equity intelligence in SE Asia",
+          "pubdate": "2026-11-01",
+          "url": "https://www.dealstreetasia.com/stories/editors-picks-the-week-that-was-oct-26-31-499755/"
+        },
+        {
+          "title": "India: TVS Capital Funds forays into private credit to back mid-market firms",
+          "snippet": "DealStreetAsia - Financial, investment and private equity intelligence in SE Asia",
+          "pubdate": "2026-11-01",
+          "url": "https://www.dealstreetasia.com/stories/tvs-capital-funds-private-credit-foray-499763/"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Southeast Asia private equity & venture deals. Extracted 5 latest deals directly from homepage."
+    },
+    {
+      "id": "src-SG-MED-02",
+      "code_name": "businesstimes",
+      "name": "The Business Times (新加坡商业时报 - 东盟栏目)",
+      "category": "Singapore Media",
+      "target_url": "https://www.businesstimes.com.sg/international/asean",
+      "effective_endpoint": "https://www.businesstimes.com.sg/international/asean",
+      "method_verified": "Lightweight HTML List",
+      "status_code": 200,
+      "response_time_ms": 363.74,
+      "bytes_transferred": 169486,
+      "server": "AmazonS3",
+      "etag": "W/\"28586c77c83c94ec23eb031f4c39a818\"",
+      "last_modified": "Sun, 01 Nov 2026 17:48:11 GMT",
+      "security_state": "Open (AmazonS3 CDN)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Anwar cuts a deal with opposition to clear a 2027 budget hurdle",
+          "snippet": "The Business Times Singapore - ASEAN economic and industrial coverage",
+          "pubdate": "2026-11-01",
+          "url": "https://www.businesstimes.com.sg/international/asean/anwar-cuts-deal-opposition-clear-2027-budget-hurdle"
+        },
+        {
+          "title": "Thailand’s September factory output rises 2.05% y/y, lower than forecast",
+          "snippet": "The Business Times Singapore - ASEAN economic and industrial coverage",
+          "pubdate": "2026-11-01",
+          "url": "https://www.businesstimes.com.sg/international/asean/thailands-september-factory-output-rises-2-05-yy-lower-forecast"
+        },
+        {
+          "title": "State-backed South-east Asia budget carriers handle elevated fuel prices better",
+          "snippet": "The Business Times Singapore - ASEAN economic and industrial coverage",
+          "pubdate": "2026-11-01",
+          "url": "https://www.businesstimes.com.sg/international/asean/state-backed-south-east-asia-budget-carriers-handle-elevated-fuel-prices-better"
+        },
+        {
+          "title": "US-owned startup plans US$600 million Malaysia rare earth refinery",
+          "snippet": "The Business Times Singapore - ASEAN economic and industrial coverage",
+          "pubdate": "2026-11-01",
+          "url": "https://www.businesstimes.com.sg/international/asean/us-owned-startup-plans-us600-million-malaysia-rare-earth-refinery"
+        },
+        {
+          "title": "Tuas Power to explore importing up to 500 MW a year of hydropower from Laos",
+          "snippet": "The Business Times Singapore - ASEAN economic and industrial coverage",
+          "pubdate": "2026-11-01",
+          "url": "https://www.businesstimes.com.sg/international/asean/tuas-power-explore-importing-500-mw-year-hydropower-laos"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Singapore's financial paper ASEAN desk. HTML list directly yields regional economic updates."
+    },
+    {
+      "id": "src-SG-MED-03",
+      "code_name": "cna",
+      "name": "CNA (Channel NewsAsia - 亚洲专栏)",
+      "category": "Singapore Media",
+      "target_url": "https://www.channelnewsasia.com/asia",
+      "effective_endpoint": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml&category=6511",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 115.44,
+      "bytes_transferred": 15642,
+      "server": "nginx",
+      "etag": "\"1793555292\"",
+      "last_modified": "Sun, 01 Nov 2026 17:48:12 GMT",
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Filipino families keep their loved ones close on All Saints' Day",
+          "snippet": "Thousands of Filipinos who flocked to cemeteries across Manila on Sunday (Nov 1) to visit the graves of their loved ones, marking All Saints’ Day.",
+          "pubdate": "Sun, 01 Nov 2026 17:13:00 +0800",
+          "url": "https://www.channelnewsasia.com/asia/filipino-families-keep-their-loved-ones-close-all-saints-day-6510731"
+        },
+        {
+          "title": "New restrictions kick in as Delhi battles pollution in winter",
+          "snippet": "The restrictions, which came into force on Sunday (Nov 1), include a doubling of vehicle parking charges and work-from-home arrangements aimed at cutting traffic emissions.",
+          "pubdate": "Sun, 01 Nov 2026 16:44:31 +0800",
+          "url": "https://www.channelnewsasia.com/asia/new-restrictions-kick-in-delhi-battles-pollution-in-winter-6510736"
+        },
+        {
+          "title": "Winds of change: Laos looks up for renewables push",
+          "snippet": "Hydroelectric dams have proliferated across Southeast Asia in recent years but experts say wind energy is now set to take off.",
+          "pubdate": "Sun, 01 Nov 2026 15:41:00 +0800",
+          "url": "https://www.channelnewsasia.com/asia/laos-wind-energy-renewables-push-southeast-asia-6510706"
+        },
+        {
+          "title": "Bangladesh forms wage board as garment protests turn violent",
+          "snippet": "The wage board was formed after discussions with workers' representatives and industry leaders.",
+          "pubdate": "Sun, 01 Nov 2026 15:22:18 +0800",
+          "url": "https://www.channelnewsasia.com/asia/bangladesh-forms-wage-board-garment-protests-6510696"
+        },
+        {
+          "title": "Binance’s US$6b crypto heist: Five things to know about North Korea’s TraderTraitor hackers",
+          "snippet": "The Oct 29 attack is believed to be the largest crypto heist in history and is&nbsp;latest in a string of high-profile cyber thefts linked to Pyongyang.",
+          "pubdate": "Sun, 01 Nov 2026 13:38:24 +0800",
+          "url": "https://www.channelnewsasia.com/east-asia/north-korea-tradertraitor-hackers-pyongyang-binance-crypto-heist-6510661"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Singapore international broadcaster. Official RSS API returns 15 Asia regional news items."
+    },
+    {
+      "id": "src-JP-MED-01",
+      "code_name": "nikkei",
+      "name": "Nikkei Asia (日经亚洲)",
+      "category": "Japan Media",
+      "target_url": "https://asia.nikkei.com",
+      "effective_endpoint": "https://asia.nikkei.com/rss/feed/nar",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 219.66,
+      "bytes_transferred": 25483,
+      "server": "nginx/1.30.6",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Mitsubishi Heavy gears up to boost US gas turbine production",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "",
+          "url": "https://asia.nikkei.com/business/energy/mitsubishi-heavy-gears-up-to-boost-us-gas-turbine-production"
+        },
+        {
+          "title": "Nuclear reactors under construction rise to 79 globally on AI demand",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "",
+          "url": "https://asia.nikkei.com/business/energy/nuclear-reactors-under-construction-rise-to-79-globally-on-ai-demand"
+        },
+        {
+          "title": "AI dubbing to help Japanese companies expand global outreach",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/ai-dubbing-to-help-japanese-companies-expand-global-outreach"
+        },
+        {
+          "title": "Indonesia GDP, US midterm elections, Hong Kong financial summit",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "",
+          "url": "https://asia.nikkei.com/spotlight/your-week-in-asia/indonesia-gdp-us-midterm-elections-hong-kong-financial-summit"
+        },
+        {
+          "title": "Pakistan refineries report 1,860% jump in profit amid war windfall",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "",
+          "url": "https://asia.nikkei.com/business/energy/pakistan-refineries-report-1-860-jump-in-profit-amid-war-windfall2"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": false,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Japanese business paper. Native RSS /rss/feed/nar returns 50 rich entries with ETag support."
+    },
+    {
+      "id": "src-KR-MED-01",
+      "code_name": "businesskorea",
+      "name": "BusinessKorea (韩国商业新闻)",
+      "category": "Korea Media",
+      "target_url": "https://www.businesskorea.co.kr",
+      "effective_endpoint": "https://www.businesskorea.co.kr/rss/allArticle.xml",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 678.85,
+      "bytes_transferred": 48270,
+      "server": null,
+      "etag": "\"bc8e-65f30721cb916-gzip\"",
+      "last_modified": "Sun, 01 Nov 2026 05:38:57 GMT",
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "KB국민은행, ‘여자프로농구’ 타이틀스폰서 기념 퀴즈 이벤트 진행",
+          "snippet": "KB국민은행이 1일 개막하는 'KB스타뱅킹 2026-2027 여자프로농구'의 타이틀스폰서 참여를 기념해 대규모 고객 이벤트를 진행한다. 이번 행사는 여자프로농구 새 시즌의 개막을 알리고 팬들이 KB국민은행 여자프로농구단인 'KB스타즈'에 친근하게 다가갈 수 있도록 기획됐다.이벤트 명칭은 '국민 여농 시즌이 왔다! Quiz",
+          "pubdate": "2026-11-01 14:38:33",
+          "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=280140"
+        },
+        {
+          "title": "남춘천 센트레빌, 39층 스카이 커뮤니티에 피트니스·게스트하우스 조성",
+          "snippet": "강원특별자치도 춘천시 약사지구 일원에 공급되는 '남춘천 센트레빌'이 스카이 커뮤니티와 첨단 인공지능(AI) 기술을 결합한 차별화된 주거 서비스를 선보인다고 1일 밝혔다.단지의 핵심 시설은 최상층인 39층에 조성되는 스카이 커뮤니티 '클라우드9'이다. 일반적으로 저층이나 지하에 배치하던 공동 이용시설을 단지 가장 높은 곳으",
+          "pubdate": "2026-11-01 14:34:55",
+          "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=280139"
+        },
+        {
+          "title": "한화오션, 잠수함 '워터램 수평발사장치' 국산화 성공",
+          "snippet": "한화오션은 국방과학연구소(ADD)와 10년에 걸친 협력 끝에 잠수함의 핵심 무장 장치인 '워터램 방식 수평발사장치'를 순수 국내 기술로 독자 개발하는 데 성공했다.수평발사장치는 잠수함 내부에서 어뢰 등 주요 무장을 바다로 밀어내는 핵심 설비다. 이번에 개발한 워터램 방식은 수압을 이용해 발사체를 밀어내는 최신 기술로, 발",
+          "pubdate": "2026-11-01 10:10:12",
+          "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=280137"
+        },
+        {
+          "title": "한화생명, 암경험청년 '위케어리셋' 운동회 열어",
+          "snippet": "한화생명은 지난 10월 31일 서울 중구 충무스포츠센터에서 대한암협회와 함께 암경험청년의 건강한 사회 복귀를 응원하는 '위케어리셋(WE CARE_RESET) 크루 운동회'를 개최했다고 1일 밝혔다. 이번 행사는 암경험청년과 비경험청년, 그리고 이들의 가족이 한자리에 모여 '회복은 혼자가 아닌 함께'라는 메시지를 공유하기 ",
+          "pubdate": "2026-11-01 10:06:41",
+          "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=280136"
+        },
+        {
+          "title": "KB국민은행, 12조6000억 규모 AI 인프라 금융주선권 확보",
+          "snippet": "국내 금융권에서 전례를 찾기 힘든 12조원대 인공지능(AI) 인프라 금융 지원 사업이 막을 올렸다. KB국민은행은 글로벌 대체투자 운용사인 브룩필드가 추진하는 약 12조6000억원 규모의 AI 컴퓨팅 인프라 구축 사업에서 금융주선권을 확보하며 대표 주선기관으로 나섰다.이번 프로젝트는 국내 최초의 GPU(그래픽처리장치) 파",
+          "pubdate": "2026-11-01 10:02:45",
+          "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=280135"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Korean English business portal. RSS /rss/allArticle.xml returns 50 entries."
+    },
+    {
+      "id": "src-KR-MED-02",
+      "code_name": "koreaherald",
+      "name": "The Korea Herald (韩国先驱报)",
+      "category": "Korea Media",
+      "target_url": "https://www.koreaherald.com",
+      "effective_endpoint": "https://www.koreaherald.com/rss/newsAll",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 659.42,
+      "bytes_transferred": 59399,
+      "server": "nginx",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Samsung chief Lee visits Japan chip packaging lab",
+          "snippet": "Samsung Electronics Executive Chair Lee Jae-yong visited the company&apos;s advanced semiconductor packaging research facility in Japan on Sunday, emphasizing the need to secure cu",
+          "pubdate": "Sun, 01 Nov 2026 20:32:52 +09:00",
+          "url": "https://www.koreaherald.com/article/10921887"
+        },
+        {
+          "title": "Turkish, East Timorese presidents to visit S. Korea this week for talks with Lee",
+          "snippet": "Turkish President Recep Tayyip Erdogan and East Timorese President Jose Ramos-Horta will separately visit South Korea this week to hold summits with President Lee Jae Myung, a pres",
+          "pubdate": "Sun, 01 Nov 2026 19:35:22 +09:00",
+          "url": "https://www.koreaherald.com/article/10921878"
+        },
+        {
+          "title": "Lee to receive leaders from Turkey, East Timor this week",
+          "snippet": "President Lee Jae Myung is poised to receive Turkish President Recep Tayyip Erdogan and East Timor&apos;s President Jose Ramos-Horta in the coming week. Lee is set to meet Erdogan ",
+          "pubdate": "Sun, 01 Nov 2026 18:47:01 +09:00",
+          "url": "https://www.koreaherald.com/article/10921866"
+        },
+        {
+          "title": "Plays post their best third quarter in five years even as Korea’s overall ticket sales slip",
+          "snippet": "Korea’s performing arts market sold fewer tickets in the third quarter, but straight plays had their strongest July-September stretch in at least five years, according to the lates",
+          "pubdate": "Sun, 01 Nov 2026 17:18:12 +09:00",
+          "url": "https://www.koreaherald.com/article/10921836"
+        },
+        {
+          "title": "K-pop album sales set to top 100 million as merchandise-style formats spread",
+          "snippet": "K-pop album sales are expected to surpass 100 million copies in 2026 for the first time in three years, as the market bounces back on major releases and the rapid spread of merchan",
+          "pubdate": "Sun, 01 Nov 2026 17:00:56 +09:00",
+          "url": "https://www.koreaherald.com/article/10921822"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Korea leading English daily. RSS /rss/newsAll returns 50 entries with full pubdate."
+    },
+    {
+      "id": "src-KR-MED-03",
+      "code_name": "yonhap",
+      "name": "Yonhap News Agency (韩联社英文网)",
+      "category": "Korea Media",
+      "target_url": "https://en.yna.co.kr",
+      "effective_endpoint": "https://en.yna.co.kr/RSS/news.xml",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 815.44,
+      "bytes_transferred": 62001,
+      "server": null,
+      "etag": "1793555406846",
+      "last_modified": "Sun, 01 Nov 2026 17:47:15 GMT",
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "2 Air Force training aircraft collide mid-air in Sept.; no casualties reported",
+          "snippet": "SEOUL, Nov. 1 (Yonhap) -- Two Air Force KT-1 training aircraft collided mid-air ...",
+          "pubdate": "Sun, 1 Nov 2026 21:59:15 +0900",
+          "url": "https://en.yna.co.kr/view/AEN20261101004500315"
+        },
+        {
+          "title": "Turkish, East Timorese presidents to visit S. Korea this week for talks with Lee",
+          "snippet": "SEOUL, Nov. 1 (Yonhap) -- Turkish President Recep Tayyip Erdogan and East Timore...",
+          "pubdate": "Sun, 1 Nov 2026 18:49:08 +0900",
+          "url": "https://en.yna.co.kr/view/AEN20261101004100315"
+        },
+        {
+          "title": "Ageless wonder looking forward to yet another Korean Series trip with Lions",
+          "snippet": "DAEGU, Nov. 1 (Yonhap) -- It has been 11 years since Choi Hyoung-woo last played...",
+          "pubdate": "Sun, 1 Nov 2026 18:28:20 +0900",
+          "url": "https://en.yna.co.kr/view/AEN20261101004000315"
+        },
+        {
+          "title": "(LEAD) Jurado pitches Lions to Korean Series with 2nd straight postseason gem",
+          "snippet": "DAEGU, Nov. 1 (Yonhap) -- Entering this year&apos;s Korea Baseball Organization (KBO)...",
+          "pubdate": "Sun, 1 Nov 2026 18:01:41 +0900",
+          "url": "https://en.yna.co.kr/view/AEN20261101003751315"
+        },
+        {
+          "title": "Lions manager hoping for better defense with team off to Korean Series",
+          "snippet": "DAEGU, Nov. 1 (Yonhap) -- Even with his club off to the South Korean baseball ch...",
+          "pubdate": "Sun, 1 Nov 2026 17:55:29 +0900",
+          "url": "https://en.yna.co.kr/view/AEN20261101003900315"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "National wire service. RSS /RSS/news.xml returns 95 real-time news items."
+    },
+    {
+      "id": "src-KR-MED-04",
+      "code_name": "theelec",
+      "name": "THE ELEC (电子科技专业媒体)",
+      "category": "Korea Media",
+      "target_url": "https://thelec.net",
+      "effective_endpoint": "https://www.thelec.kr/rss/allArticle.xml",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 484.25,
+      "bytes_transferred": 50910,
+      "server": null,
+      "etag": "\"c6de-65f352371aa7e-gzip\"",
+      "last_modified": "Sun, 01 Nov 2026 11:14:52 GMT",
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "더존비즈온 해킹, 고객사로 확산 '일파만파'...10곳 유출 우려 긴급 공지",
+          "snippet": "더존비즈온 해킹 사고가 고객사 정보 유출 피해로 이어질 조짐이어서 파장이 커지고 있다. 더존비즈온 고객사 10곳이 이미 데이터 유출 가능성을 통보받았다. 6개월 전 서비스를 종료한 곳도 포함돼 피해 범위는 과거 고객으로도 확대되고 있다. 1일 업계에 따르면 더존비즈온 서비스를 이용했거나 이용 중인 고객사들이 개인정보 유출",
+          "pubdate": "2026-11-01 19:55:18",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64641"
+        },
+        {
+          "title": "한화오션, 잠수함 수평발사장치 국산화",
+          "snippet": "한화오션은 잠수함의 핵심 장비인 워터램 방식 수평발사장치를 국내 기술로 독자 개발하는 데 성공했다고 1일 밝혔다. 국방과학연구소(ADD)와 10년간 협력한 결과다.수평발사장치는 잠수함 내부에서 어뢰 등 주요 무장을 바다로 밀어 발사하는 잠수함의 주요 무장 핵심 장치다. 워터램 방식은 수압을 이용해 발사체를 밀어내는 최신 ",
+          "pubdate": "2026-11-01 16:11:21",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64639"
+        },
+        {
+          "title": "한화디펜스USA, 美 해군 상륙함 건조 사업 수주",
+          "snippet": "한화디펜스USA는 미 해군 선박 건조 관리 업체(VCM) 토트서비스와 중형 상륙함(LSM) 1척 건조 계약을 수주했다고 1일 밝혔다. 계약 규모는 3575억원이다. 건조는 한화필리조선소가 맡는다. 2027년 4분기부터 착수한다. LSM은 미 해군이 분쟁 연안에서 분산 작전을 펼치기 위한 원정 작전용 상륙함이다. 해병대 병",
+          "pubdate": "2026-11-01 16:11:17",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64638"
+        },
+        {
+          "title": "HD현대로보틱스, 팔란티어와 피지컬 AI 협력 확대",
+          "snippet": "HD현대로보틱스가 글로벌 AI 소프트웨어 기업 팔란티어 테크놀로지스와 피지컬 AI 솔루션 고도화를 추진한다. HD현대로보틱스는 미국 뉴욕에서 열린 팔란티어의 소버리니티 부트캠프에 기조연설로 참여했다고 1일 밝혔다. 기업 데이터와 핵심 사업 정보를 보호하고 AI를 활용한 사업 경쟁력 강화 방안을 모색하는 행사다. 기조연설은",
+          "pubdate": "2026-11-01 16:11:14",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64637"
+        },
+        {
+          "title": "효성중공업, 지멘스와 디지털 전력망 기술 협력",
+          "snippet": "효성중공업이 독일 지멘스와 디지털 전력망과 인공지능(AI) 데이터센터 솔루션 분야에서 협력한다.효성중공업은 30일 서울 그랜드 인터컨티넨탈 파르나스에서 지멘스와 '글로벌 전략적 파트너십 협약(GSPA)'을 체결했다고 밝혔다.양사는 디지털 자산관리와 디지털 변전소, 데이터센터 통합 전력 솔루션 등 3개 분야에서 협력한다.효",
+          "pubdate": "2026-11-01 10:39:43",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64630"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Specialized electronics & display media. RSS /rss/allArticle.xml returns 50 entries."
+    },
+    {
+      "id": "src-KR-MED-05",
+      "code_name": "koreatimes",
+      "name": "The Korea Times (韩国时报)",
+      "category": "Korea Media",
+      "target_url": "https://www.koreatimes.co.kr",
+      "effective_endpoint": "https://www.koreatimes.co.kr",
+      "method_verified": "Lightweight HTML List",
+      "status_code": 200,
+      "response_time_ms": 602.88,
+      "bytes_transferred": 450182,
+      "server": null,
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "COVER STORYNorth Korea has every incentive to keep stealing crypto, analysts sayThe $6.36 billion cryptocurrency heist targeting Binance has exposed a troubling reality for the digital asset industry: North Korea is increasingly exploiting security vulnerabilities to bankroll Pyongyang's military ambitions. The stolen amount is equivalent to 22 percent of North Korea's 2025 gross domestic product, making the attack the largest cryptocurrency theft on record and one of the biggest financial crimes in history. Analysts warned Sunday that it is unlikely to be the last. \"We're dealing with sophisticated adversaries who may have substantial resources, years of patience and objectives that extend well beyond financial gain,\" said Michael O'Loughlin, managing partner of Argonautic Global and board member of Blockchain Ireland. Proceeds from cryptocurrency theft have become an increasingly important source of funding for cash-strapped North Korea, alongside an estimated $22 billion in foreign income generated since 2022 through its support for Russia's war in Ukraine. The stolen funds could help finance its nuclear and ballistic missile programs, as well as efforts to modern3MIN READ",
+          "snippet": "The Korea Times - English daily covering politics, foreign affairs, and business",
+          "pubdate": "2026-11-01",
+          "url": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261101/cover-story-north-korea-has-every-incentive-to-keep-stealing-crypto-analysts-say"
+        },
+        {
+          "title": "Overseas trips add to debate over Korea's shifting political standardsPresident Lee Jae Myung’s overseas trips have again drawn attention to Korea’s shifting political standards, adding to a familiar cycle of disputes over presidential golf and the presidential plane whenever power passes between conservative and liberal administrations. The controversies center on taxpayer money and the public's attitudes toward presidential privilege, with governing parties defending certain activities as necessary for diplomacy or official duties and the opposition calling them wasteful or excessive — arguments that often switch sides under successive administrations. In the latest controversy, National Security Adviser Wi Sung-lac on Friday defended the frequency of Lee’s overseas trips accompanied by first lady Kim Hea Kyung. “Korea’s international standing requires its president to attend regular multilateral gatherings and bilateral visits,” Wi said. “Spouses also accompany leaders as an established diplomatic practice.” Wi’s defense followed an Oct. 1 analysis by Rep. Lee Jin-sook of the main opposition People Power Party (PPP). It counted 14 tri3MIN READ",
+          "snippet": "The Korea Times - English daily covering politics, foreign affairs, and business",
+          "pubdate": "2026-11-01",
+          "url": "https://www.koreatimes.co.kr/southkorea/politics/20261101/overseas-trips-add-to-debate-over-koreas-shifting-political-standards"
+        },
+        {
+          "title": "2 Air Force training aircraft collide mid-air in Sept.; no casualties reportedTwo Air Force KT-1 training aircraft collided mid-air while attempting to land at an air base in Sacheon in September, but the accident did not result in any injuries to the pilots, officials said Sunday. One of the training aircraft was attempting to land near Sacheon Air Base in the namesake city, some 300 kilometers south of Seoul, on the morning of Sept. 1 when its wing collided with the fuselage of another aircraft. Both aircraft belong to the Air Force's 3rd Flying Training Wing. The two aircraft subsequently made emergency landings safely, with no injuries reported among the pilots, Air Force officials said. Both aircraft reportedly suffered damage. After determining that the pilots involved were negligent, the Air Force has referred them to a disciplinary committee.1MIN READ",
+          "snippet": "The Korea Times - English daily covering politics, foreign affairs, and business",
+          "pubdate": "2026-11-01",
+          "url": "https://www.koreatimes.co.kr/southkorea/others/20261101/2-air-force-training-aircraft-collide-mid-air-in-sept-no-casualties-reported"
+        },
+        {
+          "title": "US visa issuance delay emerges as political wrangling over allianceThe delay of U.S. visa issuance for a ruling party lawmaker has become a topic of debate between rival parties over whether it is a sign of growing friction in the Korea-U.S. alliance. The main opposition People Power Party (PPP) called the incident a clear sign of eroded trust within the alliance. \"It is a symbolic moment that clearly exposes the widening rift in the Korea-U.S. alliance and the total breakdown of trust between the two countries,” Rep. Park Sung-hoon, senior spokesperson for the PPP, said in a statement Saturday. “It is an unprecedented diplomatic embarrassment and a national disgrace that the chairman of Korea's parliamentary defense committee was required to submit an English translation of a past National Security Act conviction and a criminal record check to the U.S., our ally, before finally receiving entry permission,” Park wrote. Park's statement came after Rep. Jin Sung-joon of the ruling Democratic Party of Korea (DPK), the chairman of the Assembly's National Defense Committee, announced that his visa was issued belatedly, a day before the committee's plan2MIN READ",
+          "snippet": "The Korea Times - English daily covering politics, foreign affairs, and business",
+          "pubdate": "2026-11-01",
+          "url": "https://www.koreatimes.co.kr/foreignaffairs/20261101/us-visa-issuance-delay-emerges-as-political-wrangling-over-alliance"
+        },
+        {
+          "title": "Lions beat Tigers to reach Korean SeriesFor the second time in three seasons, the Samsung Lions are headed to the Korean Series. The Lions defeated the Kia Tigers 6-1 in Game 5 of the second round in the Korea Baseball Organization (KBO) postseason Sunday at Daegu Samsung Lions Park in Daegu, some 230 kilometers southeast of Seoul. Leadoff man Kim Ji-chan had three hits and three RBIs to back starter Ariel Jurado, who tossed seven strong innings to earn his second win of the series. Jurado, who threw 6 2/3 innings of two-run ball in his Game 2 victory last Tuesday, was voted the series MVP. With a sellout crowd of 23,550 fans on hand, the Lions took the best-of-five series in five games to punch their ticket to the Korean Series, where they will face the regular-season champions KT Wiz. The best-of-seven championship battle will begin at 6:30 p.m. Tuesday at KT Wiz Park in Suwon, some 30 kilometers south of Seoul. The Wiz earned a bye to the Korean Series. They have not played since their regular-season finale on Oct. 12. The Wiz are gunning for their second championship. They won it all in 2021 and lost to the LG Twins in the 23MIN READ",
+          "snippet": "The Korea Times - English daily covering politics, foreign affairs, and business",
+          "pubdate": "2026-11-01",
+          "url": "https://www.koreatimes.co.kr/sports/20261101/lions-beat-tigers-to-reach-korean-series"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Korea Times national English daily. Extracted 5 latest stories directly from homepage."
+    },
+    {
+      "id": "src-KR-MED-06",
+      "code_name": "fnnews",
+      "name": "Financial News Korea (韩国财经新闻)",
+      "category": "Korea Media",
+      "target_url": "https://www.fnnews.com",
+      "effective_endpoint": "https://www.fnnews.com",
+      "method_verified": "Lightweight HTML List",
+      "status_code": 200,
+      "response_time_ms": 599.67,
+      "bytes_transferred": 179440,
+      "server": "cloudflare",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (Cloudflare CDN)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "회사채 '캡티브 영업' 제동…기업 조달금리 오르나",
+          "snippet": "Financial News Korea (fnnews) - Korean financial & business news",
+          "pubdate": "2026-11-01",
+          "url": "https://www.fnnews.com/news/202611010849263424"
+        },
+        {
+          "title": "\"집 살 시점 따로 없어… 자금계획 세웠다면 빨리 실행해야\"",
+          "snippet": "Financial News Korea (fnnews) - Korean financial & business news",
+          "pubdate": "2026-11-01",
+          "url": "https://www.fnnews.com/news/202611011906566223"
+        },
+        {
+          "title": "6000피 다시 뚫을까…美중간선거가 변수",
+          "snippet": "Financial News Korea (fnnews) - Korean financial & business news",
+          "pubdate": "2026-11-01",
+          "url": "https://www.fnnews.com/news/202611011833165536"
+        },
+        {
+          "title": "코스피200에 베팅… 연금계좌에서 월 분배금 재투자도 가능",
+          "snippet": "Financial News Korea (fnnews) - Korean financial & business news",
+          "pubdate": "2026-11-01",
+          "url": "https://www.fnnews.com/news/202611011833120009"
+        },
+        {
+          "title": "\"AI 위험, 확률계산으론 한계… 보험 계약구조 재설계해야\"",
+          "snippet": "Financial News Korea (fnnews) - Korean financial & business news",
+          "pubdate": "2026-11-01",
+          "url": "https://www.fnnews.com/news/202611011823147906"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Leading Korean financial daily. Extracted 5 latest corporate & bond market articles."
+    },
+    {
+      "id": "src-KR-MED-07",
+      "code_name": "chosun",
+      "name": "Chosun Ilbo / Chosun Biz (朝鲜日报/商业网)",
+      "category": "Korea Media",
+      "target_url": "https://biz.chosun.com",
+      "effective_endpoint": "https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 1264.76,
+      "bytes_transferred": 170190,
+      "server": "openresty",
+      "etag": "W/\"298ce-TAR5LPq9S25GWdRGEqkBSdz+Nvo\"",
+      "last_modified": "Sun, 01 Nov 2026 17:45:21 GMT",
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "구단 사상 최고 연봉 주고 잡았는데 트레이드 시킨다고? 'WS 눈물' TB의 진짜 속셈은",
+          "snippet": "[스포츠조선 박상경 기자] 구단 역사상 최고 연봉을 안겼다. 그런데 벌써 트레이드설이 흘러 나오고 있다. MLB닷컴은 1일(한국시각) '탬파베이 레이스가 에이스 드류 라스무센의 2027시즌 구단 옵션을 행사했다고 발표했다. 탬파베이는 올 시즌을 끝으로 라스무센과 50만달러 바이아웃을 지급하고 결별하거나, 800만달러에 잔",
+          "pubdate": "Sun, 01 Nov 2026 17:41:54 +0000",
+          "url": "https://www.chosun.com/sports/world-baseball/2026/11/02/MVRGGMZXGJRDIMJZGYYTEOBTHE/"
+        },
+        {
+          "title": "'퇴장 당해도 할 말 없었는데' 황희찬, 물리치료사 밀치고 공개 사과→징계 피하고 선발 복귀했지만 '슈팅 0회' 굴욕...독일 언론 최저 평점 혹평",
+          "snippet": "[OSEN=정승우 기자] 황희찬(30, 샬케 04)이 징계 위기를 넘기고 다시 선발 출전 기회를 얻었지만, 이번에도 기대에 부응하지 못했다.경기 중 구단 관계자를 밀치는 행동으로 논란을 일으킨 뒤 선수단 앞에서 사과하며 일단락됐으나, 그라운드에서는 침묵했다. 독일 현지 언론은 황희찬의 경기력을 강하게 비판했다.샬케는 지난",
+          "pubdate": "Sun, 01 Nov 2026 17:40:00 +0000",
+          "url": "https://www.chosun.com/sports/world-football/2026/11/02/MIZTCNLFHBRGGNBWGQ3TQNZXHA/"
+        },
+        {
+          "title": "ファン・ヒチャン、処分回避し先発復帰もシュート0本…独メディア最低点",
+          "snippet": "［OSEN＝チョン・スンウ記者］ファン・ヒチャン（30、シャルケ04）は懲戒危機を乗り越え、再び先発出場の機会を得たが、今回も期待に応えられなかった。試合中にクラブ関係者を押す行為で物議を醸した後、選手団の前で謝罪して事態はいったん収まったものの、ピッチでは沈黙した。ドイツ現地メディアはファン・ヒチャンのプレーを厳しく批判した。シャルケは先月31日（以下、韓",
+          "pubdate": "Sun, 01 Nov 2026 17:40:00 +0000",
+          "url": "https://www.chosun.com/jp/sports-jp/2026/11/02/5KLACS76UJDPRLEUJ4SDSL5BXI/"
+        },
+        {
+          "title": "フランスに続きドイツの若者も「もうやっていけない」…暴力・略奪デモ",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "Sun, 01 Nov 2026 07:37:25 +0000",
+          "url": "https://www.chosun.com/jp/international-jp/2026/11/01/IRCQUGKW75HIBNX24EL2WQ6DVQ/"
+        },
+        {
+          "title": "프랑스 이어 독일 청년들도 “못 살겠다” 폭력·약탈 시위",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "Sun, 01 Nov 2026 07:37:25 +0000",
+          "url": "https://www.chosun.com/international/international_general/2026/11/01/6ZPZ3SUZ4NBQDGP6EAQWC3POXA/"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Korea leading daily paper. Native outbound RSS returns 100 entries with complete fields."
+    },
+    {
+      "id": "src-KR-MED-08",
+      "code_name": "sedaily",
+      "name": "Seoul Economic Daily (首尔经济日报)",
+      "category": "Korea Media",
+      "target_url": "https://www.sedaily.com",
+      "effective_endpoint": "https://www.sedaily.com/RSS/Economy",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 440.25,
+      "bytes_transferred": 19550,
+      "server": "nginx",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "2000만원대 SUV에 라인업도 다양…국산차 점유율 70% 위태",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "Sun, 01 Nov 2026 18:38:52 +0900",
+          "url": "https://www.sedaily.com/article/20108837"
+        },
+        {
+          "title": "잘나가던 친구들 갑자기 이럴 줄이야…벌이 반 토막 난 중산층 무려",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "Sun, 01 Nov 2026 18:32:18 +0900",
+          "url": "https://www.sedaily.com/article/20108832"
+        },
+        {
+          "title": "유럽·신흥시장서도 ‘메이드 인 차이나’…현대·기아차 수익성 경고등",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "Sun, 01 Nov 2026 18:16:41 +0900",
+          "url": "https://www.sedaily.com/article/20108822"
+        },
+        {
+          "title": "[단독] 한전, 해외 발전소 판다…1년 멈춘 자산매각 재시동",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "Sun, 01 Nov 2026 18:16:04 +0900",
+          "url": "https://www.sedaily.com/article/20108821"
+        },
+        {
+          "title": "최태원도 만난 샘 올트먼…HBM·AI DC 등 협력 과제 점검",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "Sun, 01 Nov 2026 18:14:57 +0900",
+          "url": "https://www.sedaily.com/article/20108817"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Korean financial daily. Native RSS /RSS/Economy returns 50 rich entries."
+    },
+    {
+      "id": "src-TW-MED-01",
+      "code_name": "digitimes",
+      "name": "DigiTimes (电子时报 - 全球半导体供应链)",
+      "category": "Taiwan Media",
+      "target_url": "https://www.digitimes.com",
+      "effective_endpoint": "https://www.digitimes.com/rss/daily.xml",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 429.48,
+      "bytes_transferred": 39760,
+      "server": "Microsoft-IIS/10.0",
+      "etag": "W/\"9c295af29369dd1:0\"",
+      "last_modified": "Sun, 01 Nov 2026 00:00:03 GMT",
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Nvidia moves beyond GPUs as Meta's Muse agent stack pulls it deeper into AI infrastructure",
+          "snippet": "The launch of Muse in September across Meta's expanding agent ecosystem has highlighted how quickly AI agents are evolving beyond conventional chatbot architectures, bringing more ",
+          "pubdate": "Fri, 30 Oct 2026 23:35:09 GMT",
+          "url": "https://www.digitimes.com/news/a20261028VL216/meta-infrastructure-nvidia-launch-security.html"
+        },
+        {
+          "title": "TSIA 30: The manpower problem behind Taiwan's semiconductor resilience",
+          "snippet": "Taiwan's semiconductor industry has earned its reputation for chip dominance through decades of sustained investment in solving some of the world's hardest technological challenges",
+          "pubdate": "Fri, 30 Oct 2026 23:34:24 GMT",
+          "url": "https://www.digitimes.com/news/a20261030VL224/taiwan-tsia-manufacturing-talent-technology.html"
+        },
+        {
+          "title": "TSIA 30: Taiwan builds the AI backbone &mdash; but can it capture the AI economy?",
+          "snippet": "Taiwan already manufactures much of the physical infrastructure on which the AI boom depends. Advanced logic, packaging, substrates, testing, power delivery, cooling, and server as",
+          "pubdate": "Fri, 30 Oct 2026 23:34:04 GMT",
+          "url": "https://www.digitimes.com/news/a20261030VL222/taiwan-infrastructure-packaging-manufacturing-technology.html"
+        },
+        {
+          "title": "Marvell-Lumentum talks put optical supply chain in focus",
+          "snippet": "Marvell is reportedly in talks to acquire Lumentum, drawing attention across the optical communications supply chain. The deal would offer strong strategic synergies, particularly ",
+          "pubdate": "Fri, 30 Oct 2026 23:33:24 GMT",
+          "url": "https://www.digitimes.com/news/a20261030PD240/marvell-acquisition-communications-supply-chain-apple.html"
+        },
+        {
+          "title": "Radiant targets next-gen CPO above 6.4T, eyes 2028 mass production",
+          "snippet": "Radiant Opto-Electronics, a major backlight module maker, is expanding into new businesses and targeting next-generation optical communications architecture, particularly co-packag",
+          "pubdate": "Fri, 30 Oct 2026 23:32:58 GMT",
+          "url": "https://www.digitimes.com/news/a20261030PD236/radiant-cpo-production-2028-backlight.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Global tech and semiconductor supply chain radar. Native RSS /rss/daily.xml returns 35 entries."
+    },
+    {
+      "id": "src-TW-MED-02",
+      "code_name": "technews",
+      "name": "TechNews (科技新报 - 台湾电子科技产业)",
+      "category": "Taiwan Media",
+      "target_url": "https://technews.tw",
+      "effective_endpoint": "https://technews.tw/feed/",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 852.05,
+      "bytes_transferred": 38046,
+      "server": "nginx",
+      "etag": "\"c2a753cdb1e7b8e1f5eff6150668debd\"",
+      "last_modified": "Sun, 01 Nov 2026 09:54:13 GMT",
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "語音、視訊皆能錄，LINE「通話錄製」限時免費開放",
+          "snippet": "如日前所宣布，LINE Premium 會員新功能「通話錄製」，現在藉 LINE Labs 開放所有 LINE [&#8230;]",
+          "pubdate": "Sun, 01 Nov 2026 09:54:13 +0000",
+          "url": "https://technews.tw/2026/11/01/line-adds-support-for-recording-voice-and-video-calls/"
+        },
+        {
+          "title": "學者授四招破解假圖，點名食物照是 AI 最大死穴",
+          "snippet": "隨著生成式人工智慧（AI）快速普及，逼真的假照片在網路上流竄，如何分辨 AI 生成影像已成為大眾關注的焦點。美 [&#8230;]",
+          "pubdate": "Sun, 01 Nov 2026 09:00:03 +0000",
+          "url": "https://infosecu.technews.tw/2026/11/01/identifying-flaws-ai-generated-photos/"
+        },
+        {
+          "title": "簡訊癱瘓手機通話，Android 驚現「死亡簡訊」漏洞",
+          "snippet": "想像一下，當人們緊急撥打 119 時，手機卻突然斷線，沒按到任何按鍵、手機訊號也未消失。其實手機系統某處，一則 [&#8230;]",
+          "pubdate": "Sun, 01 Nov 2026 08:09:38 +0000",
+          "url": "https://infosecu.technews.tw/2026/11/01/a-simple-text-message-could-render-your-phone-unusable/"
+        },
+        {
+          "title": "廢棄塑膠變身吸水海綿，連沙漠水氣也能捕捉？",
+          "snippet": "塑膠包裝、廢棄光碟，甚至是樂高積木，最後往往都成為沒用的垃圾。如果能將這些廢棄塑膠製成吸水材料，捕捉空氣水分， [&#8230;]",
+          "pubdate": "Sun, 01 Nov 2026 08:00:41 +0000",
+          "url": "https://technews.tw/2026/11/01/waste-plastics-become-molecular-sponges-that-capture-water-from-air/"
+        },
+        {
+          "title": "美 AI 私校 Alpha School 號稱學習快兩倍，紐時揭數據僅 42% 學生達標",
+          "snippet": "主打以人工智慧（AI）教學的美國私校連鎖體系 Alpha School，對家長承諾學生每天只需 2 小時學科課 [&#8230;]",
+          "pubdate": "Sun, 01 Nov 2026 07:00:25 +0000",
+          "url": "https://technews.tw/2026/11/01/alpha-school-claims-to-teach-kids-twice-as-fast-many-dont-make-it/"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Taiwan electronics & hardware industry media. Native WordPress RSS /feed/ returns 40 entries."
+    },
+    {
+      "id": "src-IN-MED-01",
+      "code_name": "economictimes",
+      "name": "The Economic Times (印度经济时报)",
+      "category": "India Media",
+      "target_url": "https://economictimes.indiatimes.com",
+      "effective_endpoint": "https://economictimes.indiatimes.com",
+      "method_verified": "Connection Refused / Blocked",
+      "status_code": null,
+      "response_time_ms": 4102.9,
+      "bytes_transferred": 0,
+      "server": null,
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Connection Refused (WinError 10061 / Geo-Firewall)",
+      "sample_count": 0,
+      "sample_entries": [],
+      "fields_supported": {
+        "title": false,
+        "pubdate": false,
+        "snippet": false,
+        "url": false
+      },
+      "technical_notes": "TCP port 443 refused by host firewall. Marked for secondary proxy or external mirror."
+    },
+    {
+      "id": "src-IN-MED-02",
+      "code_name": "businessstandard",
+      "name": "Business Standard (商业标准报 - 印度)",
+      "category": "India Media",
+      "target_url": "https://www.business-standard.com",
+      "effective_endpoint": "https://www.business-standard.com/rss/economy-policy-102.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 103.6,
+      "bytes_transferred": 66153,
+      "server": "AmazonS3",
+      "etag": "\"324a6fe12ece5418b500c1ab7582748b\"",
+      "last_modified": "Sun, 01 Nov 2026 16:52:45 GMT",
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Quanshium AI Core develops indigenous quantum-secure drone technology",
+          "snippet": "Odisha-based start-up Quanshium AI Core has tested a quantum-secure drone communication link over 10 km using indigenous QRNG and post-quantum encryption technologies",
+          "pubdate": "Sun, 01 Nov 2026 20:35:20 +0530",
+          "url": "https://www.business-standard.com/technology/tech-news/quanshium-ai-core-develops-indigenous-quantum-secure-drone-technology-126110100753_1.html"
+        },
+        {
+          "title": "RBI's net short dollar forward position hits record $239.2 bn in September",
+          "snippet": "RBI's net short dollar forward position rose from $200.06 billion in August to $239.2 billion in September, driven by FCNR(B) swaps, as forward premiums climbed sharply in October",
+          "pubdate": "Sun, 01 Nov 2026 20:29:36 +0530",
+          "url": "https://www.business-standard.com/economy/news/rbi-s-net-short-dollar-forward-position-hits-record-239-2-bn-in-september-126110100730_1.html"
+        },
+        {
+          "title": "Net GST collections rise 25.6% to ₹2.03 trillion, fastest growth in FY27",
+          "snippet": "Import-linked GST revenue drove October's surge, with net collections rising 25.6 per cent to ₹2.03 trillion and gross collections increasing 22.9 per cent to ₹2.31 trillion",
+          "pubdate": "Sun, 01 Nov 2026 15:55:44 +0530",
+          "url": "https://www.business-standard.com/economy/news/net-gst-collections-rise-25-6-to-2-03-trillion-fastest-growth-in-fy27-126110100443_1.html"
+        },
+        {
+          "title": "Gross GST collections rise 23% to ₹2.31 trillion in October on strong sales",
+          "snippet": "Gross GST collections increased 23 per cent to over Rs 2.31 lakh crore in October, driven by strong mop-up from domestic activities and imports, according to government data releas",
+          "pubdate": "Sun, 01 Nov 2026 13:11:46 +0530",
+          "url": "https://www.business-standard.com/economy/news/gross-gst-collections-rise-23-to-2-31-trillion-in-october-on-strong-sales-126110100248_1.html"
+        },
+        {
+          "title": "Commercial LPG rates increase by ₹10, ATF prices up by ₹1.37 per litre",
+          "snippet": "Aviation turbine fuel (ATF) prices rose by Rs 1.37 per litre from Sunday, and commercial LPG rates increased by Rs 10 per 19-kg cylinder in step with firming international benchmar",
+          "pubdate": "Sun, 01 Nov 2026 10:27:55 +0530",
+          "url": "https://www.business-standard.com/economy/news/commercial-lpg-rates-increase-by-10-atf-prices-up-by-1-37-per-litre-126110100124_1.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Indian financial daily. Native RSS /rss/economy-policy-102.rss returns 35 entries with full pubdate."
+    },
+    {
+      "id": "src-IND-PROP-01",
+      "code_name": "mingtiandi",
+      "name": "Mingtiandi (亚洲与越南工业地产旗舰)",
+      "category": "Industry Specialized",
+      "target_url": "https://www.mingtiandi.com",
+      "effective_endpoint": "https://www.mingtiandi.com/feed/",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 320.81,
+      "bytes_transferred": 17119,
+      "server": "Pagely-ARES/1.23.0",
+      "etag": "\"92deab3c6e5475c73a57d95840f4e975\"",
+      "last_modified": "Fri, 30 Oct 2026 10:25:05 GMT",
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Japan Post Insurance Anchors Star Asia’s $190M Domestic Property Fund",
+          "snippet": "Star Asia Group has won support from a top-three Japanese insurer for its first private fund set up for domestic capital, as the investment manager rolls out a new vehicle holding ",
+          "pubdate": "Fri, 30 Oct 2026 10:25:05 +0000",
+          "url": "https://www.mingtiandi.com/real-estate/finance/japan-post-insurance-anchors-star-asias-190m-domestic-property-fund/"
+        },
+        {
+          "title": "PAG to Buy Control of Evergrande Property Management Arm for $514M",
+          "snippet": "Private equity firm PAG has agreed to buy a 51 percent stake in the property-management arm of China Evergrande Group for HK$4.03 billion ($513.7 million), the largest asset sale t",
+          "pubdate": "Fri, 30 Oct 2026 07:25:25 +0000",
+          "url": "https://www.mingtiandi.com/real-estate/finance/pag-to-buy-control-of-evergrande-property-management-arm-for-514m/"
+        },
+        {
+          "title": "SC Capital’s Suchad Set to Buy Bangkok’s Royal Orchid Sheraton Hotel for $157M",
+          "snippet": "SC Capital Partners founder Suchad Chiaranussati has won approval from unitholders in a trust that owns Bangkok’s Royal Orchid Sheraton Hotel and Towers to buy the riverfront landm",
+          "pubdate": "Thu, 29 Oct 2026 14:47:23 +0000",
+          "url": "https://www.mingtiandi.com/real-estate/finance/sc-capitals-suchad-set-to-buy-bangkoks-royal-orchid-sheraton/"
+        },
+        {
+          "title": "Singapore’s CICT Gets Paragon Boost as Q3 Property Income Climbs 14%",
+          "snippet": "CapitaLand Integrated Commercial Trust’s net property income rose 13.8 percent year-on-year to S$334.9 million ($261 million) in the third quarter, as Asia’s biggest listed REIT by",
+          "pubdate": "Thu, 29 Oct 2026 14:15:17 +0000",
+          "url": "https://www.mingtiandi.com/real-estate/finance/singapores-cict-gets-paragon-boost-as-q3-property-income-climbs-14/"
+        },
+        {
+          "title": "Thailand to Make Data Centre Developers Pitch for Power Under New Rules",
+          "snippet": "Thailand’s government has moved to establish ​minimum standards for data centre operators that would require developers to compete for grid power and water in government-run pitchi",
+          "pubdate": "Thu, 29 Oct 2026 14:08:55 +0000",
+          "url": "https://www.mingtiandi.com/real-estate/data-centres/thailand-to-make-data-centre-developers-pitch-for-power-under-new-rules/"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Real estate and logistics investment intelligence. Native RSS /feed/ returns 10 in-depth deals."
+    },
+    {
+      "id": "src-IND-PROP-02",
+      "code_name": "technode",
+      "name": "TechNode Global (东南亚泛科技与出海创投)",
+      "category": "Industry Specialized",
+      "target_url": "https://technode.global",
+      "effective_endpoint": "https://technode.global/feed/",
+      "method_verified": "Native RSS 2.0 (via cURL engine)",
+      "status_code": 200,
+      "response_time_ms": 340.12,
+      "bytes_transferred": 208355,
+      "server": "cloudflare",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Cloudflare Protected (Resolved via Browser UA)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Uzbekistan’s Delever raises $380,000 for restaurant SaaS expansion",
+          "snippet": "Uzbekistan-based restaurant software company Delever has raised $380,000 from AloqaVentures and Nexus Club for product development and market expansion.",
+          "pubdate": "Sun, 01 Nov 2026 02:08:03 +0000",
+          "url": "https://technode.global/2026/11/01/uzbekistan-delever-380000-restaurant-saas-expansion/"
+        },
+        {
+          "title": "EHang opens Thailand hub for Southeast Asia eVTOL rollout",
+          "snippet": "EHang has established a Thailand hub and plans an initial fleet of 25 EH216-S aircraft to support eVTOL projects across Southeast Asia.",
+          "pubdate": "Sat, 31 Oct 2026 00:50:02 +0000",
+          "url": "https://technode.global/2026/10/31/ehang-thailand-hub-southeast-asia-evtol/"
+        },
+        {
+          "title": "IBS plans HK$563M acquisition of AI chip company",
+          "snippet": "Hong Kong-listed IBS has agreed to acquire QuantumCompute Solutions for HK$563 million in a conditional move into AI chip design and edge computing.",
+          "pubdate": "Sat, 31 Oct 2026 00:46:42 +0000",
+          "url": "https://technode.global/2026/10/31/ibs-quantumcompute-ai-chip-acquisition/"
+        },
+        {
+          "title": "OMRON begins full-scale production at first India factory",
+          "snippet": "OMRON Healthcare has started full-scale production at its first India factory near Chennai, targeting a tenfold capacity increase by 2028.",
+          "pubdate": "Sat, 31 Oct 2026 00:45:36 +0000",
+          "url": "https://technode.global/2026/10/31/omron-india-factory-full-scale-production/"
+        },
+        {
+          "title": "TPG closes debut Asia growth fund at $1.3B",
+          "snippet": "TPG has closed its debut Asia lower-middle-market growth fund with $1.3 billion, exceeding the target for the new regional strategy.",
+          "pubdate": "Sat, 31 Oct 2026 00:44:32 +0000",
+          "url": "https://technode.global/2026/10/31/tpg-asia-growth-fund-1-3-billion/"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Southeast Asia tech ecosystem feed. Retrieved 5 latest startups and tech rounds."
+    },
+    {
+      "id": "src-IND-PROP-03",
+      "code_name": "datacenterdynamics",
+      "name": "DatacenterDynamics (DCD - 数据中心与云基础设施)",
+      "category": "Industry Specialized",
+      "target_url": "https://www.datacenterdynamics.com",
+      "effective_endpoint": "https://www.datacenterdynamics.com/en/rss/",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 210.35,
+      "bytes_transferred": 14150,
+      "server": "cloudflare",
+      "etag": null,
+      "last_modified": "Sun, 01 Nov 2026 15:00:31 GMT",
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "What could 1,000x more reliable quantum computation unlock?",
+          "snippet": "And why you should start thinking about quantum computing as an element of the broader data center ecosystem",
+          "pubdate": "Sun, 01 Nov 2026 15:00:31 +0000",
+          "url": "https://www.datacenterdynamics.com/en/opinions/what-could-1000x-more-reliable-quantum-computation-unlock/"
+        },
+        {
+          "title": "Beyond the grid: the maintenance challenges putting the data center boom at risk",
+          "snippet": "Building maintenance needs more attention",
+          "pubdate": "Sun, 01 Nov 2026 11:00:47 +0000",
+          "url": "https://www.datacenterdynamics.com/en/opinions/beyond-the-grid-the-maintenance-challenges-putting-the-data-center-boom-at-risk/"
+        },
+        {
+          "title": "Sponsored: One security strategy. Four different data center realities.",
+          "snippet": "The strongest data center security strategies do not deploy identical controls everywhere",
+          "pubdate": "Sat, 31 Oct 2026 16:00:00 +0000",
+          "url": "https://www.datacenterdynamics.com/en/opinions/one-security-strategy-four-different-data-center-realities/"
+        },
+        {
+          "title": "Europe’s AI ambitions are hitting a power bottleneck",
+          "snippet": "Data center demand is surging, but outdated grid infrastructure is preventing Europe from making full use of renewable energy",
+          "pubdate": "Sat, 31 Oct 2026 11:00:39 +0000",
+          "url": "https://www.datacenterdynamics.com/en/opinions/europes-ai-ambitions-are-hitting-a-power-bottleneck/"
+        },
+        {
+          "title": "Equinix posts record annualized gross bookings of $533m, up 35 percent",
+          "snippet": "Keeps project scale low and customer base broad",
+          "pubdate": "Fri, 30 Oct 2026 17:39:00 +0000",
+          "url": "https://www.datacenterdynamics.com/en/news/equinix-posts-record-annualized-gross-bookings-of-533m-up-35-percent/"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Global data center industry radar. Native RSS /en/rss/ returns 20 infrastructure entries."
+    },
+    {
+      "id": "src-OTH-MED-01",
+      "code_name": "manilabulletin",
+      "name": "Manila Bulletin (马尼拉公报 - 菲律宾)",
+      "category": "Other & Chinese Original",
+      "target_url": "https://mb.com.ph",
+      "effective_endpoint": "https://mb.com.ph",
+      "method_verified": "WAF Intercepted (Cloudflare 403)",
+      "status_code": 403,
+      "response_time_ms": 129.35,
+      "bytes_transferred": 5563,
+      "server": "cloudflare",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Cloudflare 403 WAF Intercepted",
+      "sample_count": 0,
+      "sample_entries": [],
+      "fields_supported": {
+        "title": false,
+        "pubdate": false,
+        "snippet": false,
+        "url": false
+      },
+      "technical_notes": "Cloudflare bot mitigation triggers 403 on all public endpoints. Documented for Phase 2."
+    },
+    {
+      "id": "src-OTH-MED-02",
+      "code_name": "thestar",
+      "name": "The Star (星报 - 马来西亚主流英文媒体)",
+      "category": "Other & Chinese Original",
+      "target_url": "https://www.thestar.com.my",
+      "effective_endpoint": "https://www.thestar.com.my/business",
+      "method_verified": "Lightweight HTML List",
+      "status_code": 200,
+      "response_time_ms": 244.43,
+      "bytes_transferred": 310484,
+      "server": "nginx",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (nginx)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Financial planner, not salesman",
+          "snippet": "The Star Malaysia - Business and regional industrial news",
+          "pubdate": "2026-10-31",
+          "url": "https://www.thestar.com.my/business/insight/2026/10/31/financial-planner-not-salesman"
+        },
+        {
+          "title": "Tackling the rising cost of elderly care",
+          "snippet": "The Star Malaysia - Business and regional industrial news",
+          "pubdate": "2026-10-31",
+          "url": "https://www.thestar.com.my/business/insight/2026/10/31/tackling-the-rising-cost-of-elderly-care"
+        },
+        {
+          "title": "Malaysia’s AI boom offers new stardom",
+          "snippet": "The Star Malaysia - Business and regional industrial news",
+          "pubdate": "2026-10-31",
+          "url": "https://www.thestar.com.my/business/insight/2026/10/31/malaysias-ai-boom-offers-new-stardom"
+        },
+        {
+          "title": "AI needs steering, not brakes",
+          "snippet": "The Star Malaysia - Business and regional industrial news",
+          "pubdate": "2026-10-31",
+          "url": "https://www.thestar.com.my/business/insight/2026/10/31/ai-needs-steering-not-brakes"
+        },
+        {
+          "title": "The energy transition conundrum",
+          "snippet": "The Star Malaysia - Business and regional industrial news",
+          "pubdate": "2026-10-31",
+          "url": "https://www.thestar.com.my/business/insight/2026/10/31/the-energy-transition-conundrum"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Malaysia top business daily. HTML list directly yields regional economic and industrial updates."
+    },
+    {
+      "id": "src-CN-ORIG-01",
+      "code_name": "jiemian",
+      "name": "界面新闻 (出海专栏与跨国企业报道)",
+      "category": "Other & Chinese Original",
+      "target_url": "https://www.jiemian.com",
+      "effective_endpoint": "https://a.jiemian.com/index.php?m=article&a=rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 1178.77,
+      "bytes_transferred": 16744,
+      "server": "nginx",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "哥伦比亚发现输入性疟疾，已致1人死亡",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "Sun, 01 Nov 2026 22:36:27 +0800",
+          "url": "https://www.jiemian.com/article/15279426.html"
+        },
+        {
+          "title": "住建部部长倪虹会见老挝公共工程运输部部长西维莱",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "Sun, 01 Nov 2026 22:25:53 +0800",
+          "url": "https://www.jiemian.com/article/15279417.html"
+        },
+        {
+          "title": "林涛当选福建厦门市委书记",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "Sun, 01 Nov 2026 22:24:27 +0800",
+          "url": "https://www.jiemian.com/article/15279411.html"
+        },
+        {
+          "title": "巴黎检方就宪兵遭投燃烧瓶立案调查",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "Sun, 01 Nov 2026 21:49:55 +0800",
+          "url": "https://www.jiemian.com/article/15279405.html"
+        },
+        {
+          "title": "航行警告：南海部分水域开展军事训练",
+          "snippet": "Bản tin cập nhật từ kênh thông tin chính thức",
+          "pubdate": "Sun, 01 Nov 2026 21:48:16 +0800",
+          "url": "https://www.jiemian.com/article/15279404.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Chinese leading business media. Native RSS /index.php?m=article&a=rss returns 30 entries."
+    }
+  ]
+}

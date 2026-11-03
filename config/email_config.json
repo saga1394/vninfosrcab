@@ -1,0 +1,8 @@
+{
+  "recipient_email": "18677106863@qq.com",
+  "smtp_host": "smtp.qq.com",
+  "smtp_port": 465,
+  "use_ssl": true,
+  "sender_email": "18677106863@qq.com",
+  "sender_auth_code": ""
+}

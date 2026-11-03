@@ -1,0 +1,978 @@
+{
+  "meta": {
+    "reference_code": "3719",
+    "execution_timestamp": "2026-11-01T23:21:08.152554",
+    "duration_seconds": 36.45,
+    "total_http_requests": 18,
+    "total_bytes_transferred": 1787792,
+    "total_transferred_kb": 1745.89,
+    "token_cost": 0,
+    "total_sources_probed": 18
+  },
+  "summary_counts": {
+    "immediate_rss": 10,
+    "light_html_script": 7,
+    "blocked_adjustment": 1
+  },
+  "sources": [
+    {
+      "id": "vir",
+      "name": "VIR (Vietnam Investment Review)",
+      "group": "Group 1: Broad Discovery Media",
+      "target_url": "https://vir.com.vn",
+      "effective_endpoint": "https://vir.com.vn/rss_feed/",
+      "protocol_type": "RSS_FEED",
+      "category": "IMMEDIATE_RSS",
+      "http_status": 200,
+      "response_time_ms": 311.92,
+      "bytes_transferred": 202912,
+      "server": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 PHP/5.4.16 mod_python/3.5.0- Python/2.7.5",
+      "etag": null,
+      "last_modified": null,
+      "items_extracted_count": 5,
+      "sample_entries": [
+        {
+          "title": "SeABank unveils Sustainable Finance Framework",
+          "snippet": "SeABank on October 29 announced its Sustainable Finance Framework receiving a Second Party Opinion from S P Global Ratings",
+          "pubdate": "Fri, 30 Oct 2026 18:30:42 +0700",
+          "url": "https://vir.com.vn/seabank-unveils-sustainable-finance-framework-164094.html"
+        },
+        {
+          "title": "Asahi Life completes acquisition of Vietnamese life insurer",
+          "snippet": "Asahi Mutual Life Insurance Company has completed the acquisition process to turn Vietnamese life insurance company MVI Life Co Ltd into a wholly owne",
+          "pubdate": "Fri, 30 Oct 2026 18:29:37 +0700",
+          "url": "https://vir.com.vn/asahi-life-completes-acquisition-of-vietnamese-life-insurer-164096.html"
+        },
+        {
+          "title": "Vietnam accelerates 5G utilisation and prepares for 6G",
+          "snippet": "The Ministry of Science and Technology has set a requirement to integrate 5G into production and business operations to generate tangible value while ",
+          "pubdate": "Fri, 30 Oct 2026 18:28:02 +0700",
+          "url": "https://vir.com.vn/vietnam-accelerates-5g-utilisation-and-prepares-for-6g-164100.html"
+        },
+        {
+          "title": "Implementation key to Vietnam s post upgrade capital inflows",
+          "snippet": "Investors say institutional confidence and a wider pool of quality a href https vir com vn search enginer html p search amp q stocks 20 stocks a will ",
+          "pubdate": "Fri, 30 Oct 2026 18:26:13 +0700",
+          "url": "https://vir.com.vn/implementation-key-to-vietnams-post-upgrade-capital-inflows-164103.html"
+        },
+        {
+          "title": "Ridger deploys private artificial intelligence software for Shum Wong Co",
+          "snippet": "Technology provider Ridger delivered its MUX Private AI platform to law firm Shum Wong Co to automate legal document processing within sovereign data ",
+          "pubdate": "Fri, 30 Oct 2026 16:02:09 +0700",
+          "url": "https://vir.com.vn/ridger-deploys-private-artificial-intelligence-software-for-shum-wong-co-164086.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "snippet": true,
+        "pubdate": true,
+        "url": true
+      },
+      "note": "Native RSS feed is fully functional and returns rich metadata."
+    },
+    {
+      "id": "cafef",
+      "name": "CafeF",
+      "group": "Group 1: Broad Discovery Media",
+      "target_url": "https://cafef.vn",
+      "effective_endpoint": "https://cafef.vn/home.rss",
+      "protocol_type": "RSS_FEED",
+      "category": "IMMEDIATE_RSS",
+      "http_status": 200,
+      "response_time_ms": 233.4,
+      "bytes_transferred": 67643,
+      "server": "cf-rp",
+      "etag": null,
+      "last_modified": null,
+      "items_extracted_count": 5,
+      "sample_entries": [
+        {
+          "title": "Xử phạt loạt nhà đầu tư thao túng cổ phiếu của Kido",
+          "snippet": "3 nhà đầu tư bị xử phạt tổng cộng 4,5 tỷ đồng do có hành vi thao túng thị trường chứng khoán và hành vi cho mượn tài khoản để giao dịch chứng khoán dẫ",
+          "pubdate": "Sun, 01 Nov 2026 22:16:00 +07",
+          "url": "https://cafef.vn/xu-phat-loat-nha-dau-tu-thao-tung-co-phieu-cua-kido-188261101221706381.chn"
+        },
+        {
+          "title": "Bí quyết giữ ấm độc đáo của người Trung Quốc cổ đại",
+          "snippet": "Người Trung Quốc cổ đại giữ ấm, hong khô quần áo trong mùa đông khắc nghiệt nhờ một phát minh độc đáo đã tồn tại hơn 2000 năm.",
+          "pubdate": "Sun, 01 Nov 2026 22:12:00 +07",
+          "url": "https://cafef.vn/bi-quyet-giu-am-doc-dao-cua-nguoi-trung-quoc-co-dai-188261101214927395.chn"
+        },
+        {
+          "title": "Đen Vâu bất ngờ xuất hiện ở chung kết Đường lên đỉnh Olympia 2026",
+          "snippet": "Rapper Đen Vâu bất ngờ gửi lời chúc tới Nguyễn Huy Quang Minh trước phần thi Về đích, khiến nam sinh xúc động tại chung kết Olympia 2026.",
+          "pubdate": "Sun, 01 Nov 2026 22:08:00 +07",
+          "url": "https://cafef.vn/den-vau-bat-ngo-xuat-hien-o-chung-ket-duong-len-dinh-olympia-2026-188261101202003163.chn"
+        },
+        {
+          "title": "Quán quân Olympia 2025 nói về đàn em vừa vô địch: \"Đức rất dễ thương, trên sóng như nào thì ngoài đời cũng y vậy\"",
+          "snippet": "Quán quân Olympia 2025 Trần Bùi Bảo Khánh chia sẻ niềm tự hào khi ngôi vô địch Olympia tiếp tục ở lại ngôi trường của mình thêm một năm nữa nhờ sự xuấ",
+          "pubdate": "Sun, 01 Nov 2026 21:55:00 +07",
+          "url": "https://cafef.vn/quan-quan-olympia-2025-noi-ve-dan-em-vua-vo-dich-duc-rat-de-thuong-tren-song-nhu-nao-thi-ngoai-doi-cung-y-vay-188261101195727341.chn"
+        },
+        {
+          "title": "Những gã khổng lồ công nghệ đang làm giàu cho đại gia KCN Đặng Thành Tâm",
+          "snippet": "LG, Foxconn, Luxshare, Goertek cùng hàng loạt tập đoàn quốc tế đang hiện diện tại các khu công nghiệp của Kinh Bắc. Doanh nghiệp do ông Đặng Thành Tâm",
+          "pubdate": "Sun, 01 Nov 2026 21:54:00 +07",
+          "url": "https://cafef.vn/nhung-ga-khong-lo-cong-nghe-dang-lam-giau-cho-dai-gia-kcn-dang-thanh-tam-188261101213702306.chn"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "snippet": true,
+        "pubdate": true,
+        "url": true
+      },
+      "note": "Native RSS feed provides 60 items with complete 4-tuple metadata."
+    },
+    {
+      "id": "vietnamplus",
+      "name": "VietnamPlus (越通社)",
+      "group": "Group 1: Broad Discovery Media",
+      "target_url": "https://www.vietnamplus.vn",
+      "effective_endpoint": "https://www.vietnamplus.vn/rss/home.rss",
+      "protocol_type": "RSS_FEED",
+      "category": "IMMEDIATE_RSS",
+      "http_status": 200,
+      "response_time_ms": 137.69,
+      "bytes_transferred": 140875,
+      "server": "nginx",
+      "etag": "6febfb2e6269f6978837bf0999ae9846",
+      "last_modified": null,
+      "items_extracted_count": 5,
+      "sample_entries": [
+        {
+          "title": "Đêm 1 và ngày 2/11, đề phòng mưa lớn cục bộ ở Bắc Bộ, gió giật mạnh trên biển",
+          "snippet": "Đêm 1/11 và ngày 2/11, khu vực Bắc Bộ có mưa rào và dông rải rác với lượng mưa 10-30mm, riêng khu vực Tây Bắc và Việt Bắc cục bộ có nơi mưa to trên 80",
+          "pubdate": "Sun, 01 Nov 2026 22:11:39 +07:00",
+          "url": "https://www.vietnamplus.vn/dem-1-va-ngay-211-de-phong-mua-lon-cuc-bo-o-bac-bo-gio-giat-manh-tren-bien-post1145567.vnp"
+        },
+        {
+          "title": "Tổng thống Israel kêu gọi các phe phái chấp thuận thỏa hiệp để thành lập chính phủ mới",
+          "snippet": "Lời kêu gọi của Tổng thống Israel Isaac Herzog được đưa ra trong bối cảnh cả phe ủng hộ Thủ tướng Benjamin Netanyahu và phe đối lập đều chưa giành đủ ",
+          "pubdate": "Sun, 01 Nov 2026 22:11:18 +07:00",
+          "url": "https://www.vietnamplus.vn/tong-thong-israel-keu-goi-cac-phe-phai-chap-thuan-thoa-hiep-de-thanh-lap-chinh-phu-moi-post1145566.vnp"
+        },
+        {
+          "title": "Doanh nghiệp Việt Nam đưa giải pháp xanh ra thị trường quốc tế",
+          "snippet": "Từ nhựa tái chế đến những sản phẩm xanh giàu tính ứng dụng, doanh nghiệp Việt Nam mang giải pháp sáng tạo tới Eco Expo Asia 2026, tìm kiếm cơ hội kết ",
+          "pubdate": "Sun, 01 Nov 2026 22:00:51 +07:00",
+          "url": "https://www.vietnamplus.vn/doanh-nghiep-viet-nam-dua-giai-phap-xanh-ra-thi-truong-quoc-te-post1145561.vnp"
+        },
+        {
+          "title": "Nắng nóng kết hợp bụi mịn làm tăng nguy cơ đột quỵ",
+          "snippet": "Nghiên cứu do nhà khoa học Alessandra Carvalho Goulart ở Đại học São Paulo (Brazil) chỉ ra mối liên hệ rõ rệt giữa điều kiện môi trường bất lợi và tìn",
+          "pubdate": "Sun, 01 Nov 2026 21:58:58 +07:00",
+          "url": "https://www.vietnamplus.vn/nang-nong-ket-hop-bui-min-lam-tang-nguy-co-dot-quy-post1145564.vnp"
+        },
+        {
+          "title": "Philippines bắt giữ thủ lĩnh đường dây lừa đảo và trộm cắp xuyên quốc gia",
+          "snippet": "Nghi phạm người Nhật Bản bị bắt giữ tại tỉnh Nueva Ecija, phía Bắc Manila, vốn là nhân vật số hai trong đường dây \"JP Dragon\" liên quan đến các hoạt đ",
+          "pubdate": "Sun, 01 Nov 2026 21:50:54 +07:00",
+          "url": "https://www.vietnamplus.vn/philippines-bat-giu-thu-linh-duong-day-lua-dao-va-trom-cap-xuyen-quoc-gia-post1145559.vnp"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "snippet": true,
+        "pubdate": true,
+        "url": true
+      },
+      "note": "Native RSS with strong ETag support for HTTP 304 conditional skipping."
+    },
+    {
+      "id": "tuoitre",
+      "name": "Tuổi Trẻ",
+      "group": "Group 1: Broad Discovery Media",
+      "target_url": "https://tuoitre.vn",
+      "effective_endpoint": "https://tuoitre.vn/home.rss",
+      "protocol_type": "RSS_FEED",
+      "category": "IMMEDIATE_RSS",
+      "http_status": 200,
+      "response_time_ms": 134.05,
+      "bytes_transferred": 41772,
+      "server": "Kestrel",
+      "etag": null,
+      "last_modified": null,
+      "items_extracted_count": 5,
+      "sample_entries": [
+        {
+          "title": "Nghe siêu sao số 1 làng cầu lông hát 'hay như ca sĩ' trong lễ cưới của chính mình",
+          "snippet": "Không chỉ sở hữu tài năng phi thường, nhà vô địch cầu lông thế giới Shi Yuqi (Thạch Vũ Kỳ) còn khiến người hâm mộ thích thú khi khoe giọng hát trong c",
+          "pubdate": "11/1/2026 8:57:00 PM",
+          "url": "https://tuoitre.vn/nghe-sieu-sao-so-1-lang-cau-long-hat-hay-nhu-ca-si-trong-le-cuoi-cua-chinh-minh-100261101205351992.htm"
+        },
+        {
+          "title": "Ba lần dứt điểm dội xà, CLB Công An TP.HCM thua trận đầu tiên trên sân nhà",
+          "snippet": "CLB Công An TP.HCM đã nhận thất bại đầu tiên trên sân nhà khi để thua SHB Đà Nẵng 0-1 ở vòng 6 V-League 2026-2027.",
+          "pubdate": "11/1/2026 8:55:00 PM",
+          "url": "https://tuoitre.vn/ba-lan-dut-diem-doi-xa-clb-cong-an-tphcm-thua-tran-dau-tien-tren-san-nha-100261101195305027.htm"
+        },
+        {
+          "title": "Phòng ngự kiên cường, CLB TP.HCM đánh bại CLB Công An Nhân Dân ngay trên sân khách",
+          "snippet": "Thi đấu đầy kiên cường trong suốt 90 phút, CLB TP.HCM đã tạo nên bất ngờ lớn khi đánh bại Công An Nhân Dân ngay trên sân khách, mang về 3 điểm trọn vẹ",
+          "pubdate": "11/1/2026 8:51:00 PM",
+          "url": "https://tuoitre.vn/phong-ngu-kien-cuong-clb-tphcm-danh-bai-clb-cong-an-nhan-dan-ngay-tren-san-khach-100261101203304407.htm"
+        },
+        {
+          "title": "'Dạ thưa xứ Huế bây giờ, vẫn còn ram ít bên bờ Hương Giang'",
+          "snippet": "Có những món ăn chỉ cần nhìn đã đủ gợi tò mò. Bánh ram ít của xứ Huế là một món như thế. Trên chiếc đĩa nhỏ, bánh ít trắng ngần, dẻo mềm nằm gọn trên ",
+          "pubdate": "11/1/2026 8:50:00 PM",
+          "url": "https://tuoitre.vn/da-thua-xu-hue-bay-gio-van-con-ram-it-ben-bo-huong-giang-100261101194141145.htm"
+        },
+        {
+          "title": "Cận cảnh tàu tuần duyên của Mỹ trong chuyến thăm  TP.HCM",
+          "snippet": "Tàu tuần duyên Mỹ USCGC Bertholf cập cảng cửa ngõ Sài Gòn, khởi đầu chuyến thăm cảng TP.HCM đầu tiên của một tàu tuần duyên Mỹ trong 20 năm qua.",
+          "pubdate": "11/1/2026 8:48:00 PM",
+          "url": "https://tuoitre.vn/can-canh-tau-tuan-duyen-cua-my-trong-chuyen-tham-tphcm-100261101200147215.htm"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "snippet": true,
+        "pubdate": true,
+        "url": true
+      },
+      "note": "Major mainstream media, native RSS returns 50 latest news items."
+    },
+    {
+      "id": "vnexpress",
+      "name": "VnExpress",
+      "group": "Group 1: Broad Discovery Media",
+      "target_url": "https://vnexpress.net",
+      "effective_endpoint": "https://vnexpress.net/rss/tin-moi-nhat.rss",
+      "protocol_type": "RSS_FEED",
+      "category": "IMMEDIATE_RSS",
+      "http_status": 200,
+      "response_time_ms": 71.18,
+      "bytes_transferred": 58861,
+      "server": "vne-vn-fe-lv1-other-1",
+      "etag": null,
+      "last_modified": null,
+      "items_extracted_count": 5,
+      "sample_entries": [
+        {
+          "title": "Kim Biên là tên khác của thủ đô nước Đông Nam Á nào?",
+          "snippet": "Một địa danh Hán Việt từng xuất hiện trong tài liệu xưa, nhưng nay ít được sử dụng. Bạn có nhận ra thủ đô nào ẩn sau hai chữ này?",
+          "pubdate": "Sun, 01 Nov 2026 09:45:00 +0700",
+          "url": "https://vnexpress.net/kim-bien-la-ten-khac-cua-thu-do-nuoc-dong-nam-a-nao-5137736.html"
+        },
+        {
+          "title": "Gần 700 con dấu trong đường dây làm giấy tờ giả ở TP HCM",
+          "snippet": "Hoàng Nhật Vũ bị cáo buộc cầm đầu đường dây làm giả hàng chục nghìn giấy tờ, tài liệu của các cơ quan, tổ chức, thu lợi bất chính hàng tỷ đồng.",
+          "pubdate": "Sun, 01 Nov 2026 09:43:35 +0700",
+          "url": "https://vnexpress.net/gan-700-con-dau-trong-duong-day-lam-giay-to-gia-o-tp-hcm-5139280.html"
+        },
+        {
+          "title": "Man Utd chạm mốc tệ nhất kể từ năm 1988",
+          "snippet": "Trận thua Chelsea 0-2 ở vòng 9 Ngoại hạng Anh khiến Man Utd trải qua 9 trận liên tiếp không thắng trên mọi đấu trường - chuỗi kết quả tệ nhất của CLB ",
+          "pubdate": "Sun, 01 Nov 2026 09:36:48 +0700",
+          "url": "https://vnexpress.net/man-utd-cham-moc-te-nhat-ke-tu-nam-1988-5139262.html"
+        },
+        {
+          "title": "Chủ đầu tư sân bay Long Thành giảm gần 1.400 nhân sự trong ba tháng",
+          "snippet": "ACV giảm 1.360 nhân sự trong quý III, nâng tổng số lao động rời công ty từ đầu năm lên gần 3.700 người.",
+          "pubdate": "Sun, 01 Nov 2026 09:30:00 +0700",
+          "url": "https://vnexpress.net/chu-dau-tu-san-bay-long-thanh-giam-gan-1-400-nhan-su-trong-ba-thang-5139256.html"
+        },
+        {
+          "title": "Tôi như 'kẻ đáng ghét' vì bóc phốt hàng xóm đổ rác bừa bãi",
+          "snippet": "Nhận chế biến hải sản cho các quán ăn, nhưng vợ chồng hàng xóm của tôi chỉ gói ghém sơ sài rồi đem ra bỏ ở thùng rác công cộng.",
+          "pubdate": "Sun, 01 Nov 2026 09:24:44 +0700",
+          "url": "https://vnexpress.net/toi-nhu-ke-dang-ghet-vi-boc-phot-hang-xom-do-rac-bua-bai-5139026.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "snippet": true,
+        "pubdate": true,
+        "url": true
+      },
+      "note": "Top Vietnamese news site, native RSS provides instant updates with ETag."
+    },
+    {
+      "id": "congthuong",
+      "name": "Công Thương (Báo Công Thương)",
+      "group": "Group 1: Broad Discovery Media",
+      "target_url": "https://congthuong.vn",
+      "effective_endpoint": "https://congthuong.vn/rss/cong-nghiep.rss",
+      "protocol_type": "RSS_FEED",
+      "category": "IMMEDIATE_RSS",
+      "http_status": 200,
+      "response_time_ms": 43.45,
+      "bytes_transferred": 23944,
+      "server": "nginx",
+      "etag": null,
+      "last_modified": null,
+      "items_extracted_count": 5,
+      "sample_entries": [
+        {
+          "title": "Tin công nghiệp quốc phòng 1/11: Iran chặn UAV trinh sát của Mỹ",
+          "snippet": "Tin công nghiệp quốc phòng 1/11: Iran chặn UAV trinh sát của Mỹ; Tên lửa AIM-120 sẽ được chế tạo tại Nhật Bản…",
+          "pubdate": "Sun, 01 Nov 2026 15:53:09 +0700",
+          "url": "https://congthuong.vn/tin-cong-nghiep-quoc-phong-1-11-iran-chan-uav-trinh-sat-cua-my-479396.html"
+        },
+        {
+          "title": "Bộ Công Thương ban hành quy định mới về quản lý cụm công nghiệp",
+          "snippet": "Bộ Công Thương ban hành Thông tư số 69/2026/TT-BCT, sửa đổi, bổ sung quy định về chế độ báo cáo, cơ sở dữ liệu và một số mẫu văn bản quản lý, phát tri",
+          "pubdate": "Sat, 31 Oct 2026 16:54:00 +0700",
+          "url": "https://congthuong.vn/bo-cong-thuong-ban-hanh-quy-dinh-moi-ve-quan-ly-cum-cong-nghiep-479342.html"
+        },
+        {
+          "title": "Tin công nghiệp quốc phòng 31/10: Su-57 vượt F-35, F-22 trong chiến đấu",
+          "snippet": "Tin công nghiệp quốc phòng 31/10: Su-57 vượt qua F-35 và F-22 trong chiến đấu; Đức và Hà Lan mua thêm xe chiến đấu bộ binh Schakal.",
+          "pubdate": "Sat, 31 Oct 2026 16:34:01 +0700",
+          "url": "https://congthuong.vn/tin-cong-nghiep-quoc-phong-31-10-su-57-vuot-f-35-f-22-trong-chien-dau-479326.html"
+        },
+        {
+          "title": "Ông Steve Bùi: Chuyển tư duy bán trà sang phát triển kinh tế trà",
+          "snippet": "Sáng 31/10, tại Trung tâm Văn hóa trà ESG Valley (Thái Nguyên) đã diễn ra Diễn đàn Kinh tế Trà quốc tế 2026 với chủ đề “Từ di sản trà đến kinh tế trà ",
+          "pubdate": "Sat, 31 Oct 2026 10:40:00 +0700",
+          "url": "https://congthuong.vn/ong-steve-bui-chuyen-tu-duy-ban-tra-sang-phat-trien-kinh-te-tra-479293.html"
+        },
+        {
+          "title": "Kiểm tra tình hình thực hiện các đề án khuyến công tại tỉnh Cà Mau",
+          "snippet": "Đoàn công tác của Cục Công nghiệp (Bộ Công Thương) kiểm tra thực tế tại 2 doanh nghiệp chế biến thủy sản ở Cà Mau, ghi nhận hiệu quả từ nguồn kinh phí",
+          "pubdate": "Fri, 30 Oct 2026 17:05:59 +0700",
+          "url": "https://congthuong.vn/kiem-tra-tinh-hinh-thuc-hien-cac-de-an-khuyen-cong-tai-tinh-ca-mau-479217.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "snippet": true,
+        "pubdate": true,
+        "url": true
+      },
+      "note": "Native RSS feed is available under category endpoints (cong-nghiep.rss, thoi-su.rss)."
+    },
+    {
+      "id": "vietstock",
+      "name": "Vietstock",
+      "group": "Group 1: Broad Discovery Media",
+      "target_url": "https://vietstock.vn",
+      "effective_endpoint": "https://vietstock.vn/737/doanh-nghiep/hoat-dong-kinh-doanh.rss",
+      "protocol_type": "RSS_FEED",
+      "category": "IMMEDIATE_RSS",
+      "http_status": 200,
+      "response_time_ms": 107.32,
+      "bytes_transferred": 18524,
+      "server": "nginx",
+      "etag": null,
+      "last_modified": null,
+      "items_extracted_count": 5,
+      "sample_entries": [
+        {
+          "title": "Tồn kho nhà phân phối xe MG tăng mạnh giữa lúc doanh thu lao dốc",
+          "snippet": "Cuối quý 3, hàng tồn kho PTM lên 437 tỷ đồng, gần gấp ba cuối quý trước; doanh thu trong quý lại giảm gần 40% so với cùng kỳ. Công nợ với SAIC Motor c",
+          "pubdate": "Sun, 01 Nov 2026 10:02:00 +0700",
+          "url": "http://vietstock.vn/2026/11/ton-kho-nha-phan-phoi-xe-mg-tang-manh-giua-luc-doanh-thu-lao-doc-737-1509225.htm"
+        },
+        {
+          "title": "Công ty bầu Đức lãi thêm 400 tỷ trong quý 3, lũy kế tăng lợi nhuận 95%",
+          "snippet": "CTCP Hoàng Anh Gia Lai (HAGL, HOSE: HAG) ghi nhận lợi nhuận lùi nhẹ trong quý 3, nhưng lãi lũy kế vẫn gần gấp đôi cùng kỳ nhờ 2 quý đầu năm lãi hàng n",
+          "pubdate": "Sat, 31 Oct 2026 20:57:28 +0700",
+          "url": "http://vietstock.vn/2026/10/cong-ty-bau-duc-lai-them-400-ty-trong-quy-3-luy-ke-tang-loi-nhuan-95-737-1509842.htm"
+        },
+        {
+          "title": "Doanh thu CC1 tăng trưởng tích cực sau 9 tháng",
+          "snippet": "Trong bối cảnh giải ngân đầu tư công được đẩy mạnh, CC1 vừa công bố BCTC hợp nhất quý 3/2026 với doanh thu, tổng tài sản tăng mạnh và dòng tiền kinh d",
+          "pubdate": "Sat, 31 Oct 2026 17:32:00 +0700",
+          "url": "http://vietstock.vn/2026/10/doanh-thu-cc1tang-truong-tich-cuc-sau-9-thang-737-1509835.htm"
+        },
+        {
+          "title": "Lợi nhuận DXG giảm 84%, khách hàng trả trước tiền mua căn hộ hơn 9 ngàn tỷ",
+          "snippet": "Sự chững lại của thị trường bất động sản đang tác động đồng thời đến hai mảng kinh doanh chính của CTCP Bluemarq Group (HOSE: DXG), từ chuyển nhượng s",
+          "pubdate": "Sat, 31 Oct 2026 17:23:05 +0700",
+          "url": "http://vietstock.vn/2026/10/loi-nhuan-dxg-giam-84-khach-hang-tra-truoc-tien-mua-can-ho-hon-9-ngan-ty-737-1509830.htm"
+        },
+        {
+          "title": "Bất động sản và khu công nghiệp dẫn đầu lợi nhuận gộp Hạ tầng GELEX",
+          "snippet": "Sau 9 tháng, Hạ tầng GELEX đã vượt 52% kế hoạch lợi nhuận năm 2026, nhờ tăng trưởng bất động sản, khu công nghiệp và cải thiện hiệu quả sản xuất vật l",
+          "pubdate": "Sat, 31 Oct 2026 14:02:00 +0700",
+          "url": "http://vietstock.vn/2026/10/bat-dong-san-va-khu-cong-nghiep-dan-dau-loi-nhuan-gop-ha-tang-gelex-737-1509785.htm"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "snippet": true,
+        "pubdate": true,
+        "url": true
+      },
+      "note": "Vietstock maintains 48 category RSS feeds. The enterprise business activity feed works flawlessly."
+    },
+    {
+      "id": "nikkei_asia",
+      "name": "Nikkei Asia",
+      "group": "Group 1: Broad Discovery Media",
+      "target_url": "https://asia.nikkei.com",
+      "effective_endpoint": "https://asia.nikkei.com/rss/feed/nar",
+      "protocol_type": "RSS_FEED",
+      "category": "IMMEDIATE_RSS",
+      "http_status": 200,
+      "response_time_ms": 911.44,
+      "bytes_transferred": 25428,
+      "server": "nginx/1.30.6",
+      "etag": null,
+      "last_modified": null,
+      "items_extracted_count": 5,
+      "sample_entries": [
+        {
+          "title": "AI dubbing to help Japanese companies expand global outreach",
+          "snippet": "",
+          "pubdate": "",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/ai-dubbing-to-help-japanese-companies-expand-global-outreach"
+        },
+        {
+          "title": "Indonesia GDP, US midterm elections, Hong Kong financial summit",
+          "snippet": "",
+          "pubdate": "",
+          "url": "https://asia.nikkei.com/spotlight/your-week-in-asia/indonesia-gdp-us-midterm-elections-hong-kong-financial-summit"
+        },
+        {
+          "title": "Pakistan refineries report 1,860% jump in profit amid war windfall",
+          "snippet": "",
+          "pubdate": "",
+          "url": "https://asia.nikkei.com/business/energy/pakistan-refineries-report-1-860-jump-in-profit-amid-war-windfall2"
+        },
+        {
+          "title": "After US midterms, democracy will face test of ability to self-correct",
+          "snippet": "",
+          "pubdate": "",
+          "url": "https://asia.nikkei.com/spotlight/comment/after-us-midterms-democracy-will-face-test-of-ability-to-self-correct"
+        },
+        {
+          "title": "Thai reformists became too technocratic, party ex-leader Pita says",
+          "snippet": "",
+          "pubdate": "",
+          "url": "https://asia.nikkei.com/politics/thai-reformists-became-too-technocratic-party-ex-leader-pita-says"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "snippet": true,
+        "pubdate": true,
+        "url": true
+      },
+      "note": "Native RSS feed is active and returns 50 regional articles."
+    },
+    {
+      "id": "theinvestor",
+      "name": "The Investor (theinvestor.vn)",
+      "group": "Group 1: Broad Discovery Media",
+      "target_url": "https://theinvestor.vn",
+      "effective_endpoint": "https://theinvestor.vn/sitemap.xml",
+      "protocol_type": "SITEMAP_XML",
+      "category": "LIGHT_HTML_SCRIPT",
+      "http_status": 200,
+      "response_time_ms": 17371.87,
+      "bytes_transferred": 397937,
+      "server": "cloudflare",
+      "etag": null,
+      "last_modified": "Sun, 01 Nov 2026 14:41:05 GMT",
+      "items_extracted_count": 5,
+      "sample_entries": [
+        {
+          "title": "Vietnam Insurance Association Promotes Motor Insurance ata Sharing Through No Claim iscount System 20346",
+          "snippet": "Extracted from Google News sitemap entry with lastmod 2026-11-01T20:31:00+07:00",
+          "pubdate": "2026-11-01T20:31:00+07:00",
+          "url": "https://theinvestor.vn/vietnam-insurance-association-promotes-motor-insurance-data-sharing-through-no-claim-discount-system-d20346.html"
+        },
+        {
+          "title": "Building Sustainable Wealth Takes More Than An Accurate Forecast 20347",
+          "snippet": "Extracted from Google News sitemap entry with lastmod 2026-11-01T11:01:00+07:00",
+          "pubdate": "2026-11-01T11:01:00+07:00",
+          "url": "https://theinvestor.vn/building-sustainable-wealth-takes-more-than-an-accurate-forecast-d20347.html"
+        },
+        {
+          "title": "Duc Giang Chemicals Maintains Export Momentum As Profits Begin To Recover 20343",
+          "snippet": "Extracted from Google News sitemap entry with lastmod 2026-11-01T10:33:00+07:00",
+          "pubdate": "2026-11-01T10:33:00+07:00",
+          "url": "https://theinvestor.vn/duc-giang-chemicals-maintains-export-momentum-as-profits-begin-to-recover-d20343.html"
+        },
+        {
+          "title": "Vietnams Resort Property Market Poised For A New Growth Phase 20345",
+          "snippet": "Extracted from Google News sitemap entry with lastmod 2026-11-01T08:00:00+07:00",
+          "pubdate": "2026-11-01T08:00:00+07:00",
+          "url": "https://theinvestor.vn/vietnams-resort-property-market-poised-for-a-new-growth-phase-d20345.html"
+        },
+        {
+          "title": "Vietnams Leading Jewelry Maker Pnj Closes Stores Cuts More Than Jobs In A Single Quarter 20342",
+          "snippet": "Extracted from Google News sitemap entry with lastmod 2026-10-31T22:38:00+07:00",
+          "pubdate": "2026-10-31T22:38:00+07:00",
+          "url": "https://theinvestor.vn/vietnams-leading-jewelry-maker-pnj-closes-28-stores-cuts-more-than-1000-jobs-in-a-single-quarter-d20342.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "snippet": false,
+        "pubdate": true,
+        "url": true
+      },
+      "note": "RSS endpoints return 404; however sitemap.xml provides real-time URL and ISO timestamps for 1000 items. Direct category HTML scraping on /investing/ also yields titles."
+    },
+    {
+      "id": "vneconomy",
+      "name": "VnEconomy",
+      "group": "Group 1: Broad Discovery Media",
+      "target_url": "https://vneconomy.vn",
+      "effective_endpoint": "https://vneconomy.vn/kinh-te.htm",
+      "protocol_type": "HTML_LIST",
+      "category": "LIGHT_HTML_SCRIPT",
+      "http_status": 200,
+      "response_time_ms": 128.89,
+      "bytes_transferred": 168850,
+      "server": "Microsoft-IIS/10.0",
+      "etag": null,
+      "last_modified": null,
+      "items_extracted_count": 5,
+      "sample_entries": [
+        {
+          "title": "Cần Thơ: Thu hút hơn 41.400 tỷ đồng vốn đầu tư trong nước sau 8 tháng",
+          "snippet": "8 tháng năm 2026, kinh tế thành phố Cần Thơ ghi nhận nhiều chỉ số tăng trưởng tích cực, trong đó sản xuất công nghiệp tăng 9,8%, thu hút mới 26 dự án ",
+          "pubdate": "Thứ Tư, 09-09-2026",
+          "url": "https://vneconomy.vn/can-tho-thu-hut-hon-41400-ty-dong-von-dau-tu-trong-nuoc-sau-8-thang.htm"
+        },
+        {
+          "title": "Nguồn lực của doanh nghiệp bị bào mòn, khả năng gánh rủi ro dài ngày bị hạn chế",
+          "snippet": "Số lượng doanh nghiệp đăng ký thành lập mới giảm nhiều so với cùng kỳ năm 2025. Theo chuyên gia, điều này phản ánh xu thế chung về sức chống chịu của ",
+          "pubdate": "Thứ Bảy, 05-09-2026",
+          "url": "https://vneconomy.vn/nguon-luc-cua-doanh-nghiep-bi-bao-mon-kha-nang-ganh-rui-ro-dai-ngay-bi-han-che.htm"
+        },
+        {
+          "title": "Tâm điểm kinh tế tuần: Biến năng lượng thành tăng trưởng kinh tế",
+          "snippet": "Lợi thế năng lượng trong thế kỷ XXI không chỉ đến từ việc sở hữu tài nguyên, mà từ khả năng biến chính sách thành dự án, biến dự án thành năng lượng v",
+          "pubdate": "Thứ Hai, 17-08-2026",
+          "url": "https://vneconomy.vn/tam-diem-kinh-te-tuan-bien-nang-luong-thanh-tang-truong-kinh-te.htm"
+        },
+        {
+          "title": "Nghiên cứu mới: Các nền kinh tế vẫn có thể thịnh vượng khi dân số già hơn và ít hơn",
+          "snippet": "Một nghiên cứu mới cho thấy dân số già đi và thu hẹp không nhất thiết kéo lùi kinh tế. Trái lại, xu hướng này có thể thúc đẩy doanh nghiệp ứng dụng cô",
+          "pubdate": "Thứ Ba, 07-07-2026",
+          "url": "https://vneconomy.vn/nghien-cuu-moi-cac-nen-kinh-te-van-co-the-thinh-vuong-khi-dan-so-gia-hon-va-it-hon.htm"
+        },
+        {
+          "title": "GRDP Đồng Nai ước tăng 9,81% trong 6 tháng đầu năm 2026",
+          "snippet": "Trong 6 tháng đầu năm 2026, GRDP của Đồng Nai ước tăng 9,81% so với cùng kỳ. Công nghiệp tiếp tục là động lực chính, trong khi thu hút đầu tư và thu n",
+          "pubdate": "Thứ Sáu, 03-07-2026",
+          "url": "https://vneconomy.vn/grdp-dong-nai-uoc-tang-981-trong-6-thang-dau-nam-2026.htm"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "snippet": true,
+        "pubdate": true,
+        "url": true
+      },
+      "note": "Native RSS returns empty placeholder ('No Content'). Lightweight 15-line BeautifulSoup script cleanly extracts all 4 fields from /kinh-te.htm."
+    },
+    {
+      "id": "baodautu",
+      "name": "Báo Đầu tư (baodautu.vn)",
+      "group": "Group 1: Broad Discovery Media",
+      "target_url": "https://baodautu.vn",
+      "effective_endpoint": "https://baodautu.vn/dau-tu-d7/",
+      "protocol_type": "HTML_LIST",
+      "category": "LIGHT_HTML_SCRIPT",
+      "http_status": 200,
+      "response_time_ms": 6503.64,
+      "bytes_transferred": 51336,
+      "server": "cloudflare",
+      "etag": null,
+      "last_modified": null,
+      "items_extracted_count": 5,
+      "sample_entries": [
+        {
+          "title": "“Thành phố Vàng” Celesta Gold chính thức ra mắt tại Nam Sài Gòn",
+          "snippet": "Keppel, Phú Long và Nomura Real Estate Vietnam chính thức ra mắt Celesta Gold, dự án căn hộ cao cấp thuộc khu đô thị Celesta tại trung tâm Nam Sài Gòn",
+          "pubdate": "Omitted in list view (visible inside article)",
+          "url": "https://baodautu.vn/thanh-pho-vang-celesta-gold-chinh-thuc-ra-mat-tai-nam-sai-gon-d735214.html"
+        },
+        {
+          "title": "Động thổ xây dựng cầu Bà Dạt 2 tại Palm City, tăng kết nối khu Nam Rạch Chiếc",
+          "snippet": "Động thổ xây dựng cầu Bà Dạt 2 tại Palm City, tăng kết nối khu Nam Rạch ChiếcThị trường địa ốcCầu Bà Dạt 2 có tổng vốn đầu tư 124 tỷ đồng, được triển ",
+          "pubdate": "Omitted in list view (visible inside article)",
+          "url": "https://baodautu.vn/dong-tho-xay-dung-cau-ba-dat-2-tai-palm-city-tang-ket-noi-khu-nam-rach-chiec-d734423.html"
+        },
+        {
+          "title": "Ra mắt nhà mẫu ANmaison: Trải nghiệm chất sống nghỉ dưỡng giữa lòng phố Cảng",
+          "snippet": "",
+          "pubdate": "Omitted in list view (visible inside article)",
+          "url": "https://baodautu.vn/ra-mat-nha-mau-anmaison-trai-nghiem-chat-song-nghi-duong-giua-long-pho-cang-d734405.html"
+        },
+        {
+          "title": "Vinhomes Green Paradise chính thức bước vào vòng bình chọn toàn cầu “7 Kỳ quan Đô thị Tương lai”",
+          "snippet": "",
+          "pubdate": "Omitted in list view (visible inside article)",
+          "url": "https://baodautu.vn/vinhomes-green-paradise-chinh-thuc-buoc-vao-vong-binh-chon-toan-cau-7-ky-quan-do-thi-tuong-lai-d734309.html"
+        },
+        {
+          "title": "Chủ động tài chính sở hữu nhà bên vịnh di sản, dành sẵn không gian cho ngày con khôn lớn",
+          "snippet": "",
+          "pubdate": "Omitted in list view (visible inside article)",
+          "url": "https://baodautu.vn/chu-dong-tai-chinh-so-huu-nha-ben-vinh-di-san-danh-san-khong-gian-cho-ngay-con-khon-lon-d734158.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "snippet": true,
+        "pubdate": false,
+        "url": true
+      },
+      "note": "Native RSS returns empty channel. Category page /dau-tu-d7/ gives Title, Snippet, and URL reliably. Date is omitted in list view by CMS design."
+    },
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "group": "Group 1: Broad Discovery Media",
+      "target_url": "https://www.reuters.com",
+      "effective_endpoint": "https://www.reuters.com/world/asia-pacific/",
+      "protocol_type": "BLOCKED_WAF",
+      "category": "BLOCKED_ADJUSTMENT",
+      "http_status": 401,
+      "response_time_ms": 143.97,
+      "bytes_transferred": 771,
+      "server": "CloudFront",
+      "etag": null,
+      "last_modified": null,
+      "items_extracted_count": 0,
+      "sample_entries": [],
+      "fields_supported": {
+        "title": false,
+        "snippet": false,
+        "pubdate": false,
+        "url": false
+      },
+      "note": "Blocked by CloudFront WAF / Bot Management (HTTP 401 Unauthorized). Direct low-cost polling is not viable; recommend moving to Phase 2 or on-demand query."
+    },
+    {
+      "id": "dsdtm",
+      "name": "Tham vấn ĐTM (EIA Public Consultation)",
+      "group": "Group 2: Statutory Disclosures & Official Statistics",
+      "target_url": "https://thamvan.mae.gov.vn/Home/DSDTM",
+      "effective_endpoint": "https://thamvan.mae.gov.vn/Home/DSDTM",
+      "protocol_type": "HTML_TABLE",
+      "category": "LIGHT_HTML_SCRIPT",
+      "http_status": 200,
+      "response_time_ms": 4138.02,
+      "bytes_transferred": 29496,
+      "server": "Microsoft-IIS/10.0",
+      "etag": null,
+      "last_modified": null,
+      "items_extracted_count": 5,
+      "sample_entries": [
+        {
+          "title": "Dự án: “Nhà máy điện mặt trời Bản Chát 1”",
+          "snippet": "Chủ dự án: Công ty TNHH VinEnergo Bản Chát 1 | Địa điểm: xã Mường Than, xã Than Uyên và xã Mường Kim, tỉnh Lai Châu | Thời gian còn lại: 3 ngày",
+          "pubdate": "20-10-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6415"
+        },
+        {
+          "title": "Dự án: “Nhà máy điện mặt trời Bản Chát 2”",
+          "snippet": "Chủ dự án: Công ty TNHH VinEnergo Bản Chát 2 | Địa điểm: xã Mường Kim, xã Than Uyên, tỉnh Lai Châu | Thời gian còn lại: 3 ngày",
+          "pubdate": "20-10-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6416"
+        },
+        {
+          "title": "Dự án: \"Đầu tư nâng công suất mỏ than Đồng Rì - Tổng công ty Đông Bắc\"",
+          "snippet": "Chủ dự án: Tổng công ty Đông Bắc – Bộ Quốc Phòng | Địa điểm: xã Tây Yên Tử, tỉnh Bắc Ninh | Thời gian còn lại: Hết hạn",
+          "pubdate": "25-09-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6404"
+        },
+        {
+          "title": "Dự án: \"Điện mặt trời nổi lòng hồ thủy điện Sơn La\"",
+          "snippet": "Chủ dự án: Công ty Cổ phần năng lượng BP Sơn La | Địa điểm: Xã Mường La và xã Chiềng Lao, tỉnh Sơn La | Thời gian còn lại: Hết hạn",
+          "pubdate": "21-09-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6398"
+        },
+        {
+          "title": "Dự án: \"Khu đô thị cảng hàng không quốc tế Gia Bình 2\"",
+          "snippet": "Chủ dự án: Công ty Cổ phần phát triển hạ tầng và Bất động sản An Phú | Địa điểm: xã Gia Bình, xã Đông Cứu và xã Nhân Thắng, tỉnh Bắc Ninh | Thời gian còn lại: Hết hạn",
+          "pubdate": "11-09-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6392"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "snippet": true,
+        "pubdate": true,
+        "url": true
+      },
+      "note": "Standard HTML table with 11 rows. Clean structured columns (Project Name, Investor, Location, Start Date, Remaining Days, Detail URL)."
+    },
+    {
+      "id": "dsgiayphep",
+      "name": "Tham vấn Giấy phép Môi trường (Environmental Permit Application)",
+      "group": "Group 2: Statutory Disclosures & Official Statistics",
+      "target_url": "https://thamvan.mae.gov.vn/Home/DSGiayPhep",
+      "effective_endpoint": "https://thamvan.mae.gov.vn/Home/DSGiayPhep",
+      "protocol_type": "HTML_TABLE",
+      "category": "LIGHT_HTML_SCRIPT",
+      "http_status": 200,
+      "response_time_ms": 2976.47,
+      "bytes_transferred": 29971,
+      "server": "Microsoft-IIS/10.0",
+      "etag": null,
+      "last_modified": null,
+      "items_extracted_count": 5,
+      "sample_entries": [
+        {
+          "title": "Nhà máy sản xuất thép thành phẩm",
+          "snippet": "Chủ dự án: Công ty Cổ phần Vinausteel | Địa điểm: Lô CN2.8, Cụm công nghiệp Đặng Lễ, xã Nguyễn Trãi, tỉnh Hưng Yên | Thời gian còn lại: 12 ngày",
+          "pubdate": "29-10-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6417"
+        },
+        {
+          "title": "Dự án đầu tư xây dựng Nhà máy giấy Kraft",
+          "snippet": "Chủ dự án: Công ty Cổ phần Giấy Đồng Phát ECO | Địa điểm: Thửa CN-2.3, Lô CN-2, Cụm công nghiệp Kim Thái, xã Vụ Bản, tỉnh Ninh Bình | Thời gian còn lại: 12 ngày",
+          "pubdate": "29-10-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6418"
+        },
+        {
+          "title": "Nhà máy giấy bao gói thực phẩm, giấy in nhiệt",
+          "snippet": "Chủ dự án: Công ty TNHH Đầu tư Linh Giang | Địa điểm: Xóm Đắc Phú, xã Đồng Thịnh, tỉnh Ninh Bình | Thời gian còn lại: 11 ngày",
+          "pubdate": "28-10-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6419"
+        },
+        {
+          "title": "Nhà máy giấy Xuân Mai",
+          "snippet": "Chủ dự án: Công ty TNHH giấy Xuân Mai | Địa điểm: Lô C2, C4, C4a, C6, C6a, C6b và C10, Khu công nghiệp Hiệp Phước, xã Hiệp Phước, Tp. Hồ Chí Minh | Thời gian còn lại: 11 ngày",
+          "pubdate": "28-10-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6420"
+        },
+        {
+          "title": "Nhà máy sản xuất giấy bao bì Thuận Hưng",
+          "snippet": "Chủ dự án: Công ty Cổ phần Thương mại Giấy Thuận Hưng | Địa điểm: Lô B2, Khu công nghiệp Tiên Thanh, xã Tiên Lãng, thành phố Hải Phòng | Thời gian còn lại: 4 ngày",
+          "pubdate": "21-10-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6414"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "snippet": true,
+        "pubdate": true,
+        "url": true
+      },
+      "note": "Standard HTML table with 11 rows. Key manufacturing/industrial project permits with location, owner, and consultation period."
+    },
+    {
+      "id": "bocaodientu",
+      "name": "Bố cáo điện tử (National Enterprise Registration Gazettes)",
+      "group": "Group 2: Statutory Disclosures & Official Statistics",
+      "target_url": "https://bocaodientu.dkkd.gov.vn",
+      "effective_endpoint": "https://bocaodientu.dkkd.gov.vn/egazette/Forms/Egazette/DefaultAnnouncements.aspx",
+      "protocol_type": "HTML_TABLE",
+      "category": "LIGHT_HTML_SCRIPT",
+      "http_status": 200,
+      "response_time_ms": 1060.15,
+      "bytes_transferred": 68579,
+      "server": "nginx",
+      "etag": null,
+      "last_modified": null,
+      "items_extracted_count": 5,
+      "sample_entries": [
+        {
+          "title": "[Đăng ký mới] CÔNG TY TNHH THIẾT KẾ XÂY DỰNG MINH QUYẾT MÃ SỐ DN: 5801585342",
+          "snippet": "Địa điểm: Tỉnh Lâm Đồng | Loại: Đăng ký mới | Action: javascript:__doPostBack('ctl00$C$CtlList$ctl02$CmdView','')",
+          "pubdate": "01/11/2026 12:10:32 SA",
+          "url": "https://bocaodientu.dkkd.gov.vn/egazette/Forms/Egazette/DefaultAnnouncements.aspx"
+        },
+        {
+          "title": "[Đăng ký mới] CÔNG TY TNHH ĐỒI CHILL MÃ SỐ DN: 1702378235",
+          "snippet": "Địa điểm: Tỉnh An Giang | Loại: Đăng ký mới | Action: javascript:__doPostBack('ctl00$C$CtlList$ctl03$CmdView','')",
+          "pubdate": "01/11/2026 12:10:30 SA",
+          "url": "https://bocaodientu.dkkd.gov.vn/egazette/Forms/Egazette/DefaultAnnouncements.aspx"
+        },
+        {
+          "title": "[Đăng ký mới] CÔNG TY TNHH NGUYỄN THANH TỊNH MÃ SỐ DN: 5801585328",
+          "snippet": "Địa điểm: Tỉnh Lâm Đồng | Loại: Đăng ký mới | Action: javascript:__doPostBack('ctl00$C$CtlList$ctl04$CmdView','')",
+          "pubdate": "01/11/2026 12:10:29 SA",
+          "url": "https://bocaodientu.dkkd.gov.vn/egazette/Forms/Egazette/DefaultAnnouncements.aspx"
+        },
+        {
+          "title": "[Đăng ký mới] CÔNG TY TNHH 1 THÀNH VIÊN THE SOLANE MÃ SỐ DN: 5801585286",
+          "snippet": "Địa điểm: Tỉnh Lâm Đồng | Loại: Đăng ký mới | Action: javascript:__doPostBack('ctl00$C$CtlList$ctl05$CmdView','')",
+          "pubdate": "01/11/2026 12:10:28 SA",
+          "url": "https://bocaodientu.dkkd.gov.vn/egazette/Forms/Egazette/DefaultAnnouncements.aspx"
+        },
+        {
+          "title": "[Đăng ký mới] CÔNG TY TNHH HƯỜNG CHÍNH MÃ SỐ DN: 5801585310",
+          "snippet": "Địa điểm: Tỉnh Lâm Đồng | Loại: Đăng ký mới | Action: javascript:__doPostBack('ctl00$C$CtlList$ctl06$CmdView','')",
+          "pubdate": "01/11/2026 12:10:27 SA",
+          "url": "https://bocaodientu.dkkd.gov.vn/egazette/Forms/Egazette/DefaultAnnouncements.aspx"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "snippet": true,
+        "pubdate": true,
+        "url": true
+      },
+      "note": "Default 20 announcements table extracted without captcha. Contains enterprise name, tax code, province, and registration type."
+    },
+    {
+      "id": "fia",
+      "name": "Cục Đầu tư nước ngoài (FIA - Foreign Investment Agency)",
+      "group": "Group 2: Statutory Disclosures & Official Statistics",
+      "target_url": "https://fia.mof.gov.vn",
+      "effective_endpoint": "https://fia.mof.gov.vn",
+      "protocol_type": "HTML_LIST",
+      "category": "LIGHT_HTML_SCRIPT",
+      "http_status": 200,
+      "response_time_ms": 305.08,
+      "bytes_transferred": 176854,
+      "server": null,
+      "etag": null,
+      "last_modified": null,
+      "items_extracted_count": 5,
+      "sample_entries": [
+        {
+          "title": "Báo cáo theo tháng",
+          "snippet": "Monthly official FDI statistics and report document",
+          "pubdate": "Monthly cadence (detected from title)",
+          "url": "https://fia.mof.gov.vn/List/MenuID/2a33ab04-8fd4-4a47-b7ee-8797d92dacc7/CatID/a963873a-ec84-4cae-8b5f-d0f38c10e10c"
+        },
+        {
+          "title": "BÁO CÁO TÌNH HÌNH THU HÚT ĐẦU TƯ NƯỚC NGOÀI 7 THÁNG NĂM 2026 ...",
+          "snippet": "Monthly official FDI statistics and report document",
+          "pubdate": "Monthly cadence (detected from title)",
+          "url": "https://fia.mof.gov.vn/Detail/CatID/5102536e-ffed-4c97-83c9-24788f5e7d0c/NewsID/07543926-92de-480b-91dc-d1afe2df7822"
+        },
+        {
+          "title": "BÁO CÁO NHANH TÌNH HÌNH THU HÚT  ĐẦU TƯ NƯỚC NGOÀI TẠI VIỆT  ...",
+          "snippet": "Monthly official FDI statistics and report document",
+          "pubdate": "Monthly cadence (detected from title)",
+          "url": "https://fia.mof.gov.vn/Detail/CatID/5102536e-ffed-4c97-83c9-24788f5e7d0c/NewsID/cd350403-11b2-4f81-b68c-c33e08160d5c"
+        },
+        {
+          "title": "BÁO CÁO NHANH TÌNH HÌNH THU HÚT  ĐẦU TƯ NƯỚC NGOÀI TẠI VIỆT  ...",
+          "snippet": "Monthly official FDI statistics and report document",
+          "pubdate": "Monthly cadence (detected from title)",
+          "url": "https://fia.mof.gov.vn/Detail/CatID/5102536e-ffed-4c97-83c9-24788f5e7d0c/NewsID/5ba68746-d37f-4646-9b25-f6dc9852748d"
+        },
+        {
+          "title": "Báo cáo tình hình công khai ngân sách Quý I năm 2024",
+          "snippet": "Monthly official FDI statistics and report document",
+          "pubdate": "Monthly cadence (detected from title)",
+          "url": "https://fia.mof.gov.vn/Detail/CatID/6d662978-2830-47eb-a1b7-2d6fb1f29abf/NewsID/6c127843-3cd4-4cf0-b127-33b99808c3ed"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "snippet": true,
+        "pubdate": true,
+        "url": true
+      },
+      "note": "FIA homepage lists latest monthly FDI report links. Detail pages provide direct PDF/XLSX attachments without login."
+    },
+    {
+      "id": "nso",
+      "name": "Tổng cục Thống kê (NSO - National Statistics Office)",
+      "group": "Group 2: Statutory Disclosures & Official Statistics",
+      "target_url": "https://www.nso.gov.vn",
+      "effective_endpoint": "https://www.nso.gov.vn/feed/",
+      "protocol_type": "RSS_FEED",
+      "category": "IMMEDIATE_RSS",
+      "http_status": 200,
+      "response_time_ms": 848.59,
+      "bytes_transferred": 237721,
+      "server": null,
+      "etag": "\"bed6825c7a6e2aadd997000226d98556-gzip\"",
+      "last_modified": "Thu, 29 Oct 2026 04:10:54 GMT",
+      "items_extracted_count": 5,
+      "sample_entries": [
+        {
+          "title": "Tọa đàm: GDP và Thu nhập bình quân đầu người có phải là một",
+          "snippet": "",
+          "pubdate": "Thu, 29 Oct 2026 03:16:45 +0000",
+          "url": "https://www.nso.gov.vn/default/2026/10/toa-dam-gdp-va-thu-nhap-binh-quan-dau-nguoi-co-phai-la-mot/"
+        },
+        {
+          "title": "Cục Thống kê tổ chức tập huấn phương pháp tính toán nghèo chi tiêu sử dụng dữ liệu khảo sát mức sống giai đoạn 2010–2024",
+          "snippet": "Ngày 21/10/2026, Cục Thống kê phối hợp với Ngân hàng Thế giới (WB) tổ chức lớp tập huấn phương pháp tính toán nghèo chi tiêu sử dụng dữ liệu Khảo sát ",
+          "pubdate": "Thu, 22 Oct 2026 08:22:35 +0000",
+          "url": "https://www.nso.gov.vn/su-kien/2026/10/cuc-thong-ke-to-chuc-tap-huan-phuong-phap-tinh-toan-ngheo-chi-tieu-su-dung-du-lieu-khao-sat-muc-song-giai-doan-2010-2024/"
+        },
+        {
+          "title": "Cục Thống kê ra mắt Trang thông tin điện tử truyền thông ngành Thống kê “Thống kê Kết nối”",
+          "snippet": "Chiều ngày 20/10/2026, Cục Thống kê tổ chức Lễ ra mắt Trang thông tin điện tử truyền thông ngành Thống kê với tên nhận diện “Thống kê Kết nối”. Đây là",
+          "pubdate": "Tue, 20 Oct 2026 10:03:01 +0000",
+          "url": "https://www.nso.gov.vn/su-kien/2026/10/cuc-thong-ke-ra-mat-trang-thong-tin-dien-tu-truyen-thong-nganh-thong-ke-thong-ke-ket-noi/"
+        },
+        {
+          "title": "Xin ý kiến dự thảo Thông tư quy định chế độ báo cáo thống kê cấp tỉnh, cấp xã",
+          "snippet": "Triển khai Luật Thống kê số 89/2015/QH13 được sửa đổi, bổ sung bởi Luật số 01/2021/QH15 và Luật số 138/2025/QH15; Luật Ban hành văn bản quy phạm pháp ",
+          "pubdate": "Mon, 19 Oct 2026 02:58:26 +0000",
+          "url": "https://www.nso.gov.vn/default/2026/10/ve-viec-xin-y-kien-du-thao-thong-tu-quy-dinh-che-do-bao-cao-thong-ke-cap-tinh-cap-xa/"
+        },
+        {
+          "title": "Cục Thống kê Việt Nam và Cơ quan Thống kê Đan Mạch ký kết Bản ghi nhớ hợp tác về thống kê chính thức, dữ liệu hành chính và chuyển đổi số",
+          "snippet": "Ngày 15/10/2026, tại trụ sở Cục Thống kê, Cục Thống kê Việt Nam và Cơ quan Thống kê Đan Mạch tổ chức Lễ ký kết trực tuyến Bản ghi nhớ hợp tác trong lĩ",
+          "pubdate": "Thu, 15 Oct 2026 09:58:25 +0000",
+          "url": "https://www.nso.gov.vn/su-kien/2026/10/cuc-thong-ke-viet-nam-va-co-quan-thong-ke-dan-mach-ky-ket-ban-ghi-nho-hop-tac-ve-thong-ke-chinh-thuc-du-lieu-hanh-chinh-va-chuyen-doi-so/"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "snippet": true,
+        "pubdate": true,
+        "url": true
+      },
+      "note": "Native WordPress RSS feed active at /feed/. Provides official statistical releases, seminars, and methodology publications."
+    },
+    {
+      "id": "baochinhphu",
+      "name": "Báo Điện tử Chính phủ (baochinhphu.vn)",
+      "group": "Group 2: Statutory Disclosures & Official Statistics",
+      "target_url": "https://baochinhphu.vn",
+      "effective_endpoint": "https://baochinhphu.vn/kinh-te.rss",
+      "protocol_type": "RSS_FEED",
+      "category": "IMMEDIATE_RSS",
+      "http_status": 200,
+      "response_time_ms": 135.37,
+      "bytes_transferred": 46318,
+      "server": "Kestrel",
+      "etag": null,
+      "last_modified": null,
+      "items_extracted_count": 5,
+      "sample_entries": [
+        {
+          "title": "Giảm giá điện, giảm thuế xăng góp phần kiềm chế áp lực lạm phát cuối năm",
+          "snippet": "(Chinhphu.vn) - Đánh giá về tác động của việc giảm giá điện 2% và đưa thuế tiêu thụ đặc biệt đối với các loại xăng về mức 0% từ ngày 1/11, chuyên gia ",
+          "pubdate": "11/1/2026 12:47:00 PM",
+          "url": "https://baochinhphu.vn/giam-gia-dien-giam-thue-xang-dau-gop-phan-kiem-che-ap-luc-lam-phat-cuoi-nam-102261101123406951.htm"
+        },
+        {
+          "title": "Giá xăng giảm mạnh, xăng E5 giảm hơn 1.800 đồng/lít",
+          "snippet": "(Chinhphu.vn) - Từ 0h ngày 1/11/2026, giá xăng trong nước đồng loạt giảm mạnh sau khi Chính phủ quyết định áp dụng thuế suất thuế tiêu thụ đặc biệt 0%",
+          "pubdate": "10/31/2026 11:49:00 PM",
+          "url": "https://baochinhphu.vn/gia-xang-giam-manh-xang-e5-giam-hon-1800-dong-lit-10226103122235494.htm"
+        },
+        {
+          "title": "Từ 1/11/2026, thuế suất thuế tiêu thụ đặc biệt đối với xăng là 0%",
+          "snippet": "(Chinhphu.vn) - Thay mặt Chính phủ, Phó Thủ tướng Nguyễn Văn Thắng vừa ký Nghị quyết số 45/2026/NQ-CP ngày 31/10/2026 ban hành quy định về thuế tiêu t",
+          "pubdate": "10/31/2026 11:01:00 PM",
+          "url": "https://baochinhphu.vn/tu-ngay-1-11-2026-thue-suat-thue-tieu-thu-dac-biet-doi-voi-xang-dau-cac-loai-la-0-102261031231855982.htm"
+        },
+        {
+          "title": "VCCI vinh danh 100 doanh nghiệp tiêu biểu về văn hóa và uy tín năm 2026",
+          "snippet": "(Chinhphu.vn) - 100 doanh nghiệp thuộc nhiều ngành nghề, lĩnh vực và thành phần kinh tế vừa được Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI) v",
+          "pubdate": "10/31/2026 3:13:00 PM",
+          "url": "https://baochinhphu.vn/vcci-vinh-danh-100-doanh-nghiep-tieu-bieu-ve-van-hoa-va-uy-tin-nam-2026-102261031153502347.htm"
+        },
+        {
+          "title": "Bộ trưởng Tài chính lý giải về kiểm soát lạm phát và tiến độ giải ngân",
+          "snippet": "(Chinhphu.vn) - Tại phiên thảo luận ở hội trường Quốc hội ngày 31/10, Bộ trưởng Bộ Tài chính Ngô Văn Tuấn đã làm rõ các vấn đề về kiểm soát lạm phát, ",
+          "pubdate": "10/31/2026 1:34:00 PM",
+          "url": "https://baochinhphu.vn/bo-truong-tai-chinh-ly-giai-ve-kiem-soat-lam-phat-va-tien-do-giai-ngan-102261031132627603.htm"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "snippet": true,
+        "pubdate": true,
+        "url": true
+      },
+      "note": "Official cabinet newspaper, native RSS provides 50 articles in /kinh-te.rss and /home.rss with full timestamps."
+    }
+  ]
+}

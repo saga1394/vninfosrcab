@@ -1,0 +1,980 @@
+[
+  {
+    "project_id": "PRJ-VN-2026-ASCO-AEROSPACE",
+    "project_name": "ASCO Industries Aircraft Parts Plant",
+    "project_name_cn": "比利时 ASCO 航空航天零部件制造工厂",
+    "investor_name": "ASCO Industries (Belgium / Montana Aerospace)",
+    "parent_company": "Montana Aerospace AG (Belgium/Switzerland)",
+    "origin_country": "Belgium (比利时)",
+    "province": "Central Vietnam (Đà Nẵng / Quảng Nam)",
+    "district_commune": null,
+    "industrial_park": null,
+    "sector": "Aerospace & Precision Engineering",
+    "scale_capacity": "100 triệu USD (100 Million USD)",
+    "current_stage": "IRC_APPROVED",
+    "created_at": "2026-11-02",
+    "timeline": [
+      {
+        "event_id": "EVT-4eb21865f0",
+        "project_id": "PRJ-VN-2026-ASCO-AEROSPACE",
+        "event_date": "2026-11-02",
+        "stage": "IRC_APPROVED",
+        "stage_desc": "获批立项 (IRC Approved / License Issued)",
+        "title": "Belgium’s ASCO Industries plans $100 mln aircraft parts plant in central Vietnam",
+        "snippet": "Belgium’s ASCO Industries plans $100 mln aircraft parts plant in central VietnamIndustries- \r\n                6 day",
+        "source_id": "src-VN-FIN-06",
+        "source_name": "The Investor (越南外资英文旗舰)",
+        "raw_fingerprint": "4eb21865f0a234eb",
+        "url": "https://theinvestor.vn/belgiums-asco-industries-plans-100-mln-aircraft-parts-plant-in-central-vietnam-d20300.html"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-BW-INDUSTRIAL-VENTURE",
+    "project_name": "BW Industrial US$120 Million For-Rent Industrial & Logistics Portfolio",
+    "project_name_cn": "BW Industrial 1.2 亿美元高标物流与厂房合资资产组合",
+    "investor_name": "BW Industrial Development JSC",
+    "parent_company": "Warburg Pincus & Becamex IDC",
+    "origin_country": "Vietnam (越南本土 / 外资联合)",
+    "province": "Multi-Province (Key Economic Zones)",
+    "district_commune": null,
+    "industrial_park": "BW Industrial Network",
+    "sector": "Ready-Built Factory & Logistics Real Estate",
+    "scale_capacity": "120 triệu USD (270,000 m² GFA)",
+    "current_stage": "CONSTRUCTING",
+    "created_at": "2026-01-14",
+    "timeline": [
+      {
+        "event_id": "EVT-6740658f87",
+        "project_id": "PRJ-VN-2026-BW-INDUSTRIAL-VENTURE",
+        "event_date": "2026-01-14",
+        "stage": "CONSTRUCTING",
+        "stage_desc": "开工建设 (Groundbreaking / Under Construction)",
+        "title": "BW Industrial Announces US$120 Million Strategic Partnership with A Leading Global Institutional Investor to Develop a High-Quality For-Rent Industrial Portfolio Across Vietnam’s Key Economic Regions",
+        "snippet": "The venture is seeded with three development projects with a combined gross floor area of approximately 270,000 square meters, and features an attractive pipeline of identified opportunities This partnership underscores strong institutional investor ",
+        "source_id": "src-B06",
+        "source_name": "BW Industrial Development JSC",
+        "raw_fingerprint": "6740658f87a72bc0",
+        "url": "https://bwindustrial.com/bw-industrial-announces-us120-million-strategic-partnership-with-a-leading-global-institutional-investor-to-develop-a-high-quality/"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-CORP-002708",
+    "project_name": "光洋股份：关于越南子公司增资的公告",
+    "project_name_cn": "光洋股份：关于越南子公司增资的公告",
+    "investor_name": null,
+    "parent_company": "常州光洋轴承股份有限公司 (NRB Bearing)",
+    "origin_country": "China (中国大陆)",
+    "province": "National",
+    "district_commune": null,
+    "industrial_park": null,
+    "sector": "Cross-Border Manufacturing & Capital",
+    "scale_capacity": null,
+    "current_stage": "EXPANDING_EXIT",
+    "created_at": "2026-08-29",
+    "timeline": [
+      {
+        "event_id": "EVT-da0a0e7cf9",
+        "project_id": "PRJ-VN-2026-CORP-002708",
+        "event_date": "2026-08-29",
+        "stage": "EXPANDING_EXIT",
+        "stage_desc": "增资扩产与变更退出 (Capital Expansion / Exit / M&A)",
+        "title": "光洋股份：关于越南子公司增资的公告",
+        "snippet": "证券代码: 002708, 标题: 光洋股份：关于越南子公司增资的公告",
+        "source_id": "src-DISC-03",
+        "source_name": "深圳证券交易所 (深交所 / SZSE)",
+        "raw_fingerprint": "da0a0e7cf931730e",
+        "url": "https://www.szse.cn/disclosure/listed/bulletin/detail/index.html?a9e22b0f-c5f5-4fec-8684-f6ec7a96a314"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-CORP-00420",
+    "project_name": "[00420] 福田實業: (1)有關建議收購一家越南公司81%股權之主要交易；及(2)有關2029年金融服務協議之主要交易及持續關連交易；及(3)股東特別大會通告",
+    "project_name_cn": "福田实业建议收购越南纺织印染企业81%控股权项目",
+    "investor_name": null,
+    "parent_company": "福田实业（集团）有限公司 (Fountain Set Holdings)",
+    "origin_country": "Hong Kong / China (中国香港)",
+    "province": "National",
+    "district_commune": null,
+    "industrial_park": null,
+    "sector": "Cross-Border Manufacturing & Capital",
+    "scale_capacity": null,
+    "current_stage": "EXPANDING_EXIT",
+    "created_at": "2026-10-02",
+    "timeline": [
+      {
+        "event_id": "EVT-ef30d06e30",
+        "project_id": "PRJ-VN-2026-CORP-00420",
+        "event_date": "2026-10-02",
+        "stage": "EXPANDING_EXIT",
+        "stage_desc": "增资扩产与变更退出 (Capital Expansion / Exit / M&A)",
+        "title": "[00420] 福田實業: (1)有關建議收購一家越南公司81%股權之主要交易；及(2)有關2029年金融服務協議之主要交易及持續關連交易；及(3)股東特別大會通告",
+        "snippet": "股份代号: 00420, 上市公司: 福田實業, 公告大小: 1MB",
+        "source_id": "src-DISC-05",
+        "source_name": "港交所披露易 (HKEXnews)",
+        "raw_fingerprint": "ef30d06e3014461e",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1002/2026100201757_c.pdf"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-CORP-300563",
+    "project_name": "神宇股份：关于拟通过香港子公司向越南孙公司增资的公告",
+    "project_name_cn": "神宇股份：关于拟通过香港子公司向越南孙公司增资的公告",
+    "investor_name": null,
+    "parent_company": "神宇通信科技股份公司 (Shenyu Communication)",
+    "origin_country": "China (中国大陆)",
+    "province": "National",
+    "district_commune": null,
+    "industrial_park": null,
+    "sector": "Cross-Border Manufacturing & Capital",
+    "scale_capacity": null,
+    "current_stage": "EXPANDING_EXIT",
+    "created_at": "2026-09-22",
+    "timeline": [
+      {
+        "event_id": "EVT-fb30cb0e6a",
+        "project_id": "PRJ-VN-2026-CORP-300563",
+        "event_date": "2026-09-22",
+        "stage": "EXPANDING_EXIT",
+        "stage_desc": "增资扩产与变更退出 (Capital Expansion / Exit / M&A)",
+        "title": "神宇股份：关于拟通过香港子公司向越南孙公司增资的公告",
+        "snippet": "证券代码: 300563, 标题: 神宇股份：关于拟通过香港子公司向越南孙公司增资的公告",
+        "source_id": "src-DISC-03",
+        "source_name": "深圳证券交易所 (深交所 / SZSE)",
+        "raw_fingerprint": "fb30cb0e6a28c888",
+        "url": "https://www.szse.cn/disclosure/listed/bulletin/detail/index.html?a70a3727-9af9-4a28-80ae-f0ce77ffe6a0"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-CORP-300806",
+    "project_name": "斯迪克：关于拟向越南子公司增资暨实施公司存续分立的公告",
+    "project_name_cn": "斯迪克功能性涂层材料越南子公司增资与存续分立",
+    "investor_name": null,
+    "parent_company": "江苏斯迪克新材料科技股份有限公司 (Sidike)",
+    "origin_country": "China (中国大陆)",
+    "province": "National",
+    "district_commune": null,
+    "industrial_park": null,
+    "sector": "Cross-Border Manufacturing & Capital",
+    "scale_capacity": null,
+    "current_stage": "EXPANDING_EXIT",
+    "created_at": "2026-08-15",
+    "timeline": [
+      {
+        "event_id": "EVT-4e7cd70328",
+        "project_id": "PRJ-VN-2026-CORP-300806",
+        "event_date": "2026-08-15",
+        "stage": "EXPANDING_EXIT",
+        "stage_desc": "增资扩产与变更退出 (Capital Expansion / Exit / M&A)",
+        "title": "斯迪克：关于拟向越南子公司增资暨实施公司存续分立的公告",
+        "snippet": "证券代码: 300806, 标题: 斯迪克：关于拟向越南子公司增资暨实施公司存续分立的公告",
+        "source_id": "src-DISC-03",
+        "source_name": "深圳证券交易所 (深交所 / SZSE)",
+        "raw_fingerprint": "4e7cd70328e91148",
+        "url": "https://www.szse.cn/disclosure/listed/bulletin/detail/index.html?5e370389-f180-4a2d-9e3c-922c06f763e3"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-CORP-301389",
+    "project_name": "隆扬电子：关于拟出售控股孙公司越南德佑部分资产并注销的进展公告",
+    "project_name_cn": "隆扬电子拟出售控股孙公司越南德佑部分资产并注销",
+    "investor_name": null,
+    "parent_company": "隆扬电子（昆山）股份有限公司 (Longyoung Electronic)",
+    "origin_country": "China (中国大陆)",
+    "province": "National",
+    "district_commune": null,
+    "industrial_park": null,
+    "sector": "Cross-Border Manufacturing & Capital",
+    "scale_capacity": null,
+    "current_stage": "EXPANDING_EXIT",
+    "created_at": "2026-08-28",
+    "timeline": [
+      {
+        "event_id": "EVT-9d3d9d34e3",
+        "project_id": "PRJ-VN-2026-CORP-301389",
+        "event_date": "2026-08-28",
+        "stage": "EXPANDING_EXIT",
+        "stage_desc": "增资扩产与变更退出 (Capital Expansion / Exit / M&A)",
+        "title": "隆扬电子：关于拟出售控股孙公司越南德佑部分资产并注销的进展公告",
+        "snippet": "证券代码: 301389, 标题: 隆扬电子：关于拟出售控股孙公司越南德佑部分资产并注销的进展公告",
+        "source_id": "src-DISC-03",
+        "source_name": "深圳证券交易所 (深交所 / SZSE)",
+        "raw_fingerprint": "9d3d9d34e3a2b9a9",
+        "url": "https://www.szse.cn/disclosure/listed/bulletin/detail/index.html?97a011e1-e6b5-40b6-a68f-043608be29de"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-CORP-600973",
+    "project_name": "[600973] 宝胜股份: 宝胜科技创新股份公司拟在越南设立全资子公司新建生产基地的公告",
+    "project_name_cn": "[600973] 宝胜股份: 宝胜科技创新股份公司拟在越南设立全资子公司新建生产基地的公告",
+    "investor_name": null,
+    "parent_company": "宝胜科技创新股份有限公司 (Baosheng Science & Technology)",
+    "origin_country": "China (中国大陆)",
+    "province": "National",
+    "district_commune": null,
+    "industrial_park": null,
+    "sector": "Cross-Border Manufacturing & Capital",
+    "scale_capacity": null,
+    "current_stage": "IRC_APPROVED",
+    "created_at": "2026-10-13",
+    "timeline": [
+      {
+        "event_id": "EVT-abac5c42a0",
+        "project_id": "PRJ-VN-2026-CORP-600973",
+        "event_date": "2026-10-13",
+        "stage": "IRC_APPROVED",
+        "stage_desc": "获批立项 (IRC Approved / License Issued)",
+        "title": "[600973] 宝胜股份: 宝胜科技创新股份公司拟在越南设立全资子公司新建生产基地的公告",
+        "snippet": "证券代码: 600973, 公司名称: 宝胜股份, 公告文件大小: 227KB",
+        "source_id": "src-DISC-01",
+        "source_name": "巨潮资讯网 (CNINFO)",
+        "raw_fingerprint": "abac5c42a0ee2784",
+        "url": "http://static.cninfo.com.cn/finalpage/2026-10-13/1225601717.PDF"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-CORP-605099",
+    "project_name": "[605099] 共创草坪: 关于向越南全资子公司追加投资的公告",
+    "project_name_cn": "共创草坪越南全资生产基地追加投资项目",
+    "investor_name": null,
+    "parent_company": "江苏共创草坪股份有限公司 (Co-create Grass)",
+    "origin_country": "China (中国大陆)",
+    "province": "National",
+    "district_commune": null,
+    "industrial_park": null,
+    "sector": "Cross-Border Manufacturing & Capital",
+    "scale_capacity": null,
+    "current_stage": "EXPANDING_EXIT",
+    "created_at": "2026-10-30",
+    "timeline": [
+      {
+        "event_id": "EVT-f218cb8b1d",
+        "project_id": "PRJ-VN-2026-CORP-605099",
+        "event_date": "2026-10-30",
+        "stage": "EXPANDING_EXIT",
+        "stage_desc": "增资扩产与变更退出 (Capital Expansion / Exit / M&A)",
+        "title": "[605099] 共创草坪: 关于向越南全资子公司追加投资的公告",
+        "snippet": "证券代码: 605099, 公司名称: 共创草坪, 公告文件大小: 204KB",
+        "source_id": "src-DISC-01",
+        "source_name": "巨潮资讯网 (CNINFO)",
+        "raw_fingerprint": "f218cb8b1d19431a",
+        "url": "http://static.cninfo.com.cn/finalpage/2026-10-30/1225643068.PDF"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-CORP-920174",
+    "project_name": "[920174] 五新智能: 关于越南全资子公司取得营业执照的公告",
+    "project_name_cn": "五新智能全资子公司取得越南营业执照与生产投用",
+    "investor_name": null,
+    "parent_company": "湖南五新智能科技股份有限公司 (Wuxin Intelligent)",
+    "origin_country": "China (中国大陆)",
+    "province": "National",
+    "district_commune": null,
+    "industrial_park": null,
+    "sector": "Cross-Border Manufacturing & Capital",
+    "scale_capacity": null,
+    "current_stage": "IRC_APPROVED",
+    "created_at": "2026-10-12",
+    "timeline": [
+      {
+        "event_id": "EVT-a31f87bcac",
+        "project_id": "PRJ-VN-2026-CORP-920174",
+        "event_date": "2026-10-12",
+        "stage": "IRC_APPROVED",
+        "stage_desc": "获批立项 (IRC Approved / License Issued)",
+        "title": "[920174] 五新智能: 关于越南全资子公司取得营业执照的公告",
+        "snippet": "证券代码: 920174, 公司名称: 五新智能, 公告文件大小: 155KB",
+        "source_id": "src-DISC-01",
+        "source_name": "巨潮资讯网 (CNINFO)",
+        "raw_fingerprint": "a31f87bcac6a62bf",
+        "url": "http://static.cninfo.com.cn/finalpage/2026-10-12/1225601966.PDF"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-CORP-CHALIECO",
+    "project_name": "[601068] 中铝国际: 中铝国际工程股份有限公司关于越南项目中标的公告",
+    "project_name_cn": "中铝国际越南重大有色金属工业工程中标项目",
+    "investor_name": null,
+    "parent_company": "中铝国际工程股份有限公司 (Chalieco)",
+    "origin_country": "China (中国大陆)",
+    "province": "National",
+    "district_commune": null,
+    "industrial_park": null,
+    "sector": "Cross-Border Manufacturing & Capital",
+    "scale_capacity": null,
+    "current_stage": "EXPANDING_EXIT",
+    "created_at": "2026-10-27",
+    "timeline": [
+      {
+        "event_id": "EVT-6859aad049",
+        "project_id": "PRJ-VN-2026-CORP-CHALIECO",
+        "event_date": "2026-10-26",
+        "stage": "EXPANDING_EXIT",
+        "stage_desc": "增资扩产与变更退出 (Capital Expansion / Exit / M&A)",
+        "title": "[02068] 中鋁國際: 中鋁國際工程股份有限公司關於越南項目中標的公告",
+        "snippet": "股份代号: 02068, 上市公司: 中鋁國際, 公告大小: 212KB",
+        "source_id": "src-DISC-05",
+        "source_name": "港交所披露易 (HKEXnews)",
+        "raw_fingerprint": "6859aad0497772f3",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1026/2026102601093_c.pdf"
+      },
+      {
+        "event_id": "EVT-ac47ff1a52",
+        "project_id": "PRJ-VN-2026-CORP-CHALIECO",
+        "event_date": "2026-10-27",
+        "stage": "IRC_APPROVED",
+        "stage_desc": "获批立项 (IRC Approved / License Issued)",
+        "title": "[601068] 中铝国际: 中铝国际工程股份有限公司关于越南项目中标的公告",
+        "snippet": "证券代码: 601068, 公司名称: 中铝国际, 公告文件大小: 104KB",
+        "source_id": "src-DISC-01",
+        "source_name": "巨潮资讯网 (CNINFO)",
+        "raw_fingerprint": "ac47ff1a52eb7f8e",
+        "url": "http://static.cninfo.com.cn/finalpage/2026-10-27/1225626689.PDF"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-CORP-GOLDWIND",
+    "project_name": "[02208] 金風科技: 關於全資子公司金風國際為其全資子公司金風越南提供擔保的公告",
+    "project_name_cn": "金风科技风电制造与运维越南子公司融资担保项目",
+    "investor_name": null,
+    "parent_company": "金风科技股份有限公司 (Goldwind)",
+    "origin_country": "Hong Kong / China (中国香港)",
+    "province": "National",
+    "district_commune": null,
+    "industrial_park": null,
+    "sector": "Cross-Border Manufacturing & Capital",
+    "scale_capacity": null,
+    "current_stage": "EXPANDING_EXIT",
+    "created_at": "2026-10-16",
+    "timeline": [
+      {
+        "event_id": "EVT-b50a06293c",
+        "project_id": "PRJ-VN-2026-CORP-GOLDWIND",
+        "event_date": "2026-10-16",
+        "stage": "EXPANDING_EXIT",
+        "stage_desc": "增资扩产与变更退出 (Capital Expansion / Exit / M&A)",
+        "title": "[02208] 金風科技: 關於全資子公司金風國際為其全資子公司金風越南提供擔保的公告",
+        "snippet": "股份代号: 02208, 上市公司: 金風科技, 公告大小: 322KB",
+        "source_id": "src-DISC-05",
+        "source_name": "港交所披露易 (HKEXnews)",
+        "raw_fingerprint": "b50a06293cb4e3a6",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1016/2026101600760_c.pdf"
+      },
+      {
+        "event_id": "EVT-5d05a6dbdf",
+        "project_id": "PRJ-VN-2026-CORP-GOLDWIND",
+        "event_date": "2026-10-17",
+        "stage": "EXPANDING_EXIT",
+        "stage_desc": "增资扩产与变更退出 (Capital Expansion / Exit / M&A)",
+        "title": "[002202] 金风科技: 关于全资子公司金风国际为其全资子公司金风越南提供担保的公告",
+        "snippet": "证券代码: 002202, 公司名称: 金风科技, 公告文件大小: 113KB",
+        "source_id": "src-DISC-01",
+        "source_name": "巨潮资讯网 (CNINFO)",
+        "raw_fingerprint": "5d05a6dbdfb5935a",
+        "url": "http://static.cninfo.com.cn/finalpage/2026-10-17/1225608482.PDF"
+      },
+      {
+        "event_id": "EVT-0e7c3dde3a",
+        "project_id": "PRJ-VN-2026-CORP-GOLDWIND",
+        "event_date": "2026-10-17",
+        "stage": "EXPANDING_EXIT",
+        "stage_desc": "增资扩产与变更退出 (Capital Expansion / Exit / M&A)",
+        "title": "金风科技：关于全资子公司金风国际为其全资子公司金风越南提供担保的公告",
+        "snippet": "证券代码: 002202, 标题: 金风科技：关于全资子公司金风国际为其全资子公司金风越南提供担保的公告",
+        "source_id": "src-DISC-03",
+        "source_name": "深圳证券交易所 (深交所 / SZSE)",
+        "raw_fingerprint": "0e7c3dde3a8a0ce1",
+        "url": "https://www.szse.cn/disclosure/listed/bulletin/detail/index.html?f94e4744-c82c-430e-9c37-1c738d0eb907"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-DONG-RI-COAL-EXPANSION",
+    "project_name": "Đầu tư nâng công suất mỏ than Đồng Rì - Tổng công ty Đông Bắc",
+    "project_name_cn": "东北总公司（国防部）北江同里煤矿产能扩建工程",
+    "investor_name": "Tổng công ty Đông Bắc – Bộ Quốc Phòng",
+    "parent_company": null,
+    "origin_country": "Vietnam (越南本土 / 外资联合)",
+    "province": "Bắc Ninh",
+    "district_commune": "xã Tây Yên Tử, tỉnh Bắc Ninh",
+    "industrial_park": null,
+    "sector": "Mining & Heavy Industry",
+    "scale_capacity": null,
+    "current_stage": "EIA_CONSULTED",
+    "created_at": "2026-09-25",
+    "timeline": [
+      {
+        "event_id": "EVT-6aa4d66865",
+        "project_id": "PRJ-VN-2026-DONG-RI-COAL-EXPANSION",
+        "event_date": "2026-09-25",
+        "stage": "EIA_CONSULTED",
+        "stage_desc": "环评公示 (EIA Public Consultation)",
+        "title": "Dự án: \"Đầu tư nâng công suất mỏ than Đồng Rì - Tổng công ty Đông Bắc\"",
+        "snippet": "Địa điểm: xã Tây Yên Tử, tỉnh Bắc Ninh. Chủ dự án: Tổng công ty Đông Bắc – Bộ Quốc Phòng",
+        "source_id": "src-A09",
+        "source_name": "Tham vấn ĐTM (EIA Public Consultation)",
+        "raw_fingerprint": "6aa4d66865fb0bc8",
+        "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6404"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-GIA-BINH-2-AIRPORT-URBAN",
+    "project_name": "Khu đô thị cảng hàng không quốc tế Gia Bình 2",
+    "project_name_cn": "北宁嘉平2号国际机场临空新城城市副中心项目",
+    "investor_name": "Công ty Cổ phần phát triển hạ tầng và Bất động sản An Phú",
+    "parent_company": null,
+    "origin_country": "Vietnam (越南本土 / 外资联合)",
+    "province": "Bắc Ninh",
+    "district_commune": "xã Gia Bình, xã Đông Cứu và xã Nhân Thắng, tỉnh Bắc Ninh",
+    "industrial_park": null,
+    "sector": "Urban Infrastructure & Logistics",
+    "scale_capacity": null,
+    "current_stage": "EIA_CONSULTED",
+    "created_at": "2026-09-11",
+    "timeline": [
+      {
+        "event_id": "EVT-f4bada2c4b",
+        "project_id": "PRJ-VN-2026-GIA-BINH-2-AIRPORT-URBAN",
+        "event_date": "2026-09-11",
+        "stage": "EIA_CONSULTED",
+        "stage_desc": "环评公示 (EIA Public Consultation)",
+        "title": "Dự án: \"Khu đô thị cảng hàng không quốc tế Gia Bình 2\"",
+        "snippet": "Địa điểm: xã Gia Bình, xã Đông Cứu và xã Nhân Thắng, tỉnh Bắc Ninh. Chủ dự án: Công ty Cổ phần phát triển hạ tầng và Bất động sản An Phú",
+        "source_id": "src-A09",
+        "source_name": "Tham vấn ĐTM (EIA Public Consultation - MAE)",
+        "raw_fingerprint": "f4bada2c4bc99135",
+        "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6392"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-HATECO-HUNG-YEN",
+    "project_name": "Dự án đầu tư phát triển hạ tầng và công nghiệp của Tập đoàn Hateco tại Hưng Yên",
+    "project_name_cn": "Hateco 集团兴安省综合产业与物流基础设施投资项目",
+    "investor_name": "Công ty Cổ phần Tập đoàn Hateco (Hateco Group)",
+    "parent_company": "Hateco Group",
+    "origin_country": "Vietnam (越南)",
+    "province": "Hưng Yên",
+    "district_commune": null,
+    "industrial_park": "Địa bàn tỉnh Hưng Yên",
+    "sector": "Industrial Park & Logistics Infrastructure",
+    "scale_capacity": "Dự án phát triển công nghiệp và logistics",
+    "current_stage": "IRC_APPROVED",
+    "created_at": "2026-11-02",
+    "timeline": [
+      {
+        "event_id": "EVT-4ea9f8bbc5",
+        "project_id": "PRJ-VN-2026-HATECO-HUNG-YEN",
+        "event_date": "2026-11-02",
+        "stage": "IRC_APPROVED",
+        "stage_desc": "获批立项 (IRC Approved / License Issued)",
+        "title": "Đồng chí Nguyễn Mạnh Quyền, Phó Bí thư Tỉnh ủy, Chủ tịch UBND tỉnh làm việc với Tập đoàn Hateco Chiều ngày 30/10, tại trụ sở HĐND-UBND tỉnh, đồng chí Nguyễn Mạnh Quyền, Phó Bí thư Tỉnh ủy, Chủ tịch UBND tỉnh chủ trì buổi làm việc với Công ty Cổ phần Tập đoàn Hateco […]",
+        "snippet": "Đồng chí Nguyễn Mạnh Quyền, Phó Bí thư Tỉnh ủy, Chủ tịch UBND tỉnh làm việc với Tập đoàn Hateco Chiều ngày 30/10, tại trụ sở HĐND-UBND tỉnh, đồng chí Nguyễn Mạnh Quyền, Phó Bí thư Tỉnh ủy, Chủ tịch UBND tỉnh chủ trì buổi làm việc với Công ty Cổ phần ",
+        "source_id": "VN-LOC-05-HY-A",
+        "source_name": "Cổng thông tin điện tử tỉnh Hưng Yên",
+        "raw_fingerprint": "4ea9f8bbc5c9a99c",
+        "url": "https://hungyen.gov.vn/dong-chi-nguyen-manh-quyen-pho-bi-thu-tinh-uy-chu-tich-ubnd-tinh-lam-viec-voi-tap-doan-hateco-c287770.html"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-LG-INNOTEK",
+    "project_name": "Nhà máy sản xuất chất nền bán dẫn LG Innotek Hải Phòng",
+    "project_name_cn": "LG Innotek 海防半导体载板与电子模组超级工厂",
+    "investor_name": "LG Innotek Vietnam Co., Ltd",
+    "parent_company": "LG Group (Korea)",
+    "origin_country": "South Korea (韩国)",
+    "province": "Hải Phòng",
+    "district_commune": null,
+    "industrial_park": "KCN DEEP C Hải Phòng 2",
+    "sector": "Semiconductor & Advanced Electronics",
+    "scale_capacity": "1 tỷ USD (1 Billion USD)",
+    "current_stage": "IRC_APPROVED",
+    "created_at": "2026-07-08",
+    "timeline": [
+      {
+        "event_id": "EVT-d5cd16d9dd",
+        "project_id": "PRJ-VN-2026-LG-INNOTEK",
+        "event_date": "2026-07-08",
+        "stage": "IRC_APPROVED",
+        "stage_desc": "获批立项 (IRC Approved / License Issued)",
+        "title": "Tin tức 8 Tháng 7 2026 LG Innotek đầu tư 1 tỷ USD xây dựng nhà máy sản xuất chất nền bán dẫn tại DEEP C Hải Phòng 2",
+        "snippet": "Tin tức 8 Tháng 7 2026 LG Innotek đầu tư 1 tỷ USD xây dựng nhà máy sản xuất chất nền bán dẫn tại DEEP C Hải Phòng 2",
+        "source_id": "src-B04",
+        "source_name": "DEEP C Industrial Zones",
+        "raw_fingerprint": "d5cd16d9dd8b6728",
+        "url": "https://deepc.vn/vi/blog/lg-innotek-invests-us1-billion-in-new-semiconductor-manufacturing-base-in-deep-c-hai-phong-2/"
+      },
+      {
+        "event_id": "EVT-d98e412423",
+        "project_id": "PRJ-VN-2026-LG-INNOTEK",
+        "event_date": "2026-07-31",
+        "stage": "IRC_APPROVED",
+        "stage_desc": "获批立项 (IRC Approved / License Issued)",
+        "title": "Tin tức 31 Tháng 7 2026 Dự án bán dẫn trị giá 1 tỷ đô la của LG Innotek chính thức nhận được giấy chứng nhận đăng ký đầu tư",
+        "snippet": "Tin tức 31 Tháng 7 2026 Dự án bán dẫn trị giá 1 tỷ đô la của LG Innotek chính thức nhận được giấy chứng nhận đăng ký đầu tư",
+        "source_id": "src-B04",
+        "source_name": "DEEP C Industrial Zones",
+        "raw_fingerprint": "d98e412423fa653c",
+        "url": "https://deepc.vn/vi/blog/du-an-ban-dan-tri-gia-1-ty-do-la-cua-lg-innotek-chinh-thuc-nhan-duoc-giay-chung-nhan-dang-ky-dau-tu/"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-MISC-0001",
+    "project_name": "Nhà máy giấy bao gói thực phẩm, giấy in nhiệt",
+    "project_name_cn": "Nhà máy giấy bao gói thực phẩm, giấy in nhiệt",
+    "investor_name": "Công ty TNHH Đầu tư Linh Giang",
+    "parent_company": null,
+    "origin_country": "Vietnam (越南本土 / 外资联合)",
+    "province": "Ninh Bình",
+    "district_commune": "Xóm Đắc Phú, xã Đồng Thịnh, tỉnh Ninh Bình",
+    "industrial_park": null,
+    "sector": "Light Industry (Paper & Packaging Manufacturing)",
+    "scale_capacity": null,
+    "current_stage": "PERMIT_APPLIED",
+    "created_at": "2026-10-28",
+    "timeline": [
+      {
+        "event_id": "EVT-ef9e1d27cf",
+        "project_id": "PRJ-VN-2026-MISC-0001",
+        "event_date": "2026-10-28",
+        "stage": "PERMIT_APPLIED",
+        "stage_desc": "排污许可 (Discharge Permit Applied / Public Notice)",
+        "title": "Nhà máy giấy bao gói thực phẩm, giấy in nhiệt",
+        "snippet": "Địa điểm: Xóm Đắc Phú, xã Đồng Thịnh, tỉnh Ninh Bình. Chủ dự án: Công ty TNHH Đầu tư Linh Giang",
+        "source_id": "src-A10",
+        "source_name": "Tham vấn Giấy phép môi trường (Discharge Permits - MAE)",
+        "raw_fingerprint": "ef9e1d27cf7722ed",
+        "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6419"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-MISC-0002",
+    "project_name": "Dự án đầu tư xây dựng Nhà máy giấy Kraft",
+    "project_name_cn": "Dự án đầu tư xây dựng Nhà máy giấy Kraft",
+    "investor_name": "Công ty Cổ phần Giấy Đồng Phát ECO",
+    "parent_company": null,
+    "origin_country": "Vietnam (越南本土 / 外资联合)",
+    "province": "Ninh Bình",
+    "district_commune": "Thửa CN-2.3, Lô CN-2, Cụm công nghiệp Kim Thái, xã Vụ Bản, tỉnh Ninh Bình",
+    "industrial_park": "Cụm công nghiệp Kim Thái",
+    "sector": "Light Industry (Paper & Packaging Manufacturing)",
+    "scale_capacity": null,
+    "current_stage": "PERMIT_APPLIED",
+    "created_at": "2026-10-29",
+    "timeline": [
+      {
+        "event_id": "EVT-1598983287",
+        "project_id": "PRJ-VN-2026-MISC-0002",
+        "event_date": "2026-10-29",
+        "stage": "PERMIT_APPLIED",
+        "stage_desc": "排污许可 (Discharge Permit Applied / Public Notice)",
+        "title": "Dự án đầu tư xây dựng Nhà máy giấy Kraft",
+        "snippet": "Địa điểm: Thửa CN-2.3, Lô CN-2, Cụm công nghiệp Kim Thái, xã Vụ Bản, tỉnh Ninh Bình. Chủ dự án: Công ty Cổ phần Giấy Đồng Phát ECO",
+        "source_id": "src-A10",
+        "source_name": "Tham vấn Giấy phép môi trường (Discharge Permits - MAE)",
+        "raw_fingerprint": "15989832879a440d",
+        "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6418"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-NGHE-AN-WTE-WATER",
+    "project_name": "Trạm bơm và tuyến ống cấp nước thô phục vụ Nhà máy điện rác Nghệ An",
+    "project_name_cn": "义安垃圾焚烧发电厂取水泵站及原水输配管线工程",
+    "investor_name": "Chủ đầu tư Nhà máy điện rác Nghệ An",
+    "parent_company": null,
+    "origin_country": "Vietnam (越南本土 / 外资联合)",
+    "province": "Nghệ An",
+    "district_commune": null,
+    "industrial_park": "KKT Đông Nam Nghệ An",
+    "sector": "Environmental Infrastructure (Waste-to-Energy)",
+    "scale_capacity": "Công trình hạ tầng cấp nước công nghiệp",
+    "current_stage": "PERMIT_APPLIED",
+    "created_at": "2026-11-02",
+    "timeline": [
+      {
+        "event_id": "EVT-28b07229d5",
+        "project_id": "PRJ-VN-2026-NGHE-AN-WTE-WATER",
+        "event_date": "2026-11-02",
+        "stage": "PERMIT_APPLIED",
+        "stage_desc": "排污许可 (Discharge Permit Applied / Public Notice)",
+        "title": "Thông báo tiếp nhận Hồ sơ dự án Trạm bơm và tuyến ống cấp nước thô phục vụ Nhà máy điện rác Nghệ An",
+        "snippet": "Thông báo tiếp nhận Hồ sơ dự án Trạm bơm và tuyến ống cấp nước thô phục vụ Nhà máy điện rác Nghệ An",
+        "source_id": "VN-LOC-12-NA-B",
+        "source_name": "Ban Quản lý Khu kinh tế Đông Nam Nghệ An",
+        "raw_fingerprint": "28b07229d5d52e49",
+        "url": "https://dongnam.nghean.gov.vn/thong-tin-du-an-hang-muc-dau-tu/thong-bao-tiep-nhan-ho-so-du-an-tram-bom-va-tuyen-ong-cap-nuoc-tho-phuc-vu-nha-may-dien-rac-nghe-an-tai-xa-hai-loc-tinh-nghe-an-1068352"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-OJI-LIQUID-PAK",
+    "project_name": "Oji Liquid Pak Aseptic Carton Packaging Plant",
+    "project_name_cn": "王子控股无菌液体纸包装制造基地",
+    "investor_name": "Oji Liquid Pak Co., Ltd",
+    "parent_company": "Oji Holdings Corporation (Japan)",
+    "origin_country": "Japan (日本)",
+    "province": "Đồng Nai",
+    "district_commune": null,
+    "industrial_park": "Amata City Long Thành Industrial Park",
+    "sector": "Advanced Packaging Manufacturing",
+    "scale_capacity": "110 triệu USD (110 Million USD)",
+    "current_stage": "CONSTRUCTING",
+    "created_at": "2026-10-13",
+    "timeline": [
+      {
+        "event_id": "EVT-d06f8fc30c",
+        "project_id": "PRJ-VN-2026-OJI-LIQUID-PAK",
+        "event_date": "2026-10-13",
+        "stage": "CONSTRUCTING",
+        "stage_desc": "开工建设 (Groundbreaking / Under Construction)",
+        "title": "OJI LIQUID PAK INVESTS USD 110 MILLION IN AMATA CITY LONG THANH, EXPANDING VIETNAM’S PACKAGING MANUFACTURING CAPACITY",
+        "snippet": "Oji Liquid Pak’s USD 110 million aseptic carton packaging plant marks a new milestone in the development of Amata City Long Thanh, while adding manufacturing capacity to serve the beverage and liquid food industries and regional supply chains. On Oct",
+        "source_id": "src-B02",
+        "source_name": "Amata Vietnam",
+        "raw_fingerprint": "d06f8fc30c6620d3",
+        "url": "https://amatavn.com/news-event/oji-liquid-pak-invests-usd-110-million-in-amata-city-long-thanh-expanding-vietnams-packaging-manufacturing-capacity/?utm_source=rss&utm_medium=rss&utm_campaign=oji-liquid-pak-invests-usd-110-million-in-amata-city-long-thanh-expanding-vietnams-packaging-manufacturing-capacity"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-SEMBCORP-RENEWABLE",
+    "project_name": "Dự án xuất khẩu điện gió ngoài khơi Việt Nam - Singapore (1.3 GW)",
+    "project_name_cn": "胜科 1.3 GW 越星跨境可再生能源电力外送项目",
+    "investor_name": "Sembcorp Utilities & PTSC Consortium",
+    "parent_company": "Sembcorp Industries (Singapore)",
+    "origin_country": "Vietnam (越南本土 / 外资联合)",
+    "province": "Bà Rịa - Vũng Tàu / Off-shore",
+    "district_commune": null,
+    "industrial_park": null,
+    "sector": "Offshore Wind & Cross-Border Power Transmission",
+    "scale_capacity": "1.3 GW Công suất truyền tải",
+    "current_stage": "IRC_APPROVED",
+    "created_at": "2026-11-02",
+    "timeline": [
+      {
+        "event_id": "EVT-dbde805dcc",
+        "project_id": "PRJ-VN-2026-SEMBCORP-RENEWABLE",
+        "event_date": "2026-11-02",
+        "stage": "IRC_APPROVED",
+        "stage_desc": "获批立项 (IRC Approved / License Issued)",
+        "title": "Sembcorp wins conditional approval to import 1.3 GW of renewable power from Vietnam, Malaysia",
+        "snippet": "Sembcorp wins conditional approval to import 1.3 GW of renewable power from Vietnam, MalaysiaEnergy- \r\n                6 day",
+        "source_id": "src-VN-FIN-06",
+        "source_name": "The Investor (越南外资英文旗舰)",
+        "raw_fingerprint": "dbde805dccbce75f",
+        "url": "https://theinvestor.vn/sembcorp-wins-conditional-approval-to-import-13-gw-of-renewable-power-from-vietnam-malaysia-d20302.html"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-SON-LA-FLOATING-SOLAR",
+    "project_name": "Điện mặt trời nổi lòng hồ thủy điện Sơn La",
+    "project_name_cn": "BP山罗能源山罗水库水上光伏电站项目",
+    "investor_name": "Công ty Cổ phần năng lượng BP Sơn La",
+    "parent_company": null,
+    "origin_country": "Vietnam (越南本土 / 外资联合)",
+    "province": "Sơn La",
+    "district_commune": "Xã Mường La và xã Chiềng Lao, tỉnh Sơn La",
+    "industrial_park": null,
+    "sector": "Renewable Energy (Solar)",
+    "scale_capacity": null,
+    "current_stage": "EIA_CONSULTED",
+    "created_at": "2026-09-21",
+    "timeline": [
+      {
+        "event_id": "EVT-952d642b4a",
+        "project_id": "PRJ-VN-2026-SON-LA-FLOATING-SOLAR",
+        "event_date": "2026-09-21",
+        "stage": "EIA_CONSULTED",
+        "stage_desc": "环评公示 (EIA Public Consultation)",
+        "title": "Dự án: \"Điện mặt trời nổi lòng hồ thủy điện Sơn La\"",
+        "snippet": "Địa điểm: Xã Mường La và xã Chiềng Lao, tỉnh Sơn La. Chủ dự án: Công ty Cổ phần năng lượng BP Sơn La",
+        "source_id": "src-A09",
+        "source_name": "Tham vấn ĐTM (EIA Public Consultation - MAE)",
+        "raw_fingerprint": "952d642b4a08de4a",
+        "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6398"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-TAY-PHO-YEN-IP",
+    "project_name": "Dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng KCN Tây Phổ Yên (Giai đoạn 1)",
+    "project_name_cn": "太原省西普安工业区基础设施投资与运营项目（一期）",
+    "investor_name": "Ban Quản lý các Khu công nghiệp Thái Nguyên / Nhà đầu tư hạ tầng",
+    "parent_company": null,
+    "origin_country": "Vietnam (越南本土 / 外资联合)",
+    "province": "Thái Nguyên",
+    "district_commune": null,
+    "industrial_park": "KCN Tây Phổ Yên",
+    "sector": "Industrial Park Infrastructure Development",
+    "scale_capacity": "Hạ tầng khu công nghiệp",
+    "current_stage": "CONSTRUCTING",
+    "created_at": "2026-11-02",
+    "timeline": [
+      {
+        "event_id": "EVT-b77f90db10",
+        "project_id": "PRJ-VN-2026-TAY-PHO-YEN-IP",
+        "event_date": "2026-11-02",
+        "stage": "CONSTRUCTING",
+        "stage_desc": "开工建设 (Groundbreaking / Under Construction)",
+        "title": "Khởi công Dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng KCN Tây Phổ Yên - giai đoạn 1",
+        "snippet": "Khởi công Dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng KCN Tây Phổ Yên - giai đoạn 1",
+        "source_id": "VN-LOC-04-TN-B",
+        "source_name": "Ban Quản lý các Khu công nghiệp Thái Nguyên",
+        "raw_fingerprint": "b77f90db10be8e40",
+        "url": "https://bqlkcn.thainguyen.gov.vn/tin-tuc-su-kien/khoi-cong-du-an-dau-tu-xay-dung-va-kinh-doanh-ket-cau-ha-tang-kcn-tay-pho-yen-giai-doan-1-303466"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-THUAN-HUNG-PAPER-HAI-PHONG",
+    "project_name": "Nhà máy sản xuất giấy bao bì Thuận Hưng",
+    "project_name_cn": "顺兴纸业（Thuận Hưng）海防先清工业区包装纸生产项目",
+    "investor_name": "Công ty Cổ phần Thương mại Giấy Thuận Hưng",
+    "parent_company": null,
+    "origin_country": "Vietnam (越南本土 / 外资联合)",
+    "province": "Hải Phòng",
+    "district_commune": "Lô B2, Khu công nghiệp Tiên Thanh, xã Tiên Lãng, thành phố Hải Phòng",
+    "industrial_park": "Khu công nghiệp Tiên Thanh",
+    "sector": "Light Industry (Paper & Packaging Manufacturing)",
+    "scale_capacity": null,
+    "current_stage": "PERMIT_APPLIED",
+    "created_at": "2026-10-21",
+    "timeline": [
+      {
+        "event_id": "EVT-23e6e23d2e",
+        "project_id": "PRJ-VN-2026-THUAN-HUNG-PAPER-HAI-PHONG",
+        "event_date": "2026-10-21",
+        "stage": "PERMIT_APPLIED",
+        "stage_desc": "排污许可 (Discharge Permit Applied / Public Notice)",
+        "title": "Nhà máy sản xuất giấy bao bì Thuận Hưng",
+        "snippet": "Địa điểm: Lô B2, Khu công nghiệp Tiên Thanh, xã Tiên Lãng, thành phố Hải Phòng. Chủ dự án: Công ty Cổ phần Thương mại Giấy Thuận Hưng",
+        "source_id": "src-A10",
+        "source_name": "Tham vấn Giấy phép môi trường (Discharge Permits - MAE)",
+        "raw_fingerprint": "23e6e23d2eee197d",
+        "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6414"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-TTC-PLAZA-DANANG",
+    "project_name": "Dự án Khu phức hợp TTC Plaza Đà Nẵng",
+    "project_name_cn": "岘港 TTC Plaza 城市商业综合体",
+    "investor_name": "Công ty Cổ phần Địa ốc Sài Gòn Thương Tín (TTC Land)",
+    "parent_company": "TTC Group (SCR.VN)",
+    "origin_country": "Vietnam (越南本土 / 外资联合)",
+    "province": "Đà Nẵng",
+    "district_commune": null,
+    "industrial_park": null,
+    "sector": "Commercial Complex & Real Estate",
+    "scale_capacity": "3,500 tỷ đồng BĐS đầu tư",
+    "current_stage": "OPERATING",
+    "created_at": "2026-11-02",
+    "timeline": [
+      {
+        "event_id": "EVT-4eb4b1d0f7",
+        "project_id": "PRJ-VN-2026-TTC-PLAZA-DANANG",
+        "event_date": "2026-11-02",
+        "stage": "OPERATING",
+        "stage_desc": "试产投产 (Commercial Operation / Commissioning)",
+        "title": "TTC Land nâng bất động sản đầu tư lên hơn 3,500 tỷ đồng khi TTC Plaza Đà Nẵng đi vào khai thác",
+        "snippet": "Bất động sản đầu tư của TTC Land (HOSE: SCR) tại ngày 30/09/2026 đạt 3,552 tỷ đồng, gấp 2.3 lần đầu năm, sau khi công ty kết chuyển hơn 2,066 tỷ đồng công trình hoàn thành, trong bối cảnh tổ hợp TTC Plaza Đà Nẵng đi vào khai thác từ tháng 7. Lãi ròng",
+        "source_id": "src-VN-FIN-04",
+        "source_name": "Vietstock (越南证券投资门户)",
+        "raw_fingerprint": "4eb4b1d0f7635db9",
+        "url": "http://vietstock.vn/2026/11/ttc-land-nang-bat-dong-san-dau-tu-len-hon-3500-ty-dong-khi-ttc-plaza-da-nang-di-vao-khai-thac-737-1510202.htm"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-VINAUSTEEL-HUNG-YEN",
+    "project_name": "Nhà máy sản xuất thép thành phẩm",
+    "project_name_cn": "Vinausteel 兴安省邓礼工业集群成品钢生产基地",
+    "investor_name": "Công ty Cổ phần Vinausteel",
+    "parent_company": null,
+    "origin_country": "Vietnam (越南本土 / 外资联合)",
+    "province": "Hưng Yên",
+    "district_commune": "Lô CN2.8, Cụm công nghiệp Đặng Lễ, xã Nguyễn Trãi, tỉnh Hưng Yên",
+    "industrial_park": "Cụm công nghiệp Đặng Lễ",
+    "sector": "Heavy Industry (Finished Steel Manufacturing)",
+    "scale_capacity": null,
+    "current_stage": "PERMIT_APPLIED",
+    "created_at": "2026-10-29",
+    "timeline": [
+      {
+        "event_id": "EVT-1173153aeb",
+        "project_id": "PRJ-VN-2026-VINAUSTEEL-HUNG-YEN",
+        "event_date": "2026-10-29",
+        "stage": "PERMIT_APPLIED",
+        "stage_desc": "排污许可 (Discharge Permit Applied / Public Notice)",
+        "title": "Nhà máy sản xuất thép thành phẩm",
+        "snippet": "Địa điểm: Lô CN2.8, Cụm công nghiệp Đặng Lễ, xã Nguyễn Trãi, tỉnh Hưng Yên. Chủ dự án: Công ty Cổ phần Vinausteel",
+        "source_id": "src-A10",
+        "source_name": "Tham vấn Giấy phép môi trường (Discharge Permits - MAE)",
+        "raw_fingerprint": "1173153aeb7b161d",
+        "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6417"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-VINENERGO-SOLAR",
+    "project_name": "Nhà máy điện mặt trời Bản Chát 1",
+    "project_name_cn": "VinEnergo 4.18 亿美元西北浮式水上光伏电站群 (本查1号与2号)",
+    "investor_name": "Công ty TNHH VinEnergo Bản Chát 1",
+    "parent_company": "Vingroup / VinEnergo",
+    "origin_country": "Vietnam (越南本土 / 外资联合)",
+    "province": "Lai Châu",
+    "district_commune": "xã Mường Than, xã Than Uyên và xã Mường Kim, tỉnh Lai Châu",
+    "industrial_park": "Lòng hồ thủy điện Bản Chát",
+    "sector": "Renewable Energy (Solar)",
+    "scale_capacity": "418 triệu USD (418 Million USD)",
+    "current_stage": "EIA_CONSULTED",
+    "created_at": "2026-10-20",
+    "timeline": [
+      {
+        "event_id": "EVT-3a8ab0094f",
+        "project_id": "PRJ-VN-2026-VINENERGO-SOLAR",
+        "event_date": "2026-10-20",
+        "stage": "EIA_CONSULTED",
+        "stage_desc": "环评公示 (EIA Public Consultation)",
+        "title": "Dự án: “Nhà máy điện mặt trời Bản Chát 1”",
+        "snippet": "Địa điểm: xã Mường Than, xã Than Uyên và xã Mường Kim, tỉnh Lai Châu. Chủ dự án: Công ty TNHH VinEnergo Bản Chát 1",
+        "source_id": "src-A09",
+        "source_name": "Tham vấn ĐTM (EIA Public Consultation)",
+        "raw_fingerprint": "3a8ab0094f32f555",
+        "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6415"
+      },
+      {
+        "event_id": "EVT-43cff1496c",
+        "project_id": "PRJ-VN-2026-VINENERGO-SOLAR",
+        "event_date": "2026-10-20",
+        "stage": "EIA_CONSULTED",
+        "stage_desc": "环评公示 (EIA Public Consultation)",
+        "title": "Dự án: “Nhà máy điện mặt trời Bản Chát 2”",
+        "snippet": "Địa điểm: xã Mường Kim, xã Than Uyên, tỉnh Lai Châu. Chủ dự án: Công ty TNHH VinEnergo Bản Chát 2",
+        "source_id": "src-A09",
+        "source_name": "Tham vấn ĐTM (EIA Public Consultation)",
+        "raw_fingerprint": "43cff1496c43f910",
+        "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6416"
+      },
+      {
+        "event_id": "EVT-964c4d9a10",
+        "project_id": "PRJ-VN-2026-VINENERGO-SOLAR",
+        "event_date": "2026-11-02",
+        "stage": "EIA_CONSULTED",
+        "stage_desc": "环评公示 (EIA Public Consultation)",
+        "title": "VinEnergo eyes $418 mln floating solar power projects in northern Vietnam",
+        "snippet": "VinEnergo eyes $418 mln floating solar power projects in northern VietnamEnergy- \r\n                5 day",
+        "source_id": "src-VN-FIN-06",
+        "source_name": "The Investor (越南外资英文旗舰)",
+        "raw_fingerprint": "964c4d9a109b1545",
+        "url": "https://theinvestor.vn/vinenergo-eyes-418-mln-floating-solar-power-projects-in-northern-vietnam-d20309.html"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-XUAN-MAI-PAPER-HIEP-PHUOC",
+    "project_name": "Nhà máy giấy Xuân Mai",
+    "project_name_cn": "春梅纸业（Xuân Mai）胡志明市协福工业区纸品生产项目",
+    "investor_name": "Công ty TNHH giấy Xuân Mai",
+    "parent_company": null,
+    "origin_country": "Vietnam (越南本土 / 外资联合)",
+    "province": "Hồ Chí Minh",
+    "district_commune": "Lô C2, C4, C4a, C6, C6a, C6b và C10, Khu công nghiệp Hiệp Phước, xã Hiệp Phước, Tp. Hồ Chí Minh",
+    "industrial_park": "Khu công nghiệp Hiệp Phước",
+    "sector": "Light Industry (Paper & Packaging Manufacturing)",
+    "scale_capacity": null,
+    "current_stage": "PERMIT_APPLIED",
+    "created_at": "2026-10-28",
+    "timeline": [
+      {
+        "event_id": "EVT-d1fe7aab7a",
+        "project_id": "PRJ-VN-2026-XUAN-MAI-PAPER-HIEP-PHUOC",
+        "event_date": "2026-10-28",
+        "stage": "PERMIT_APPLIED",
+        "stage_desc": "排污许可 (Discharge Permit Applied / Public Notice)",
+        "title": "Nhà máy giấy Xuân Mai",
+        "snippet": "Địa điểm: Lô C2, C4, C4a, C6, C6a, C6b và C10, Khu công nghiệp Hiệp Phước, xã Hiệp Phước, Tp. Hồ Chí Minh. Chủ dự án: Công ty TNHH giấy Xuân Mai",
+        "source_id": "src-A10",
+        "source_name": "Tham vấn Giấy phép môi trường (Discharge Permits - MAE)",
+        "raw_fingerprint": "d1fe7aab7a5332b7",
+        "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6420"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-XUAN-THIEN-ENERGY",
+    "project_name": "Tổ hợp năng lượng xanh Xuân Thiện",
+    "project_name_cn": "春善集团 174 亿美元北方大型绿色能源工业复合体",
+    "investor_name": "Tập đoàn Xuân Thiện (Xuan Thien Group)",
+    "parent_company": "Xuan Thien Group (Vietnam)",
+    "origin_country": "Vietnam (越南)",
+    "province": "Nam Định / Ninh Bình",
+    "district_commune": null,
+    "industrial_park": null,
+    "sector": "Green Energy & Heavy Industry",
+    "scale_capacity": "17.4 tỷ USD (17.4 Billion USD)",
+    "current_stage": "IRC_APPROVED",
+    "created_at": "2026-11-02",
+    "timeline": [
+      {
+        "event_id": "EVT-36f1dad3b8",
+        "project_id": "PRJ-VN-2026-XUAN-THIEN-ENERGY",
+        "event_date": "2026-11-02",
+        "stage": "IRC_APPROVED",
+        "stage_desc": "获批立项 (IRC Approved / License Issued)",
+        "title": "Xuan Thien Group plans $17.4 bln energy complex in northern Vietnam",
+        "snippet": "Xuan Thien Group plans $17.4 bln energy complex in northern VietnamEnergy- \r\n                Update 3 day  ago",
+        "source_id": "src-VN-FIN-06",
+        "source_name": "The Investor (越南外资英文旗舰)",
+        "raw_fingerprint": "36f1dad3b8411412",
+        "url": "https://theinvestor.vn/xuan-thien-group-plans-174-bln-energy-complex-in-northern-vietnam-d20331.html"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-YEN-BINH-2-IP",
+    "project_name": "Dự án KCN Yên Bình 2 (Bồi thường, GPMB & Tái định cư)",
+    "project_name_cn": "太原省安平2号工业区征地拆迁与安置补偿工程",
+    "investor_name": "Công ty Cổ phần Đầu tư Phát triển Yên Bình",
+    "parent_company": null,
+    "origin_country": "Vietnam (越南本土 / 外资联合)",
+    "province": "Thái Nguyên",
+    "district_commune": null,
+    "industrial_park": "KCN Yên Bình 2",
+    "sector": "Industrial Park Infrastructure Development",
+    "scale_capacity": "Giải phóng mặt bằng công nghiệp",
+    "current_stage": "SITE_CLEARANCE",
+    "created_at": "2026-11-02",
+    "timeline": [
+      {
+        "event_id": "EVT-2f8d15e8e3",
+        "project_id": "PRJ-VN-2026-YEN-BINH-2-IP",
+        "event_date": "2026-11-02",
+        "stage": "SITE_CLEARANCE",
+        "stage_desc": "征地拆迁 (Site Clearance / Land Acquisition)",
+        "title": "Tháo gỡ khó khăn trong công tác bồi thường, hỗ trợ, tái định cư dự án KCN Yên Bình 2",
+        "snippet": "Tháo gỡ khó khăn trong công tác bồi thường, hỗ trợ, tái định cư dự án KCN Yên Bình 2",
+        "source_id": "VN-LOC-04-TN-B",
+        "source_name": "Ban Quản lý các Khu công nghiệp Thái Nguyên",
+        "raw_fingerprint": "2f8d15e8e3c3ce0a",
+        "url": "https://bqlkcn.thainguyen.gov.vn/tin-tuc-su-kien/thao-go-kho-khan-trong-cong-tac-boi-thuong-ho-tro-tai-dinh-cu-du-an-kcn-yen-binh-2-302821"
+      }
+    ]
+  }
+]

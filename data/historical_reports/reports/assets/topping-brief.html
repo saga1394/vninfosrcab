@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    background: #f2f4f8;
+    -webkit-font-smoothing: antialiased;
+  }
+  .card {
+    width: 1080px;
+    height: 1560px;
+    background: #ffffff;
+    padding: 64px 72px;
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    border-bottom: 3px solid #0f4c81;
+    padding-bottom: 28px;
+  }
+  .title {
+    font-size: 52px;
+    font-weight: 700;
+    color: #10233f;
+    letter-spacing: 2px;
+  }
+  .subtitle {
+    margin-top: 16px;
+    font-size: 26px;
+    color: #6b7a90;
+    letter-spacing: 1px;
+  }
+  .section { margin-top: 44px; }
+  .section-title {
+    display: flex;
+    align-items: center;
+    font-size: 34px;
+    font-weight: 700;
+    color: #0f4c81;
+    letter-spacing: 2px;
+  }
+  .section-title::before {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 34px;
+    background: #0f4c81;
+    border-radius: 4px;
+    margin-right: 18px;
+  }
+  .body {
+    margin-top: 22px;
+    font-size: 30px;
+    line-height: 1.75;
+    color: #2b3a4e;
+    text-align: justify;
+  }
+  .body b { color: #0f4c81; }
+  .stats {
+    margin-top: 44px;
+    display: flex;
+    gap: 24px;
+  }
+  .stat {
+    flex: 1;
+    background: #eef4fa;
+    border-radius: 16px;
+    padding: 28px 20px;
+    text-align: center;
+  }
+  .stat .num {
+    font-size: 34px;
+    font-weight: 700;
+    color: #0f4c81;
+    white-space: nowrap;
+  }
+  .stat .label {
+    margin-top: 10px;
+    font-size: 24px;
+    color: #6b7a90;
+  }
+  .footer {
+    margin-top: auto;
+    padding-top: 28px;
+    border-top: 1px solid #dde3ec;
+    font-size: 22px;
+    color: #98a4b5;
+    display: flex;
+    justify-content: space-between;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div class="title">Topping（拓普）越南投资项目简报</div>
+    <div class="subtitle">广宁省 · 安美德下龙工业园（Song Khoai）｜2026年9月</div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">公司与背景</div>
+    <div class="body">Topping 是一家<b>中资精密制造配套企业</b>，母公司为深圳拓普五金塑胶（Topping Asia），2013 年起在越南海防设有姊妹厂。本次新设主体为<b>广宁拓普工业有限公司</b>（Topping (Quảng Ninh) Industrial Co., Ltd.），签约人为总经理郭乾。公司主营<b>多功能打印机、ATM 使用的精密金属/塑料零部件</b>，以及办公打印设备电子组件的生产与组装，属供应链配套环节，产品不涉及终端整机。</div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="num">$1,400万+</div><div class="label">总投资</div></div>
+    <div class="stat"><div class="num">2.1公顷</div><div class="label">占地面积</div></div>
+    <div class="stat"><div class="num">4,500万件</div><div class="label">年目标产能</div></div>
+    <div class="stat"><div class="num">~450人</div><div class="label">预计就业</div></div>
+  </div>
+
+  <div class="section">
+    <div class="section-title">项目进展</div>
+    <div class="body">2026 年 8 月 18 日，公司与 Amata City Hạ Long 股份公司签订<b>土地转租合同</b>；8 月 26 日在广宁省升直辖市投资促进会议上获颁<b>投资登记证书</b>。所在园区累计吸引 26 个 FDI 项目、注册资金超 33 亿美元。当前状态为已颁证、已签土地转租，<b>厂房建设与投产时间尚未公布</b>，客户名单亦未披露。</div>
+  </div>
+
+  <div class="footer">
+    <span>资料来源：越南《投资报》、Bao Quang Ninh、Amata 官方公告</span>
+    <span>2026-09-09 整理</span>
+  </div>
+</div>
+</body>
+</html>

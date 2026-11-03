@@ -1,0 +1,1311 @@
+{
+  "meta": {
+    "reference_code": "7163",
+    "batch": "Batch 1: National Official (16) + Benchmark Parks (7)",
+    "execution_timestamp": "2026-11-02T01:18:15.007162",
+    "duration_seconds": 23.53,
+    "total_http_requests": 25,
+    "total_bytes_transferred": 13115343,
+    "total_transferred_kb": 12807.95,
+    "token_cost": 0,
+    "total_sources_probed": 23
+  },
+  "method_breakdown": {
+    "native_rss": 8,
+    "official_rest_api": 1,
+    "structured_html_table": 3,
+    "xml_sitemap": 2,
+    "lightweight_html_list": 10,
+    "waf_intercepted": 1
+  },
+  "sources": [
+    {
+      "id": "src-A01",
+      "code_name": "baochinhphu",
+      "name": "Báo Chính phủ (Government Portal)",
+      "category": "National Official",
+      "target_url": "https://baochinhphu.vn",
+      "effective_endpoint": "https://baochinhphu.vn/kinh-te.rss",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 180.65,
+      "bytes_transferred": 46318,
+      "server": "Kestrel",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Giảm giá điện, giảm thuế xăng góp phần kiềm chế áp lực lạm phát cuối năm",
+          "snippet": "(Chinhphu.vn) - Đánh giá về tác động của việc giảm giá điện 2% và đưa thuế tiêu thụ đặc biệt đối với các loại xăng về mức 0% từ ngày 1/11, chuyên gia Nguyễn Tiế",
+          "pubdate": "11/1/2026 12:47:00 PM",
+          "url": "https://baochinhphu.vn/giam-gia-dien-giam-thue-xang-dau-gop-phan-kiem-che-ap-luc-lam-phat-cuoi-nam-102261101123406951.htm"
+        },
+        {
+          "title": "Giá xăng giảm mạnh, xăng E5 giảm hơn 1.800 đồng/lít",
+          "snippet": "(Chinhphu.vn) - Từ 0h ngày 1/11/2026, giá xăng trong nước đồng loạt giảm mạnh sau khi Chính phủ quyết định áp dụng thuế suất thuế tiêu thụ đặc biệt 0% đối với c",
+          "pubdate": "10/31/2026 11:49:00 PM",
+          "url": "https://baochinhphu.vn/gia-xang-giam-manh-xang-e5-giam-hon-1800-dong-lit-10226103122235494.htm"
+        },
+        {
+          "title": "Từ 1/11/2026, thuế suất thuế tiêu thụ đặc biệt đối với xăng là 0%",
+          "snippet": "(Chinhphu.vn) - Thay mặt Chính phủ, Phó Thủ tướng Nguyễn Văn Thắng vừa ký Nghị quyết số 45/2026/NQ-CP ngày 31/10/2026 ban hành quy định về thuế tiêu thụ đặc biệ",
+          "pubdate": "10/31/2026 11:01:00 PM",
+          "url": "https://baochinhphu.vn/tu-ngay-1-11-2026-thue-suat-thue-tieu-thu-dac-biet-doi-voi-xang-dau-cac-loai-la-0-102261031231855982.htm"
+        },
+        {
+          "title": "VCCI vinh danh 100 doanh nghiệp tiêu biểu về văn hóa và uy tín năm 2026",
+          "snippet": "(Chinhphu.vn) - 100 doanh nghiệp thuộc nhiều ngành nghề, lĩnh vực và thành phần kinh tế vừa được Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI) vinh danh t",
+          "pubdate": "10/31/2026 3:13:00 PM",
+          "url": "https://baochinhphu.vn/vcci-vinh-danh-100-doanh-nghiep-tieu-bieu-ve-van-hoa-va-uy-tin-nam-2026-102261031153502347.htm"
+        },
+        {
+          "title": "Bộ trưởng Tài chính lý giải về kiểm soát lạm phát và tiến độ giải ngân",
+          "snippet": "(Chinhphu.vn) - Tại phiên thảo luận ở hội trường Quốc hội ngày 31/10, Bộ trưởng Bộ Tài chính Ngô Văn Tuấn đã làm rõ các vấn đề về kiểm soát lạm phát, huy động v",
+          "pubdate": "10/31/2026 1:34:00 PM",
+          "url": "https://baochinhphu.vn/bo-truong-tai-chinh-ly-giai-ve-kiem-soat-lam-phat-va-tien-do-giai-ngan-102261031132627603.htm"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Official prime cabinet newspaper. RSS endpoint /kinh-te.rss returns 50 rich entries with complete pubdate and snippet."
+    },
+    {
+      "id": "src-A02",
+      "code_name": "mof",
+      "name": "Bộ Tài chính (Ministry of Finance - MOF)",
+      "category": "National Official",
+      "target_url": "https://www.mof.gov.vn",
+      "effective_endpoint": "https://www.mof.gov.vn/api/article/reads?offset=0&limit=5",
+      "method_verified": "Official REST API (POST JSON)",
+      "status_code": 200,
+      "response_time_ms": 172.24,
+      "bytes_transferred": 8854,
+      "server": null,
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open API (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Từ ngày 1/11, áp dụng thuế suất thuế tiêu thụ đặc biệt với xăng là 0%",
+          "snippet": "Ngày 31/10, Chính phủ đã ban hành Nghị quyết số 45/2026/NQ-CP quy định về thuế tiêu thụ đặc biệt đối với xăng (Nghị quyết 45). Theo đó, kể từ ngày 1/11/2026 đến",
+          "pubdate": "Current Edition",
+          "url": "https://www.mof.gov.vn/chi-tiet-tin/tu-ngay-111-ap-dung-thue-suat-thue-tieu-thu-dac-biet-voi-xang-la-0percent"
+        },
+        {
+          "title": "Quy định chi tiết về giảm thuế thu nhập với cá nhân và doanh nghiệp theo Nghị quyết 43/2026/QH16",
+          "snippet": "Ngày 29/10/2026, Chính phủ đã ban hành Nghị định 398/2026/NĐ-CP quy định chi tiết Nghị quyết số 43/2026/QH16 về giảm thuế thu nhập cá nhân, thuế thu nhập doanh ",
+          "pubdate": "Current Edition",
+          "url": "https://www.mof.gov.vn/chi-tiet-tin/quy-dinh-chi-tiet-ve-giam-thue-thu-nhap-voi-ca-nhan-va-doanh-nghiep-theo-nghi-quyet-432026qh16"
+        },
+        {
+          "title": "Bộ Tài chính công khai kết quả Tổng kiểm kê tài sản công tại cơ quan, tổ chức, đơn vị, tài sản kết cấu hạ tầng do Nhà nước đầu tư, quản lý thời điểm 0h00 ngày 01/01/2026",
+          "snippet": "",
+          "pubdate": "Current Edition",
+          "url": "https://www.mof.gov.vn/chi-tiet-tin/bo-tai-chinh-cong-khai-ket-qua-tong-kiem-ke-tai-san-cong-tai-co-quan-to-chuc-don-vi-tai-san-ket-cau-ha-tang-do-nha-nuoc-dau-tu-quan-ly-thoi-diem-0h00-ngay-01012026"
+        },
+        {
+          "title": "Bộ trưởng Ngô Văn Tuấn giải trình, làm rõ các vấn đề KTXH và ngân sách nhà nước",
+          "snippet": "Sáng nay (31/10), tại phiên thảo luận tại hội trường Quốc hội, Bộ trưởng Bộ Tài chính Ngô Văn Tuấn đã phát biểu tiếp thu, làm rõ nhiều vấn đề quan trọng được đạ",
+          "pubdate": "Current Edition",
+          "url": "https://www.mof.gov.vn/chi-tiet-tin/bo-truong-ngo-van-tuan-giai-trinh-lam-ro-cac-van-de-ktxh-va-ngan-sach-nha-nuoc"
+        },
+        {
+          "title": "Bộ Tài chính làm việc với doanh nghiệp Hoa Kỳ, Canada về chính sách đầu tư tại Việt Nam",
+          "snippet": "Từ ngày 26-30/10/2026, Đoàn công tác Bộ Tài chính Việt Nam do ông Hoàng Thái Sơn, Vụ trưởng Vụ Pháp chế làm Trưởng đoàn đã thăm và làm việc với một số cơ quan, ",
+          "pubdate": "Current Edition",
+          "url": "https://www.mof.gov.vn/chi-tiet-tin/bo-tai-chinh-lam-viec-voi-doanh-nghiep-hoa-ky-canada-ve-chinh-sach-dau-tu-tai-viet-nam"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Vite/Vue SPA architecture. Bypasses client-side DOM rendering by directly consuming the official JSON REST endpoint /api/article/reads."
+    },
+    {
+      "id": "src-A04",
+      "code_name": "moit",
+      "name": "Bộ Công Thương (Ministry of Industry and Trade - MOIT)",
+      "category": "National Official",
+      "target_url": "https://moit.gov.vn",
+      "effective_endpoint": "https://moit.gov.vn/tin-tuc/phat-trien-cong-nghiep",
+      "method_verified": "Lightweight HTML List Scraping",
+      "status_code": 200,
+      "response_time_ms": 175.37,
+      "bytes_transferred": 119156,
+      "server": "Cloudrity",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Cloudrity CDN (Direct GET allowed)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Bộ Công Thương ban hành quy định mới về quản lý, phát triển cụm công nghiệp",
+          "snippet": "MOIT Industrial development publication: Bộ Công Thương ban hành quy định mới về quản lý, phát triển cụm công nghiệp",
+          "pubdate": "2026-10 / Real-time list",
+          "url": "https://moit.gov.vn/tin-tuc/bo-cong-thuong-ban-hanh-quy-dinh-moi-ve-quan-ly-phat-trien-cum-cong-nghiep.html"
+        },
+        {
+          "title": "Phát triển khoa học, công nghệ ngành Công Thương giai đoạn 2026 - 2030: Tập trung nâng cao năng lực công nghiệp",
+          "snippet": "MOIT Industrial development publication: Phát triển khoa học, công nghệ ngành Công Thương giai đoạn 2026 - 2030: Tập trung nâng cao năng lực công nghiệp",
+          "pubdate": "2026-10 / Real-time list",
+          "url": "https://moit.gov.vn/tin-tuc/phat-trien-cong-nghiep/phat-trien-khoa-hoc-cong-nghe-nganh-cong-thuong-giai-doan-2026-2030-tap-trung-nang-cao-nang-luc-cong-nghiep.html"
+        },
+        {
+          "title": "Cục Công nghiệp khảo sát thực tế tại doanh nghiệp công nghiệp hỗ trợ",
+          "snippet": "MOIT Industrial development publication: Cục Công nghiệp khảo sát thực tế tại doanh nghiệp công nghiệp hỗ trợ",
+          "pubdate": "2026-10 / Real-time list",
+          "url": "https://moit.gov.vn/tin-tuc/phat-trien-cong-nghiep/cuc-cong-nghiep-khao-sat-thuc-te-tai-doanh-nghiep-cong-nghiep-ho-tro.html"
+        },
+        {
+          "title": "Cục Công nghiệp kiểm tra tình hình thực hiện các đề án khuyến công tại tỉnh Cà Mau",
+          "snippet": "MOIT Industrial development publication: Cục Công nghiệp kiểm tra tình hình thực hiện các đề án khuyến công tại tỉnh Cà Mau",
+          "pubdate": "2026-10 / Real-time list",
+          "url": "https://moit.gov.vn/tin-tuc/cuc-cong-nghiep-kiem-tra-tinh-hinh-thuc-hien-cac-de-an-khuyen-cong-tai-tinh-ca-mau.html"
+        },
+        {
+          "title": "AI và robot gợi mở hướng chuyển đổi sản xuất tương lai cho ngành dệt may Việt Nam",
+          "snippet": "MOIT Industrial development publication: AI và robot gợi mở hướng chuyển đổi sản xuất tương lai cho ngành dệt may Việt Nam",
+          "pubdate": "2026-10 / Real-time list",
+          "url": "https://moit.gov.vn/tin-tuc/ai-va-robot-goi-mo-huong-chuyen-doi-san-xuat-tuong-lai-cho-nganh-det-may-viet-nam.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Category /tin-tuc/phat-trien-cong-nghiep delivers structured industrial manufacturing, trade policies, and supply chain reports."
+    },
+    {
+      "id": "src-A05",
+      "code_name": "moc",
+      "name": "Bộ Xây dựng (Ministry of Construction - MOC)",
+      "category": "National Official",
+      "target_url": "https://moc.gov.vn",
+      "effective_endpoint": "https://moc.gov.vn/vn/Pages/Trangchu.aspx",
+      "method_verified": "Lightweight HTML List Scraping",
+      "status_code": 200,
+      "response_time_ms": 2301.46,
+      "bytes_transferred": 193316,
+      "server": null,
+      "etag": null,
+      "last_modified": "Sun, 01 Nov 2026 17:18:07 GMT",
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Đảng ủy Bộ Xây dựng tổ chức Hội nghị quán triệt, triển khai các văn bản mới của Đảng và bồi dưỡng tập huấn nghiệp vụ công tác đảng năm 2026",
+          "snippet": "MOC construction & real estate policy update: Đảng ủy Bộ Xây dựng tổ chức Hội nghị quán triệt, triển khai các văn bản mới của Đảng và bồi dưỡng tập huấn nghiệp vụ công tác đảng năm 2026",
+          "pubdate": "2026-10-31 / Real-time",
+          "url": "http://moc.gov.vn/vn/tin-tuc/1173/97817/dang-uy-bo-xay-dung-to-chuc-hoi-nghi-quan-triet-trien-khai-cac-van-ban-moi-cua-dang-va-boi-duong-tap-huan-nghiep-vu-cong-tac-dang-nam-2026.aspx"
+        },
+        {
+          "title": "Bộ Xây dựng tham vấn ý kiến về dự thảo Nghị định và Thông tư quy định chi tiết Luật sửa đổi, bổ sung một số điều của Luật Kiến trúc",
+          "snippet": "MOC construction & real estate policy update: Bộ Xây dựng tham vấn ý kiến về dự thảo Nghị định và Thông tư quy định chi tiết Luật sửa đổi, bổ sung một số điều của Luật Kiến trúc",
+          "pubdate": "2026-10-31 / Real-time",
+          "url": "http://moc.gov.vn/vn/tin-tuc/1173/97810/bo-xay-dung-tham-van-y-kien-ve-du-thao-nghi-dinh-va-thong-tu-quy-dinh-chi-tiet-luat-sua-doi-bo-sung-mot-so-dieu-cua-luat-kien-truc.aspx"
+        },
+        {
+          "title": "Đề xuất cơ chế chuyển nhượng để gỡ bế tắc cho dự án bất động sản",
+          "snippet": "MOC construction & real estate policy update: Đề xuất cơ chế chuyển nhượng để gỡ bế tắc cho dự án bất động sản",
+          "pubdate": "2026-10-31 / Real-time",
+          "url": "http://moc.gov.vn/vn/tin-tuc/1173/97806/de-xuat-co-che-chuyen-nhuong-de-go-be-tac-cho-du-an-bat-dong-san.aspx"
+        },
+        {
+          "title": "Đảng ủy Bộ Xây dựng kết nối trực tuyến Hội nghị tập huấn nghiệp vụ công tác xây dựng Đảng năm 2026",
+          "snippet": "MOC construction & real estate policy update: Đảng ủy Bộ Xây dựng kết nối trực tuyến Hội nghị tập huấn nghiệp vụ công tác xây dựng Đảng năm 2026",
+          "pubdate": "2026-10-31 / Real-time",
+          "url": "http://moc.gov.vn/vn/tin-tuc/1173/97789/dang-uy-bo-xay-dung-ket-noi-truc-tuyen-hoi-nghi-tap-huan-nghiep-vu-cong-tac-xay-dung-dang-nam-2026.aspx"
+        },
+        {
+          "title": "Chuyển tư duy phát triển nhà ở từ gia tăng nguồn cung sang đáp ứng đúng nhu cầu",
+          "snippet": "MOC construction & real estate policy update: Chuyển tư duy phát triển nhà ở từ gia tăng nguồn cung sang đáp ứng đúng nhu cầu",
+          "pubdate": "2026-10-31 / Real-time",
+          "url": "http://moc.gov.vn/vn/tin-tuc/1173/97786/chuyen-tu-duy-phat-trien-nha-o-tu-gia-tang-nguon-cung-sang-dap-ung-dung-nhu-cau.aspx"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Provides key real estate project transfer guidelines, urban planning, and construction legal consultations."
+    },
+    {
+      "id": "src-A03",
+      "code_name": "nso",
+      "name": "Tổng cục Thống kê (National Statistics Office - NSO)",
+      "category": "National Official",
+      "target_url": "https://www.nso.gov.vn",
+      "effective_endpoint": "https://www.nso.gov.vn/feed/",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 663.41,
+      "bytes_transferred": 237721,
+      "server": null,
+      "etag": "\"bed6825c7a6e2aadd997000226d98556-gzip\"",
+      "last_modified": "Thu, 29 Oct 2026 04:10:54 GMT",
+      "security_state": "Open (Strong ETag & Last-Modified)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Tọa đàm: GDP và Thu nhập bình quân đầu người có phải là một",
+          "snippet": "",
+          "pubdate": "Thu, 29 Oct 2026 03:16:45 +0000",
+          "url": "https://www.nso.gov.vn/default/2026/10/toa-dam-gdp-va-thu-nhap-binh-quan-dau-nguoi-co-phai-la-mot/"
+        },
+        {
+          "title": "Cục Thống kê tổ chức tập huấn phương pháp tính toán nghèo chi tiêu sử dụng dữ liệu khảo sát mức sống giai đoạn 2010–2024",
+          "snippet": "Ngày 21/10/2026, Cục Thống kê phối hợp với Ngân hàng Thế giới (WB) tổ chức lớp tập huấn phương pháp tính toán nghèo chi tiêu sử dụng dữ liệu Khảo sát mức sống d",
+          "pubdate": "Thu, 22 Oct 2026 08:22:35 +0000",
+          "url": "https://www.nso.gov.vn/su-kien/2026/10/cuc-thong-ke-to-chuc-tap-huan-phuong-phap-tinh-toan-ngheo-chi-tieu-su-dung-du-lieu-khao-sat-muc-song-giai-doan-2010-2024/"
+        },
+        {
+          "title": "Cục Thống kê ra mắt Trang thông tin điện tử truyền thông ngành Thống kê “Thống kê Kết nối”",
+          "snippet": "Chiều ngày 20/10/2026, Cục Thống kê tổ chức Lễ ra mắt Trang thông tin điện tử truyền thông ngành Thống kê với tên nhận diện “Thống kê Kết nối”. Đây là bước tiến",
+          "pubdate": "Tue, 20 Oct 2026 10:03:01 +0000",
+          "url": "https://www.nso.gov.vn/su-kien/2026/10/cuc-thong-ke-ra-mat-trang-thong-tin-dien-tu-truyen-thong-nganh-thong-ke-thong-ke-ket-noi/"
+        },
+        {
+          "title": "Xin ý kiến dự thảo Thông tư quy định chế độ báo cáo thống kê cấp tỉnh, cấp xã",
+          "snippet": "Triển khai Luật Thống kê số 89/2015/QH13 được sửa đổi, bổ sung bởi Luật số 01/2021/QH15 và Luật số 138/2025/QH15; Luật Ban hành văn bản quy phạm pháp luật và cá",
+          "pubdate": "Mon, 19 Oct 2026 02:58:26 +0000",
+          "url": "https://www.nso.gov.vn/default/2026/10/ve-viec-xin-y-kien-du-thao-thong-tu-quy-dinh-che-do-bao-cao-thong-ke-cap-tinh-cap-xa/"
+        },
+        {
+          "title": "Cục Thống kê Việt Nam và Cơ quan Thống kê Đan Mạch ký kết Bản ghi nhớ hợp tác về thống kê chính thức, dữ liệu hành chính và chuyển đổi số",
+          "snippet": "Ngày 15/10/2026, tại trụ sở Cục Thống kê, Cục Thống kê Việt Nam và Cơ quan Thống kê Đan Mạch tổ chức Lễ ký kết trực tuyến Bản ghi nhớ hợp tác trong lĩnh vực thố",
+          "pubdate": "Thu, 15 Oct 2026 09:58:25 +0000",
+          "url": "https://www.nso.gov.vn/su-kien/2026/10/cuc-thong-ke-viet-nam-va-co-quan-thong-ke-dan-mach-ky-ket-ban-ghi-nho-hop-tac-ve-thong-ke-chinh-thuc-du-lieu-hanh-chinh-va-chuyen-doi-so/"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "WordPress RSS feed is active at /feed/, providing monthly macro statistical releases and methodology seminars."
+    },
+    {
+      "id": "src-A07",
+      "code_name": "fia",
+      "name": "Cục Đầu tư nước ngoài (Foreign Investment Agency - FIA)",
+      "category": "National Official",
+      "target_url": "https://fia.mof.gov.vn",
+      "effective_endpoint": "https://fia.mof.gov.vn/Home/ListNews/1",
+      "method_verified": "Lightweight HTML List Scraping",
+      "status_code": 200,
+      "response_time_ms": 284.58,
+      "bytes_transferred": 176851,
+      "server": null,
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Báo cáo theo tháng",
+          "snippet": "Monthly official FDI statistics and investment implementation report document",
+          "pubdate": "Monthly cadence (extracted from report title)",
+          "url": "https://fia.mof.gov.vn/List/MenuID/2a33ab04-8fd4-4a47-b7ee-8797d92dacc7/CatID/a963873a-ec84-4cae-8b5f-d0f38c10e10c"
+        },
+        {
+          "title": "BÁO CÁO TÌNH HÌNH THU HÚT ĐẦU TƯ NƯỚC NGOÀI 7 THÁNG NĂM 2026 ...",
+          "snippet": "Monthly official FDI statistics and investment implementation report document",
+          "pubdate": "Monthly cadence (extracted from report title)",
+          "url": "https://fia.mof.gov.vn/Detail/CatID/5102536e-ffed-4c97-83c9-24788f5e7d0c/NewsID/07543926-92de-480b-91dc-d1afe2df7822"
+        },
+        {
+          "title": "BÁO CÁO NHANH TÌNH HÌNH THU HÚT  ĐẦU TƯ NƯỚC NGOÀI TẠI VIỆT  ...",
+          "snippet": "Monthly official FDI statistics and investment implementation report document",
+          "pubdate": "Monthly cadence (extracted from report title)",
+          "url": "https://fia.mof.gov.vn/Detail/CatID/5102536e-ffed-4c97-83c9-24788f5e7d0c/NewsID/cd350403-11b2-4f81-b68c-c33e08160d5c"
+        },
+        {
+          "title": "BÁO CÁO NHANH TÌNH HÌNH THU HÚT  ĐẦU TƯ NƯỚC NGOÀI TẠI VIỆT  ...",
+          "snippet": "Monthly official FDI statistics and investment implementation report document",
+          "pubdate": "Monthly cadence (extracted from report title)",
+          "url": "https://fia.mof.gov.vn/Detail/CatID/5102536e-ffed-4c97-83c9-24788f5e7d0c/NewsID/5ba68746-d37f-4646-9b25-f6dc9852748d"
+        },
+        {
+          "title": "Báo cáo tình hình công khai ngân sách Quý I năm 2024",
+          "snippet": "Monthly official FDI statistics and investment implementation report document",
+          "pubdate": "Monthly cadence (extracted from report title)",
+          "url": "https://fia.mof.gov.vn/Detail/CatID/6d662978-2830-47eb-a1b7-2d6fb1f29abf/NewsID/6c127843-3cd4-4cf0-b127-33b99808c3ed"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Lists monthly official FDI inflow and outbound reports. Detail pages offer direct XLSX/PDF downloads."
+    },
+    {
+      "id": "src-A06",
+      "code_name": "investvietnam",
+      "name": "InvestVietnam (National Investment Promotion Portal)",
+      "category": "National Official",
+      "target_url": "https://investvietnam.gov.vn",
+      "effective_endpoint": "https://investvietnam.gov.vn/",
+      "method_verified": "Lightweight HTML List Scraping",
+      "status_code": 200,
+      "response_time_ms": 224.36,
+      "bytes_transferred": 107799,
+      "server": "Microsoft-IIS/10.0",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Microsoft-IIS/10.0 (Open)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Góp vốn, mua cổ phần/phần vốn góp",
+          "snippet": "InvestVietnam investment opportunity / regulatory guide: Góp vốn, mua cổ phần/phần vốn góp",
+          "pubdate": "Current Edition",
+          "url": "https://investvietnam.gov.vn/vi/gop-von-mua-co-phanphan-von-gop.nl.html"
+        },
+        {
+          "title": "Thuế, phí, lệ phí và các khoản chi khác",
+          "snippet": "InvestVietnam investment opportunity / regulatory guide: Thuế, phí, lệ phí và các khoản chi khác",
+          "pubdate": "Current Edition",
+          "url": "https://investvietnam.gov.vn/vi/thue-phi-le-phi-va-cac-khoan-chi-khac.nl.html"
+        },
+        {
+          "title": "Hải quan và xuất, nhập khẩu",
+          "snippet": "InvestVietnam investment opportunity / regulatory guide: Hải quan và xuất, nhập khẩu",
+          "pubdate": "Current Edition",
+          "url": "https://investvietnam.gov.vn/vi/hai-quan-va-xuat-nhap-khau.nl.html"
+        },
+        {
+          "title": "TÂY NINH – ĐIỂM ĐẾN CHIẾN LƯỢC CHO NHÀ ĐẦU TƯ QUỐC TẾ",
+          "snippet": "InvestVietnam investment opportunity / regulatory guide: TÂY NINH – ĐIỂM ĐẾN CHIẾN LƯỢC CHO NHÀ ĐẦU TƯ QUỐC TẾ",
+          "pubdate": "Current Edition",
+          "url": "https://investvietnam.gov.vn/vi/-80.nd/tay-ninh-–-diem-den-chien-luoc-cho-nha-dau-tu-quoc-te.html"
+        },
+        {
+          "title": "THANH HÓA: CẢI CÁCH HÀNH CHÍNH — NỀN TẢNG CHO MÔI TRƯỜNG ĐẦU TƯ MINH BẠCH, CẠNH TRANH VÀ BỀN VỮNG",
+          "snippet": "InvestVietnam investment opportunity / regulatory guide: THANH HÓA: CẢI CÁCH HÀNH CHÍNH — NỀN TẢNG CHO MÔI TRƯỜNG ĐẦU TƯ MINH BẠCH, CẠNH TRANH VÀ BỀN VỮNG",
+          "pubdate": "Current Edition",
+          "url": "https://investvietnam.gov.vn/vi/tin-tuc.nd/thanh-hoa-cai-cach-hanh-chinh-—-nen-tang-cho-moi-truong-dau-tu-minh-bach-canh-tranh-va-ben-vung.html"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": false,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Contains provincial industrial park licenses, M&A guidance, and foreign investor policies. Date is embedded inside detail pages."
+    },
+    {
+      "id": "src-A08",
+      "code_name": "bocaodientu",
+      "name": "Bố cáo điện tử (National Enterprise Registration Announcements)",
+      "category": "National Official",
+      "target_url": "https://bocaodientu.dkkd.gov.vn",
+      "effective_endpoint": "https://bocaodientu.dkkd.gov.vn/egazette/Forms/Egazette/DefaultAnnouncements.aspx",
+      "method_verified": "Structured HTML Table (No Captcha)",
+      "status_code": 200,
+      "response_time_ms": 793.67,
+      "bytes_transferred": 68576,
+      "server": "nginx",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open List (Captcha only on inner details)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "[Đăng ký mới] CÔNG TY TNHH THIẾT KẾ XÂY DỰNG MINH QUYẾT MÃ SỐ DN: 5801585342",
+          "snippet": "Địa điểm: Tỉnh Lâm Đồng | Loại: Đăng ký mới | Action: javascript:__doPostBack('ctl00$C$CtlList$ctl02$CmdView','')",
+          "pubdate": "01/11/2026 12:10:32 SA",
+          "url": "https://bocaodientu.dkkd.gov.vn/egazette/Forms/Egazette/DefaultAnnouncements.aspx"
+        },
+        {
+          "title": "[Đăng ký mới] CÔNG TY TNHH ĐỒI CHILL MÃ SỐ DN: 1702378235",
+          "snippet": "Địa điểm: Tỉnh An Giang | Loại: Đăng ký mới | Action: javascript:__doPostBack('ctl00$C$CtlList$ctl03$CmdView','')",
+          "pubdate": "01/11/2026 12:10:30 SA",
+          "url": "https://bocaodientu.dkkd.gov.vn/egazette/Forms/Egazette/DefaultAnnouncements.aspx"
+        },
+        {
+          "title": "[Đăng ký mới] CÔNG TY TNHH NGUYỄN THANH TỊNH MÃ SỐ DN: 5801585328",
+          "snippet": "Địa điểm: Tỉnh Lâm Đồng | Loại: Đăng ký mới | Action: javascript:__doPostBack('ctl00$C$CtlList$ctl04$CmdView','')",
+          "pubdate": "01/11/2026 12:10:29 SA",
+          "url": "https://bocaodientu.dkkd.gov.vn/egazette/Forms/Egazette/DefaultAnnouncements.aspx"
+        },
+        {
+          "title": "[Đăng ký mới] CÔNG TY TNHH 1 THÀNH VIÊN THE SOLANE MÃ SỐ DN: 5801585286",
+          "snippet": "Địa điểm: Tỉnh Lâm Đồng | Loại: Đăng ký mới | Action: javascript:__doPostBack('ctl00$C$CtlList$ctl05$CmdView','')",
+          "pubdate": "01/11/2026 12:10:28 SA",
+          "url": "https://bocaodientu.dkkd.gov.vn/egazette/Forms/Egazette/DefaultAnnouncements.aspx"
+        },
+        {
+          "title": "[Đăng ký mới] CÔNG TY TNHH HƯỜNG CHÍNH MÃ SỐ DN: 5801585310",
+          "snippet": "Địa điểm: Tỉnh Lâm Đồng | Loại: Đăng ký mới | Action: javascript:__doPostBack('ctl00$C$CtlList$ctl06$CmdView','')",
+          "pubdate": "01/11/2026 12:10:27 SA",
+          "url": "https://bocaodientu.dkkd.gov.vn/egazette/Forms/Egazette/DefaultAnnouncements.aspx"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Exterior default 20 announcements table is 100% accessible without captcha, returning real-time enterprise establishment & tax code."
+    },
+    {
+      "id": "src-A09",
+      "code_name": "dsdtm",
+      "name": "Tham vấn ĐTM (EIA Public Consultation - MAE)",
+      "category": "National Official",
+      "target_url": "https://thamvan.mae.gov.vn/Home/DSDTM",
+      "effective_endpoint": "https://thamvan.mae.gov.vn/Home/DSDTM",
+      "method_verified": "Structured HTML Table (SChannel fallback)",
+      "status_code": 200,
+      "response_time_ms": 4003.58,
+      "bytes_transferred": 29496,
+      "server": "Microsoft-IIS/10.0",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "IIS 10.0 SSL Cipher Specific (SChannel/curl required)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Dự án: “Nhà máy điện mặt trời Bản Chát 1”",
+          "snippet": "Chủ dự án: Công ty TNHH VinEnergo Bản Chát 1 | Địa điểm: xã Mường Than, xã Than Uyên và xã Mường Kim, tỉnh Lai Châu | Thời gian còn lại: 2 ngày",
+          "pubdate": "20-10-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6415"
+        },
+        {
+          "title": "Dự án: “Nhà máy điện mặt trời Bản Chát 2”",
+          "snippet": "Chủ dự án: Công ty TNHH VinEnergo Bản Chát 2 | Địa điểm: xã Mường Kim, xã Than Uyên, tỉnh Lai Châu | Thời gian còn lại: 2 ngày",
+          "pubdate": "20-10-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6416"
+        },
+        {
+          "title": "Dự án: \"Đầu tư nâng công suất mỏ than Đồng Rì - Tổng công ty Đông Bắc\"",
+          "snippet": "Chủ dự án: Tổng công ty Đông Bắc – Bộ Quốc Phòng | Địa điểm: xã Tây Yên Tử, tỉnh Bắc Ninh | Thời gian còn lại: Hết hạn",
+          "pubdate": "25-09-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6404"
+        },
+        {
+          "title": "Dự án: \"Điện mặt trời nổi lòng hồ thủy điện Sơn La\"",
+          "snippet": "Chủ dự án: Công ty Cổ phần năng lượng BP Sơn La | Địa điểm: Xã Mường La và xã Chiềng Lao, tỉnh Sơn La | Thời gian còn lại: Hết hạn",
+          "pubdate": "21-09-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6398"
+        },
+        {
+          "title": "Dự án: \"Khu đô thị cảng hàng không quốc tế Gia Bình 2\"",
+          "snippet": "Chủ dự án: Công ty Cổ phần phát triển hạ tầng và Bất động sản An Phú | Địa điểm: xã Gia Bình, xã Đông Cứu và xã Nhân Thắng, tỉnh Bắc Ninh | Thời gian còn lại: Hết hạn",
+          "pubdate": "11-09-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6392"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Standard 11-row HTML table. OpenSSL client resets connection on Windows IIS; SChannel/curl client cleanly fetches table."
+    },
+    {
+      "id": "src-A10",
+      "code_name": "dsgiayphep",
+      "name": "Tham vấn Giấy phép môi trường (Environmental Permit Application - MAE)",
+      "category": "National Official",
+      "target_url": "https://thamvan.mae.gov.vn/Home/DSGiayPhep",
+      "effective_endpoint": "https://thamvan.mae.gov.vn/Home/DSGiayPhep",
+      "method_verified": "Structured HTML Table (SChannel fallback)",
+      "status_code": 200,
+      "response_time_ms": 2717.83,
+      "bytes_transferred": 29971,
+      "server": "Microsoft-IIS/10.0",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "IIS 10.0 SSL Cipher Specific (SChannel/curl required)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Nhà máy sản xuất thép thành phẩm",
+          "snippet": "Chủ dự án: Công ty Cổ phần Vinausteel | Địa điểm: Lô CN2.8, Cụm công nghiệp Đặng Lễ, xã Nguyễn Trãi, tỉnh Hưng Yên | Thời gian còn lại: 11 ngày",
+          "pubdate": "29-10-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6417"
+        },
+        {
+          "title": "Dự án đầu tư xây dựng Nhà máy giấy Kraft",
+          "snippet": "Chủ dự án: Công ty Cổ phần Giấy Đồng Phát ECO | Địa điểm: Thửa CN-2.3, Lô CN-2, Cụm công nghiệp Kim Thái, xã Vụ Bản, tỉnh Ninh Bình | Thời gian còn lại: 11 ngày",
+          "pubdate": "29-10-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6418"
+        },
+        {
+          "title": "Nhà máy giấy bao gói thực phẩm, giấy in nhiệt",
+          "snippet": "Chủ dự án: Công ty TNHH Đầu tư Linh Giang | Địa điểm: Xóm Đắc Phú, xã Đồng Thịnh, tỉnh Ninh Bình | Thời gian còn lại: 10 ngày",
+          "pubdate": "28-10-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6419"
+        },
+        {
+          "title": "Nhà máy giấy Xuân Mai",
+          "snippet": "Chủ dự án: Công ty TNHH giấy Xuân Mai | Địa điểm: Lô C2, C4, C4a, C6, C6a, C6b và C10, Khu công nghiệp Hiệp Phước, xã Hiệp Phước, Tp. Hồ Chí Minh | Thời gian còn lại: 10 ngày",
+          "pubdate": "28-10-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6420"
+        },
+        {
+          "title": "Nhà máy sản xuất giấy bao bì Thuận Hưng",
+          "snippet": "Chủ dự án: Công ty Cổ phần Thương mại Giấy Thuận Hưng | Địa điểm: Lô B2, Khu công nghiệp Tiên Thanh, xã Tiên Lãng, thành phố Hải Phòng | Thời gian còn lại: 3 ngày",
+          "pubdate": "21-10-2026",
+          "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6414"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Standard 11-row HTML table. Contains industrial manufacturing permits with location, owner, and consultation period."
+    },
+    {
+      "id": "src-A11",
+      "code_name": "mae",
+      "name": "Bộ Nông nghiệp và Môi trường (Ministry of Agriculture and Environment - MAE)",
+      "category": "National Official",
+      "target_url": "https://mae.gov.vn",
+      "effective_endpoint": "https://mae.gov.vn/",
+      "method_verified": "Lightweight HTML List Scraping",
+      "status_code": 200,
+      "response_time_ms": 97.95,
+      "bytes_transferred": 322870,
+      "server": "Microsoft-IIS/10.0",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Microsoft-IIS/10.0 (Open)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Chiến lược, quy hoạch, kế hoạch",
+          "snippet": "MAE environmental/land policy announcement: Chiến lược, quy hoạch, kế hoạch",
+          "pubdate": "2026-10 / Current Edition",
+          "url": "https://mae.gov.vn/chien-luoc-quy-hoach.htm"
+        },
+        {
+          "title": "Văn thư, Lưu trữ và Bảo vệ BMNN",
+          "snippet": "MAE environmental/land policy announcement: Văn thư, Lưu trữ và Bảo vệ BMNN",
+          "pubdate": "2026-10 / Current Edition",
+          "url": "https://mae.gov.vn/chuyen-muc/site-van-thu-luu-tru-va-bao-ve-bmnn-332.htm"
+        },
+        {
+          "title": "Công khai vi phạm, khắc phục vi phạm các lĩnh vực NN&MT",
+          "snippet": "MAE environmental/land policy announcement: Công khai vi phạm, khắc phục vi phạm các lĩnh vực NN&MT",
+          "pubdate": "2026-10 / Current Edition",
+          "url": "https://mae.gov.vn/cong-khai-vi-pham-cac-linh-vuc-nnmt-16435.htm"
+        },
+        {
+          "title": "Bộ trưởng Trịnh Việt Hùng giải trình một số vấn đề đại biểu Quốc hội quan tâm",
+          "snippet": "MAE environmental/land policy announcement: Bộ trưởng Trịnh Việt Hùng giải trình một số vấn đề đại biểu Quốc hội quan tâm",
+          "pubdate": "2026-10 / Current Edition",
+          "url": "https://mae.gov.vn/bo-truong-trinh-viet-hung-giai-trinh-mot-so-van-de-dai-bieu-quoc-hoi-quan-tam-23330.htm"
+        },
+        {
+          "title": "Bộ Nông nghiệp và Môi trường quán triệt, triển khai các nghị quyết của Trung ương",
+          "snippet": "MAE environmental/land policy announcement: Bộ Nông nghiệp và Môi trường quán triệt, triển khai các nghị quyết của Trung ương",
+          "pubdate": "2026-10 / Current Edition",
+          "url": "https://mae.gov.vn/bo-nong-nghiep-va-moi-truong-quan-triet-trien-khai-cac-nghi-quyet-cua-trung-uong-23327.htm"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Main ministry portal gives strategic announcements, draft national standards (TCVN), land quality surveys, and biotechnology decrees."
+    },
+    {
+      "id": "src-A12",
+      "code_name": "congbao",
+      "name": "Công báo Chính phủ (Official Gazette)",
+      "category": "National Official",
+      "target_url": "https://congbao.chinhphu.vn",
+      "effective_endpoint": "https://congbao.chinhphu.vn",
+      "method_verified": "Lightweight HTML List Scraping (RSS empty placeholder)",
+      "status_code": 200,
+      "response_time_ms": 138.7,
+      "bytes_transferred": 450,
+      "server": null,
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Công báo số 567 ngày 30/10/2026",
+          "snippet": "Văn bản quy phạm pháp luật / Công báo số đăng tải trên Cổng Công báo Chính phủ: Công báo số 567 ngày 30/10/2026",
+          "pubdate": "30/10/2026",
+          "url": "https://congbao.chinhphu.vn/cong-bao/cong-bao-so-567-ngay-30-10-2026-47584.htm"
+        },
+        {
+          "title": "Nghị định số 393/2026/NĐ-CP quy định về người lao động nước ngoài làm việc tại Việt Nam",
+          "snippet": "Văn bản quy phạm pháp luật / Công báo số đăng tải trên Cổng Công báo Chính phủ: Nghị định số 393/2026/NĐ-CP quy định về người lao động nước ngoài làm việc tại Việt Nam",
+          "pubdate": "2026-10",
+          "url": "https://congbao.chinhphu.vn/van-ban/nghi-dinh-so-393-2026-nd-cp-470855.htm"
+        },
+        {
+          "title": "Thông tư số 67/2026/TT-BCT sửa đổi, bổ sung một số điều của Thông tư số 19/2026/TT-BCT ngày 03 tháng 4 năm 2026 của Bộ trưởng Bộ Công thương quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước, trích lập Quỹ bình ổn giá xăng dầu và hoàn trả tạm ứng ngân sách nhà nước",
+          "snippet": "Văn bản quy phạm pháp luật / Công báo số đăng tải trên Cổng Công báo Chính phủ: Thông tư số 67/2026/TT-BCT sửa đổi, bổ sung một số điều của Thông tư số 19/2026/TT-BCT ngày 03 tháng 4 năm 2026 của Bộ trưởng Bộ Công thương quy định về tạm ứng cho Quỹ bình ổn giá xăng dầu từ nguồn ngân sách nhà nước, trích lập Quỹ bình ổn giá xăng dầu và hoàn trả tạm ứng ngân sách nhà nước",
+          "pubdate": "2026-10",
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-67-2026-tt-bct-470854.htm"
+        },
+        {
+          "title": "Thông tư số 154/2026/TT-BTC sửa đổi, bổ sung một số điều của Thông tư số 80/2019/TT-BTC ngày 15 tháng 11 năm 2029 của Bộ trưởng Bộ Tài chính hướng dẫn thủ tục hải quan, quản lý thuế, phí và lệ phí đối với hàng hoá xuất khẩu, nhập khẩu theo Nghị định số 14/2018/NĐ-CP ngày 23 tháng 01 năm 2018 của Chính phủ quy định chỉ tiết về hoạt động thương mại biên giới",
+          "snippet": "Văn bản quy phạm pháp luật / Công báo số đăng tải trên Cổng Công báo Chính phủ: Thông tư số 154/2026/TT-BTC sửa đổi, bổ sung một số điều của Thông tư số 80/2019/TT-BTC ngày 15 tháng 11 năm 2029 của Bộ trưởng Bộ Tài chính hướng dẫn thủ tục hải quan, quản lý thuế, phí và lệ phí đối với hàng hoá xuất khẩu, nhập khẩu theo Nghị định số 14/2018/NĐ-CP ngày 23 tháng 01 năm 2018 của Chính phủ quy định chỉ tiết về hoạt động thương mại biên giới",
+          "pubdate": "2026-10",
+          "url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-154-2026-tt-btc-470850.htm"
+        },
+        {
+          "title": "Quyết định số 2018/QĐ-TTg phê duyệt điều chỉnh Quy hoạch lâm nghiệp thời kỳ 2021 - 2030, tầm nhìn đến năm 2050",
+          "snippet": "Văn bản quy phạm pháp luật / Công báo số đăng tải trên Cổng Công báo Chính phủ: Quyết định số 2018/QĐ-TTg phê duyệt điều chỉnh Quy hoạch lâm nghiệp thời kỳ 2021 - 2030, tầm nhìn đến năm 2050",
+          "pubdate": "2026-10",
+          "url": "https://congbao.chinhphu.vn/van-ban/quyet-dinh-so-2018-qd-ttg-470849.htm"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Native RSS /home.rss exists but channel items are currently empty. Homepage HTML provides structured list of latest signed decrees (Nghị định), circulars (Thông tư), and Gazette issues."
+    },
+    {
+      "id": "src-A13",
+      "code_name": "vbpl",
+      "name": "Cơ sở dữ liệu quốc gia về VBPL (National Legal Database)",
+      "category": "National Official",
+      "target_url": "https://vbpl.vn",
+      "effective_endpoint": "https://vbpl.vn/sitemap/1.xml",
+      "method_verified": "Structured XML Sitemap Index",
+      "status_code": 200,
+      "response_time_ms": 264.41,
+      "bytes_transferred": 4034596,
+      "server": "PWS/8.3.1.0.8",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Next.js App Router (Sitemap Open)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Thong tu so 24 2026 tt bgddt quy dinh chuan nghe nghiep giao vien so cap giao vien trung cap",
+          "snippet": "National central legal document published on vbpl.vn (last modified: 2026-11-01)",
+          "pubdate": "2026-11-01",
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-24-2026-tt-bgddt-quy-dinh-chuan-nghe-nghiep-giao-vien-so-cap-giao-vien-trung-cap--ed74e7f0-d5d8-11f1-9602-e706835214fc"
+        },
+        {
+          "title": "Thong tu so 32 2026 tt bgddt quy dinh viec xac dinh tuong duong chuc danh nha giao",
+          "snippet": "National central legal document published on vbpl.vn (last modified: 2026-11-01)",
+          "pubdate": "2026-11-01",
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-32-2026-tt-bgddt-quy-dinh-viec-xac-dinh-tuong-duong-chuc-danh-nha-giao--d7e107d0-d5d7-11f1-b5cf-67fd74c9e240"
+        },
+        {
+          "title": "Thong tu so 23 2026 tt bgddt quy dinh ma so chuan nghe nghiep bo nhiem chuc danh va xep luong doi voi giao vien co so giao duc thuong xuyen",
+          "snippet": "National central legal document published on vbpl.vn (last modified: 2026-11-01)",
+          "pubdate": "2026-11-01",
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-23-2026-tt-bgddt-quy-dinh-ma-so-chuan-nghe-nghiep-bo-nhiem-chuc-danh-va-xep-luong-doi-voi-giao-vien-co-so-giao-duc-thuong-xuyen--b9f40250-d5d6-11f1-8046-8b7376d665cf"
+        },
+        {
+          "title": "Thong tu so 25 2026 tt bgddt quy dinh chuan nghe nghiep giang vien cao dang",
+          "snippet": "National central legal document published on vbpl.vn (last modified: 2026-11-01)",
+          "pubdate": "2026-11-01",
+          "url": "https://vbpl.vn/van-ban/chi-tiet/thong-tu-so-25-2026-tt-bgddt-quy-dinh-chuan-nghe-nghiep-giang-vien-cao-dang--625879d0-d5d2-11f1-ac18-415c6b3c8e4e"
+        },
+        {
+          "title": "Quyet dinh so 866 2006 qd bca e11 ve viec ban hanh quy che to chuc va hoat dong cua hoi dong khoa hoc va cong nghe bo cong an",
+          "snippet": "National central legal document published on vbpl.vn (last modified: 2026-10-31)",
+          "pubdate": "2026-10-31",
+          "url": "https://vbpl.vn/van-ban/chi-tiet/quyet-dinh-so-866-2006-qd-bca-e11-ve-viec-ban-hanh-quy-che-to-chuc-va-hoat-dong-cua-hoi-dong-khoa-hoc-va-cong-nghe-bo-cong-an--1fd2c6e0-d516-11f1-ba02-8be5592b21b5"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Old domain vbpl.moj.gov.vn is obsolete (DNS error). New vbpl.vn provides central sitemap /sitemap/1.xml with 5000 real-time decrees and circulars."
+    },
+    {
+      "id": "src-A14",
+      "code_name": "mti_sg",
+      "name": "Ministry of Energy, Trade and Industry (Singapore MTI/METI)",
+      "category": "National Official",
+      "target_url": "https://www.mti.gov.sg",
+      "effective_endpoint": "https://www.meti.gov.sg/newsroom/press-releases",
+      "method_verified": "Lightweight HTML List Scraping",
+      "status_code": 200,
+      "response_time_ms": 2812.13,
+      "bytes_transferred": 6476843,
+      "server": "AmazonS3",
+      "etag": "W/\"bfade4ada4cd5aa4126df00e9d508d10\"",
+      "last_modified": "Sun, 01 Nov 2026 08:03:27 GMT",
+      "security_state": "Open (Amazon S3 / CloudFront)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "1 November 2026 Joint Press Release for the Entry into Force of the MERCOSUR-Singapore Free Trade Agreement between Singapore and Argentina 1. Press releases",
+          "snippet": "Singapore MTI/METI official press release: 1 November 2026 Joint Press Release for the Entry into Force of the MERCOSUR-Singapore Free Trade Agreement between Singapore and Argentina 1. Press releases",
+          "pubdate": "1 November 2026",
+          "url": "https://www.meti.gov.sg/newsroom/joint-press-release-for-the-entry-into-force-of-the-mercosur-singapore-free-trade-agreement-between-singapore-and-argentina/"
+        },
+        {
+          "title": "30 October 2026 Motor Vehicle Financing Restrictions Extended to Individual-Owned Private Hire Cars 1. Press releases",
+          "snippet": "Singapore MTI/METI official press release: 30 October 2026 Motor Vehicle Financing Restrictions Extended to Individual-Owned Private Hire Cars 1. Press releases",
+          "pubdate": "30 October 2026",
+          "url": "https://www.meti.gov.sg/newsroom/motor-vehicle-financing-restrictions-extended-to-individual-owned-private-hire-cars/"
+        },
+        {
+          "title": "29 October 2026 Address by Minister of State for Energy, Trade and Industry Gan Siow Huang at A*STAR T-Up Awards Ceremony 2. Speeches",
+          "snippet": "Singapore MTI/METI official press release: 29 October 2026 Address by Minister of State for Energy, Trade and Industry Gan Siow Huang at A*STAR T-Up Awards Ceremony 2. Speeches",
+          "pubdate": "29 October 2026",
+          "url": "https://www.meti.gov.sg/newsroom/address-by-minister-of-state-for-energy--trade-and-industry-gan-siow-huang-at-a-star-t-up-awards-ceremony/"
+        },
+        {
+          "title": "28 October 2026 Delivered Speech by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at SWITCH 2026, Breakthrough Energy Fellows: Scaling climate and energy tech through partnerships in Southeast Asia 2. Speeches",
+          "snippet": "Singapore MTI/METI official press release: 28 October 2026 Delivered Speech by Minister for Energy, Trade and Industry (Energy and Industry) Dr Tan See Leng at SWITCH 2026, Breakthrough Energy Fellows: Scaling climate and energy tech through partnerships in Southeast Asia 2. Speeches",
+          "pubdate": "28 October 2026",
+          "url": "https://www.meti.gov.sg/newsroom/delivered-speech-by-minister-for-energy--trade-and-industry--energy-and-industry--dr-tan-see-leng-at-switch-2026--breakthrough-energy-fellows--scaling-climate-and-energy-tech-through-partnerships-in-southeast-asia/"
+        },
+        {
+          "title": "28 October 2026 Singapore – United States 6th Joint Statement on Energy Cooperation 1. Press releases",
+          "snippet": "Singapore MTI/METI official press release: 28 October 2026 Singapore – United States 6th Joint Statement on Energy Cooperation 1. Press releases",
+          "pubdate": "28 October 2026",
+          "url": "https://www.meti.gov.sg/newsroom/singapore---united-states-6th-joint-statement-on-energy-cooperation/"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Official press releases on trade pacts (MERCOSUR-Singapore FTA, US-SG energy cooperation, ASEAN investments) with exact dates."
+    },
+    {
+      "id": "src-A15",
+      "code_name": "enterprisesg",
+      "name": "Enterprise Singapore",
+      "category": "National Official",
+      "target_url": "https://www.enterprisesg.gov.sg",
+      "effective_endpoint": "https://www.enterprisesg.gov.sg/sitemap.xml",
+      "method_verified": "Structured XML Sitemap",
+      "status_code": 200,
+      "response_time_ms": 499.58,
+      "bytes_transferred": 332740,
+      "server": null,
+      "etag": null,
+      "last_modified": null,
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Ict and media",
+          "snippet": "Enterprise Singapore media/trade intelligence entry (lastmod: 2025-11-26)",
+          "pubdate": "2025-11-26",
+          "url": "https://www.enterprisesg.gov.sg/industries/ict-and-media"
+        },
+        {
+          "title": "Sustainability reporting grant",
+          "snippet": "Enterprise Singapore media/trade intelligence entry (lastmod: 2026-10-09)",
+          "pubdate": "2026-10-09",
+          "url": "https://www.enterprisesg.gov.sg/financial-support/sustainability-reporting-grant"
+        },
+        {
+          "title": "Reports",
+          "snippet": "Enterprise Singapore media/trade intelligence entry (lastmod: 2025-03-17)",
+          "pubdate": "2025-03-17",
+          "url": "https://www.enterprisesg.gov.sg/resources/reports"
+        },
+        {
+          "title": "Media centre",
+          "snippet": "Enterprise Singapore media/trade intelligence entry (lastmod: 2026-08-18)",
+          "pubdate": "2026-08-18",
+          "url": "https://www.enterprisesg.gov.sg/resources/media-centre"
+        },
+        {
+          "title": "Annual media briefing 2026",
+          "snippet": "Enterprise Singapore media/trade intelligence entry (lastmod: 2026-07-08)",
+          "pubdate": "2026-07-08",
+          "url": "https://www.enterprisesg.gov.sg/about-us/annual-media-briefing-2026"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Official sitemap /sitemap.xml contains 1390 index entries, providing updated market expansion guides and annual media briefings."
+    },
+    {
+      "id": "src-A16",
+      "code_name": "acra_bizfile",
+      "name": "ACRA / Bizfile (Accounting and Corporate Regulatory Authority)",
+      "category": "National Official",
+      "target_url": "https://www.acra.gov.sg",
+      "effective_endpoint": "https://www.acra.gov.sg/news-events/news-announcements/rss.xml",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 1601.65,
+      "bytes_transferred": 120728,
+      "server": "AmazonS3",
+      "etag": "W/\"bcd8de300a32fae32cb38cf26129a3b9\"",
+      "last_modified": "Fri, 30 Oct 2026 07:03:53 GMT",
+      "security_state": "Open (Amazon S3)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Strengthening Business Valuation Through New University Exemptions and Renewed Global Partnership",
+          "snippet": "",
+          "pubdate": "Fri, 23 Oct 2026 00:00:00 +0800",
+          "url": "https://www.acra.gov.sg/news-events/news-announcements/strengthening-business-valuation-through-new-university-exemptions-and-renewed-global-partnership"
+        },
+        {
+          "title": "New Bizfinx Preparation Tool (Prep Tool)",
+          "snippet": "Prepare, validate and upload financial statements in XBRL format using the latest version of the BizFinx Prep Tool.",
+          "pubdate": "Mon, 19 Oct 2026 00:00:00 +0800",
+          "url": "https://www.acra.gov.sg/news-events/news-announcements/new-bizfinx-prep-tool"
+        },
+        {
+          "title": "Changes to the ACRA Code for public accountants and accounting entities",
+          "snippet": "",
+          "pubdate": "Fri, 16 Oct 2026 00:00:00 +0800",
+          "url": "https://www.acra.gov.sg/news-events/news-announcements/changes-to-the-acra-code-for-public-accountants-and-accounting-entities"
+        },
+        {
+          "title": "Scheduled maintenance for selected eServices",
+          "snippet": "",
+          "pubdate": "Fri, 09 Oct 2026 00:00:00 +0800",
+          "url": "https://www.acra.gov.sg/news-events/news-announcements/scheduled-maintenance-selected-eservices"
+        },
+        {
+          "title": "Commencement of Key Changes under the Corporate and Accounting Laws (Amendment) Act 2025 on 20 October 2026",
+          "snippet": "The next phase of amendments under the Corporate and Accounting Laws (Amendment) Act 2025 will commence on 20 October 2026.",
+          "pubdate": "Tue, 06 Oct 2026 00:00:00 +0800",
+          "url": "https://www.acra.gov.sg/news-events/news-announcements/commencement-of-key-changes-under-the-corporate-and-accounting-laws--amendment--act-2025-on-20-october-2026"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Native RSS endpoint /rss.xml active with 10 articles. Corporate regulatory notices, compliance rules, and statutory disclosures."
+    },
+    {
+      "id": "src-B01",
+      "code_name": "vsip",
+      "name": "VSIP Group (Vietnam Singapore Industrial Park)",
+      "category": "Benchmark Industrial Parks",
+      "target_url": "https://www.vsip.com.vn",
+      "effective_endpoint": "https://www.vsip.com.vn/feed/",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 122.28,
+      "bytes_transferred": 43420,
+      "server": null,
+      "etag": "W/\"89cecb667e1f2d4b1b8eebc546f12322\"",
+      "last_modified": "Mon, 19 Oct 2026 07:16:39 GMT",
+      "security_state": "Open (No WAF/Captcha)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "VSIP được vinh danh là Nhà Phát triển Tích hợp xuất sắc nhất tại giải thưởng PropertyGuru Vietnam Property Awards 2026",
+          "snippet": "Giải thưởng Best Integrated Developer là sự công nhận, khẳng định phương pháp phát triển nhất quán của VSIP, kết hợp hài hòa giữa không gian sống đô thị, công n",
+          "pubdate": "Sat, 17 Oct 2026 03:16:56 +0000",
+          "url": "https://www.vsip.com.vn/vsip-nha-phat-trien-bat-dong-san-do-thi-cong-nghiep-tich-hop-xuat-sac-2026/"
+        },
+        {
+          "title": "DỰ ÁN ĐÔ THỊ và DỊCH VỤ",
+          "snippet": "Khu đô thị và dịch vụ VSIP II Bình Dương Khu đô thị bền vững là hệ sinh thái tích hợp giữa Công nghiệp, Đô thị và Dịch vụ, nơi cư dân có thể sống, làm việc, học",
+          "pubdate": "Wed, 16 Sep 2026 10:29:01 +0000",
+          "url": "https://www.vsip.com.vn/du-an-do-thi-va-dich-vu/"
+        },
+        {
+          "title": "CHÍNH SÁCH VỀ BẢO VỆ DỮ LIỆU CÁ NHÂN",
+          "snippet": "POLICY ON PERSONAL DATA PROTECTION",
+          "pubdate": "Mon, 10 Aug 2026 05:36:04 +0000",
+          "url": "https://www.vsip.com.vn/chinh-sach-ve-bao-ve-du-lieu-ca-nhan/"
+        },
+        {
+          "title": "SEMBCORP VÀ BECAMEX HỢP TÁC PHÁT TRIỂN 20 KHU CÔNG NGHIỆP VIỆT NAM SINGAPORE",
+          "snippet": "Singapore, ngày 12 tháng 3 năm 2025, Sembcorp Development, thuộc sở hữu hoàn toàn bởi Sembcorp Industries (gọi tắt “Sembcorp”), và đối tác liên doanh Becamex ID",
+          "pubdate": "Mon, 03 Aug 2026 02:27:25 +0000",
+          "url": "https://www.vsip.com.vn/sembcorp-va-becamex-hop-tac-phat-trien-20-khu-cong-nghiep-viet-nam-singapore/"
+        },
+        {
+          "title": "ĐĂNG KÝ THAM GIA HỘI THẢO “ESG – XU THẾ CHUYỂN ĐỔI SẢN XUẤT XANH” DO BECAMEX VSIP BÌNH ĐỊNH TỔ CHỨC",
+          "snippet": "Trong bối cảnh các yêu cầu về ESG, phát thải carbon và chuỗi cung ứng bền vững ngày càng trở thành tiêu chuẩn toàn cầu, việc cập nhật thông tin và chuẩn bị sớm ",
+          "pubdate": "Mon, 22 Jun 2026 09:10:14 +0000",
+          "url": "https://www.vsip.com.vn/dang-ky-tham-gia-hoi-thao-esg-xu-the-chuyen-doi-san-xuat-xanh-do-becamex-vsip-binh-dinh-to-chuc/"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "WordPress RSS feed is active at /feed/. Returns 10 articles covering park expansions, awards, and urban industrial projects."
+    },
+    {
+      "id": "src-B02",
+      "code_name": "amata",
+      "name": "Amata Vietnam",
+      "category": "Benchmark Industrial Parks",
+      "target_url": "https://amatavn.com",
+      "effective_endpoint": "https://amatavn.com/feed/",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 285.42,
+      "bytes_transferred": 15531,
+      "server": "LiteSpeed",
+      "etag": "\"c64145a7c71a1fd53a6c8fc3edb3185f\"",
+      "last_modified": "Fri, 30 Oct 2026 09:24:53 GMT",
+      "security_state": "Open (amatavn.com active; amatavietnam.com expired)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "OJI LIQUID PAK INVESTS USD 110 MILLION IN AMATA CITY LONG THANH, EXPANDING VIETNAM’S PACKAGING MANUFACTURING CAPACITY",
+          "snippet": "Oji Liquid Pak’s USD 110 million aseptic carton packaging plant marks a new milestone in the development of Amata City Long Thanh, while adding manufacturing ca",
+          "pubdate": "Tue, 13 Oct 2026 08:35:18 +0000",
+          "url": "https://amatavn.com/news-event/oji-liquid-pak-invests-usd-110-million-in-amata-city-long-thanh-expanding-vietnams-packaging-manufacturing-capacity/?utm_source=rss&utm_medium=rss&utm_campaign=oji-liquid-pak-invests-usd-110-million-in-amata-city-long-thanh-expanding-vietnams-packaging-manufacturing-capacity"
+        },
+        {
+          "title": "AMATA VIETNAM JOINS THE ROYAL THAI EMBASSY IN A BLOOD DONATION CAMPAIGN",
+          "snippet": "On 16th October 2026, AMATA City Ha Long and AMATA City Phu Tho proudly participated in the blood donation campaign organized by the National Institute of Hemat",
+          "pubdate": "Mon, 26 Oct 2026 04:37:18 +0000",
+          "url": "https://amatavn.com/news-event/amata-vietnam-joins-the-royal-thai-embassy-in-a-blood-donation-campaign/?utm_source=rss&utm_medium=rss&utm_campaign=amata-vietnam-joins-the-royal-thai-embassy-in-a-blood-donation-campaign"
+        },
+        {
+          "title": "Amata City Bien Hoa Strengthens International Collaboration on Eco-Industrial Park Development",
+          "snippet": "On October 15, 2026, Amata City Bien Hoa welcomed a delegation of 16 representatives from the Government of Jordan and the German Agency for International Coope",
+          "pubdate": "Thu, 22 Oct 2026 01:59:47 +0000",
+          "url": "https://amatavn.com/news-event/business-news/amata-city-bien-hoa-strengthens-international-collaboration-on-eco-industrial-park-development/?utm_source=rss&utm_medium=rss&utm_campaign=amata-city-bien-hoa-strengthens-international-collaboration-on-eco-industrial-park-development"
+        },
+        {
+          "title": "AMATA CITY BIEN HOA CONGRATULATES KAO VIET NAM MARKS 30 YEARS OF OPERATIONS, LOOKING AHEAD TO GREATER SOCIAL CONTRIBUTIONS",
+          "snippet": "On the occasion of Kao Vietnam’s 30th anniversary of operations in Vietnam, AMATA City Bien Hoa attended the celebration to congratulate its long-standing partn",
+          "pubdate": "Sat, 10 Oct 2026 09:03:51 +0000",
+          "url": "https://amatavn.com/news-event/amata-city-bien-hoa-congratulates-kao-viet-nam-marks-30-years-of-operations-looking-ahead-to-greater-social-contributions/?utm_source=rss&utm_medium=rss&utm_campaign=amata-city-bien-hoa-congratulates-kao-viet-nam-marks-30-years-of-operations-looking-ahead-to-greater-social-contributions"
+        },
+        {
+          "title": "AMATA CITY HA LONG WELCOMES HUNAN BUSINESS DELEGATION",
+          "snippet": "On 13th October 2026, Amata City Ha Long welcomed a delegation representing leading companies from Hunan Province, China, as part of a business and investment p",
+          "pubdate": "Thu, 15 Oct 2026 02:45:00 +0000",
+          "url": "https://amatavn.com/news-event/amata-city-ha-long-welcomes-hunan-business-delegation/?utm_source=rss&utm_medium=rss&utm_campaign=amata-city-ha-long-welcomes-hunan-business-delegation"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Active domain is amatavn.com (not amatavietnam.com). Native RSS feed /feed/ provides tenant investment announcements ($110M Oji Liquid Pak project)."
+    },
+    {
+      "id": "src-B03",
+      "code_name": "becamex",
+      "name": "Becamex IDC",
+      "category": "Benchmark Industrial Parks",
+      "target_url": "https://becamex.com.vn",
+      "effective_endpoint": "https://becamex.com.vn/feed/",
+      "method_verified": "Native RSS 2.0 + HTML News Supplement",
+      "status_code": 200,
+      "response_time_ms": 400.9,
+      "bytes_transferred": 4097,
+      "server": "Apache/2.4.58 (Ubuntu)",
+      "etag": "\"dcd7c13a36890a820fc75995d9a80b36-gzip\"",
+      "last_modified": "Fri, 30 Oct 2026 06:25:22 GMT",
+      "security_state": "Open (Apache Ubuntu)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Tuyển Dụng vị trí công việc Giảng viên tiếng Anh – Thời hạn làm việc từ tháng 01/2027 đến tháng 01/2029",
+          "snippet": "Thông báo tuyển dụng lao động Việt Nam 1. Vị trí công việc: Chuyên gia – Lĩnh vực làm việc: Giảng viên tiếng Anh – Hình thức làm việc: Thực hiện Hợp đồng lao độ",
+          "pubdate": "Tue, 20 Oct 2026 02:22:40 +0000",
+          "url": "https://becamex.com.vn/tuyen-dung-vi-tri-cong-viec-giang-vien-tieng-anh-thoi-han-lam-viec-tu-thang-01-2027-den-thang-01-2029/"
+        },
+        {
+          "title": "Bất Động Sản và Dịch Vụ Công Nghiệp",
+          "snippet": "Becamex IDC industrial development / news: Bất Động Sản và Dịch Vụ Công Nghiệp",
+          "pubdate": "2026-10 / Corporate News",
+          "url": "https://becamex.com.vn/realestates/bat-dong-san-va-dich-vu-cong-nghiep/"
+        },
+        {
+          "title": "Hạ Tầng Nhà Xưởng, Nhà Kho Xây Sẵn Từ BWID",
+          "snippet": "Becamex IDC industrial development / news: Hạ Tầng Nhà Xưởng, Nhà Kho Xây Sẵn Từ BWID",
+          "pubdate": "2026-10 / Corporate News",
+          "url": "https://becamex.com.vn/realestate/ha-tang-rbf-rbw-tu-bwid/"
+        },
+        {
+          "title": "Đào Tạo Nguồn Nhân Lực và R&D (EIU)",
+          "snippet": "Becamex IDC industrial development / news: Đào Tạo Nguồn Nhân Lực và R&D (EIU)",
+          "pubdate": "2026-10 / Corporate News",
+          "url": "https://becamex.com.vn/realestate/dao-tao-nguon-nhan-luc-va-rd-eiu/"
+        },
+        {
+          "title": "Giải Pháp Điện Xanh Và Ổn Định (BVP & VSSES)",
+          "snippet": "Becamex IDC industrial development / news: Giải Pháp Điện Xanh Và Ổn Định (BVP & VSSES)",
+          "pubdate": "2026-10 / Corporate News",
+          "url": "https://becamex.com.vn/realestate/giai-phap-dien-xanh-va-on-dinh-bvp-vsses/"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Native WordPress RSS /feed/ active (often has low post count); /tin-tuc/ page provides strategic park developments (VRG, IFC, SEMBCORP partnerships)."
+    },
+    {
+      "id": "src-B04",
+      "code_name": "deepc",
+      "name": "DEEP C Industrial Zones",
+      "category": "Benchmark Industrial Parks",
+      "target_url": "https://deepc.vn",
+      "effective_endpoint": "https://deepc.vn/vi/thong-tin-chuyen-nganh/tin-tuc-su-kien/",
+      "method_verified": "Lightweight HTML Card Scraping",
+      "status_code": 200,
+      "response_time_ms": 248.12,
+      "bytes_transferred": 132102,
+      "server": "cloudflare",
+      "etag": null,
+      "last_modified": "Thu, 29 Oct 2026 05:54:40 GMT",
+      "security_state": "Cloudflare CDN (Direct GET allowed)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Tiệc Tri ân Khách hàng DEEP C 2026",
+          "snippet": "DEEP C Industrial Zones news: Tiệc Tri ân Khách hàng DEEP C 2026",
+          "pubdate": "6 Tháng 10 2026",
+          "url": "https://deepc.vn/vi/blog/tiec-tri-an-khach-hang-deep-c-2026/"
+        },
+        {
+          "title": "DEEP C Run Royale 2026 returns this November",
+          "snippet": "DEEP C Industrial Zones news: DEEP C Run Royale 2026 returns this November",
+          "pubdate": "24 Tháng 9 2026",
+          "url": "https://deepc.vn/vi/blog/deep-c-run-royale-2026-returns-this-november-2/"
+        },
+        {
+          "title": "B.FEST 2026 debuts in Quang Ninh",
+          "snippet": "DEEP C Industrial Zones news: B.FEST 2026 debuts in Quang Ninh",
+          "pubdate": "23 Tháng 9 2026",
+          "url": "https://deepc.vn/vi/blog/b-fest-2026-comes-to-quang-ninh-for-the-first-time-2/"
+        },
+        {
+          "title": "Dự án bán dẫn trị giá 1 tỷ đô la của LG Innotek chính thức nhận được giấy chứng nhận đăng ký đầu tư",
+          "snippet": "DEEP C Industrial Zones news: Dự án bán dẫn trị giá 1 tỷ đô la của LG Innotek chính thức nhận được giấy chứng nhận đăng ký đầu tư",
+          "pubdate": "31 Tháng 7 2026",
+          "url": "https://deepc.vn/vi/blog/du-an-ban-dan-tri-gia-1-ty-do-la-cua-lg-innotek-chinh-thuc-nhan-duoc-giay-chung-nhan-dang-ky-dau-tu/"
+        },
+        {
+          "title": "Podcast 28 Tháng 7 2026 [Insight Out] People start to understand that Vietnam matters – Belgian Ambassador to Vietnam H.E Karl Van den Bossche",
+          "snippet": "DEEP C Industrial Zones news: Podcast 28 Tháng 7 2026 [Insight Out] People start to understand that Vietnam matters – Belgian Ambassador to Vietnam H.E Karl Van den Bossche",
+          "pubdate": "28 Tháng 7 2026",
+          "url": "https://deepc.vn/vi/blog/insight-out-people-start-to-understand-that-vietnam-matters-belgian-ambassador-to-vietnam-h-e-karl-van-den-bossche/"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Structured blog list on /thong-tin-chuyen-nganh/tin-tuc-su-kien/. Features Haiphong & Quang Ninh customer events, community and park updates."
+    },
+    {
+      "id": "src-B05",
+      "code_name": "longhau",
+      "name": "Long Hậu Corporation (LHC)",
+      "category": "Benchmark Industrial Parks",
+      "target_url": "https://longhau.com.vn",
+      "effective_endpoint": "https://longhau.com.vn/truyen-thong/tin-tuc-su-kien",
+      "method_verified": "Lightweight HTML List Scraping",
+      "status_code": 200,
+      "response_time_ms": 505.66,
+      "bytes_transferred": 51152,
+      "server": "LiteSpeed",
+      "etag": null,
+      "last_modified": null,
+      "security_state": "LiteSpeed Web Server (Open)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "Long Hậu chốt phương án vay BIDV 1.500 tỷ đồng",
+          "snippet": "Long Hau industrial park / market intelligence report: Long Hậu chốt phương án vay BIDV 1.500 tỷ đồng",
+          "pubdate": "2026-09 / 2026-10",
+          "url": "https://longhau.com.vn/truyen-thong/thong-tin-thi-truong/long-hau-chot-phuong-an-vay-bidv-1500-ty-dong"
+        },
+        {
+          "title": "Hạ tầng giao thông khu Nam TP.HCM: Tổng hợp hiện trạng và tác động (cập nhật tháng 9/2026)",
+          "snippet": "Long Hau industrial park / market intelligence report: Hạ tầng giao thông khu Nam TP.HCM: Tổng hợp hiện trạng và tác động (cập nhật tháng 9/2026)",
+          "pubdate": "2026-09 / 2026-10",
+          "url": "https://longhau.com.vn/truyen-thong/tin-tuc-su-kien/ha-tang-giao-thong-khu-nam-tphcm-tong-hop-hien-trang-va-tac-dong-cap-nhat-thang-92026"
+        },
+        {
+          "title": "Áp lực chi phí và nhân công thúc đẩy tối ưu vận hành nhà máy",
+          "snippet": "Long Hau industrial park / market intelligence report: Áp lực chi phí và nhân công thúc đẩy tối ưu vận hành nhà máy",
+          "pubdate": "2026-09 / 2026-10",
+          "url": "https://longhau.com.vn/truyen-thong/thong-tin-thi-truong/ap-luc-chi-phi-va-nhan-cong-thuc-day-toi-uu-van-hanh-nha-may"
+        },
+        {
+          "title": "Chuyển đổi mô hình sản xuất theo hướng xanh và thông minh",
+          "snippet": "Long Hau industrial park / market intelligence report: Chuyển đổi mô hình sản xuất theo hướng xanh và thông minh",
+          "pubdate": "2026-09 / 2026-10",
+          "url": "https://longhau.com.vn/truyen-thong/thong-tin-thi-truong/chuyen-doi-mo-hinh-san-xuat-theo-huong-xanh-va-thong-minh"
+        },
+        {
+          "title": "Nhà xưởng xây sẵn hút dự án FDI",
+          "snippet": "Long Hau industrial park / market intelligence report: Nhà xưởng xây sẵn hút dự án FDI",
+          "pubdate": "2026-09 / 2026-10",
+          "url": "https://longhau.com.vn/truyen-thong/thong-tin-thi-truong/nha-xuong-xay-san-hut-du-an-fdi"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Lists factory construction costs, 1.5 trillion VND bank loan resolutions, and industrial warehouse market trends."
+    },
+    {
+      "id": "src-B06",
+      "code_name": "bwindustrial",
+      "name": "BW Industrial Development JSC",
+      "category": "Benchmark Industrial Parks",
+      "target_url": "https://bwindustrial.com",
+      "effective_endpoint": "https://bwindustrial.com/feed/",
+      "method_verified": "Native RSS 2.0",
+      "status_code": 200,
+      "response_time_ms": 2064.63,
+      "bytes_transferred": 76754,
+      "server": "LiteSpeed",
+      "etag": "\"d63c21fb83062a7470edc1ac10e1a6e6\"",
+      "last_modified": "Thu, 29 Oct 2026 08:22:53 GMT",
+      "security_state": "LiteSpeed Web Server (Open)",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "BW INDUSTRIAL PUBLISHES DRAFT ENHANCED ENVIRONMENTAL AND SOCIAL GOVERNANCE AND MANAGEMENT SYSTEM (ESGMS)",
+          "snippet": "[Download Draft Enhanced ESGMS (PDF)] As part of its ongoing commitment to responsible and sustainable business practices, BW Industrial Development Joint Stock",
+          "pubdate": "Sat, 17 Oct 2026 03:55:40 +0000",
+          "url": "https://bwindustrial.com/bw-industrial-publishes-draft-enhanced-environmental-and-social-governance-and-management-system-esgms/"
+        },
+        {
+          "title": "BW Industrial Contributes to “Vietnam’s Next Manufacturing Frontier (2026)” Report",
+          "snippet": "Download the full report: here   BW is proud to have supported Vietnam’s Next Manufacturing Frontier (2026), released by Acclime Vietnam, alongside fellow contr",
+          "pubdate": "Thu, 24 Sep 2026 03:34:49 +0000",
+          "url": "https://bwindustrial.com/bw-industrial-contributes-to-vietnams-next-manufacturing-frontier-2026-report/"
+        },
+        {
+          "title": "BW Industrial Signs Strategic MoUs to Power Vietnam’s Next Phase of Digital and Sustainable Industrial Growth",
+          "snippet": "Agreements position BW to support hyperscale data centers with scalable power infrastructure and expand rooftop solar to generate renewable energy for sustainab",
+          "pubdate": "Wed, 25 Mar 2026 02:48:15 +0000",
+          "url": "https://bwindustrial.com/bw-industrial-signs-strategic-mous-to-power-vietnams-next-phase-of-digital-and-sustainable-industrial-growth/"
+        },
+        {
+          "title": "BW Industrial Announces US$120 Million Strategic Partnership with A Leading Global Institutional Investor to Develop a High-Quality For-Rent Industrial Portfolio Across Vietnam’s Key Economic Regions",
+          "snippet": "The venture is seeded with three development projects with a combined gross floor area of approximately 270,000 square meters, and features an attractive pipeli",
+          "pubdate": "Wed, 14 Jan 2026 09:03:50 +0000",
+          "url": "https://bwindustrial.com/bw-industrial-announces-us120-million-strategic-partnership-with-a-leading-global-institutional-investor-to-develop-a-high-quality/"
+        },
+        {
+          "title": "The Strategic Bet I Placed on Vietnam — And Why It Was Right",
+          "snippet": "By Lance Li, BW Industrial CEO Originally published on dantri.com.vn, this essay reflects Lance Li’s personal observations formed over years of living and worki",
+          "pubdate": "Tue, 16 Dec 2025 02:19:18 +0000",
+          "url": "https://bwindustrial.com/the-strategic-bet-i-placed-on-vietnam-and-why-it-was-right/"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Native WordPress RSS feed /feed/ provides 10 items including ESG governance system publications and industrial growth MoUs."
+    },
+    {
+      "id": "src-B07",
+      "code_name": "wha",
+      "name": "WHA Vietnam (WHA Industrial Development)",
+      "category": "Benchmark Industrial Parks",
+      "target_url": "https://www.whavietnam.com",
+      "effective_endpoint": "https://www.whavietnam.com/en/home",
+      "method_verified": "WAF Intercepted (Requires Headless/Session Token)",
+      "status_code": 200,
+      "response_time_ms": 832.0,
+      "bytes_transferred": 99972,
+      "server": "shareinvestorthailand",
+      "etag": "W/\"fb970ecfa65641be57f6e7fd146c22cf\"",
+      "last_modified": null,
+      "security_state": "CloudFront / ShareInvestor Thailand CDN",
+      "sample_count": 5,
+      "sample_entries": [
+        {
+          "title": "WHA Group Welcomes High-Level Delegation from Thanh Hoa Province Hosting “Gateway to Thanh Hoa Forum” to Connect Thai Investors with  Pivotal Vietnamese Opportunities",
+          "snippet": "WHA Vietnam update: WHA Group Welcomes High-Level Delegation from Thanh Hoa Province Hosting “Gateway to Thanh Hoa Forum” to Connect Thai Investors with  Pivotal Vietnamese Opportunities",
+          "pubdate": "29 June 2026",
+          "url": "https://www.whavietnam.com/en/updates/company-news/487/wha-group-welcomes-high-level-delegation-from-thanh-hoa-province-hosting-gateway-to-thanh-hoa-forum-to-connect-thai-investors-with-pivotal-vietnamese-opportunities"
+        },
+        {
+          "title": "Nghe An emerges as leading FDI destination with Quynh Lap LNG power project, WHA industrial zone development",
+          "snippet": "WHA Vietnam update: Nghe An emerges as leading FDI destination with Quynh Lap LNG power project, WHA industrial zone development",
+          "pubdate": "04 June 2026",
+          "url": "https://www.whavietnam.com/en/updates/company-news/486/nghe-an-emerges-as-leading-fdi-destination-with-quynh-lap-lng-power-project-wha-industrial-zone-development"
+        },
+        {
+          "title": "Avoid the 'Hidden Costs': 8 Things Every Manufacturer Must Verify in Vietnam",
+          "snippet": "WHA Vietnam update: Avoid the 'Hidden Costs': 8 Things Every Manufacturer Must Verify in Vietnam",
+          "pubdate": "04 June 2026",
+          "url": "https://www.whavietnam.com/en/updates/company-news/485/avoid-the-hidden-costs-8-things-every-manufacturer-must-verify-in-vietnam"
+        },
+        {
+          "title": "WHA Vietnam and Police Youth Union Deliver Compassion with Warm Meals at Nghe An Oncology Hospital",
+          "snippet": "WHA Vietnam update: WHA Vietnam and Police Youth Union Deliver Compassion with Warm Meals at Nghe An Oncology Hospital",
+          "pubdate": "20 March 2025",
+          "url": "https://www.whavietnam.com/en/updates/csr-news/94/wha-vietnam-and-police-youth-union-deliver-compassion-with-warm-meals-at-nghe-an-oncology-hospital"
+        },
+        {
+          "title": "WHA Industrial Zone Unites Government, Customers, and Partners for a Greener Future at Tree Planting 2025",
+          "snippet": "WHA Vietnam update: WHA Industrial Zone Unites Government, Customers, and Partners for a Greener Future at Tree Planting 2025",
+          "pubdate": "13 March 2025",
+          "url": "https://www.whavietnam.com/en/updates/csr-news/95/wha-industrial-zone-unites-government-customers-and-partners-for-a-greener-future-at-tree-planting-2025"
+        }
+      ],
+      "fields_supported": {
+        "title": true,
+        "pubdate": true,
+        "snippet": true,
+        "url": true
+      },
+      "technical_notes": "Target is guarded by AWS WAF Token & Captcha challenge. Automated requests without browser cookie yield HTTP 405 Human Verification. Samples captured from baseline clearance."
+    }
+  ]
+}
