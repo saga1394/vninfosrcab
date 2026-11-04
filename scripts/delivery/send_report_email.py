@@ -72,20 +72,20 @@ def build_full_inbox_email_html(items, today_str):
     4. 仅保留网页链接作为兜底，落款【太空建筑观察】越南组。
     """
     categories = [
-        ("CLIENTS", "一、 客户与潜在客户动向"),
-        ("APPROVALS", "二、 各类审批公告与法定公示"),
-        ("STRATEGIC", "三、 重点关注赛道与未来产业"),
-        ("MACRO", "四、 整体市场动向与政经大盘"),
-        ("GENERAL", "五、 各省园区与产业综合资讯")
+        ("FDI", "一、 🎯 FDI 外资投资动向（特别关注中资大厂）"),
+        ("INDUSTRIAL_PARKS", "二、 🏭 工业园区一线动态（承接 FDI 物理载体与现场推进）"),
+        ("APPROVALS", "三、 🏛️ 行政审批与法定公示（捕获潜在项目与核实阶段依据）"),
+        ("SECTORS", "四、 ⚡ 重点关注产业专题（半导体/数据中心/垃圾发电/车企/冷链/绿电/自动化）"),
+        ("MACRO_MARKET", "五、 🌐 政经与综合市场动态（宏观走向·涉企法规·要素成本·干线物流）")
     ]
 
     grouped = {code: [] for code, _ in categories}
     for item in items:
-        cat = item.get("category", "MACRO")
+        cat = item.get("category", "MACRO_MARKET")
         if cat in grouped:
             grouped[cat].append(item)
         else:
-            grouped["MACRO"].append(item)
+            grouped["MACRO_MARKET"].append(item)
 
     lines = []
     lines.append('<!DOCTYPE html>')
