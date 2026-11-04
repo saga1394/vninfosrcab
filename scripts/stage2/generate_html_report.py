@@ -914,9 +914,21 @@ def build_llm_intelligence_briefing():
       box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
     }}
     @media print {{
-      body {{ background: #fff; padding: 0; }}
-      .sheet {{ border: none; box-shadow: none; max-width: 100%; }}
-      .no-print {{ display: none; }}
+      @page {{
+        size: A4;
+        margin: 12mm 10mm 12mm 10mm;
+      }}
+      body {{ background: #fff !important; padding: 0 !important; color: #0f172a !important; }}
+      .sheet {{ border: none !important; box-shadow: none !important; max-width: 100% !important; padding: 0 !important; margin: 0 !important; }}
+      .no-print {{ display: none !important; }}
+      .item-card {{
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+        margin-bottom: 14px !important;
+      }}
+      .category-block {{
+        break-inside: auto !important;
+      }}
     }}
   </style>
   <script>
@@ -959,7 +971,7 @@ def build_llm_intelligence_briefing():
     <!-- Briefing Header -->
     <div class="border-b-2 border-slate-900 pb-3">
       <div class="flex items-center justify-between text-xs font-mono text-slate-500 mb-1">
-        <span>100% 越南区域强关联 · 大模型认知研判与全中文审校版</span>
+        <span>出品团队：<strong class="text-slate-900 font-bold">【太空建筑观察】越南组</strong> · 大模型认知研判</span>
         <span>简报日期: <strong>{today_str}</strong></span>
       </div>
       <h1 class="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
@@ -1049,10 +1061,16 @@ def build_llm_intelligence_briefing():
       </p>
     </div>
 
-    <!-- Footer -->
-    <div class="pt-2 border-t border-slate-200 flex items-center justify-between text-[11px] font-mono text-slate-400">
-      <span>越南产业与投资情报每日简报 · 越南本土专属大盘</span>
-      <span class="no-print"><button onclick="window.print()" class="hover:underline text-slate-600 font-medium">打印本期简报 (PDF)</button></span>
+    <!-- Footer & Sign-off -->
+    <div class="mt-8 pt-4 border-t-2 border-slate-900 flex items-center justify-between text-xs text-slate-600 font-mono">
+      <div>
+        <span>出品机构：<strong class="text-slate-900 font-bold text-sm">【太空建筑观察】越南组</strong></span>
+        <span class="ml-2 text-slate-400">· 专注中资与跨国产业链出海实体决策研判</span>
+      </div>
+      <div class="text-right">
+        <span>简报编号：TB-VN-{today_str}</span>
+        <span class="ml-2 text-slate-400">| 绝密内参</span>
+      </div>
     </div>
 
   </div>
@@ -1073,6 +1091,30 @@ def build_llm_intelligence_briefing():
     with open(artifact_html_path, "w", encoding="utf-8") as f:
         f.write(html_content)
     print(f"✅ [Artifact Briefing] Compiled to {artifact_html_path}")
+
+    # 3. 自动导出高清排版 PDF 版本
+    pdf_path = os.path.join(os.path.dirname(OUTPUT_HTML_PATH), "FULL-DIMENSIONAL-INTELLIGENCE-REPORT.pdf")
+    try:
+        import subprocess
+        chrome_paths = [
+            r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+            r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe",
+        ]
+        browser_exe = next((p for p in chrome_paths if os.path.exists(p)), None)
+        if browser_exe:
+            cmd = [
+                browser_exe,
+                "--headless=new",
+                "--disable-gpu",
+                "--no-pdf-header-footer",
+                f"--print-to-pdf={pdf_path}",
+                f"file:///{os.path.abspath(OUTPUT_HTML_PATH)}"
+            ]
+            subprocess.run(cmd, capture_output=True, timeout=30)
+            if os.path.exists(pdf_path) and os.path.getsize(pdf_path) > 0:
+                print(f" [PDF 导出成功] 高清排版 PDF: {pdf_path} ({os.path.getsize(pdf_path)} bytes)")
+    except Exception as e:
+        print(f"[警告] PDF 自动导出未完成: {e}")
 
     return OUTPUT_HTML_PATH, artifact_html_path
 
