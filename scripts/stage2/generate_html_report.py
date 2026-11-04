@@ -900,12 +900,16 @@ def build_llm_intelligence_briefing():
         f.write(html_content)
     print(f"✅ [GitHub Pages Root] Compiled to {DOCS_INDEX_PATH}")
 
-    # 3. Write to artifact directory for Antigravity inline preview
-    os.makedirs(ARTIFACT_DIR, exist_ok=True)
-    artifact_html_path = os.path.join(ARTIFACT_DIR, "vietnam_intelligence_dashboard.html")
-    with open(artifact_html_path, "w", encoding="utf-8") as f:
-        f.write(html_content)
-    print(f"✅ [Artifact Briefing] Compiled to {artifact_html_path}")
+    # 3. Write to artifact directory for Antigravity inline preview (Windows only)
+    if sys.platform == "win32":
+        try:
+            os.makedirs(ARTIFACT_DIR, exist_ok=True)
+            artifact_html_path = os.path.join(ARTIFACT_DIR, "vietnam_intelligence_dashboard.html")
+            with open(artifact_html_path, "w", encoding="utf-8") as f:
+                f.write(html_content)
+            print(f"✅ [Artifact Briefing] Compiled to {artifact_html_path}")
+        except Exception as e:
+            print(f"[提示] 跳过 Artifact 目录写入: {e}")
 
     # 4. 自动导出高清排版 PDF 版本
     pdf_path = os.path.join(os.path.dirname(OUTPUT_HTML_PATH), "FULL-DIMENSIONAL-INTELLIGENCE-REPORT.pdf")
