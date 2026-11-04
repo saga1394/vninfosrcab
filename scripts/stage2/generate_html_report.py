@@ -763,7 +763,7 @@ def render_compact_card(it: dict, idx: int) -> str:
 
       <!-- Line 3: Reason for Inclusion & Value (100% Chinese) -->
       <div class="text-slate-600 leading-normal pl-4">
-        <span class="font-bold text-blue-900">【决策价值】</span>{reason}
+        <span class="font-bold text-slate-800">【看点】</span>{reason}
       </div>
 
       <!-- Line 4: Proof Source & Direct Link -->
@@ -971,20 +971,18 @@ def build_llm_intelligence_briefing():
     <!-- Briefing Header -->
     <div class="border-b-2 border-slate-900 pb-3">
       <div class="flex items-center justify-between text-xs font-mono text-slate-500 mb-1">
-        <span>出品团队：<strong class="text-slate-900 font-bold">【太空建筑观察】越南组</strong> · 大模型认知研判</span>
+        <span class="font-bold text-slate-800">【太空建筑观察】越南组</span>
         <span>简报日期: <strong>{today_str}</strong></span>
       </div>
       <h1 class="text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight">
-        越南实体投资与产业动态情报简报
+        越南实体投资与产业动态简报
       </h1>
       <div class="flex items-center gap-3 text-xs text-slate-600 mt-2 font-mono flex-wrap">
-        <span>时效基准: <strong>近 48~72 小时真实巡检（2026-11-01 至 2026-11-04）</strong></span>
+        <span>巡检周期: <strong>近 48~72 小时（2026-11-01 至 2026-11-04）</strong></span>
         <span>·</span>
-        <span>今日首发增量: <strong class="text-red-700 font-bold">{today_count} 条</strong></span>
+        <span>今日增量: <strong>{today_count} 条</strong></span>
         <span>·</span>
-        <span>收录越南本土动态: <strong>{len(CURATED_INTELLIGENCE)} 项硬核情报</strong></span>
-        <span>·</span>
-        <span>非越南区域纯海外新闻: <strong class="text-slate-400">已 100% 剥离出库</strong></span>
+        <span>收录条目: <strong>{len(CURATED_INTELLIGENCE)} 项</strong></span>
       </div>
     </div>
 
@@ -1051,25 +1049,13 @@ def build_llm_intelligence_briefing():
       {sec_general}
     </div>
 
-    <!-- Editorial Principles & Geographic Boundary Statement -->
-    <div class="bg-slate-50 border border-slate-200 rounded p-3 text-xs text-slate-600 space-y-1">
-      <div class="font-bold text-slate-800">📌 地域边界与研判原则：</div>
-      <p>
-        1. <strong>100% 越南区域强关联</strong>：坚决剥离日本、美国、韩国等与越南实体无直接关联的纯海外行业快讯，<strong>全篇情报的实体主体、投资落地点或政策规制 100% 锚定在越南境内</strong>；<br>
-        2. <strong>大模型节点研判与全中文呈现</strong>：大模型通读原文，准确提炼【客观事实】与【决策价值】，彻底消除生肉越南文阅读障碍；<br>
-        3. <strong>时效保真</strong>：严格锁定在 2026-11-01 至 2026-11-03 真实发布窗口，杜绝任何历史旧账或未来错谬日期。
-      </p>
-    </div>
-
     <!-- Footer & Sign-off -->
     <div class="mt-8 pt-4 border-t-2 border-slate-900 flex items-center justify-between text-xs text-slate-600 font-mono">
       <div>
-        <span>出品机构：<strong class="text-slate-900 font-bold text-sm">【太空建筑观察】越南组</strong></span>
-        <span class="ml-2 text-slate-400">· 专注中资与跨国产业链出海实体决策研判</span>
+        <span class="font-bold text-slate-800">【太空建筑观察】越南组</span>
       </div>
       <div class="text-right">
-        <span>简报编号：TB-VN-{today_str}</span>
-        <span class="ml-2 text-slate-400">| 绝密内参</span>
+        <span>TB-VN-{today_str}</span>
       </div>
     </div>
 
