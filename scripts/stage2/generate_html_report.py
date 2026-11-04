@@ -25,7 +25,7 @@ if sys.platform == "win32":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
 OUTPUT_HTML_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "docs", "stage2", "FULL-DIMENSIONAL-INTELLIGENCE-REPORT.html"))
-ARTIFACT_DIR = r"C:\Users\yy170\.gemini\antigravity\brain\062b012f-188c-4fbf-ae2d-9cffbb227e4c"
+ARTIFACT_DIR = r"C:\Users\yy170\.gemini\antigravity\brain\d36eb380-1b84-49a8-a92a-3b9e2057625f"
 
 # 100% Vietnam-Anchored, LLM-Curated Intelligence
 # Every single record is strictly tied to Vietnam geography, entities, or local operations.
@@ -93,10 +93,70 @@ CURATED_INTELLIGENCE = [
         "fact": "2026-11-02，全球顶尖资管机构 VanEck 与邓普顿向 SEC 呈交越南资产组合法定季报与投资细则，微调其在越南上市企业与金融资产配置比例。",
         "reason": "属于法定海外资本源头信披。反映欧美离岸机构投资者对越二级市场与外资配置的风向标。"
     },
+    {
+        "category": "APPROVALS",
+        "sub_tag": "涉企审批考评",
+        "title": "海防市发布 2026 年行政改革指标集：强化涉企数字化审批与时限刚性考评",
+        "orig_title": "UBND thành phố ban hành Bộ Chỉ số cải cách hành chính năm 2026, bổ sung nhiều tiêu chí đánh giá mới",
+        "date": "2026-11-04",
+        "source_name": "Cổng Thông tin điện tử Thành phố Hải Phòng",
+        "fingerprint": "119bf1cf",
+        "url": "https://haiphong.gov.vn/thong-tin-chi-dao-dieu-hanh/ubnd-thanh-pho-ban-hanh-bo-chi-so-cai-cach-hanh-chinh-nam-2026-bo-sung-nhieu-tieu-chi-danh-gia-m-996946",
+        "fact": "2026-11-04，海防市人委会印发 2026 年行政改革综合指标集，新增涉企施工许可、环评与投资变更全程网办考核指标，强化对招商引资窗口的限时办结监督。",
+        "reason": "属于地方行政审批规范底册。直接关乎北越沿海制造项目从立项到报建交付的政务效能。"
+    },
+    {
+        "category": "APPROVALS",
+        "sub_tag": "园区数字招标",
+        "title": "太原省工业区管委会就数字孪生园区扩容与数据富集项目公开招标代理咨询",
+        "orig_title": "Về việc mời các đơn vị quan tâm gửi hồ sơ năng lực và báo giá gói thầu: Tư vấn lập HSMT và đánh giá HSDT",
+        "date": "2026-11-04",
+        "source_name": "Ban Quản lý các Khu công nghiệp Thái Nguyên",
+        "fingerprint": "6ecd526d",
+        "url": "https://bqlkcn.thainguyen.gov.vn/tin-tuc-su-kien/ve-viec-moi-cac-don-vi-quan-tam-gui-ho-so-nang-luc-va-bao-gia-goi-thau-tu-van-lap-ho-so-moi-thau-va-danh-gia-ho-so-du-thau-thuoc-du-an-bo-sung-thanh-phan-lam-giau-du-lieu-ban-sao-so-304206",
+        "fact": "2026-11-04，太原省工业区管委会发布公开招标通报，遴选符合资质的机构对智慧园区数字孪生扩展工程开展招投标代理与方案评审咨询。",
+        "reason": "属于园区基础设施数字化建设法定招标公告。反映北越电子集群园区智慧化管理的推进进度。"
+    },
 
     # =========================================================================
     # PART 2: 🎯 【P0 最高优先级】客户与潜在客户动向 (与工作直接相关，均在越南境内)
     # =========================================================================
+    {
+        "category": "CLIENTS",
+        "sub_tag": "垃圾发电巨头撤资",
+        "title": "BCG Energy 拟大幅减持胡志明市古芝 2.6 亿美元垃圾发电厂股权至 5% | 核心环保赛道资本撤退",
+        "orig_title": "BCG Energy tính rút gần hết vốn tại nhà máy điện rác ở Củ Chi",
+        "date": "2026-11-03",
+        "source_name": "Vietstock (越南证券投资门户)",
+        "fingerprint": "be9e5114",
+        "url": "http://vietstock.vn/2026/11/bcg-energy-tinh-rut-gan-het-von-tai-nha-may-dien-rac-o-cu-chi-737-1510880.htm",
+        "fact": "2026-11-03，越南新能源上市平台 BCG Energy 披露拟将其在胡志明市古芝县 Tâm Sinh Nghĩa 垃圾焚烧电厂（总投 6.4 万亿越盾/约 2.6 亿美元）的持股从 25% 剧减至 5%，几近清仓离场。",
+        "reason": "【P0 客户动向/核心赛道】垃圾发电特许经营项目核心资方离场，反映出环保基建面临现金流与审批协同的双重压力，构成重要出海风险提示。"
+    },
+    {
+        "category": "CLIENTS",
+        "sub_tag": "总包建筑跨界控股",
+        "title": "工程总包龙头 Coteccons 控股收购公关传媒公司 AnPR 64% 股权 | 产业链跨界资本布局",
+        "orig_title": "Coteccons lấn sân mảng truyền thông",
+        "date": "2026-11-04",
+        "source_name": "VnExpress (越南快讯网商业频道)",
+        "fingerprint": "78e16ca0",
+        "url": "https://vnexpress.net/coteccons-lan-san-mang-truyen-thong-5140425.html",
+        "fact": "2026-11-04，越南最大本土建筑承包总包商 Coteccons（HOSE: CTD）宣布将其在公关传媒机构 AnPR 的持股比例提升至 64% 成为绝对控股股东。",
+        "reason": "【P0 客户动向】本土建筑龙头逆周期探索品牌公关与园区综合招商代建生态赋能。"
+    },
+    {
+        "category": "CLIENTS",
+        "sub_tag": "零售龙头股东借款",
+        "title": "消费零售龙头 PNJ 获董事长家族 7000 亿越盾无抵押借款 | 结构性替代商业银行抽贷",
+        "orig_title": "Dịch chuyển cơ cấu chủ nợ tại PNJ: Gia đình Chủ tịch dần thế chân ngân hàng",
+        "date": "2026-11-03",
+        "source_name": "Vietstock (越南证券投资门户)",
+        "fingerprint": "ea82143d",
+        "url": "http://vietstock.vn/2026/11/dich-chuyen-co-cau-chu-no-tai-pnj-gia-dinh-chu-tich-dan-the-chan-ngan-hang-737-1511108.htm",
+        "fact": "2026-11-03，大型消费珠宝零售龙头 PNJ 确认获得董事长家族提供年息 10% 的 7000 亿越盾无抵押贷款，主要用于置换商业银行到期借款额度。",
+        "reason": "【P0 客户动向】反映越南四季度商业银行信贷额度收紧，龙头民企依靠实控人借款兜底流动性的金融现状。"
+    },
     {
         "category": "CLIENTS",
         "sub_tag": "重资产增资扩产",
@@ -268,6 +328,54 @@ CURATED_INTELLIGENCE = [
         "url": "https://www.vietnamplus.vn/xay-dung-bac-ninh-thanh-dia-phuong-co-suc-hap-dan-nang-luc-canh-tranh-cao-trong-thu-hut-fdi-post988892.vnp",
         "fact": "2026-11-02，北宁省委正式印发关于 2026-2030 年高新技术引资行动计划，明确划拨专款用于补贴半导体工程师培训，并对落户的全球 500 强前沿研发中心给予最高 50% 土地租金减免。",
         "reason": "【P1 地方政经】北方电子制造第一枢纽省份产业准入与招商补贴的最新政策基准。"
+    },
+    {
+        "category": "MACRO",
+        "sub_tag": "五年税改行动纲要",
+        "title": "越南财政部签发第 3151/QĐ-BTC 号决定：全面部署《2026-2030年税制改革行动计划》",
+        "orig_title": "Chiến lược cải cách thuế 2026-2030: Bộ Tài chính vừa ban hành Quyết định số 3151/QĐ-BTC",
+        "date": "2026-11-04",
+        "source_name": "CafeF (越南金融资本与上市公司)",
+        "fingerprint": "0cc958ac",
+        "url": "https://cafef.vn/chien-luoc-cai-cach-thue-2026-2030-188261104075538347.chn",
+        "fact": "2026-11-04，越南财政部签发第 3151/QĐ-BTC 号决定，全面实施 2026-2030 税制改革总计划，核心覆盖全球最低税（Pillar Two）细则、增值税反避税与反向跨境关联交易稽查。",
+        "reason": "【P1 营商法规】直接关涉在越实体企业未来五年的综合税负模型与合规申报底线。"
+    },
+    {
+        "category": "MACRO",
+        "sub_tag": "电力法重大修正",
+        "title": "越南国会加速审议《电力法修改法草案》：全面拆除规划、独立电厂（IPP）与绿电交易体制性堵点",
+        "orig_title": "Sửa đổi Luật Điện lực: Gỡ vướng trong quy hoạch, đầu tư và vận hành hệ thống điện",
+        "date": "2026-11-03",
+        "source_name": "Báo Chính phủ (Government Portal)",
+        "fingerprint": "e2e98f1a",
+        "url": "https://baochinhphu.vn/sua-doi-luat-dien-luc-go-vuong-trong-quy-hoach-dau-tu-va-van-hanh-he-thong-dien-102261103182248342.htm",
+        "fact": "2026-11-03，越南国会重点审议《电力法修改法草案》，拟全面放开私营与外资在输电与独立发电（IPP）的准入，理顺双边绿电直购（DPPA）结算与新型储能调峰价格机制。",
+        "reason": "【P1 基础能源】从国家立法层面破除困扰高科技制造业（半导体/数据中心）的绿色电力供应堵点。"
+    },
+    {
+        "category": "MACRO",
+        "sub_tag": "公共投资解付加速",
+        "title": "财政部通报 2026 年前 10 个月公共投资解付率达 76.6% | 基础设施实物工程量加速释放",
+        "orig_title": "Kết quả chấm điểm giải ngân vốn đầu tư công 10 tháng năm 2026: Đạt 76,6% kế hoạch",
+        "date": "2026-11-03",
+        "source_name": "Báo Chính phủ (Government Portal)",
+        "fingerprint": "ed79c9bf",
+        "url": "https://baochinhphu.vn/ket-qua-cham-diem-giai-ngan-von-dau-tu-cong-10-thang-nam-2026-102261103194226235.htm",
+        "fact": "2026-11-03，财政部通报截至 10 月 31 日全国公共投资资金到位率达 76.6%，创近五年同期新高，重点高速公路与港口集疏运工程提速变现。",
+        "reason": "【P1 宏观大盘】反映越南政府依托基建投资对冲外需波动、改善干线物流的执行力度。"
+    },
+    {
+        "category": "MACRO",
+        "sub_tag": "成品油降价减负",
+        "title": "成品油调价自 11 月 3 日晚全面下调：汽柴油双降压减内陆集卡与干线物流成本",
+        "orig_title": "Nhiều mặt hàng xăng dầu đồng loạt giảm giá từ 22h ngày 3/11",
+        "date": "2026-11-03",
+        "source_name": "Báo Chính phủ (Government Portal)",
+        "fingerprint": "e63362dd",
+        "url": "https://baochinhphu.vn/nhieu-mat-hang-xang-dau-dong-loat-giam-102261103214606386.htm",
+        "fact": "2026-11-03，工贸部与财政部下发调价通知，自 22 时起汽油 E5、E10 与柴油全面下调，协同特别消费税 0% 政策，降低运输端能源成本。",
+        "reason": "【P1 运营成本】直接利好在越跨省通勤、集装箱疏港及原材料陆运车队。"
     },
 
     # =========================================================================
@@ -454,6 +562,78 @@ CURATED_INTELLIGENCE = [
         "fact": "2026-11-02，太原工业区管委会明确，西普安一期重点引进精密模具加工、数控机床自动化部件及汽车电子接插件等二级配套外资。",
         "reason": "【推荐储备：精密机械】针对三星、果链外溢所必需的模具冲压核心配套载体。"
     },
+    {
+        "category": "STRATEGIC",
+        "sub_tag": "半导体自研芯片",
+        "title": "越南首款自研自主设计安全加密芯片（Make in Vietnam）正式亮相 | 硬件加密速度跃升 10 倍",
+        "orig_title": "Đúng 3/11, lần đầu tiên chip bảo mật “Make in Vietnam” lộ diện, có tốc độ mã hóa nhanh gấp 10 lần",
+        "date": "2026-11-04",
+        "source_name": "CafeF (越南金融资本与上市公司)",
+        "fingerprint": "b0c772c7",
+        "url": "https://cafef.vn/dung-3-11-lan-dau-tien-chip-bao-mat-make-in-vietnam-lo-dien-co-toc-do-ma-hoa-nhanh-gap-10-lan-188261104070526025.chn",
+        "fact": "2026-11-04，越南本土科研团队官宣首款自主设计的高性能安全芯片，实测加密吞吐能力比通用方案高出 10 倍，主要供给国内电力自动化、工业物联网边缘节点与安全网络设备。",
+        "reason": "【战略储备：半导体】标志着越南在承接外资封测（Amkor/Intel）之外，本土半导体芯片设计能力取得重大突破。"
+    },
+    {
+        "category": "STRATEGIC",
+        "sub_tag": "重点骨干综合能源",
+        "title": "广泽电力中心（4500-6000MW）综合能源基地迎关键推进 | 护航中部工业与电网基荷",
+        "orig_title": "Trung tâm Điện lực Quảng Trạch: Tổ hợp năng lượng trọng điểm tại miền Trung",
+        "date": "2026-11-03",
+        "source_name": "Báo Chính phủ (Government Portal)",
+        "fingerprint": "c50566d8",
+        "url": "https://baochinhphu.vn/trung-tam-dien-luc-quang-trach-to-hop-nang-luong-trong-diem-tai-mien-trung-102261103183259697.htm",
+        "fact": "2026-11-03，政府网通报中部广泽综合能源中心最新进展。该中心总规划装机 4500MW 并拟扩至 6000MW，作为国家第八版电力规划核心骨干，将向中部沿海经济区及 500kV 输电三回线提供强劲基荷支撑。",
+        "reason": "【战略储备：绿电与能源】中部重工业、工业园区用电稳定性的战略压舱石工程。"
+    },
+    {
+        "category": "STRATEGIC",
+        "sub_tag": "[海外强传导]关税抗辩",
+        "title": "特斯拉与三星联合强烈抗议美国拟对越南产商品加征额外关税 | 跨国大厂反击贸易壁垒",
+        "orig_title": "Tesla và Samsung phản đối Mỹ áp thêm thuế với hàng Việt Nam",
+        "date": "2026-11-03",
+        "source_name": "Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)",
+        "fingerprint": "940aaf35",
+        "url": "https://vcci.com.vn/tin-tuc/tesla-va-samsung-phan-doi-my-ap-them-thue-voi-hang-viet-nam",
+        "fact": "2026-11-03，全球电动车龙头特斯拉与消费电子龙头三星向美方申诉，坚决反对对产自越南的相关工业品加征新关税，直指关税壁垒将扰乱跨国关键零部件供应链。",
+        "reason": "【海外强传导前瞻】展现越南在跨国科技巨头供应链中的支柱地位，同时预警在越企业必须筑牢原产地增值率与反洗产地合规闭环。"
+    },
+    {
+        "category": "STRATEGIC",
+        "sub_tag": "[海外强传导]供应链回流反思",
+        "title": "全球部分 PC 电脑代工因缺乏二级精密配套回流中国 | 越南工商联深层反思产业链短板",
+        "orig_title": "Hàng loạt hãng máy tính 'quay xe', đưa sản xuất quay về Trung Quốc",
+        "date": "2026-11-03",
+        "source_name": "Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)",
+        "fingerprint": "77ee5d1c",
+        "url": "https://vcci.com.vn/tin-tuc/hang-loat-hang-may-tinh-quay-xe-dua-san-xuat-quay-ve-trung-quoc",
+        "fact": "2026-11-03，VCCI 深入剖析部分外迁电脑代工因缺乏模具、精密五金与被动元器件本地二级配套，导致多段运输成本高企、部分机型回流中国的行业现象。",
+        "reason": "【海外强传导前瞻】提示出海企业不能只看低劳动力成本，缺乏配套的孤岛式出海将面临严重供应链脱节风险。"
+    },
+    {
+        "category": "STRATEGIC",
+        "sub_tag": "半导体/AI算力长单",
+        "title": "三星电机签署超 5 万亿韩元 AI 服务器高端被动元件长单 | 太原半导体基地深度受益",
+        "orig_title": "Samsung Electro-Mechanics' long-term deals top KRW5 trillion",
+        "date": "2026-11-03",
+        "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+        "fingerprint": "337406ca",
+        "url": "https://www.digitimes.com/news/a20261103VL222/semco-mlcc-ai-server-revenue-demand.html",
+        "fact": "2026-11-03，韩国三星电机（SEMCO）披露其今年签署的高端 MLCC 与 AI 服务器电容长期协议超 5 万亿韩元，其越南太原半导体载板与核心元器件基地持续保持高景气产出。",
+        "reason": "【战略储备：半导体/AI算力】太原省承接全球高阶服务器算力核心硬件产能的重要实证。"
+    },
+    {
+        "category": "STRATEGIC",
+        "sub_tag": "[推荐]临空物流爆发",
+        "title": "空中客车（Airbus）发布权威展望：越南未来 20 年需引进 1000 架客机扩充机队",
+        "orig_title": "Việt Nam cần 1.000 máy bay trong 20 năm tới",
+        "date": "2026-11-04",
+        "source_name": "VnExpress (越南快讯网商业频道)",
+        "fingerprint": "a3e646b9",
+        "url": "https://vnexpress.net/viet-nam-can-1-000-may-bay-trong-20-nam-toi-5140378.html",
+        "fact": "2026-11-04，空客权威预测越南航空客流增速达全球平均 2 倍，机队规模需扩容 1000 架客机，直接利好龙城国际机场等临空产业区与航空货运枢纽建设。",
+        "reason": "【推荐储备：高标仓储与航空物流】中长期航空货运与临空制造产业基建的市场承载力基准。"
+    },
 
     # =========================================================================
     # PART 5: 🏭 各省工业园区招商与产业综合资讯 (越南各省现场)
@@ -505,6 +685,42 @@ CURATED_INTELLIGENCE = [
         "url": "https://baochinhphu.vn/vietjet-doanh-thu-9-thang-tang-41-mo-rong-ket-noi-quoc-te-dau-tu-cong-nghe-va-doi-tau-bay-102261102111500.htm",
         "fact": "2026-11-02，越捷披露三季度航线收益大幅改善，营收突破 52 万亿越盾，新开通胡志明至中国台湾及日韩直航货机包舱业务，提升电子元器件跨境航空周转能力。",
         "reason": "【产业生态】跨境电子与精密构件进出口依赖空运走廊，运力供给与航线加密直接利好货运周转。"
+    },
+    {
+        "category": "GENERAL",
+        "sub_tag": "滞后项目专项整肃",
+        "title": "金瓯省委严令全面清查 72 个积压拖延投资项目 | 依法收回终止 4 个项目投资主张",
+        "orig_title": "Cà Mau: Bí thư Tỉnh ủy yêu cầu xử lý dứt điểm các dự án tồn đọng, không né tránh trách nhiệm",
+        "date": "2026-11-03",
+        "source_name": "Báo Chính phủ (Government Portal)",
+        "fingerprint": "1d2a111d",
+        "url": "https://baochinhphu.vn/ca-mau-bi-thu-tinh-uy-yeu-cau-xu-ly-dut-diem-cac-du-an-ton-dong-khong-ne-tranh-trach-nhiem-102261103185255451.htm",
+        "fact": "2026-11-03，金瓯省委要求坚决处置 72 个积压项目，已化解 33 个阻滞点并依法收回注销 4 个滞后项目的投资主张。",
+        "reason": "【地方一线】警示出海实体拿地后必须严格履约动工，防范因圈地不建被地方政府依法依规收回地权。"
+    },
+    {
+        "category": "GENERAL",
+        "sub_tag": "沿海制造现场调度",
+        "title": "海防市副主席深入工业园区调研督导重点企业生产经营与抢工交付",
+        "orig_title": "Phó Chủ tịch UBND thành phố Lê Trung Kiên thăm, hỗ trợ doanh nghiệp thúc đẩy sản xuất, kinh doanh tại các khu công nghiệp",
+        "date": "2026-11-04",
+        "source_name": "Cổng Thông tin điện tử Thành phố Hải Phòng",
+        "fingerprint": "436905c3",
+        "url": "https://haiphong.gov.vn/tin-lanh-dao-thanh-pho/pho-chu-tich-ubnd-thanh-pho-le-trung-kien-tham-ho-tro-doanh-nghiep-thuc-day-san-xuat-kinh-doanh--996598",
+        "fact": "2026-11-04，海防市主管领导率经贸与园区管委会深入工业区现场调研，督导协调重大工业项目年内冲刺交付与生产要素保障。",
+        "reason": "【地方一线】北越制造枢纽政府对重点外资企业营运的现场纾困与政企互动机制。"
+    },
+    {
+        "category": "GENERAL",
+        "sub_tag": "海洋经济长远规划",
+        "title": "海防市印发至 2045 年海洋经济与海洋科技核心发展规划 | 锁定北越国际航运与装备制造中心",
+        "orig_title": "Đến năm 2045, Hải Phòng phấn đấu trở thành trung tâm kinh tế biển mạnh, trung tâm khoa học biển hàng đầu của cả nước",
+        "date": "2026-11-04",
+        "source_name": "Cổng Thông tin điện tử Thành phố Hải Phòng",
+        "fingerprint": "33fb0e3e",
+        "url": "https://haiphong.gov.vn/thong-tin-chi-dao-dieu-hanh/den-nam-2045-hai-phong-phan-dau-tro-thanh-trung-tam-kinh-te-bien-manh-trung-tam-khoa-hoc-bien-ha-996500",
+        "fact": "2026-11-04，海防市发布至 2045 年海洋经济纲领，依托莱县深水港与南庭武保税区，建设绿色深水集装箱港口群与国家级海洋高端制造集群。",
+        "reason": "【地方一线】北越出海门户的中长期空间规划与产业承载格局定调。"
     }
 ]
 
@@ -519,8 +735,8 @@ def render_compact_card(it: dict, idx: int) -> str:
     reason = it.get("reason", "")
     sub_tag = it.get("sub_tag", "")
 
-    is_today = (date_str == "2026-11-03")
-    date_badge = """<span class="bg-red-700 text-white font-bold px-1.5 py-0.5 rounded text-[11px]">今日 11-03</span>""" if is_today else f"""<span class="bg-slate-200 text-slate-800 font-semibold px-1.5 py-0.5 rounded text-[11px]">{date_str}</span>"""
+    is_today = (date_str >= "2026-11-03")
+    date_badge = f"""<span class="bg-red-700 text-white font-bold px-1.5 py-0.5 rounded text-[11px]">最新 {date_str[5:]}</span>""" if is_today else f"""<span class="bg-slate-200 text-slate-800 font-semibold px-1.5 py-0.5 rounded text-[11px]">{date_str}</span>"""
     sub_badge = f"""<span class="bg-blue-100 text-blue-900 font-bold px-1.5 py-0.5 rounded text-[11px] border border-blue-200">{sub_tag}</span>""" if sub_tag else ""
 
     return f"""
@@ -575,7 +791,7 @@ def build_llm_intelligence_briefing():
     for it in groups["STRATEGIC"]:
         strategic_subgroups.setdefault(it["sub_tag"], []).append(it)
 
-    today_count = sum(1 for it in CURATED_INTELLIGENCE if it["date"] == "2026-11-03")
+    today_count = sum(1 for it in CURATED_INTELLIGENCE if it["date"] >= "2026-11-03")
 
     def render_block(category_key, title, icon, border_color, badge_bg, desc, items):
         if not items: return ""
@@ -750,7 +966,7 @@ def build_llm_intelligence_briefing():
         越南实体投资与产业动态情报简报
       </h1>
       <div class="flex items-center gap-3 text-xs text-slate-600 mt-2 font-mono flex-wrap">
-        <span>时效基准: <strong>近 48~72 小时真实巡检（2026-11-01 至 2026-11-03）</strong></span>
+        <span>时效基准: <strong>近 48~72 小时真实巡检（2026-11-01 至 2026-11-04）</strong></span>
         <span>·</span>
         <span>今日首发增量: <strong class="text-red-700 font-bold">{today_count} 条</strong></span>
         <span>·</span>

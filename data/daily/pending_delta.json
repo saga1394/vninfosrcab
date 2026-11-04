@@ -48,20 +48,317 @@
     "url": "https://www.vsip.com.vn/du-an-do-thi-va-dich-vu/"
   },
   {
-    "fingerprint": "6740658f87a72bc0",
-    "source_id": "src-B06",
-    "source_name": "BW Industrial Development JSC",
-    "category": "Industrial Park",
+    "fingerprint": "fcc460baa1799d3d",
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "category": "Official News",
     "tier": "L1",
-    "province": "Multi-Province",
+    "province": "National",
     "dimension_hints": [
-      "D02",
+      "D01",
+      "D05",
+      "D07"
+    ],
+    "title": "Việt Nam và Cộng hòa Séc thúc đẩy hợp tác địa phương",
+    "pub_date": "Wed, 04 Nov 2026 08:00:18 +07:00",
+    "snippet": "Việt Nam và vùng Karlovy Vary của Cộng hòa Séc thúc đẩy hợp tác về du lịch, giáo dục, y tế, đồng thời hỗ trợ cộng đồng người Việt hội nhập và gìn giữ bản sắc văn hóa.Địa phương Việt Nam thúc đẩy xúc tiến đầu tư, thương mại tại Cộng hoà SécNgoại giao ",
+    "url": "https://www.vietnamplus.vn/viet-nam-va-cong-hoa-sec-thuc-day-hop-tac-dia-phuong-post1146001.vnp"
+  },
+  {
+    "fingerprint": "1d222a7a014cd69c",
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "category": "Financial Media",
+    "tier": "L1",
+    "province": "National",
+    "dimension_hints": [
+      "D01",
       "D05"
     ],
-    "title": "BW Industrial Announces US$120 Million Strategic Partnership with A Leading Global Institutional Investor to Develop a High-Quality For-Rent Industrial Portfolio Across Vietnam’s Key Economic Regions",
-    "pub_date": "Wed, 14 Jan 2026 09:03:50 +0000",
-    "snippet": "The venture is seeded with three development projects with a combined gross floor area of approximately 270,000 square meters, and features an attractive pipeline of identified opportunities This partnership underscores strong institutional investor ",
-    "url": "https://bwindustrial.com/bw-industrial-announces-us120-million-strategic-partnership-with-a-leading-global-institutional-investor-to-develop-a-high-quality/"
+    "title": "4h sáng đến 12h đêm của MC Khánh Vy",
+    "pub_date": "Wed, 04 Nov 2026 07:56:00 +07",
+    "snippet": "Đó là một ngày năng suất của MC Khánh Vy.",
+    "url": "https://cafef.vn/4h-sang-den-12h-dem-cua-mc-khanh-vy-188261104055950655.chn"
+  },
+  {
+    "fingerprint": "b0c772c79f7f85cf",
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "category": "Financial Media",
+    "tier": "L1",
+    "province": "National",
+    "dimension_hints": [
+      "D01",
+      "D05"
+    ],
+    "title": "Đúng 3/11, lần đầu tiên chip bảo mật “Make in Vietnam” lộ diện, có tốc độ mã hóa nhanh gấp 10 lần",
+    "pub_date": "Wed, 04 Nov 2026 07:55:00 +07",
+    "snippet": "Đây là sản phẩm chip bảo mật đầu tiên do Việt Nam tự thiết kế.",
+    "url": "https://cafef.vn/dung-3-11-lan-dau-tien-chip-bao-mat-make-in-vietnam-lo-dien-co-toc-do-ma-hoa-nhanh-gap-10-lan-188261104070526025.chn"
+  },
+  {
+    "fingerprint": "0cc958acafb54194",
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "category": "Financial Media",
+    "tier": "L1",
+    "province": "National",
+    "dimension_hints": [
+      "D01",
+      "D05"
+    ],
+    "title": "Chiến lược cải cách thuế 2026-2030",
+    "pub_date": "Wed, 04 Nov 2026 07:55:00 +07",
+    "snippet": "Bộ Tài chính vừa ban hành Quyết định số 3151/QĐ-BTC về Kế hoạch cải cách hệ thống thuế giai đoạn 2026-2030.",
+    "url": "https://cafef.vn/chien-luoc-cai-cach-thue-2026-2030-188261104075538347.chn"
+  },
+  {
+    "fingerprint": "e81fa736cbe7d50d",
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "category": "Financial Media",
+    "tier": "L1",
+    "province": "National",
+    "dimension_hints": [
+      "D01",
+      "D05"
+    ],
+    "title": "110 robot hình người Trung Quốc nhảy múa đồng loạt, lập kỷ lục Guinness thế giới",
+    "pub_date": "Wed, 04 Nov 2026 07:55:00 +07",
+    "snippet": "Công ty AGIBOT đã sử dụng nền tảng LinkBots để điều phối 110 robot hình người thông qua công nghệ lập lịch theo bầy đàn và kiểm soát cụm.",
+    "url": "https://cafef.vn/110-robot-hinh-nguoi-trung-quoc-nhay-mua-dong-loat-lap-ky-luc-guinness-the-gioi-188261104075548259.chn"
+  },
+  {
+    "fingerprint": "80d1bfc01038cea5",
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "category": "Official News",
+    "tier": "L1",
+    "province": "National",
+    "dimension_hints": [
+      "D01",
+      "D05",
+      "D07"
+    ],
+    "title": "Kinh tế Việt Nam qua góc nhìn quốc tế: Thêm lực đẩy cho tăng trưởng hai con số",
+    "pub_date": "Wed, 04 Nov 2026 07:54:30 +07:00",
+    "snippet": "Theo chuyên gia, nếu chủ động tháo gỡ các nút thắt nội tại, Việt Nam hoàn toàn có đủ thế và lực để vượt qua các biến động ngắn hạn, hiện thực hóa mục tiêu tăng trưởng hai con số trong giai đoạn tới.Nền kinh tế số Malaysia có thể tăng trưởng sánh ngan",
+    "url": "https://www.vietnamplus.vn/kinh-te-viet-nam-qua-goc-nhin-quoc-te-them-luc-day-cho-tang-truong-hai-con-so-post1146000.vnp"
+  },
+  {
+    "fingerprint": "7a11d29589b49cfe",
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "category": "Financial Media",
+    "tier": "L1",
+    "province": "National",
+    "dimension_hints": [
+      "D01",
+      "D05"
+    ],
+    "title": "Chờ đợi gói tái cấp vốn cho nhà ở xã hội",
+    "pub_date": "Wed, 04 Nov 2026 07:54:00 +07",
+    "snippet": "Gói tín dụng cho vay nhà ở xã hội được mở rộng quy mô lên hơn 153.000 tỷ đồng nhưng tiến độ giải ngân vẫn chậm, nhiều người mua nhà khó tiếp cận. Ngân hàng Nhà nước đang triển khai gói tái cấp vốn theo chỉ đạo của Thủ tướng.",
+    "url": "https://cafef.vn/cho-doi-goi-tai-cap-von-cho-nha-o-xa-hoi-188261104071726591.chn"
+  },
+  {
+    "fingerprint": "18a31bfcb824e4cc",
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "category": "Official News",
+    "tier": "L1",
+    "province": "National",
+    "dimension_hints": [
+      "D01",
+      "D05",
+      "D07"
+    ],
+    "title": "Sàn Binance bị hacker lừa phỏng vấn xin việc để đánh cắp 6,3 tỷ USD tiền mã hóa",
+    "pub_date": "Wed, 04 Nov 2026 07:30:35 +07:00",
+    "snippet": "Báo cáo từ Công ty phân tích tiền mã hóa Elliptic cho thấy các hacker đã di chuyển số tiền bị đánh cắp qua khoảng 12.000 ví điện tử nhằm xóa dấu vết và né tránh nỗ lực phong tỏa.Các sàn giao dịch tiền kỹ thuật số củng cố hệ thống phòng ngừa rủi roDòn",
+    "url": "https://www.vietnamplus.vn/san-binance-bi-hacker-lua-phong-van-xin-viec-de-danh-cap-63-ty-usd-tien-ma-hoa-post1145998.vnp"
+  },
+  {
+    "fingerprint": "e86b748b0d1243ba",
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "category": "Official News",
+    "tier": "L1",
+    "province": "National",
+    "dimension_hints": [
+      "D01",
+      "D05",
+      "D07"
+    ],
+    "title": "Bầu cử giữa nhiệm kỳ diễn ra suôn sẻ trên khắp nước Mỹ",
+    "pub_date": "Wed, 04 Nov 2026 07:19:13 +07:00",
+    "snippet": "Các quan chức bang và địa phương khẳng định toàn bộ phiếu bầu sẽ được kiểm đếm và các ứng cử viên cũng kêu gọi cử tri không rời khỏi điểm bỏ phiếu dù phải xếp hàng chờ đợi lâu.Bầu cử Mỹ: Bộ Tư pháp triển khai giám sát viên tại toàn bộ 50 bangBầu cử M",
+    "url": "https://www.vietnamplus.vn/bau-cu-giua-nhiem-ky-dien-ra-suon-se-tren-khap-nuoc-my-post1145997.vnp"
+  },
+  {
+    "fingerprint": "6ec07bcef7166fbe",
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "category": "Official News",
+    "tier": "L1",
+    "province": "National",
+    "dimension_hints": [
+      "D01",
+      "D05",
+      "D07"
+    ],
+    "title": "Giá dầu thế giới giảm xuống mức thấp nhất trong gần 4 tuần",
+    "pub_date": "Wed, 04 Nov 2026 06:58:01 +07:00",
+    "snippet": "Kết thúc phiên giao dịch 3/11, giá dầu Brent giảm 1,17 USD, tương đương 1%, xuống còn 103,60 USD/thùng, mức thấp nhất kể từ ngày 7/10.Giá dầu tại châu Á tăng do lo ngại căng thẳng leo thang tại Trung ĐôngGiá dầu lao dốc hơn 7% khi Mỹ và Iran để ngỏ c",
+    "url": "https://www.vietnamplus.vn/gia-dau-the-gioi-giam-xuong-muc-thap-nhat-trong-gan-4-tuan-post1145996.vnp"
+  },
+  {
+    "fingerprint": "8ee5c5576a365cc6",
+    "source_id": "src-VN-GEN-07",
+    "source_name": "VnExpress (越南快讯网商业频道)",
+    "category": "General News",
+    "tier": "L1",
+    "province": "National",
+    "dimension_hints": [
+      "D01",
+      "D05",
+      "D07"
+    ],
+    "title": "Hồng táo Trung Quốc 'rẻ chưa từng có'",
+    "pub_date": "Wed, 04 Nov 2026 06:00:00 +0700",
+    "snippet": "Từng trả 700.000 đồng cho thùng hồng táo Trung Quốc 2 kg, chị Hoàng Anh không ngờ nay có thể mua với giá vài chục nghìn đồng một kg.",
+    "url": "https://vnexpress.net/hong-tao-trung-quoc-re-chua-tung-co-5140362.html"
+  },
+  {
+    "fingerprint": "a3e646b950ae9335",
+    "source_id": "src-VN-GEN-07",
+    "source_name": "VnExpress (越南快讯网商业频道)",
+    "category": "General News",
+    "tier": "L1",
+    "province": "National",
+    "dimension_hints": [
+      "D01",
+      "D05",
+      "D07"
+    ],
+    "title": "Việt Nam cần 1.000 máy bay trong 20 năm tới",
+    "pub_date": "Wed, 04 Nov 2026 00:07:00 +0700",
+    "snippet": "Airbus dự báo tốc độ tăng trưởng hành khách của Việt Nam gấp đôi mức trung bình toàn cầu, tương ứng cần thêm 1.000 chiếc trong 20 năm tới.",
+    "url": "https://vnexpress.net/viet-nam-can-1-000-may-bay-trong-20-nam-toi-5140378.html"
+  },
+  {
+    "fingerprint": "78e16ca0be460e69",
+    "source_id": "src-VN-GEN-07",
+    "source_name": "VnExpress (越南快讯网商业频道)",
+    "category": "General News",
+    "tier": "L1",
+    "province": "National",
+    "dimension_hints": [
+      "D01",
+      "D05",
+      "D07"
+    ],
+    "title": "Coteccons lấn sân mảng truyền thông",
+    "pub_date": "Wed, 04 Nov 2026 00:03:00 +0700",
+    "snippet": "Coteccons nâng tỷ lệ sở hữu lên 64% tại AnPR, công ty do Phó tổng giám đốc sáng lập và từng cung cấp dịch vụ truyền thông nhiều năm trước.",
+    "url": "https://vnexpress.net/coteccons-lan-san-mang-truyen-thong-5140425.html"
+  },
+  {
+    "fingerprint": "fd89d39eb75fd59b",
+    "source_id": "src-VN-GEN-07",
+    "source_name": "VnExpress (越南快讯网商业频道)",
+    "category": "General News",
+    "tier": "L1",
+    "province": "National",
+    "dimension_hints": [
+      "D01",
+      "D05",
+      "D07"
+    ],
+    "title": "Vốn vào startup khí hậu ở Việt Nam giảm một nửa",
+    "pub_date": "Wed, 04 Nov 2026 00:02:16 +0700",
+    "snippet": "Tổng vốn đầu tư vào các startup công nghệ khí hậu tại Việt Nam năm 2025 đã giảm 52% so với 2024, theo báo cáo.",
+    "url": "https://vnexpress.net/von-vao-startup-khi-hau-o-viet-nam-giam-mot-nua-5140313.html"
+  },
+  {
+    "fingerprint": "2ed183da123c3bb0",
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "category": "International Media",
+    "tier": "L1",
+    "province": "International",
+    "dimension_hints": [
+      "D01",
+      "D05"
+    ],
+    "title": "Supermicro's record AI server sales put margins and cash conversion in focus",
+    "pub_date": "Tue, 3 Nov 2026 23:56:34 GMT",
+    "snippet": "Supermicro's latest results show its expansion into complete AI data center systems gaining scale, while leaving open how much of that growth can translate into durable profitability and cash. Record sales lifted earnings sharply, but the company ret",
+    "url": "https://www.digitimes.com/news/a20261104VL200.html"
+  },
+  {
+    "fingerprint": "ffa3a6520a7442f8",
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "category": "International Media",
+    "tier": "L1",
+    "province": "International",
+    "dimension_hints": [
+      "D01",
+      "D05"
+    ],
+    "title": "Palantir nearly doubles 3Q26 revenue, riding wave of commercial demand",
+    "pub_date": "Tue, 3 Nov 2026 23:55:32 GMT",
+    "snippet": "Palantir reported third-quarter 2026 revenue results that nearly doubled from the previous year. Its performance comes on the back of higher US commercial revenue, overtaking government-related earnings for the first time.",
+    "url": "https://www.digitimes.com/news/a20261103VL223/revenue-commercial-demand-earnings-government.html"
+  },
+  {
+    "fingerprint": "337406ca89edf184",
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "category": "International Media",
+    "tier": "L1",
+    "province": "International",
+    "dimension_hints": [
+      "D01",
+      "D05"
+    ],
+    "title": "Samsung Electro-Mechanics' long-term deals top KRW5 trillion",
+    "pub_date": "Tue, 3 Nov 2026 23:55:18 GMT",
+    "snippet": "Samsung Electro-Mechanics (Semco) has disclosed more than KRW5 trillion in long-term supply agreements (LTAs) this year after signing another AI server capacitor contract. The company expects such agreements to account for more than half of its multi",
+    "url": "https://www.digitimes.com/news/a20261103VL222/semco-mlcc-ai-server-revenue-demand.html"
+  },
+  {
+    "fingerprint": "df59ea5b0624454c",
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "category": "International Media",
+    "tier": "L1",
+    "province": "International",
+    "dimension_hints": [
+      "D01",
+      "D05"
+    ],
+    "title": "USI to launch Wi-Fi 8 SiP modules in 1Q27 for AI devices",
+    "pub_date": "Tue, 3 Nov 2026 23:55:04 GMT",
+    "snippet": "Universal Scientific Industrial (USI), a subsidiary of ASE, plans to launch Wi-Fi 8 (IEEE 802.11bn) products in the first quarter of 2027, building on its experience developing and integrating Wi-Fi 6E and Wi-Fi 7 system-in-package (SiP) solutions to",
+    "url": "https://www.digitimes.com/news/a20261103PD236/usi-wi-fi-launch-ase-subsidiary.html"
+  },
+  {
+    "fingerprint": "229665547edf66b3",
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "category": "International Media",
+    "tier": "L1",
+    "province": "International",
+    "dimension_hints": [
+      "D01",
+      "D05"
+    ],
+    "title": "Macronix sees new memory strategy emerging within 6 months",
+    "pub_date": "Tue, 3 Nov 2026 23:54:50 GMT",
+    "snippet": "Macronix (MXIC) chairman Miin Wu said the memory shortage will continue through 2030, with prices unlikely to weaken from current levels as production capacity becomes a scarce resource. He also disclosed for the first time that Macronix is consideri",
+    "url": "https://www.digitimes.com/news/a20261103PD230/macronix-international-equipment-capacity-2030.html"
   },
   {
     "fingerprint": "10d8fa8ff2e733f7",
@@ -111,188 +408,7 @@
     "url": "https://bwindustrial.com/the-strategic-bet-i-placed-on-vietnam-and-why-it-was-right/"
   },
   {
-    "fingerprint": "d06f8fc30c6620d3",
-    "source_id": "src-B02",
-    "source_name": "Amata Vietnam",
-    "category": "Industrial Park",
-    "tier": "L1",
-    "province": "Đồng Nai",
-    "dimension_hints": [
-      "D02",
-      "D05"
-    ],
-    "title": "OJI LIQUID PAK INVESTS USD 110 MILLION IN AMATA CITY LONG THANH, EXPANDING VIETNAM’S PACKAGING MANUFACTURING CAPACITY",
-    "pub_date": "Tue, 13 Oct 2026 08:35:18 +0000",
-    "snippet": "Oji Liquid Pak’s USD 110 million aseptic carton packaging plant marks a new milestone in the development of Amata City Long Thanh, while adding manufacturing capacity to serve the beverage and liquid food industries and regional supply chains. On Oct",
-    "url": "https://amatavn.com/news-event/oji-liquid-pak-invests-usd-110-million-in-amata-city-long-thanh-expanding-vietnams-packaging-manufacturing-capacity/?utm_source=rss&utm_medium=rss&utm_campaign=oji-liquid-pak-invests-usd-110-million-in-amata-city-long-thanh-expanding-vietnams-packaging-manufacturing-capacity"
-  },
-  {
-    "fingerprint": "6a06aebe5b3c512d",
-    "source_id": "src-VN-FIN-03",
-    "source_name": "CafeF (越南金融资本与上市公司)",
-    "category": "Financial Media",
-    "tier": "L1",
-    "province": "National",
-    "dimension_hints": [
-      "D01",
-      "D05"
-    ],
-    "title": "Diễn viên 'Mưa đỏ' đính chính",
-    "pub_date": "Tue, 03 Nov 2026 07:55:00 +07",
-    "snippet": "Một năm sau những tranh cãi liên quan đến fan meeting tại Hà Nội, diễn viên Lâm Thanh Nhã lên tiếng đính chính thông tin anh bật khóc vì chương trình không bán hết vé. Nam diễn viên thừa nhận thiếu sót trong khâu chuẩn bị, đồng thời giải thích về giá",
-    "url": "https://cafef.vn/dien-vien-mua-do-dinh-chinh-188261103071341688.chn"
-  },
-  {
-    "fingerprint": "b830ec053d90e9f1",
-    "source_id": "src-VN-FIN-03",
-    "source_name": "CafeF (越南金融资本与上市公司)",
-    "category": "Financial Media",
-    "tier": "L1",
-    "province": "National",
-    "dimension_hints": [
-      "D01",
-      "D05"
-    ],
-    "title": "Không cần tàu sân bay, Trung Quốc cho máy bay tàng hình sải cánh gần 15m cất cánh từ chiến hạm",
-    "pub_date": "Tue, 03 Nov 2026 07:54:00 +07",
-    "snippet": "Trung Quốc vừa thử nghiệm hoạt động cất và hạ cánh của máy bay không người lái (UAV) tàng hình GJ-21 trên tàu đổ bộ tấn công Tứ Xuyên, thuộc lớp Type-076. Với sải cánh 14,4 m, thiết kế tàng hình và khả năng mang vũ khí bên trong thân, mẫu UAV này đượ",
-    "url": "https://cafef.vn/khong-can-tau-san-bay-trung-quoc-cho-may-bay-tang-hinh-sai-canh-gan-15m-cat-canh-tu-chien-ham-188261103075356648.chn"
-  },
-  {
-    "fingerprint": "ef9fdbb1f8411491",
-    "source_id": "src-VN-FIN-03",
-    "source_name": "CafeF (越南金融资本与上市公司)",
-    "category": "Financial Media",
-    "tier": "L1",
-    "province": "National",
-    "dimension_hints": [
-      "D01",
-      "D05"
-    ],
-    "title": "Giá vàng nhẫn trơn, vàng miếng sáng 3/11 tại SJC, PNJ, DOJI, Bảo Tín Minh Châu và Bảo Tín Mạnh Hải",
-    "pub_date": "Tue, 03 Nov 2026 07:53:00 +07",
-    "snippet": "Giá vàng trong nước sáng 3/11 đi ngang, với vàng miếng SJC duy trì mức bán ra 140 triệu đồng/lượng, trong khi giá vàng nhẫn tại các thương hiệu dao động từ 136,8 đến 139 triệu đồng/lượng. Trên thị trường quốc tế, giá vàng giao ngay phục hồi lên 3.952",
-    "url": "https://cafef.vn/gia-vang-nhan-tron-vang-mieng-sang-3-11-tai-sjc-pnj-doji-bao-tin-minh-chau-va-bao-tin-manh-hai-188261103075423102.chn"
-  },
-  {
-    "fingerprint": "939900688e611736",
-    "source_id": "src-VN-GEN-01",
-    "source_name": "VietnamPlus (越通社官方)",
-    "category": "Official News",
-    "tier": "L1",
-    "province": "National",
-    "dimension_hints": [
-      "D01",
-      "D05",
-      "D07"
-    ],
-    "title": "Bầu cử Israel: Bốn đảng đối lập thống nhất ủng hộ ông Eisenkot lập chính phủ mới",
-    "pub_date": "Tue, 03 Nov 2026 07:52:43 +07:00",
-    "snippet": "Bốn đảng đối lập tại Israel đã thống nhất ủng hộ lãnh đạo đảng Yashar - ông Gadi Eisenkot - thành lập chính phủ mới, song việc tập hợp đủ sự ủng hộ tại Quốc hội vẫn là thách thức lớn.Tuần hành kêu gọi lập chính phủ liên minh Do Thái-Arab sau bầu cử t",
-    "url": "https://www.vietnamplus.vn/bau-cu-israel-bon-dang-doi-lap-thong-nhat-ung-ho-ong-eisenkot-lap-chinh-phu-moi-post1145767.vnp"
-  },
-  {
-    "fingerprint": "2fb182b9b9ffa2ad",
-    "source_id": "src-VN-GEN-01",
-    "source_name": "VietnamPlus (越通社官方)",
-    "category": "Official News",
-    "tier": "L1",
-    "province": "National",
-    "dimension_hints": [
-      "D01",
-      "D05",
-      "D07"
-    ],
-    "title": "Bầu cử Mỹ: Khả năng đảng Dân chủ giành quyền kiểm soát Thượng viện tăng 74%",
-    "pub_date": "Tue, 03 Nov 2026 07:52:13 +07:00",
-    "snippet": "Thị trường dự đoán Kalshi ghi nhận khả năng đảng Dân chủ giành thế đa số tại Thượng viện Mỹ tăng lên 74% ngày 2/11, mức cao nhất kể từ khi nền tảng này mở cửa thị trường dự đoán vào năm 2024.Cuộc cạnh tranh quyền lực trong bầu cử giữa nhiệm kỳ tại Mỹ",
-    "url": "https://www.vietnamplus.vn/bau-cu-my-kha-nang-dang-dan-chu-gianh-quyen-kiem-soat-thuong-vien-tang-74-post1145766.vnp"
-  },
-  {
-    "fingerprint": "eeafafff90badc32",
-    "source_id": "src-VN-FIN-03",
-    "source_name": "CafeF (越南金融资本与上市公司)",
-    "category": "Financial Media",
-    "tier": "L1",
-    "province": "National",
-    "dimension_hints": [
-      "D01",
-      "D05"
-    ],
-    "title": "Cựu kỹ sư Google cảnh báo AI có thể xóa sổ nhân loại trong 10 năm tới, xác suất trên 50%",
-    "pub_date": "Tue, 03 Nov 2026 07:52:00 +07",
-    "snippet": "Lo ngại AI có thể hủy diệt nhân loại trong vòng 10 năm tới, cựu kỹ sư Google Nate Soares cho rằng tương lai quá bất định để tiếp tục tích lũy tiền cho tuổi nghỉ hưu.",
-    "url": "https://cafef.vn/cuu-ky-su-google-canh-bao-ai-co-the-xoa-so-nhan-loai-trong-10-nam-toi-xac-suat-tren-50-188261102133959319.chn"
-  },
-  {
-    "fingerprint": "df6e49a63cac48e1",
-    "source_id": "src-VN-FIN-03",
-    "source_name": "CafeF (越南金融资本与上市公司)",
-    "category": "Financial Media",
-    "tier": "L1",
-    "province": "National",
-    "dimension_hints": [
-      "D01",
-      "D05"
-    ],
-    "title": "Để học viên tập lái xe chạy sai làn đường, thầy dạy nhận 2 lần phạt",
-    "pub_date": "Tue, 03 Nov 2026 07:50:00 +07",
-    "snippet": "Không chỉ bị xử lý về mặt hành chính, thầy dạy lái xe này còn phải chịu hình thức kỷ luật tại đơn vị công tác",
-    "url": "https://cafef.vn/doi-thang-tram-cua-nam-dien-vien-noi-tieng-phim-dat-phuong-nam-sau-gan-30-nam-188261102161758273.chn"
-  },
-  {
-    "fingerprint": "db01fa438a446f1d",
-    "source_id": "src-VN-GEN-01",
-    "source_name": "VietnamPlus (越通社官方)",
-    "category": "Official News",
-    "tier": "L1",
-    "province": "National",
-    "dimension_hints": [
-      "D01",
-      "D05",
-      "D07"
-    ],
-    "title": "Giá vàng thế giới tăng hơn 2% sau khi chạm đáy một năm",
-    "pub_date": "Tue, 03 Nov 2026 07:39:24 +07:00",
-    "snippet": "Giá vàng thế giới tăng hơn 2% trong phiên 2/11 sau khi giảm xuống mức thấp nhất kể từ tháng 10/2025, trong bối cảnh giá dầu đi xuống làm dịu áp lực lạm phát và tâm lý thị trường.Giá dầu thô hạ nhiệt tạo lực đẩy cho thị trường vàng phục hồiGiá vàng ng",
-    "url": "https://www.vietnamplus.vn/gia-vang-the-gioi-tang-hon-2-sau-khi-cham-day-mot-nam-post1145765.vnp"
-  },
-  {
-    "fingerprint": "618a53b10b117645",
-    "source_id": "src-VN-GEN-01",
-    "source_name": "VietnamPlus (越通社官方)",
-    "category": "Official News",
-    "tier": "L1",
-    "province": "National",
-    "dimension_hints": [
-      "D01",
-      "D05",
-      "D07"
-    ],
-    "title": "Chứng khoán Âu-Mỹ phân hóa trước bầu cử giữa kỳ tại Mỹ",
-    "pub_date": "Tue, 03 Nov 2026 07:26:58 +07:00",
-    "snippet": "Trong khi các thị trường châu Âu đồng loạt tăng điểm nhờ kỳ vọng căng thẳng Mỹ-Iran hạ nhiệt, Phố Wall chịu sức ép từ đà giảm của cổ phiếu công nghệ và tâm lý thận trọng trước ngày bầu cử.Chứng khoán châu Á hầu hết giảm điểm khi nhóm cổ phiếu công ng",
-    "url": "https://www.vietnamplus.vn/chung-khoan-au-my-phan-hoa-truoc-bau-cu-giua-ky-tai-my-post1145764.vnp"
-  },
-  {
-    "fingerprint": "7f64c5f4a6b9b8f8",
-    "source_id": "src-VN-GEN-01",
-    "source_name": "VietnamPlus (越通社官方)",
-    "category": "Official News",
-    "tier": "L1",
-    "province": "National",
-    "dimension_hints": [
-      "D01",
-      "D05",
-      "D07"
-    ],
-    "title": "Các hãng vận tải biển lớn chạy đua mở rộng sang đường sắt",
-    "pub_date": "Tue, 03 Nov 2026 07:25:27 +07:00",
-    "snippet": "MSC, CMA CGM và các tập đoàn vận tải biển hàng đầu đang đẩy mạnh đầu tư vào đường sắt, nhằm chủ động kiểm soát chuỗi vận chuyển hàng hóa và mở rộng dịch vụ logistics từ cảng biển đến điểm giao nhận.Giá cước vận tải biển Trung-Mỹ áp sát kỷ lục thời dị",
-    "url": "https://www.vietnamplus.vn/cac-hang-van-tai-bien-lon-chay-dua-mo-rong-sang-duong-sat-post1145763.vnp"
-  },
-  {
-    "fingerprint": "1f9894e0e5cdde6a",
+    "fingerprint": "67f633a42b239e90",
     "source_id": "src-VN-GEN-07",
     "source_name": "VnExpress (越南快讯网商业频道)",
     "category": "General News",
@@ -303,183 +419,73 @@
       "D05",
       "D07"
     ],
-    "title": "Rục rịch sắm robot đón sóng tự động hóa",
-    "pub_date": "Tue, 03 Nov 2026 04:00:00 +0700",
-    "snippet": "Nhiều doanh nghiệp Việt có xu hướng tăng mua robot để nâng cao tự động hóa nhưng cần chuẩn bị về bài toán chi phí và nhân sự, theo chuyên gia.",
-    "url": "https://vnexpress.net/ruc-rich-sam-robot-don-song-tu-dong-hoa-5139889.html"
+    "title": "Không ai mua lô vàng tang vật hơn 150 triệu đồng ở Nghệ An",
+    "pub_date": "Tue, 03 Nov 2026 23:36:50 +0700",
+    "snippet": "15 người đăng ký mua lô trang sức vàng là tang vật vi phạm trị giá hơn 150 triệu đồng ở Nghệ An, song cả 7 người đến dự bốc thăm đều rút lui.",
+    "url": "https://vnexpress.net/khong-ai-mua-lo-vang-tang-vat-hon-150-trieu-dong-o-nghe-an-5140427.html"
   },
   {
-    "fingerprint": "242a7c69b4397b1e",
-    "source_id": "src-A03",
-    "source_name": "Tổng cục Thống kê (National Statistics Office - NSO)",
-    "category": "National Official",
-    "tier": "L1",
-    "province": "National",
-    "dimension_hints": [
-      "D11"
-    ],
-    "title": "Ngành nông nghiệp Việt Nam: Kết quả đạt được sau gần 40 năm đổi mới và phát triển",
-    "pub_date": "Tue, 03 Nov 2026 01:00:51 +0000",
-    "snippet": "Sản xuất nông nghiệp, lâm nghiệp và thủy sản của Việt Nam trong 40 năm qua đã đạt được những thành tựu to lớn. Từ một nước có một nền nông nghiệp lạc hậu, độc canh cây lúa vươn lên trở thành một nước có nền nông nghiệp hàng hóa với sản phẩm phong [..",
-    "url": "https://www.nso.gov.vn/du-lieu-va-so-lieu-thong-ke/2026/11/nganh-nong-nghiep-viet-nam-ket-qua-dat-duoc-sau-gan-40-nam-doi-moi-va-phat-trien/"
-  },
-  {
-    "fingerprint": "bad095821e18d538",
-    "source_id": "src-VN-GEN-07",
-    "source_name": "VnExpress (越南快讯网商业频道)",
-    "category": "General News",
+    "fingerprint": "ea82143dac78b506",
+    "source_id": "src-VN-FIN-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "category": "Financial Media",
     "tier": "L1",
     "province": "National",
     "dimension_hints": [
       "D01",
-      "D05",
-      "D07"
+      "D05"
     ],
-    "title": "Thành viên HĐQT độc lập có vai trò gì?",
-    "pub_date": "Tue, 03 Nov 2026 00:40:00 +0700",
-    "snippet": "Thành viên HĐQT độc lập giúp giám sát ban điều hành, hạn chế xung đột lợi ích và bảo vệ quyền lợi cổ đông, nhất là cổ đông nhỏ lẻ.",
-    "url": "https://vnexpress.net/thanh-vien-hdqt-doc-lap-co-vai-tro-gi-5137787.html"
+    "title": "Dịch chuyển cơ cấu chủ nợ tại PNJ: Gia đình Chủ tịch dần thế chân ngân hàng",
+    "pub_date": "Tue, 03 Nov 2026 17:04:26 +0700",
+    "snippet": "Báo cáo tài chính quý 3/2026 xác nhận khoản vay tín chấp 700 tỷ đồng từ Chủ tịch PNJ có lãi suất 10%/năm. Hơn một nửa số tiền này được dùng để bù đắp phần vốn ngân hàng vừa rút ròng khi hàng tồn kho giảm chất lượng. Nghĩa vụ trả cả gốc và lãi 770 tỷ ",
+    "url": "http://vietstock.vn/2026/11/dich-chuyen-co-cau-chu-no-tai-pnj-gia-dinh-chu-tich-dan-the-chan-ngan-hang-737-1511108.htm"
   },
   {
-    "fingerprint": "13e533f139b1fe2d",
-    "source_id": "src-VN-GEN-07",
-    "source_name": "VnExpress (越南快讯网商业频道)",
-    "category": "General News",
+    "fingerprint": "c658398d25951404",
+    "source_id": "src-VN-FIN-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "category": "Financial Media",
     "tier": "L1",
     "province": "National",
     "dimension_hints": [
       "D01",
-      "D05",
-      "D07"
+      "D05"
     ],
-    "title": "Xe điện Trung Quốc nỗ lực tìm khách tại Hàn Quốc, Nhật Bản",
-    "pub_date": "Tue, 03 Nov 2026 00:00:00 +0700",
-    "snippet": "Sau khi nhanh chóng mở rộng tại châu Âu, BYD cùng các hãng ôtô khác nhắm tới hai nước láng giềng vốn vẫn hoài nghi xe Trung Quốc.",
-    "url": "https://vnexpress.net/xe-dien-trung-quoc-no-luc-tim-khach-tai-han-quoc-nhat-ban-5139521.html"
+    "title": "Doanh thu và lãi gộp đi lên, May Sông Hồng vẫn hụt lãi ròng sau 9 tháng",
+    "pub_date": "Tue, 03 Nov 2026 17:02:00 +0700",
+    "snippet": "CTCP May Sông Hồng (HOSE: MSH) ghi nhận lãi gộp tăng trong quý 3 nhờ giá vốn giảm nhanh hơn doanh thu. Tuy nhiên, áp lực từ hoạt động tài chính và chi phí tăng khiến lãi ròng giảm 8%. Lũy kế 9 tháng, doanh thu và lãi gộp cải thiện nhưng lãi ròng vẫn ",
+    "url": "http://vietstock.vn/2026/11/doanh-thu-va-lai-gop-di-len-may-song-hong-van-hut-lai-rong-sau-9-thang-737-1510996.htm"
   },
   {
-    "fingerprint": "3a60198f0ab5b8c2",
-    "source_id": "src-A03",
-    "source_name": "Tổng cục Thống kê (National Statistics Office - NSO)",
-    "category": "National Official",
+    "fingerprint": "70122333c7e33546",
+    "source_id": "src-VN-FIN-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "category": "Financial Media",
     "tier": "L1",
     "province": "National",
     "dimension_hints": [
-      "D11"
-    ],
-    "title": "Tọa đàm: GDP và Thu nhập bình quân đầu người có phải là một",
-    "pub_date": "Thu, 29 Oct 2026 03:16:45 +0000",
-    "snippet": "Tọa đàm: GDP và Thu nhập bình quân đầu người có phải là một",
-    "url": "https://www.nso.gov.vn/default/2026/10/toa-dam-gdp-va-thu-nhap-binh-quan-dau-nguoi-co-phai-la-mot/"
-  },
-  {
-    "fingerprint": "2c45bc69e72b8ac2",
-    "source_id": "src-B06",
-    "source_name": "BW Industrial Development JSC",
-    "category": "Industrial Park",
-    "tier": "L1",
-    "province": "Multi-Province",
-    "dimension_hints": [
-      "D02",
+      "D01",
       "D05"
     ],
-    "title": "BW Industrial Contributes to “Vietnam’s Next Manufacturing Frontier (2026)” Report",
-    "pub_date": "Thu, 24 Sep 2026 03:34:49 +0000",
-    "snippet": "Download the full report: here   BW is proud to have supported Vietnam’s Next Manufacturing Frontier (2026), released by Acclime Vietnam, alongside fellow contributors Avison Young Vietnam and FVSource. The report takes a close look at the sectors an",
-    "url": "https://bwindustrial.com/bw-industrial-contributes-to-vietnams-next-manufacturing-frontier-2026-report/"
+    "title": "Giá dầu neo cao giúp Petrolimex lãi gấp đôi cùng kỳ",
+    "pub_date": "Tue, 03 Nov 2026 16:37:28 +0700",
+    "snippet": "Nhờ diễn biến thuận lợi của giá dầu thế giới cùng sản lượng xuất bán tăng mạnh, Tập đoàn Xăng dầu Việt Nam (Petrolimex, HOSE: PLX) ghi nhận lãi ròng quý 3/2026 gấp đôi cùng kỳ.",
+    "url": "http://vietstock.vn/2026/11/gia-dau-neo-cao-giup-petrolimex-lai-gap-doi-cung-ky-737-1511020.htm"
   },
   {
-    "fingerprint": "35887045a4581dfb",
-    "source_id": "src-A03",
-    "source_name": "Tổng cục Thống kê (National Statistics Office - NSO)",
-    "category": "National Official",
+    "fingerprint": "be9e5114374abb6b",
+    "source_id": "src-VN-FIN-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "category": "Financial Media",
     "tier": "L1",
     "province": "National",
     "dimension_hints": [
-      "D11"
-    ],
-    "title": "Cục Thống kê tổ chức tập huấn phương pháp tính toán nghèo chi tiêu sử dụng dữ liệu khảo sát mức sống giai đoạn 2010–2024",
-    "pub_date": "Thu, 22 Oct 2026 08:22:35 +0000",
-    "snippet": "Ngày 21/10/2026, Cục Thống kê phối hợp với Ngân hàng Thế giới (WB) tổ chức lớp tập huấn phương pháp tính toán nghèo chi tiêu sử dụng dữ liệu Khảo sát mức sống dân cư (KSMS) giai đoạn 2010–2024",
-    "url": "https://www.nso.gov.vn/su-kien/2026/10/cuc-thong-ke-to-chuc-tap-huan-phuong-phap-tinh-toan-ngheo-chi-tieu-su-dung-du-lieu-khao-sat-muc-song-giai-doan-2010-2024/"
-  },
-  {
-    "fingerprint": "b9a3d16960cffc26",
-    "source_id": "src-B02",
-    "source_name": "Amata Vietnam",
-    "category": "Industrial Park",
-    "tier": "L1",
-    "province": "Đồng Nai",
-    "dimension_hints": [
-      "D02",
+      "D01",
       "D05"
     ],
-    "title": "Amata City Bien Hoa Strengthens International Collaboration on Eco-Industrial Park Development",
-    "pub_date": "Thu, 22 Oct 2026 01:59:47 +0000",
-    "snippet": "On October 15, 2026, Amata City Bien Hoa welcomed a delegation of 16 representatives from the Government of Jordan and the German Agency for International Cooperation (GIZ) for a knowledge-exchange session on eco-industrial park development. During t",
-    "url": "https://amatavn.com/news-event/business-news/amata-city-bien-hoa-strengthens-international-collaboration-on-eco-industrial-park-development/?utm_source=rss&utm_medium=rss&utm_campaign=amata-city-bien-hoa-strengthens-international-collaboration-on-eco-industrial-park-development"
-  },
-  {
-    "fingerprint": "aff679d505ea0e08",
-    "source_id": "src-A03",
-    "source_name": "Tổng cục Thống kê (National Statistics Office - NSO)",
-    "category": "National Official",
-    "tier": "L1",
-    "province": "National",
-    "dimension_hints": [
-      "D11"
-    ],
-    "title": "Cục Thống kê Việt Nam và Cơ quan Thống kê Đan Mạch ký kết Bản ghi nhớ hợp tác về thống kê chính thức, dữ liệu hành chính và chuyển đổi số",
-    "pub_date": "Thu, 15 Oct 2026 09:58:25 +0000",
-    "snippet": "Ngày 15/10/2026, tại trụ sở Cục Thống kê, Cục Thống kê Việt Nam và Cơ quan Thống kê Đan Mạch tổ chức Lễ ký kết trực tuyến Bản ghi nhớ hợp tác trong lĩnh vực thống kê chính thức, dữ liệu hành chính và chuyển đổi số (MoU). Sự kiện đánh dấu bước phát tr",
-    "url": "https://www.nso.gov.vn/su-kien/2026/10/cuc-thong-ke-viet-nam-va-co-quan-thong-ke-dan-mach-ky-ket-ban-ghi-nho-hop-tac-ve-thong-ke-chinh-thuc-du-lieu-hanh-chinh-va-chuyen-doi-so/"
-  },
-  {
-    "fingerprint": "baec5833298cfe43",
-    "source_id": "src-B02",
-    "source_name": "Amata Vietnam",
-    "category": "Industrial Park",
-    "tier": "L1",
-    "province": "Đồng Nai",
-    "dimension_hints": [
-      "D02",
-      "D05"
-    ],
-    "title": "AMATA CITY HA LONG WELCOMES HUNAN BUSINESS DELEGATION",
-    "pub_date": "Thu, 15 Oct 2026 02:45:00 +0000",
-    "snippet": "On 13th October 2026, Amata City Ha Long welcomed a delegation representing leading companies from Hunan Province, China, as part of a business and investment promotion visit to Vietnam organized by TET Education Group.  The meeting was attended by t",
-    "url": "https://amatavn.com/news-event/amata-city-ha-long-welcomes-hunan-business-delegation/?utm_source=rss&utm_medium=rss&utm_campaign=amata-city-ha-long-welcomes-hunan-business-delegation"
-  },
-  {
-    "fingerprint": "76081ee43f6440eb",
-    "source_id": "src-IND-PROP-01",
-    "source_name": "Mingtiandi (亚洲与越南工业地产旗舰)",
-    "category": "Industrial Real Estate",
-    "tier": "L1",
-    "province": "Regional",
-    "dimension_hints": [
-      "D02",
-      "D05"
-    ],
-    "title": "Blackstone Nears Sale of Tokyo Office Tower to Daiwa for $1.9B",
-    "pub_date": "Sun, 01 Nov 2026 17:28:11 +0000",
-    "snippet": "Blackstone is in advanced talks to sell the office and retail space at Tokyo Garden Terrace Kioicho to funds managed by units of Daiwa Securities for around JPY 300 billion ($1.9 billion), according to sources who spoke with Mingtiandi, giving...Read",
-    "url": "https://www.mingtiandi.com/real-estate/finance/blackstone-nears-sale-of-tokyo-office-tower-to-daiwa-for-1-9b/"
-  },
-  {
-    "fingerprint": "e298c34be19930a8",
-    "source_id": "src-IND-PROP-01",
-    "source_name": "Mingtiandi (亚洲与越南工业地产旗舰)",
-    "category": "Industrial Real Estate",
-    "tier": "L1",
-    "province": "Regional",
-    "dimension_hints": [
-      "D02",
-      "D05"
-    ],
-    "title": "Mapletree Prepping for Singapore IPO After CapitaLand Merger Talks Fizzled",
-    "pub_date": "Sun, 01 Nov 2026 15:34:24 +0000",
-    "snippet": "Mapletree Investments is sounding out potential investors for an initial public offering on the Singapore exchange, as one of Singapore’s largest  investment managers looks to raise capital from the public.The IPO could take place early next year, an",
-    "url": "https://www.mingtiandi.com/real-estate/finance/mapletree-prepping-for-singapore-ipo-after-merger-fizzled/"
+    "title": "BCG Energy tính rút gần hết vốn tại nhà máy điện rác ở Củ Chi",
+    "pub_date": "Tue, 03 Nov 2026 16:11:20 +0700",
+    "snippet": "Doanh nghiệp năng lượng thuộc hệ sinh thái Bamboo Capital dự kiến giảm tỷ lệ sở hữu từ 25% xuống 5% tại đơn vị đầu tư nhà máy điện rác Tâm Sinh Nghĩa ở TPHCM, dự án có tổng vốn 6.4 ngàn tỷ đồng đang trong quá trình xây dựng.",
+    "url": "http://vietstock.vn/2026/11/bcg-energy-tinh-rut-gan-het-von-tai-nha-may-dien-rac-o-cu-chi-737-1510880.htm"
   }
 ]

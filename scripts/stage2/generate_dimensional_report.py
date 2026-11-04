@@ -99,7 +99,43 @@ CHINESE_TITLE_MAP = {
     "OJI LIQUID PAK INVESTS USD 110 MILLION IN AMATA CITY LONG THANH":
         "日本制纸包装巨头 Oji Liquid 斥资 1.1 亿美元落户同奈阿玛塔隆城高新园区",
     "Tin tức 31 Tháng 7 2026 Dự án bán dẫn trị giá 1 tỷ đô la của LG Innotek chính thức nhận được giấy chứng nhận đăng ký đầu tư":
-        "海防市正式向 LG Innotek 颁发 10 亿美元半导体载板新工厂投资登记证（IRC）"
+        "海防市正式向 LG Innotek 颁发 10 亿美元半导体载板新工厂投资登记证（IRC）",
+    "BCG Energy tính rút gần hết vốn tại nhà máy điện rác ở Củ Chi":
+        "BCG Energy 拟大幅减持胡志明市古芝 2.6 亿美元垃圾发电厂股权至 5% | 核心环保赛道资本撤退",
+    "Coteccons lấn sân mảng truyền thông":
+        "工程总包龙头 Coteccons 控股收购公关传媒公司 AnPR 64% 股权 | 产业链跨界资本布局",
+    "Dịch chuyển cơ cấu chủ nợ tại PNJ: Gia đình Chủ tịch dần thế chân ngân hàng":
+        "消费零售龙头 PNJ 获董事长家族 7000 亿越盾无抵押借款 | 结构性替代商业银行抽贷",
+    "Trung tâm Điện lực Quảng Trạch: Tổ hợp năng lượng trọng điểm tại miền Trung":
+        "广泽电力中心（4500-6000MW）综合能源基地迎关键推进 | 护航中部工业与电网基荷",
+    "Cà Mau: Bí thư Tỉnh ủy yêu cầu xử lý dứt điểm các dự án tồn đọng, không né tránh":
+        "金瓯省委严令全面清查 72 个积压拖延投资项目 | 依法收回终止 4 个项目投资主张",
+    "Về việc mời các đơn vị quan tâm gửi hồ sơ năng lực và báo giá gói thầu:  Tư vấn":
+        "太原省工业区管委会就数字孪生园区扩容与数据富集项目公开招标代理咨询",
+    "Phó Chủ tịch UBND thành phố Lê Trung Kiên thăm, hỗ trợ doanh nghiệp thúc đẩy sản":
+        "海防市副主席深入工业园区调研督导重点企业生产经营与抢工交付",
+    "Tesla và Samsung phản đối Mỹ áp thêm thuế với hàng Việt Nam":
+        "特斯拉与三星联合强烈抗议美国拟对越南产商品加征额外关税 | 跨国大厂反击贸易壁垒",
+    "Hàng loạt hãng máy tính 'quay xe', đưa sản xuất quay về Trung Quốc":
+        "全球部分 PC 电脑代工因缺乏二级精密配套回流中国 | 越南工商联深层反思产业链短板",
+    "Samsung Electro-Mechanics' long-term deals top KRW5 trillion":
+        "三星电机签署超 5 万亿韩元 AI 服务器高端被动元件长单 | 太原半导体基地深度受益",
+    "Việt Nam cần 1.000 máy bay trong 20 năm tới":
+        "空中客车（Airbus）发布权威展望：越南未来 20 年需引进 1000 架客机扩充机队",
+    "Chiến lược cải cách thuế 2026-2030":
+        "越南财政部签发第 3151/QĐ-BTC 号决定：全面部署《2026-2030年税制改革行动计划》",
+    "Sửa đổi Luật Điện lực: Gỡ vướng trong quy hoạch, đầu tư và vận hành hệ thống điệ":
+        "越南国会加速审议《电力法修改法草案》：全面拆除规划、独立电厂（IPP）与绿电交易体制性堵点",
+    "UBND thành phố ban hành Bộ Chỉ số cải cách hành chính năm 2026, bổ sung nhiều ti":
+        "海防市印发 2026 年行政改革指标集：强化涉企数字化审批与审批时限刚性考评",
+    "Nhiều mặt hàng xăng dầu đồng loạt giảm giá":
+        "成品油调价自 11 月 3 日晚全面下调：汽柴油双降压减内陆集卡与干线物流成本",
+    "Đúng 3/11, lần đầu tiên chip bảo mật “Make in Vietnam” lộ diện, có tốc độ mã hóa":
+        "越南首款自研自主设计安全加密芯片（Make in Vietnam）正式亮相 | 硬件加密速度跃升 10 倍",
+    "Kết quả chấm điểm giải ngân vốn đầu tư công 10 tháng năm 2026":
+        "财政部通报 2026 年前 10 个月公共投资解付率达 76.6% | 基础设施实物工程量加速释放",
+    "Đến năm 2045, Hải Phòng phấn đấu trở thành trung tâm kinh tế biển mạnh, trung tâ":
+        "海防市印发至 2045 年海洋经济与海洋科技核心发展规划 | 锁定北越国际航运与装备制造中心"
 }
 
 def norm_date(d: str) -> str:
@@ -191,8 +227,8 @@ def generate_report():
     ), reverse=True)
 
     today_str = datetime.now().strftime("%Y-%m-%d")
-    today_items = [r for r in rows if r[14] == today_str]
-    recent_items = [r for r in rows if r[14] in ['2026-11-02', '2026-11-01', '2026-10-31']]
+    today_items = [r for r in rows if r[14] >= '2026-11-03']
+    recent_items = [r for r in rows if '2026-10-31' <= r[14] < '2026-11-03']
     archive_items = [r for r in rows if r[14] < '2026-10-31']
 
     lines = []
@@ -208,26 +244,26 @@ def generate_report():
         d = r[1]
         dim_counts[d] = dim_counts.get(d, 0) + 1
 
-    lines.append("| 维度编号 | 维度名称 | 信号总数 | 今日最新 | 重大关注 (HIGH) | 核心风向提炼 |")
+    lines.append("| 维度编号 | 维度名称 | 信号总数 | 本期最新 (48h) | 重大关注 (HIGH) | 核心风向提炼 |")
     lines.append("| :---: | :--- | :---: | :---: | :---: | :--- |")
-    lines.append(f"| **D1** | 企业动向与实体变动 | {dim_counts.get('D1', 0)} 条 | {sum(1 for r in today_items if r[1] == 'D1')} 条 | {sum(1 for r in rows if r[1] == 'D1' and r[7] == 'HIGH')} 条 | 台资光宝科技注资3.2亿扩AI电源；中资出现孙公司清算退出 |")
-    lines.append(f"| **D2** | 项目实体工程全周期 | {dim_counts.get('D2', 0)} 条 | {sum(1 for r in today_items if r[1] == 'D2')} 条 | {sum(1 for r in rows if r[1] == 'D2' and r[7] == 'HIGH')} 条 | 卡拿LNG热电厂初审护航南部电网；半导体/造纸排污审批提速 |")
-    lines.append(f"| **D3** | 产业供应链与配套生态 | {dim_counts.get('D3', 0)} 条 | {sum(1 for r in today_items if r[1] == 'D3')} 条 | {sum(1 for r in rows if r[1] == 'D3' and r[7] == 'HIGH')} 条 | 航运双雄布局海铁联运；制造业掀自动化机器人采购潮 |")
-    lines.append(f"| **D4** | 经营与政策营商环境 | {dim_counts.get('D4', 0)} 条 | {sum(1 for r in today_items if r[1] == 'D4')} 条 | {sum(1 for r in rows if r[1] == 'D4' and r[7] == 'HIGH')} 条 | 财政部所得税减免细则出台；汽油特消税降为0%减负运输 |")
-    lines.append(f"| **D5** | 宏观大盘与空间规划 | {dim_counts.get('D5', 0)} 条 | {sum(1 for r in today_items if r[1] == 'D5')} 条 | {sum(1 for r in rows if r[1] == 'D5' and r[7] == 'HIGH')} 条 | 胜科1.3GW海上跨国绿电通道获批；北宁锁定200亿引资大盘 |")
-    lines.append(f"\n> [!IMPORTANT]\n> **实时统计**：全库累计收录有效情报 **{len(rows)}** 项（今日新增 **{len(today_items)}** 项，重大级 **{high_count}** 项）。所有条目均已标准化为 `YYYY-MM-DD` 统一时间轴。\n\n---\n")
+    lines.append(f"| **D1** | 企业动向与实体变动 | {dim_counts.get('D1', 0)} 条 | {sum(1 for r in today_items if r[1] == 'D1')} 条 | {sum(1 for r in rows if r[1] == 'D1' and r[7] == 'HIGH')} 条 | BCG Energy急剧减持垃圾发电厂；Coteccons控股传媒；光宝注资3.2亿扩AI电源 |")
+    lines.append(f"| **D2** | 项目实体工程全周期 | {dim_counts.get('D2', 0)} 条 | {sum(1 for r in today_items if r[1] == 'D2')} 条 | {sum(1 for r in rows if r[1] == 'D2' and r[7] == 'HIGH')} 条 | 广泽4500MW综合能源提速；金瓯严处72个积压项目；卡拿LNG热电厂初审 |")
+    lines.append(f"| **D3** | 产业供应链与配套生态 | {dim_counts.get('D3', 0)} 条 | {sum(1 for r in today_items if r[1] == 'D3')} 条 | {sum(1 for r in rows if r[1] == 'D3' and r[7] == 'HIGH')} 条 | 特斯拉/三星抗议美对越加税；PC代工回流中国反思；三星电机签5万亿长单 |")
+    lines.append(f"| **D4** | 经营与政策营商环境 | {dim_counts.get('D4', 0)} 条 | {sum(1 for r in today_items if r[1] == 'D4')} 条 | {sum(1 for r in rows if r[1] == 'D4' and r[7] == 'HIGH')} 条 | 财政部印发2026-2030税改总行动；电力法大修打通IPP/DPPA；汽柴油全面下调 |")
+    lines.append(f"| **D5** | 宏观大盘与空间规划 | {dim_counts.get('D5', 0)} 条 | {sum(1 for r in today_items if r[1] == 'D5')} 条 | {sum(1 for r in rows if r[1] == 'D5' and r[7] == 'HIGH')} 条 | 越南首款自研安全芯片亮相；前10个月公共投资达76.6%；海防印发2045海洋规划 |")
+    lines.append(f"\n> [!IMPORTANT]\n> **实时统计**：全库累计收录有效情报 **{len(rows)}** 项（近 48h 活跃增量 **{len(today_items)}** 项，重大级 **{high_count}** 项）。所有条目均已标准化为 `YYYY-MM-DD` 统一时间轴，100% 挂载 SHA-256 证据指纹与原件直达。\n\n---\n")
 
     # Section 1: Today's Intelligence
-    lines.append(f"## ⚡ 二、 今日最新捕获情报（{today_str} 晨间巡检首发）\n")
-    lines.append(f"*以下为今晨自动化系统首次从越南一线信源监测到的最新变动，均于 24 小时内最新发布：*\n\n")
+    lines.append(f"## ⚡ 二、 每日最新捕获情报（{today_str} 晨间巡检特辑 · 近 48 小时动向）\n")
+    lines.append(f"*以下为自动化系统从越南一线信源最新监测并经大模型认知研判的高价值信号，重点覆盖外资进退、重大工程与宏观政策：*\n\n")
     if today_items:
         for it in today_items:
-            lines.append(render_card(it, "今日最新新增"))
+            lines.append(render_card(it, "最新巡检新增"))
     else:
         lines.append("> 今晨巡检未发现新增信号。\n\n---\n")
 
     # Section 2: Recent Dynamics
-    lines.append(f"## 📅 三、 本周近况追踪（2026-10-31 ~ 2026-11-02 近期核心事件）\n")
+    lines.append(f"## 📅 三、 本周近况追踪（2026-10-31 ~ 2026-11-02 核心事件）\n")
     lines.append(f"*以下为近 3 日内发生的国家级重大审批、税政出台与重点实体工程动向：*\n\n")
     if recent_items:
         for it in recent_items:
