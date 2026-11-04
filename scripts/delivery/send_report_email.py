@@ -13,6 +13,8 @@ from datetime import datetime
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
+from email.header import Header
+from email.utils import formataddr
 from pathlib import Path
 
 # 确保 UTF-8 输出
@@ -86,11 +88,11 @@ def send_report_email(report_path=None, recipient=None):
     today_str = datetime.now().strftime("%Y-%m-%d")
     subject = f"【越南投资与产业内参】每日简报（全中文审校版）- {today_str}"
 
-    # 构建 MIME 消息
+    # 构建符合 RFC 标准的 MIME 消息
     msg = MIMEMultipart("mixed")
-    msg["From"] = f"越南投资情报雷达 <{sender}>"
-    msg["To"] = target_recipient
-    msg["Subject"] = subject
+    msg["From"] = formataddr((str(Header("越南投资情报雷达", "utf-8")), sender))
+    msg["To"] = formataddr((str(Header("投资决策人", "utf-8")), target_recipient))
+    msg["Subject"] = Header(subject, "utf-8").encode()
 
     # 1. 邮件正文（HTML 富文本渲染）
     part_html = MIMEText(html_content, "html", "utf-8")
@@ -98,8 +100,8 @@ def send_report_email(report_path=None, recipient=None):
 
     # 2. 邮件附件（保全原始 HTML 离线查看）
     attachment_name = f"越南实体投资情报简报_{today_str}.html"
-    part_attach = MIMEApplication(html_content.encode("utf-8"), Name=attachment_name)
-    part_attach["Content-Disposition"] = f'attachment; filename="{attachment_name}"'
+    part_attach = MIMEApplication(html_content.encode("utf-8"))
+    part_attach.add_header("Content-Disposition", "attachment", filename=("utf-8", "", attachment_name))
     msg.attach(part_attach)
 
     # 建立 SMTP 连接并发送

@@ -367,3 +367,40 @@
      - 历史解析入库引擎：[`scripts/stage2/ingest_historical_reports.py`](scripts/stage2/ingest_historical_reports.py)；
      - 定向反向回溯工具：[`scripts/stage2/query_history.py`](scripts/stage2/query_history.py)；
      - 更新主调度器：[`run_all.py`](run_all.py)。
+
+
+## 2026-11-04 09:00：完成 8294 越南实体与投资情报每日常态化巡检（基于最新“宽对宽”体系与业务预期架构）
+
+- **巡检引用码**：8294（基于自动化配置 `vietnam-investment-intel` 调度触发）
+- **核心工程进展与实测成果**：
+  1. **39 核心信源极速并发抓取**：
+     - 执行 Stage 1 采集引擎，耗时 10.89 秒，信源连通成功率 37/39（94.9%）；
+     - 实时抽取 175 条原始记录，增量入库 59 条全新线索，底层原始语料库（`collector.db`）累计沉淀达 320 条；
+  2. **“宽对宽”大模型认知层增量研判与实体打标**：
+     - 运行 Stage 2 增量研判管线，严格执行“本土为主体 + 海外强传导”的产业分析师认知裁量标准；
+     - 成功识别并结构化打标 18 项全新高净值信号（涵盖 BCG Energy 拟从胡志明古芝 2.6 亿美元垃圾发电厂急剧减持、Coteccons 控股收购公关传媒公司、财政部 2026-2030 税制改革行动计划、国会电力法大修破除 IPP 堵点、越南首款自研安全加密芯片正式亮相、特斯拉与三星联合抗议美对越加税、全球 PC 代工回流中国反思等）；
+     - 实体数据库 `projects.db`（`dimensional_signals` 表）有效信号总量提升至 89 条（重大关注 HIGH 达到 32 条），100% 保持 SHA-256 指纹与官方一手原件链接闭环；
+  3. **业务预期架构五大分层全景演进**：
+     - **🏛️ 审批与公示底册**：海防市发布 2026 行政改革综合指标集（强化涉企数字化审批考核）；太原管委会就数字孪生园区扩容招标咨询；
+     - **🎯 P0 客户与潜在客户动向**：BCG Energy 拟减持古芝 2.6 亿美元垃圾电厂至 5%（几近清仓离场）；总包龙头 Coteccons 控股公关传媒机构 AnPR 64%；消费零售龙头 PNJ 获董事长家族 7000 亿借款替代银行抽贷；
+     - **🌐 P1 整体市场与政经大盘**：财政部签发第 3151/QĐ-BTC 号决定部署 2026-2030 税改行动（全球最低税与反避税）；国会电力法大修破除独立发电（IPP）与绿电交易体制堵点；前 10 个月公共投资解付率达 76.6% 创新高；汽柴油全面下调压降干线物流成本；
+     - **⚡ P2 重点赛道与未来产业**：越南首颗自研安全加密芯片（Make in Vietnam）正式亮相（加密速度跃升 10 倍）；广泽 4500-6000MW 骨干综合能源基地迎关键推进；三星电机签 5 万亿韩元 AI 服务器高端被动元件长单；空客权威预测未来 20 年越南需引进 1000 架客机；特斯拉与三星联手抗议美拟对越加征关税；全球部分 PC 制造回流中国引发供应链反思；
+     - **🏭 各省园区大盘支撑**：金瓯严处 72 个积压项目（已终止收回 4 个）；海防市主管领导深入园区一线现场纾困保交付；海防印发至 2045 年海洋经济与海洋科技核心发展规划；
+  4. **交付资产与多渠道分发矩阵**：
+     - 全维度情报内参简报：[`docs/stage2/FULL-DIMENSIONAL-INTELLIGENCE-BRIEF.md`](docs/stage2/FULL-DIMENSIONAL-INTELLIGENCE-BRIEF.md)（累计收录 89 条，近 48h 活跃增量 25 条）；
+     - 交互式 HTML 智能早报看板：[`docs/stage2/FULL-DIMENSIONAL-INTELLIGENCE-REPORT.html`](docs/stage2/FULL-DIMENSIONAL-INTELLIGENCE-REPORT.html)（收录 55 项全中文审校卡片）；
+     - 项目档案组合库：[`docs/stage2/PROJECT-DOSSIER-PORTFOLIO.md`](docs/stage2/PROJECT-DOSSIER-PORTFOLIO.md)（30 个实体大项目全周期档案）；
+     - 每日全中文 RSS 订阅源：[`docs/stage2/feed.xml`](docs/stage2/feed.xml)（共 69 条情报，供邮件定时分发）；
+     - 关系型实体数据库：`data/stage2/projects.db`。
+
+
+## 2026-11-04 09:30：装配 QQ 原生官方 SMTP 直发——首封全中文今日内参已成功投递收件箱
+
+- **实战排查与诊断**：
+  * 用户截图显示 Blogtrottr 虽然提示已发送验证信，但 QQ 邮箱垃圾箱与收件箱均未收到。诊断证实系腾讯企业级反垃圾安全网关在 MX 边界直接将海外未知 IP 段静默拒收。
+- **解决方案与执行落地**：
+  * 用户提供官方 16 位客户端授权码；
+  * 系统在 [`config/email_config.json`](config/email_config.json) 锁定配置，并执行 `git update-index --assume-unchanged` 确保私人凭据绝不泄露至公共 GitHub；
+  * 重构 [`scripts/delivery/send_report_email.py`](scripts/delivery/send_report_email.py) 符合 RFC 5322/2047 规范的 UTF-8 标准信头；
+  * 直连腾讯官方 SSL 端口 `smtp.qq.com:465`，自身发给自己；
+  * **实测成果**：今日《【越南投资与产业内参】每日简报（全中文审校版）- 2026-11-04》已于 09:29:37 秒级成功投递至 `18677106863@qq.com` 收件箱（正文富文本 + 离线 HTML 附件）。
