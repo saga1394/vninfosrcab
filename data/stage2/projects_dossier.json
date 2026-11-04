@@ -533,6 +533,36 @@
   },
   {
     "project_id": "PRJ-VN-2026-MISC-0001",
+    "project_name": "Dự án Nakashima Việt Nam",
+    "project_name_cn": "Dự án Nakashima Việt Nam",
+    "investor_name": "Công ty TNHH Nakashima Việt Nam",
+    "parent_company": null,
+    "origin_country": "Vietnam (越南本土 / 外资联合)",
+    "province": "Hải Phòng",
+    "district_commune": "Lô CN2.2B, khu công nghiệp Đình Vũ, thuộc khu kinh tế Đình Vũ – Cát Hải, phường Đông Hải, thành phố Hải Phòng",
+    "industrial_park": "khu công nghiệp Đình Vũ",
+    "sector": "Manufacturing",
+    "scale_capacity": null,
+    "current_stage": "PERMIT_APPLIED",
+    "created_at": "2026-11-02",
+    "timeline": [
+      {
+        "event_id": "EVT-c80ee0b91d",
+        "project_id": "PRJ-VN-2026-MISC-0001",
+        "event_date": "2026-11-02",
+        "stage": "PERMIT_APPLIED",
+        "stage_desc": "排污许可 (Discharge Permit Applied / Public Notice)",
+        "title": "Dự án Nakashima Việt Nam",
+        "snippet": "Địa điểm: Lô CN2.2B, khu công nghiệp Đình Vũ, thuộc khu kinh tế Đình Vũ – Cát Hải, phường Đông Hải, thành phố Hải Phòng. Chủ dự án: Công ty TNHH Nakashima Việt Nam",
+        "source_id": "src-A10",
+        "source_name": "Tham vấn Giấy phép môi trường (Discharge Permits - MAE)",
+        "raw_fingerprint": "c80ee0b91dd42782",
+        "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6421"
+      }
+    ]
+  },
+  {
+    "project_id": "PRJ-VN-2026-MISC-0002",
     "project_name": "Nhà máy giấy bao gói thực phẩm, giấy in nhiệt",
     "project_name_cn": "Nhà máy giấy bao gói thực phẩm, giấy in nhiệt",
     "investor_name": "Công ty TNHH Đầu tư Linh Giang",
@@ -548,7 +578,7 @@
     "timeline": [
       {
         "event_id": "EVT-ef9e1d27cf",
-        "project_id": "PRJ-VN-2026-MISC-0001",
+        "project_id": "PRJ-VN-2026-MISC-0002",
         "event_date": "2026-10-28",
         "stage": "PERMIT_APPLIED",
         "stage_desc": "排污许可 (Discharge Permit Applied / Public Notice)",
@@ -562,7 +592,7 @@
     ]
   },
   {
-    "project_id": "PRJ-VN-2026-MISC-0002",
+    "project_id": "PRJ-VN-2026-MISC-0003",
     "project_name": "Dự án đầu tư xây dựng Nhà máy giấy Kraft",
     "project_name_cn": "Dự án đầu tư xây dựng Nhà máy giấy Kraft",
     "investor_name": "Công ty Cổ phần Giấy Đồng Phát ECO",
@@ -578,7 +608,7 @@
     "timeline": [
       {
         "event_id": "EVT-1598983287",
-        "project_id": "PRJ-VN-2026-MISC-0002",
+        "project_id": "PRJ-VN-2026-MISC-0003",
         "event_date": "2026-10-29",
         "stage": "PERMIT_APPLIED",
         "stage_desc": "排污许可 (Discharge Permit Applied / Public Notice)",
@@ -974,6 +1004,19 @@
         "source_name": "Ban Quản lý các Khu công nghiệp Thái Nguyên",
         "raw_fingerprint": "2f8d15e8e3c3ce0a",
         "url": "https://bqlkcn.thainguyen.gov.vn/tin-tuc-su-kien/thao-go-kho-khan-trong-cong-tac-boi-thuong-ho-tro-tai-dinh-cu-du-an-kcn-yen-binh-2-302821"
+      },
+      {
+        "event_id": "EVT-3e5ad85ac2",
+        "project_id": "PRJ-VN-2026-YEN-BINH-2-IP",
+        "event_date": "2026-11-04",
+        "stage": "SITE_CLEARANCE",
+        "stage_desc": "征地拆迁 (Site Clearance / Land Acquisition)",
+        "title": "Kiểm tra, đôn đốc tiến độ giải phóng mặt bằng Khu công nghiệp Yên Bình 2",
+        "snippet": "Kiểm tra, đôn đốc tiến độ giải phóng mặt bằng Khu công nghiệp Yên Bình 2",
+        "source_id": "VN-LOC-04-TN-B",
+        "source_name": "Ban Quản lý các Khu công nghiệp Thái Nguyên",
+        "raw_fingerprint": "3e5ad85ac2ed69df",
+        "url": "https://bqlkcn.thainguyen.gov.vn/tin-tuc-su-kien/kiem-tra-don-doc-tien-do-giai-phong-mat-bang-khu-cong-nghiep-yen-binh-2-304461"
       }
     ]
   }

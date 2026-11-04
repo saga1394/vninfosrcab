@@ -9,7 +9,7 @@
 
 | 核心维度 | 统计数值 | 关键结构分布 |
 | :--- | :--- | :--- |
-| **总入档项目数** | **30 个** | 跨国高精尖旗舰 (6)、新能源与基建 (9)、中资出海与异动 (10)、环保排污实体制造 (5) |
+| **总入档项目数** | **31 个** | 跨国高精尖旗舰 (6)、新能源与基建 (9)、中资出海与异动 (10)、环保排污实体制造 (5) |
 | **证据链挂接总数** | **36 条** | 100% 具备 `source_id` + `raw_fingerprint` + `url` |
 | **跨源多节点串联项目** | **4 个高优集群** | LG Innotek (2节点)、VinEnergo (3节点)、金风科技 (A+H两市)、中铝国际 (A+H两市) |
 | **企业生命周期覆盖** | **7 大全阶段** | 获批立项 (8)、征地拆迁 (1)、环评公示 (4)、排污许可 (6)、开工建设 (4)、投产 (1)、增资扩产与注销退出 (10) |
@@ -354,6 +354,7 @@
 | 事件日期 | 节点状态 | 动态标题与关键线索 | 信源机构 | 官方原件链接 (URL) | 证据指纹 (Fingerprint) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 2026-11-02 | 征地拆迁 (Site Clearance / Land Acquisition) | Tháo gỡ khó khăn trong công tác bồi thường, hỗ trợ, tái định cư dự án KCN Yên Bình 2 | Ban Quản lý các Khu công nghiệp Thái Nguyên (`VN-LOC-04-TN-B`) | [官方链接](https://bqlkcn.thainguyen.gov.vn/tin-tuc-su-kien/thao-go-kho-khan-trong-cong-tac-boi-thuong-ho-tro-tai-dinh-cu-du-an-kcn-yen-binh-2-302821) | `2f8d15e8e3` |
+| 2026-11-04 | 征地拆迁 (Site Clearance / Land Acquisition) | Kiểm tra, đôn đốc tiến độ giải phóng mặt bằng Khu công nghiệp Yên Bình 2 | Ban Quản lý các Khu công nghiệp Thái Nguyên (`VN-LOC-04-TN-B`) | [官方链接](https://bqlkcn.thainguyen.gov.vn/tin-tuc-su-kien/kiem-tra-don-doc-tien-do-giai-phong-mat-bang-khu-cong-nghiep-yen-binh-2-304461) | `3e5ad85ac2` |
 
 ---
 
@@ -655,7 +656,29 @@
 ## 六、 其他综合项目
 *其他监控实体。*
 
-### 🔖 [PRJ-VN-2026-MISC-0001] Nhà máy giấy bao gói thực phẩm, giấy in nhiệt
+### 🔖 [PRJ-VN-2026-MISC-0001] Dự án Nakashima Việt Nam
+> **当前生命周期状态**：🟣 **【排污许可 (Discharge Permit)】**  
+> **原始项目全称**：`Dự án Nakashima Việt Nam`
+
+#### 1. 核心实体画像元数据
+| 属性字段 | 结构化值 | 属性字段 | 结构化值 |
+| :--- | :--- | :--- | :--- |
+| **投资法人主体** | Công ty TNHH Nakashima Việt Nam | **集团母公司** | 无公开母公司 |
+| **国别来源** | Vietnam (越南本土 / 外资联合) | **所属省份/直辖市** | Hải Phòng |
+| **承载工业园/集群** | khu công nghiệp Đình Vũ | **所属区县/公社** | Lô CN2.2B, khu công nghiệp Đình Vũ, thuộc khu kinh tế Đình Vũ – Cát Hải, phường Đông Hải, thành phố Hải Phòng |
+| **产业核心赛道** | Manufacturing | **投资规模/设计产能** | 常规投资规模 |
+
+#### 2. 高管战略决策精要
+**本项目为越南实体产业投资重点监控对象。** 涵盖企业：Công ty TNHH Nakashima Việt Nam，所处属地：Hải Phòng（khu công nghiệp Đình Vũ），投资规模：常规投资规模。当前处于 🟣 **【排污许可 (Discharge Permit)】** 状态，通过 1 项官方信源确证，已建立全流程证据追踪。
+
+#### 3. 全生命周期时间线与证据闭环链 (100% Evidence Closure)
+| 事件日期 | 节点状态 | 动态标题与关键线索 | 信源机构 | 官方原件链接 (URL) | 证据指纹 (Fingerprint) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 2026-11-02 | 排污许可 (Discharge Permit Applied / Public Notice) | Dự án Nakashima Việt Nam | Tham vấn Giấy phép môi trường (Discharge Permits - MAE) (`src-A10`) | [官方链接](https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6421) | `c80ee0b91d` |
+
+---
+
+### 🔖 [PRJ-VN-2026-MISC-0002] Nhà máy giấy bao gói thực phẩm, giấy in nhiệt
 > **当前生命周期状态**：🟣 **【排污许可 (Discharge Permit)】**  
 > **原始项目全称**：`Nhà máy giấy bao gói thực phẩm, giấy in nhiệt`
 
@@ -677,7 +700,7 @@
 
 ---
 
-### 🔖 [PRJ-VN-2026-MISC-0002] Dự án đầu tư xây dựng Nhà máy giấy Kraft
+### 🔖 [PRJ-VN-2026-MISC-0003] Dự án đầu tư xây dựng Nhà máy giấy Kraft
 > **当前生命周期状态**：🟣 **【排污许可 (Discharge Permit)】**  
 > **原始项目全称**：`Dự án đầu tư xây dựng Nhà máy giấy Kraft`
 
