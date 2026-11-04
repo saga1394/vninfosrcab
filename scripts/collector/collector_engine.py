@@ -32,6 +32,8 @@ from urllib.parse import urljoin
 if sys.platform == "win32":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
+CURL_BIN = "curl.exe" if sys.platform == "win32" else "curl"
+
 import httpx
 from bs4 import BeautifulSoup
 import feedparser
@@ -248,7 +250,7 @@ class AdapterMatrix:
                 "pageSize": 5, "pageNum": 1
             })
             cmd = [
-                "curl.exe", "-s", "-k", "-X", "POST", src["endpoint"],
+                CURL_BIN, "-s", "-k", "-X", "POST", src["endpoint"],
                 "-H", "Content-Type: application/json",
                 "-H", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
                 "-H", "Referer: https://www.szse.cn/",
@@ -282,7 +284,7 @@ class AdapterMatrix:
         elif api_type == "hkex":
             # 港交所披露易
             cmd = [
-                "curl.exe", "-s", "-k",
+                CURL_BIN, "-s", "-k",
                 "https://www1.hkexnews.hk/search/titleSearchServlet.do?sortDir=0&sortByOptions=DateTime&category=0&market=SEHK&documentType=-1&t1code=-2&t2Gcode=-2&t2code=-2&title=%E8%B6%8A%E5%8D%97&lang=zh",
                 "-H", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
                 "-H", "Referer: https://www1.hkexnews.hk/search/titlesearch.xhtml?lang=zh"
@@ -385,7 +387,7 @@ class AdapterMatrix:
 
         if table_type in ["mae_eia", "mae_permit"]:
             # 环评公示 / 排污许可 (使用 native curl 并绑定健康节点 103.9.85.148，避开故障节点 103.9.85.134 导致的 TLS Reset)
-            cmd = ["curl.exe", "-k", "-s", "--resolve", "thamvan.mae.gov.vn:443:103.9.85.148", src["endpoint"]]
+            cmd = [CURL_BIN, "-k", "-s", "--resolve", "thamvan.mae.gov.vn:443:103.9.85.148", src["endpoint"]]
             res = subprocess.run(cmd, capture_output=True, timeout=20)
             soup = BeautifulSoup(res.stdout.decode("utf-8", errors="ignore"), "html.parser")
             table = soup.find("table")
@@ -461,7 +463,7 @@ class AdapterMatrix:
             html_text = resp.text
         except Exception:
             # Native curl fallback
-            cmd = ["curl.exe", "-k", "-s", url]
+            cmd = [CURL_BIN, "-k", "-s", url]
             res = subprocess.run(cmd, capture_output=True, timeout=20)
             html_text = res.stdout.decode("utf-8", errors="ignore")
 

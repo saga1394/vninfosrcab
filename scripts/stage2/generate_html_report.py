@@ -901,6 +901,7 @@ def build_llm_intelligence_briefing():
     print(f"✅ [GitHub Pages Root] Compiled to {DOCS_INDEX_PATH}")
 
     # 3. Write to artifact directory for Antigravity inline preview (Windows only)
+    artifact_html_path = None
     if sys.platform == "win32":
         try:
             os.makedirs(ARTIFACT_DIR, exist_ok=True)
