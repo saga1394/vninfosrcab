@@ -25,7 +25,11 @@ if sys.platform == "win32":
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 CONFIG_PATH = BASE_DIR / "config" / "email_config.json"
-DEFAULT_RECIPIENT = "18677106863@qq.com"
+DEFAULT_RECIPIENTS = [
+    "18677106863@qq.com",
+    "443672603@qq.com",
+    "515235776@qq.com"
+]
 
 
 def load_email_config():
@@ -36,7 +40,7 @@ def load_email_config():
         "use_ssl": os.environ.get("SMTP_USE_SSL", "true").lower() in ("true", "1", "yes"),
         "sender_email": os.environ.get("SMTP_USER", ""),
         "sender_auth_code": os.environ.get("SMTP_PASSWORD", ""),
-        "recipient_email": os.environ.get("EMAIL_TO", DEFAULT_RECIPIENT)
+        "recipient_emails": DEFAULT_RECIPIENTS
     }
 
     if CONFIG_PATH.exists():
@@ -48,6 +52,18 @@ def load_email_config():
                         config[k] = v
         except Exception as e:
             print(f"[警告] 读取配置文件 {CONFIG_PATH} 失败: {e}")
+
+    # 规范化收件人列表
+    recipients = config.get("recipient_emails")
+    if not recipients:
+        single = config.get("recipient_email")
+        if single:
+            recipients = [s.strip() for s in single.split(",") if s.strip()]
+        else:
+            recipients = DEFAULT_RECIPIENTS
+    elif isinstance(recipients, str):
+        recipients = [s.strip() for s in recipients.split(",") if s.strip()]
+    config["recipient_emails"] = recipients
 
     return config
 
@@ -154,11 +170,18 @@ def build_full_inbox_email_html(items, today_str):
     return "".join(lines)
 
 
-def send_report_email(recipient=None):
-    """发送全量全文邮件（零附件、正文完整渲染、链接兜底）"""
+def send_report_email(recipients=None):
+    """发送全量全文邮件（零附件、正文完整渲染、支持多收件人独立信头投递）"""
     config = load_email_config()
     
-    target_recipient = recipient or config.get("recipient_email", DEFAULT_RECIPIENT)
+    if recipients:
+        if isinstance(recipients, str):
+            target_recipients = [s.strip() for s in recipients.split(",") if s.strip()]
+        else:
+            target_recipients = list(recipients)
+    else:
+        target_recipients = config.get("recipient_emails", DEFAULT_RECIPIENTS)
+
     sender = config.get("sender_email")
     auth_code = config.get("sender_auth_code")
     smtp_host = config.get("smtp_host", "smtp.qq.com")
@@ -171,7 +194,7 @@ def send_report_email(recipient=None):
 
     today_str = datetime.now().strftime("%Y-%m-%d")
 
-    # 1. 获取全量 55 项情报
+    # 1. 获取全量审校情报
     items = get_curated_intelligence()
     if not items:
         print("[错误] 未能加载到有效情报列表。")
@@ -182,37 +205,44 @@ def send_report_email(recipient=None):
     html_bytes = full_email_html.encode("utf-8")
     print(f"[正文编译] 全量 {len(items)} 项情报已编译为内联 HTML，正文大小: {len(html_bytes)} 字节 (~{len(html_bytes)//1024} KB)")
 
-    # 3. 构建符合 RFC 5322/2047 标准的邮件信头
     subject = f"【太空建筑观察】越南实体投资与产业动态简报 - {today_str}"
-    msg = MIMEMultipart("alternative")
-    msg["From"] = formataddr((str(Header("【太空建筑观察】越南组", "utf-8")), sender))
-    msg["To"] = formataddr((str(Header("投资决策人", "utf-8")), target_recipient))
-    msg["Subject"] = Header(subject, "utf-8").encode()
 
-    # 4. 挂载全量正文（零附件）
-    part_html = MIMEText(full_email_html, "html", "utf-8")
-    msg.attach(part_html)
-
-    # 5. 建立官方 SMTP 连接投递
+    # 3. 建立官方 SMTP 连接投递多收件人
+    success_count = 0
     try:
         print(f"[正在连接] 腾讯官方 SMTP 服务器 {smtp_host}:{smtp_port} (SSL: {use_ssl})...")
         if use_ssl:
-            server = smtplib.SMTP_SSL(smtp_host, smtp_port, timeout=20)
+            server = smtplib.SMTP_SSL(smtp_host, smtp_port, timeout=25)
         else:
-            server = smtplib.SMTP(smtp_host, smtp_port, timeout=20)
+            server = smtplib.SMTP(smtp_host, smtp_port, timeout=25)
             server.starttls()
 
         server.login(sender, auth_code)
-        server.sendmail(sender, [target_recipient], msg.as_string())
+
+        for rec in target_recipients:
+            try:
+                # 独立构建 RFC 5322 信头，保证私密性与反垃圾信誉
+                msg = MIMEMultipart("alternative")
+                msg["From"] = formataddr((str(Header("【太空建筑观察】越南组", "utf-8")), sender))
+                msg["To"] = formataddr((str(Header("投资决策人", "utf-8")), rec))
+                msg["Subject"] = Header(subject, "utf-8").encode()
+                msg.attach(MIMEText(full_email_html, "html", "utf-8"))
+
+                server.sendmail(sender, [rec], msg.as_string())
+                print(f"  [成功投递] -> {rec}")
+                success_count += 1
+            except Exception as e_rec:
+                print(f"  ❌ [投递失败] -> {rec}: {e_rec}")
+
         server.quit()
 
-        print(f" [成功投递] 全文邮件已成功送达: {target_recipient}")
+        print(f"\n [投递汇总] 共计划投递 {len(target_recipients)} 位，成功送达 {success_count} 位")
         print(f"  信件主题: {subject}")
-        print(f"  正文规模: 55 项情报完整内嵌，无附件，零截断")
+        print(f"  正文规模: {len(items)} 项情报完整内嵌，无附件，零截断")
         print(f"  落款: 【太空建筑观察】越南组")
-        return True
+        return success_count == len(target_recipients)
     except Exception as e:
-        print(f"❌ [发送失败] 邮件投递遇到错误: {e}")
+        print(f"❌ [SMTP 连接异常]: {e}")
         return False
 
 

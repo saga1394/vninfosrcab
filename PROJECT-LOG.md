@@ -464,3 +464,17 @@
      - 重新导出高清矢量 PDF 报告：`docs/stage2/FULL-DIMENSIONAL-INTELLIGENCE-REPORT.pdf`（1.8MB）；
      - 同步重构邮件发送模块 `scripts/delivery/send_report_email.py`，全量内嵌 HTML 压缩至 57KB，秒级直发收件箱 `18677106863@qq.com`；
      - 落款统一签署：`【太空建筑观察】越南组`。
+
+
+## 2026-11-04 17:00：扩展邮件分发矩阵至三人——实测完成全员 100% 独立投递
+
+- **用户需求**：增加两位新收件人：`443672603@qq.com` 与 `515235776@qq.com`。
+- **技术升级**：
+  * 修改 [`config/email_config.json`](config/email_config.json) 与 [`scripts/delivery/send_report_email.py`](scripts/delivery/send_report_email.py)，将单一收件人架构升级为多收件人阵列模式；
+  * 采用“单一 SMTP 连接 + 独立 RFC 5322 信头循环投递”机制，每位收件人独立接收，避免群发暴露他人邮箱，并提升腾讯反垃圾网关信誉；
+  * 默认分发矩阵固化为三人：
+    1. `18677106863@qq.com`
+    2. `443672603@qq.com`
+    3. `515235776@qq.com`
+- **实测投递结果**：
+  * 今日最新版《【太空建筑观察】越南实体投资与产业动态简报 - 2026-11-04》（全量 39 项审校情报、57KB 无截断正文）已于 16:58:48 成功直发并送达上述全部 3 个 QQ 邮箱收件箱，投递成功率 100%。
