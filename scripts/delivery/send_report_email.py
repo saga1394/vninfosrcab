@@ -116,8 +116,8 @@ def build_full_inbox_email_html(items, today_str):
     # 简报头部（直接、客观、无废话）
     lines.append('<div style="border-bottom: 2px solid #0f172a; padding-bottom: 12px; margin-bottom: 24px;">')
     lines.append(f'<div style="font-size: 12px; color: #64748b; font-family: monospace; margin-bottom: 4px;">【太空建筑观察】越南组 · 简报日期：{today_str}</div>')
-    lines.append('<h1 style="margin: 0; font-size: 20px; font-weight: 800; color: #0f172a; letter-spacing: -0.5px;">越南实体投资与产业动态简报</h1>')
-    lines.append(f'<div style="font-size: 12px; color: #64748b; margin-top: 6px;">本期汇总 <strong>{len(items)} 项</strong> 动态线索，覆盖在越主要企业动向、法定审批、重点赛道及宏观政策。</div>')
+    lines.append('<h1 style="margin: 0; font-size: 20px; font-weight: 800; color: #0f172a; letter-spacing: -0.5px;">越南实体投资与产业动态简报（今日增量专版）</h1>')
+    lines.append(f'<div style="font-size: 12px; color: #64748b; margin-top: 6px;">本期精选 <strong>{len(items)} 项</strong> 纯增量一手动态线索（严格遵循“杜绝历史旧账侵占日常早报版面”原则，100% 聚焦近 24 小时最新动向，往期已发情报沉淀入库备查）。</div>')
     lines.append('</div>')
 
     # 五大章节主体
@@ -208,7 +208,7 @@ def send_report_email(recipients=None):
     html_bytes = full_email_html.encode("utf-8")
     print(f"[正文编译] 全量 {len(items)} 项情报已编译为内联 HTML，正文大小: {len(html_bytes)} 字节 (~{len(html_bytes)//1024} KB)")
 
-    subject = f"【太空建筑观察】越南实体投资与产业动态简报 - {today_str}"
+    subject = f"【太空建筑观察】越南实体投资与产业动态简报（今日增量专版） - {today_str}"
 
     # 3. 建立官方 SMTP 连接投递多收件人
     success_count = 0
