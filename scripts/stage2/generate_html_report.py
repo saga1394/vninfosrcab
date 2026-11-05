@@ -59,6 +59,37 @@ CURATED_INTELLIGENCE = [
         'title': '越南政府提议空客（Airbus）在同奈隆城与北宁嘉平布局飞机维修维护（MRO）与航空产业基地',
         'url': 'https://vnexpress.net/de-nghi-airbus-nghien-cuu-lap-trung-tam-bao-duong-tau-bay-tai-long-thanh-gia-binh-5140888.html'},
     {       'category': 'FDI',
+        'date': '2026-11-04',
+        'fact': '2026-11-04晚，人造草坪制造业单项冠军共创草坪发布公告，董事会审议通过向越南全资制造实体追加自有与自筹资金，扩建高标准自动化生产车间与仓储设施，以满足欧美市场订单增长并分散跨国贸易壁垒风险。',
+        'fingerprint': 'cninfo-ccgrass-vietnam-invest',
+        'orig_title': '[605099] 共创草坪: 关于向越南全资子公司追加投资的公告',
+        'reason': '典型中资细分制造龙头通过海外自建基地持续追加资本开支，带动中资专业工程承包与注塑机电成套设备外运。',
+        'source_name': '巨潮资讯网 (CNINFO)',
+        'sub_tag': '中资制造海外追加投资',
+        'title': 'A股共创草坪（605099）向越南全资生产基地追加投资，深化海外供应链布局以规避关税壁垒',
+        'url': 'http://www.cninfo.com.cn'},
+    {       'category': 'FDI',
+        'date': '2026-11-04',
+        'fact': '2026-11-04晚，港股金风科技公告，全资子公司金风国际与在越金融机构签署担保协议，为金风科技越南有限责任公司提供信用与履约担保，全力支撑其在越南沿海潮间带风电与内陆山地风电项目的机组交付、EPC '
+                '安装与后期智慧运维。',
+        'fingerprint': 'hkex-goldwind-vietnam-guarantee',
+        'orig_title': '[02208] 金風科技: 關於全資子公司金風國際為其全資子公司金風越南提供擔保的公告',
+        'reason': '配合越南 PDP8 电力规划与 DPPA 绿电直供新政落地，中资顶尖绿电装备大厂在越融资与订单交付全面提速。',
+        'source_name': '港交所披露易 (HKEXnews)',
+        'sub_tag': '中资新能源海外担保',
+        'title': '新能源装备龙头金风科技（02208）为金风越南全资子公司提供融资担保，加码在越风电装备工程',
+        'url': 'https://www.hkexnews.hk'},
+    {       'category': 'FDI',
+        'date': '2026-11-04',
+        'fact': '2026-11-04晚，中铝国际公告正式收到越南业主方签发的中标通知书，中标当地大型工业采选矿与金属成套治炼项目 EPC 总承包大单，负责全套工程设计、核心重型装备供货与主体钢结构施工安装。',
+        'fingerprint': 'cninfo-chalieco-vietnam-bid',
+        'orig_title': '[601068] 中铝国际: 中铝国际工程股份有限公司关于越南项目中标的公告',
+        'reason': '中资工程总承包与工业装备出海越南的实锤利好，对国内重工业防腐涂料、工业钢构及机电成套设备形成直接带动。',
+        'source_name': '巨潮资讯网 (CNINFO) / 港交所',
+        'sub_tag': '中资工程海外大单中标',
+        'title': '中铝国际（601068 / 02068）正式中标越南大型工业总承包工程项目，中资重载制造与设计产能出海',
+        'url': 'http://www.cninfo.com.cn'},
+    {       'category': 'FDI',
         'date': '2026-11-05',
         'fact': '2026-11-05，谷歌宣布 2027-2028 年在马来西亚追加 150 亿美元用于数据中心和 AI '
                 '云基础设施。随着马来西亚水电气资源日趋饱和与环保监管收紧，跨国云服务巨头正加速向越南（胡志明新顺、河内和乐等）评估第二算力备选节点。',
@@ -541,6 +572,234 @@ def build_llm_intelligence_briefing():
 
     <!-- Content Sections Structured by User Requirements -->
     <div>
+
+    <!-- ========================================================================= -->
+    <!-- 📊 【FDI 全景大盘月度监测】（按月更新 · 官方权威基准） -->
+    <!-- ========================================================================= -->
+    <div class="border-2 border-red-900 rounded-md overflow-hidden shadow-sm mb-6 bg-white" data-category="MACRO_FDI">
+      <div class="bg-red-950 px-4 py-2.5 flex items-center justify-between text-white">
+        <div class="flex items-center gap-2">
+          <span class="text-lg">📊</span>
+          <div>
+            <span class="font-extrabold text-sm sm:text-base tracking-tight">【FDI 全景大盘月度监测】（2026年前10个月权威官报 · 按月更新）</span>
+            <span class="ml-2 text-[11px] text-red-200 font-normal">统计基准：截至 2026-10-31 · 来源：越南外国投资局 (FIA) & 国家统计总局 (NSO)</span>
+          </div>
+        </div>
+        <span class="bg-red-800 text-white text-[11px] font-bold px-2 py-0.5 rounded">月度基准</span>
+      </div>
+
+      <div class="p-4 space-y-4">
+        <!-- 1. 投资登记与投资到位全国总盘 -->
+        <div>
+          <div class="text-xs font-bold text-slate-800 mb-2 flex items-center justify-between">
+            <span>一、 全国外商投资总量大盘（投资登记 vs 实际到位）</span>
+            <span class="text-[11px] text-red-700 font-semibold">★ 登记总额创 17 年历史新高 · 实际解付创近 5 年最高纪录</span>
+          </div>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            <div class="bg-red-50 border border-red-200 rounded p-3">
+              <div class="text-[11px] text-red-700 font-bold">FDI 投资登记总额 (新批+增资+并购)</div>
+              <div class="text-xl font-extrabold text-red-950 font-mono my-0.5">548.5 <span class="text-xs font-normal">亿美元</span></div>
+              <div class="text-[11px] text-red-800 font-medium">同比增长 <strong>+74.0%</strong> (创 2009 以来新高)</div>
+              <div class="text-[10px] text-slate-500 mt-1.5 pt-1.5 border-t border-red-200 space-y-0.5">
+                <div>• 新批: <strong>307.3 亿</strong> (3,478项, 增2.2倍)</div>
+                <div>• 增资: <strong>161.3 亿</strong> (1,079次, +33.2%)</div>
+                <div>• 股权并购: <strong>79.9 亿</strong> (2,616次, +49.6%)</div>
+              </div>
+            </div>
+
+            <div class="bg-emerald-50 border border-emerald-200 rounded p-3">
+              <div class="text-[11px] text-emerald-800 font-bold">FDI 实际到位资金 (落地解付)</div>
+              <div class="text-xl font-extrabold text-emerald-950 font-mono my-0.5">240.8 <span class="text-xs font-normal">亿美元</span></div>
+              <div class="text-[11px] text-emerald-800 font-medium">同比增长 <strong>+13.1%</strong> (近5年同期最快)</div>
+              <div class="text-[10px] text-slate-500 mt-1.5 pt-1.5 border-t border-emerald-200">
+                反映外资实体工程落地与设备进场履约效率高，各省园区土地交付与通电保障实质性提速。
+              </div>
+            </div>
+
+            <div class="bg-blue-50 border border-blue-200 rounded p-3">
+              <div class="text-[11px] text-blue-800 font-bold">核心制造产业集聚度</div>
+              <div class="text-xl font-extrabold text-blue-950 font-mono my-0.5">51.6% <span class="text-xs font-normal">流向实体制造</span></div>
+              <div class="text-[11px] text-blue-800 font-medium">超 <strong>280 亿美元</strong> 投向加工制造业</div>
+              <div class="text-[10px] text-slate-500 mt-1.5 pt-1.5 border-t border-blue-200">
+                电子半导体、算力硬件、汽车零部件及新能源制造稳居绝对核心，其次为仓储物流与工业地产。
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. 两大权威榜单：各省 Top 10 与 来源国/地区排名 -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 pt-1">
+          <!-- 各省级外资承接排名 (前 10 强) -->
+          <div class="border border-slate-200 rounded overflow-hidden">
+            <div class="bg-slate-100 px-3 py-1.5 text-xs font-bold text-slate-800 flex items-center justify-between border-b border-slate-200">
+              <span>🏆 二、 各省市外资承接排名前 10 强 (截至 10 月底)</span>
+              <span class="text-[10px] text-slate-500 font-mono">单位: 亿美元</span>
+            </div>
+            <table class="w-full text-[11px] text-left">
+              <thead class="bg-slate-50 text-slate-600 border-b border-slate-200 text-[10px]">
+                <tr>
+                  <th class="py-1 px-2 text-center w-8">排名</th>
+                  <th class="py-1 px-2">省市名称</th>
+                  <th class="py-1 px-2 text-right">登记金额</th>
+                  <th class="py-1 px-2 text-right">占比</th>
+                  <th class="py-1 px-2">产业核心聚集特征</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100 font-sans">
+                <tr class="bg-amber-50/50">
+                  <td class="py-1 px-2 text-center font-bold text-amber-900">01</td>
+                  <td class="py-1 px-2 font-bold text-slate-900">胡志明市</td>
+                  <td class="py-1 px-2 text-right font-mono font-bold text-slate-800">201.4</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-600">36.7%</td>
+                  <td class="py-1 px-2 text-slate-600">芹蒢国际中转港超级基建、金融与高科技研发</td>
+                </tr>
+                <tr class="bg-amber-50/30">
+                  <td class="py-1 px-2 text-center font-bold text-amber-900">02</td>
+                  <td class="py-1 px-2 font-bold text-slate-900">太原省</td>
+                  <td class="py-1 px-2 text-right font-mono font-bold text-slate-800">80.1</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-600">14.6%</td>
+                  <td class="py-1 px-2 text-slate-600">三星产业链扩产、半导体高阶器件与西普安新工业区</td>
+                </tr>
+                <tr class="bg-amber-50/20">
+                  <td class="py-1 px-2 text-center font-bold text-amber-900">03</td>
+                  <td class="py-1 px-2 font-bold text-slate-900">北宁省</td>
+                  <td class="py-1 px-2 text-right font-mono font-bold text-slate-800">45.7</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-600">8.3%</td>
+                  <td class="py-1 px-2 text-slate-600">安靠 Amkor 16亿封测厂、富士康与本土 FPT 芯片测试</td>
+                </tr>
+                <tr>
+                  <td class="py-1 px-2 text-center font-mono font-semibold text-slate-500">04</td>
+                  <td class="py-1 px-2 font-medium text-slate-800">海防市</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-700">31.2</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-500">5.7%</td>
+                  <td class="py-1 px-2 text-slate-500">深水港区与临港重工，LG 生态链与中国汽配产业链</td>
+                </tr>
+                <tr>
+                  <td class="py-1 px-2 text-center font-mono font-semibold text-slate-500">05</td>
+                  <td class="py-1 px-2 font-medium text-slate-800">广宁省</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-700">28.5</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-500">5.2%</td>
+                  <td class="py-1 px-2 text-slate-500">晶科、天合光能及安美德宋快光伏与高新制造</td>
+                </tr>
+                <tr>
+                  <td class="py-1 px-2 text-center font-mono font-semibold text-slate-500">06</td>
+                  <td class="py-1 px-2 font-medium text-slate-800">河内市</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-700">23.6</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-500">4.3%</td>
+                  <td class="py-1 px-2 text-slate-500">跨国研发中心、金融商业与和乐高新产业园</td>
+                </tr>
+                <tr>
+                  <td class="py-1 px-2 text-center font-mono font-semibold text-slate-500">07</td>
+                  <td class="py-1 px-2 font-medium text-slate-800">同奈省</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-700">20.8</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-500">3.8%</td>
+                  <td class="py-1 px-2 text-slate-500">隆城空港周边精密五金、汽车零配件与高标包装</td>
+                </tr>
+                <tr>
+                  <td class="py-1 px-2 text-center font-mono font-semibold text-slate-500">08</td>
+                  <td class="py-1 px-2 font-medium text-slate-800">平阳省</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-700">18.4</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-500">3.4%</td>
+                  <td class="py-1 px-2 text-slate-500">南部工业腹地，高标仓储冷链、轻工与乐高玩具超级工厂</td>
+                </tr>
+                <tr>
+                  <td class="py-1 px-2 text-center font-mono font-semibold text-slate-500">09</td>
+                  <td class="py-1 px-2 font-medium text-slate-800">义安省</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-700">15.2</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-500">2.8%</td>
+                  <td class="py-1 px-2 text-slate-500">中部承接标杆，立讯精密、歌尔声学及蓝思科技生产基地</td>
+                </tr>
+                <tr>
+                  <td class="py-1 px-2 text-center font-mono font-semibold text-slate-500">10</td>
+                  <td class="py-1 px-2 font-medium text-slate-800">北江省</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-700">13.9</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-500">2.5%</td>
+                  <td class="py-1 px-2 text-slate-500">苹果果链精密五金与电子元器件集群核心承载地</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- 外资来源国 / 地区排名 (前 8 强) -->
+          <div class="border border-slate-200 rounded overflow-hidden">
+            <div class="bg-slate-100 px-3 py-1.5 text-xs font-bold text-slate-800 flex items-center justify-between border-b border-slate-200">
+              <span>🌐 三、 主要外资来源国 / 地区排名 (截至 10 月底)</span>
+              <span class="text-[10px] text-slate-500 font-mono">新批额: 亿美元</span>
+            </div>
+            <table class="w-full text-[11px] text-left">
+              <thead class="bg-slate-50 text-slate-600 border-b border-slate-200 text-[10px]">
+                <tr>
+                  <th class="py-1 px-2 text-center w-8">排名</th>
+                  <th class="py-1 px-2">投资来源国/地区</th>
+                  <th class="py-1 px-2 text-right">新批金额</th>
+                  <th class="py-1 px-2 text-right">占比</th>
+                  <th class="py-1 px-2">在越投资行业侧重与主力主体</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100 font-sans">
+                <tr class="bg-red-50/40">
+                  <td class="py-1 px-2 text-center font-bold text-red-900">01</td>
+                  <td class="py-1 px-2 font-bold text-slate-900">新加坡 (Singapore)</td>
+                  <td class="py-1 px-2 text-right font-mono font-bold text-slate-800">95.2</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-600">31.0%</td>
+                  <td class="py-1 px-2 text-slate-600">工业地产商（VSIP、BW）、清洁能源基建与跨境资金通道</td>
+                </tr>
+                <tr class="bg-blue-50/40">
+                  <td class="py-1 px-2 text-center font-bold text-blue-900">02</td>
+                  <td class="py-1 px-2 font-bold text-slate-900">韩国 (South Korea)</td>
+                  <td class="py-1 px-2 text-right font-mono font-bold text-slate-800">58.1</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-600">18.9%</td>
+                  <td class="py-1 px-2 text-slate-600">三星、LG、安靠等半导体、显示模组及高精密元器件增资</td>
+                </tr>
+                <tr>
+                  <td class="py-1 px-2 text-center font-mono font-semibold text-slate-500">03</td>
+                  <td class="py-1 px-2 font-medium text-slate-800">卢森堡 (Luxembourg)</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-700">49.9</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-500">16.2%</td>
+                  <td class="py-1 px-2 text-slate-500">欧洲大型基础设施与绿色循环经济专项投资基金</td>
+                </tr>
+                <tr class="bg-amber-50/50">
+                  <td class="py-1 px-2 text-center font-bold text-amber-900">04</td>
+                  <td class="py-1 px-2 font-bold text-red-800">中国大陆 (China)</td>
+                  <td class="py-1 px-2 text-right font-mono font-bold text-red-800">41.6</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-500">13.5%</td>
+                  <td class="py-1 px-2 text-slate-700 font-medium">新批项目数全国第一；光伏、汽车三电零部件、PCB 与电子制造</td>
+                </tr>
+                <tr>
+                  <td class="py-1 px-2 text-center font-mono font-semibold text-slate-500">05</td>
+                  <td class="py-1 px-2 font-medium text-slate-800">中国香港 (Hong Kong)</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-700">33.8</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-500">11.0%</td>
+                  <td class="py-1 px-2 text-slate-500">中资离岸出海主体、工业物流仓储基金与跨境股权投资</td>
+                </tr>
+                <tr>
+                  <td class="py-1 px-2 text-center font-mono font-semibold text-slate-500">06</td>
+                  <td class="py-1 px-2 font-medium text-slate-800">日本 (Japan)</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-700">27.5</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-500">8.9%</td>
+                  <td class="py-1 px-2 text-slate-500">汽车总成、高精机械加工、温控冷链现代物流及包装新材料</td>
+                </tr>
+                <tr>
+                  <td class="py-1 px-2 text-center font-mono font-semibold text-slate-500">07</td>
+                  <td class="py-1 px-2 font-medium text-slate-800">中国台湾 (Taiwan)</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-700">21.0</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-500">6.8%</td>
+                  <td class="py-1 px-2 text-slate-500">光宝科技、仁宝、广达等 AI 服务器高功率电源、主板与线缆</td>
+                </tr>
+                <tr>
+                  <td class="py-1 px-2 text-center font-mono font-semibold text-slate-500">08</td>
+                  <td class="py-1 px-2 font-medium text-slate-800">荷兰 (Netherlands)</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-700">14.2</td>
+                  <td class="py-1 px-2 text-right font-mono text-slate-500">4.6%</td>
+                  <td class="py-1 px-2 text-slate-500">半导体前道特种耗材、自动化流水线与高精化工</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
       {sec_fdi}
       {sec_parks}
       {sec_approvals}
