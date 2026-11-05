@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-11-05T02:44:19.736346+00:00",
+  "timestamp": "2026-11-05T06:36:13.558132+00:00",
   "today": "2026-11-05",
   "config_used": "config\\sources_core_39.json",
   "workers": 6,
-  "total_elapsed_seconds": 10.05,
+  "total_elapsed_seconds": 9.23,
   "total_sources_configured": 38,
   "successful_sources": 37,
   "zero_extracted_sources": 0,
   "error_sources": 1,
   "total_extracted_records": 175,
-  "total_new_records_inserted": 55,
-  "sqlite_total_rows": 423,
-  "sqlite_distinct_sources": 41,
+  "total_new_records_inserted": 36,
+  "sqlite_total_rows": 458,
+  "sqlite_distinct_sources": 40,
   "sqlite_distinct_provinces": 16,
   "detailed_telemetry": [
     {
@@ -21,7 +21,7 @@
       "channel": "card",
       "province": "National",
       "status": "SUCCESS",
-      "elapsed_s": 0.39,
+      "elapsed_s": 0.38,
       "extracted_count": 5,
       "new_count": 0,
       "error_msg": "",
@@ -37,13 +37,29 @@
       "channel": "rss",
       "province": "National",
       "status": "SUCCESS",
-      "elapsed_s": 0.64,
+      "elapsed_s": 0.63,
       "extracted_count": 5,
-      "new_count": 1,
+      "new_count": 0,
       "error_msg": "",
       "sample_titles": [
         "Một số nét chính tình hình kinh tế – xã hội tháng 10 và 10 tháng năm 2026",
         "DU LỊCH QUẢNG NAM PHỤC HỒI SAU ĐẠI DỊCH"
+      ]
+    },
+    {
+      "source_id": "src-DISC-10",
+      "name": "美国证券交易委员会 EDGAR (SEC EDGAR)",
+      "cluster": "Cluster 1: Listed Disclosure",
+      "channel": "api",
+      "province": "National",
+      "status": "SUCCESS",
+      "elapsed_s": 0.75,
+      "extracted_count": 5,
+      "new_count": 0,
+      "error_msg": "",
+      "sample_titles": [
+        "[497K] VanEck ETF Trust  (CIK 0001137360) (Filed: 2022-12-09)",
+        "[485BPOS] TEMPLETON DEVELOPING MARKETS TRUST  (CIK 0000878087) (Filed: 2002-10-22)"
       ]
     },
     {
@@ -53,7 +69,7 @@
       "channel": "api",
       "province": "National",
       "status": "SUCCESS",
-      "elapsed_s": 0.77,
+      "elapsed_s": 0.79,
       "extracted_count": 5,
       "new_count": 0,
       "error_msg": "",
@@ -69,13 +85,13 @@
       "channel": "rss",
       "province": "National",
       "status": "SUCCESS",
-      "elapsed_s": 0.17,
+      "elapsed_s": 0.18,
       "extracted_count": 5,
       "new_count": 5,
       "error_msg": "",
       "sample_titles": [
-        "Đổi mới tư duy 'Hàng Việt vì người Việt': Hàng Việt phải 'xứng đáng được tin dùng'",
-        "Việt Nam gia tăng vị thế trong chuỗi sản xuất công nghệ cao"
+        "Khẩn trương chuyển từ công tác chuẩn bị sang tổ chức thực hiện Chương trình mục tiêu quốc gia",
+        "Bà Mai Kiều Liên được vinh danh trong top 100 phụ nữ quyền lực nhất châu Á tại Hội nghị Thượng đỉnh Fortune"
       ]
     },
     {
@@ -85,27 +101,30 @@
       "channel": "rss",
       "province": "National",
       "status": "SUCCESS",
-      "elapsed_s": 0.2,
+      "elapsed_s": 0.21,
       "extracted_count": 5,
       "new_count": 5,
       "error_msg": "",
       "sample_titles": [
-        "Sắc màu văn hóa Nga tại triển lãm ở Moskva",
-        "Trải nghiệm dù lượn trên vùng di sản Phong Nha-Kẻ Bàng"
+        "Bắc Ninh: Về chùa Bổ Đà, chiêm ngưỡng nét cổ kính giữa non xanh",
+        "Kính viễn vọng không gian Swift bốc cháy khi rơi trở lại Trái Đất"
       ]
     },
     {
-      "source_id": "src-DISC-03",
-      "name": "深圳证券交易所 (深交所 / SZSE)",
-      "cluster": "Cluster 1: Listed Disclosure",
-      "channel": "api",
+      "source_id": "src-VN-FIN-01",
+      "name": "Báo Đầu tư (越南投资报)",
+      "cluster": "Cluster 3: Financial & Foreign Capital Radar",
+      "channel": "card",
       "province": "National",
-      "status": "ERROR",
-      "elapsed_s": 1.44,
-      "extracted_count": 0,
+      "status": "SUCCESS",
+      "elapsed_s": 1.19,
+      "extracted_count": 5,
       "new_count": 0,
-      "error_msg": "Expecting value: line 1 column 1 (char 0)",
-      "sample_titles": []
+      "error_msg": "",
+      "sample_titles": [
+        "Quy định về xét tôn vinh, trao tặng giải thưởng cho doanh nhân, doanh nghiệp",
+        "“Đi ngang” không phải lùi bước, mà là bản lĩnh của người làm hạ tầng"
+      ]
     },
     {
       "source_id": "src-DISC-05",
@@ -114,7 +133,7 @@
       "channel": "api",
       "province": "National",
       "status": "SUCCESS",
-      "elapsed_s": 1.5,
+      "elapsed_s": 2.39,
       "extracted_count": 2,
       "new_count": 0,
       "error_msg": "",
@@ -124,35 +143,32 @@
       ]
     },
     {
+      "source_id": "src-DISC-03",
+      "name": "深圳证券交易所 (深交所 / SZSE)",
+      "cluster": "Cluster 1: Listed Disclosure",
+      "channel": "api",
+      "province": "National",
+      "status": "ERROR",
+      "elapsed_s": 2.41,
+      "extracted_count": 0,
+      "new_count": 0,
+      "error_msg": "Expecting value: line 1 column 1 (char 0)",
+      "sample_titles": []
+    },
+    {
       "source_id": "src-VN-FIN-03",
       "name": "CafeF (越南金融资本与上市公司)",
       "cluster": "Cluster 3: Financial & Foreign Capital Radar",
       "channel": "rss",
       "province": "National",
       "status": "SUCCESS",
-      "elapsed_s": 0.26,
+      "elapsed_s": 0.24,
       "extracted_count": 5,
       "new_count": 5,
       "error_msg": "",
       "sample_titles": [
-        "Viral bài đăng vợ kiếm 15 triệu đồng/tháng, chồng thà ở nhà còn hơn nhận việc 25-30 triệu",
-        "Hà Nội tháo dỡ hàng loạt nhà mặt phố để mở rộng Quốc lộ 1A"
-      ]
-    },
-    {
-      "source_id": "src-VN-FIN-06",
-      "name": "The Investor (越南外资英文旗舰)",
-      "cluster": "Cluster 3: Financial & Foreign Capital Radar",
-      "channel": "card",
-      "province": "National",
-      "status": "SUCCESS",
-      "elapsed_s": 0.36,
-      "extracted_count": 5,
-      "new_count": 0,
-      "error_msg": "",
-      "sample_titles": [
-        "Xuan Thien Group plans $17.4 bln energy complex in northern Vietnam",
-        "Do not let energy lifeline become bottleneck to growth: expert"
+        "Eaton và KPS hợp tác đưa giải pháp hạ tầng điện công nghệ Mỹ đến Việt Nam",
+        "Bật mí sức hút của quỹ căn hộ biển sở hữu lâu dài cuối cùng tại Blanca City"
       ]
     },
     {
@@ -162,29 +178,13 @@
       "channel": "rss",
       "province": "National",
       "status": "SUCCESS",
-      "elapsed_s": 0.11,
+      "elapsed_s": 0.12,
       "extracted_count": 5,
       "new_count": 5,
       "error_msg": "",
       "sample_titles": [
-        "Giá vàng thế giới tăng mạnh nhất 3 tháng",
-        "Gần 96% sầu riêng Việt Nam xuất sang Trung Quốc"
-      ]
-    },
-    {
-      "source_id": "src-DISC-10",
-      "name": "美国证券交易委员会 EDGAR (SEC EDGAR)",
-      "cluster": "Cluster 1: Listed Disclosure",
-      "channel": "api",
-      "province": "National",
-      "status": "SUCCESS",
-      "elapsed_s": 1.96,
-      "extracted_count": 5,
-      "new_count": 0,
-      "error_msg": "",
-      "sample_titles": [
-        "[497K] VanEck ETF Trust  (CIK 0001137360) (Filed: 2022-12-09)",
-        "[485BPOS] TEMPLETON DEVELOPING MARKETS TRUST  (CIK 0000878087) (Filed: 2002-10-22)"
+        "Ngân hàng Pháp bị tin tặc đánh cắp hơn 110 triệu USD",
+        "Vốn FDI vào TP HCM tăng hơn 4 lần"
       ]
     },
     {
@@ -196,27 +196,11 @@
       "status": "SUCCESS",
       "elapsed_s": 0.14,
       "extracted_count": 5,
-      "new_count": 5,
+      "new_count": 4,
       "error_msg": "",
       "sample_titles": [
-        "Lãi quý 3 tăng 47%, PET thực hiện 96% mục tiêu lợi nhuận năm sau 9 tháng",
-        "KOS ôm hàng ngàn tỷ tồn kho, lợi nhuận lao dốc 98% xuống đáy gần thập kỷ"
-      ]
-    },
-    {
-      "source_id": "src-VN-FIN-01",
-      "name": "Báo Đầu tư (越南投资报)",
-      "cluster": "Cluster 3: Financial & Foreign Capital Radar",
-      "channel": "card",
-      "province": "National",
-      "status": "SUCCESS",
-      "elapsed_s": 0.84,
-      "extracted_count": 5,
-      "new_count": 0,
-      "error_msg": "",
-      "sample_titles": [
-        "Quy định về xét tôn vinh, trao tặng giải thưởng cho doanh nhân, doanh nghiệp",
-        "“Đi ngang” không phải lùi bước, mà là bản lĩnh của người làm hạ tầng"
+        "DPM tăng hơn gấp đôi mục tiêu lợi nhuận 2026",
+        "Vượt kế hoạch năm, SIP sắp chi 1,090 tỷ đồng tạm ứng cổ tức"
       ]
     },
     {
@@ -226,28 +210,13 @@
       "channel": "rss",
       "province": "International",
       "status": "SUCCESS",
-      "elapsed_s": 0.23,
+      "elapsed_s": 0.24,
       "extracted_count": 5,
       "new_count": 5,
       "error_msg": "",
       "sample_titles": [
-        "China's curbs on tungsten used in drill bits squeeze AI supply chain",
-        "Indian capital doubles parking fees, asks 50% remote work to curb pollution"
-      ]
-    },
-    {
-      "source_id": "src-B03",
-      "name": "Becamex IDC",
-      "cluster": "Cluster 4: Benchmark Industrial Parks",
-      "channel": "rss",
-      "province": "Bình Dương",
-      "status": "SUCCESS",
-      "elapsed_s": 0.36,
-      "extracted_count": 1,
-      "new_count": 0,
-      "error_msg": "",
-      "sample_titles": [
-        "Tuyển Dụng vị trí công việc Giảng viên tiếng Anh – Thời hạn làm việc từ tháng 01/2027 đến tháng 01/2029"
+        "Toyota raises profit forecast as strong hybrid sales defy China slump",
+        "Hong Kong activist Joshua Wong sentenced to 10 years for foreign collusion"
       ]
     },
     {
@@ -257,7 +226,7 @@
       "channel": "rss",
       "province": "Multi-Province",
       "status": "SUCCESS",
-      "elapsed_s": 0.41,
+      "elapsed_s": 0.44,
       "extracted_count": 5,
       "new_count": 0,
       "error_msg": "",
@@ -267,35 +236,50 @@
       ]
     },
     {
+      "source_id": "src-VN-FIN-06",
+      "name": "The Investor (越南外资英文旗舰)",
+      "cluster": "Cluster 3: Financial & Foreign Capital Radar",
+      "channel": "card",
+      "province": "National",
+      "status": "SUCCESS",
+      "elapsed_s": 2.1,
+      "extracted_count": 5,
+      "new_count": 0,
+      "error_msg": "",
+      "sample_titles": [
+        "Xuan Thien Group plans $17.4 bln energy complex in northern Vietnam",
+        "Do not let energy lifeline become bottleneck to growth: expert"
+      ]
+    },
+    {
       "source_id": "src-TW-MED-01",
       "name": "DigiTimes (电子时报 - 全球半导体供应链)",
       "cluster": "Cluster 3: Financial & Foreign Capital Radar",
       "channel": "rss",
       "province": "International",
       "status": "SUCCESS",
-      "elapsed_s": 0.56,
+      "elapsed_s": 0.59,
       "extracted_count": 5,
       "new_count": 5,
       "error_msg": "",
       "sample_titles": [
-        "Corning starts optical connectivity output in western India, plans larger adjacent plant for 2027",
-        "OpenAI moves deeper into software infrastructure with Pierre acquisition plan"
+        "Coherent pitches itself as the neutral optics supplier after Marvell-Lumentum deal",
+        "Qisda revenue rises 13% in October as AI businesses accelerate"
       ]
     },
     {
-      "source_id": "src-B04",
-      "name": "DEEP C Industrial Zones",
+      "source_id": "src-B03",
+      "name": "Becamex IDC",
       "cluster": "Cluster 4: Benchmark Industrial Parks",
-      "channel": "card",
-      "province": "Hải Phòng",
+      "channel": "rss",
+      "province": "Bình Dương",
       "status": "SUCCESS",
-      "elapsed_s": 0.34,
-      "extracted_count": 4,
+      "elapsed_s": 0.52,
+      "extracted_count": 1,
       "new_count": 0,
       "error_msg": "",
       "sample_titles": [
-        "Tin tức 31 Tháng 7 2026 Dự án bán dẫn trị giá 1 tỷ đô la của LG Innotek chính thức nhận được giấy chứng nhận đăng ký đầu tư",
-        "Tin tức 22 Tháng 7 2026 DEEP C CUP 2026 khép lại, lan tỏa tinh thần thể thao và kết nối cộng đồng doanh nghiệp"
+        "Tuyển Dụng vị trí công việc Giảng viên tiếng Anh – Thời hạn làm việc từ tháng 01/2027 đến tháng 01/2029"
       ]
     },
     {
@@ -305,29 +289,13 @@
       "channel": "rss",
       "province": "Đồng Nai",
       "status": "SUCCESS",
-      "elapsed_s": 0.41,
+      "elapsed_s": 0.29,
       "extracted_count": 5,
-      "new_count": 1,
+      "new_count": 0,
       "error_msg": "",
       "sample_titles": [
         "FOSTERING VIETNAM- INDONESIA INVESTMENT PARTNERSHIPS WITH AMATA CITY HA LONG",
         "OJI LIQUID PAK INVESTS USD 110 MILLION IN AMATA CITY LONG THANH, EXPANDING VIETNAM’S PACKAGING MANUFACTURING CAPACITY"
-      ]
-    },
-    {
-      "source_id": "VN-LOC-02-HP-A",
-      "name": "Cổng Thông tin điện tử Thành phố Hải Phòng",
-      "cluster": "Cluster 5: Hub Provinces & Cities",
-      "channel": "card",
-      "province": "Hải Phòng",
-      "status": "SUCCESS",
-      "elapsed_s": 0.69,
-      "extracted_count": 5,
-      "new_count": 5,
-      "error_msg": "",
-      "sample_titles": [
-        "Ban Thường vụ Thành ủy điều động, chỉ định Bí thư và Phó Bí thư Đảng ủy xã Nguyên Giáp",
-        "Đồng chí Nguyễn Duy Cường giữ chức Phó Bí thư Đảng ủy, Chủ tịch UBND xã Ninh Giang"
       ]
     },
     {
@@ -337,7 +305,7 @@
       "channel": "table",
       "province": "National",
       "status": "SUCCESS",
-      "elapsed_s": 2.95,
+      "elapsed_s": 3.05,
       "extracted_count": 5,
       "new_count": 0,
       "error_msg": "",
@@ -347,61 +315,13 @@
       ]
     },
     {
-      "source_id": "VN-LOC-02-HP-B",
-      "name": "Ban Quản lý Khu kinh tế Hải Phòng (HEZA)",
-      "cluster": "Cluster 5: Hub Provinces & Cities",
-      "channel": "rss",
-      "province": "Hải Phòng",
-      "status": "SUCCESS",
-      "elapsed_s": 1.18,
-      "extracted_count": 5,
-      "new_count": 0,
-      "error_msg": "",
-      "sample_titles": [
-        "Ban Quản lý Khu kinh tế Hải Phòng làm việc với Đại học Kinh tế Quốc dân, trao đổi về phát triển cảng biển, logistics và khu kinh tế",
-        "Tuyên truyền và bình chọn cho Biểu tượng Hải Phòng – Thành phố Đổi mới sáng tạo"
-      ]
-    },
-    {
-      "source_id": "VN-LOC-04-TN-B",
-      "name": "Ban Quản lý các Khu công nghiệp Thái Nguyên",
-      "cluster": "Cluster 5: Hub Provinces & Cities",
-      "channel": "card",
-      "province": "Thái Nguyên",
-      "status": "SUCCESS",
-      "elapsed_s": 0.44,
-      "extracted_count": 5,
-      "new_count": 0,
-      "error_msg": "",
-      "sample_titles": [
-        "Kiểm tra, đôn đốc tiến độ giải phóng mặt bằng Khu công nghiệp Yên Bình 2",
-        "Khởi công Dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng KCN Tây Phổ Yên - giai đoạn 1"
-      ]
-    },
-    {
-      "source_id": "VN-LOC-03-BN-A",
-      "name": "Cổng thông tin điện tử tỉnh Bắc Ninh",
-      "cluster": "Cluster 5: Hub Provinces & Cities",
-      "channel": "card",
-      "province": "Bắc Ninh",
-      "status": "SUCCESS",
-      "elapsed_s": 0.91,
-      "extracted_count": 5,
-      "new_count": 5,
-      "error_msg": "",
-      "sample_titles": [
-        "Bí thư Thành ủy Nguyễn Hồng Thái làm việc với Thường trực Đảng ủy 08 xã khu vực Sơn Động",
-        "Phó Bí thư Thành ủy, Chủ tịch HĐND thành phố Nguyễn Việt Oanh tiếp và làm việc với Đoàn công tác Tạp chí Cầu Thị (Trung Quốc)"
-      ]
-    },
-    {
       "source_id": "src-B06",
       "name": "BW Industrial Development JSC",
       "cluster": "Cluster 4: Benchmark Industrial Parks",
       "channel": "rss",
       "province": "Multi-Province",
       "status": "SUCCESS",
-      "elapsed_s": 1.91,
+      "elapsed_s": 0.54,
       "extracted_count": 5,
       "new_count": 0,
       "error_msg": "",
@@ -411,13 +331,93 @@
       ]
     },
     {
+      "source_id": "VN-LOC-02-HP-B",
+      "name": "Ban Quản lý Khu kinh tế Hải Phòng (HEZA)",
+      "cluster": "Cluster 5: Hub Provinces & Cities",
+      "channel": "rss",
+      "province": "Hải Phòng",
+      "status": "SUCCESS",
+      "elapsed_s": 0.62,
+      "extracted_count": 5,
+      "new_count": 0,
+      "error_msg": "",
+      "sample_titles": [
+        "Ban Quản lý Khu kinh tế Hải Phòng làm việc với Đại học Kinh tế Quốc dân, trao đổi về phát triển cảng biển, logistics và khu kinh tế",
+        "Tuyên truyền và bình chọn cho Biểu tượng Hải Phòng – Thành phố Đổi mới sáng tạo"
+      ]
+    },
+    {
+      "source_id": "VN-LOC-02-HP-A",
+      "name": "Cổng Thông tin điện tử Thành phố Hải Phòng",
+      "cluster": "Cluster 5: Hub Provinces & Cities",
+      "channel": "card",
+      "province": "Hải Phòng",
+      "status": "SUCCESS",
+      "elapsed_s": 0.57,
+      "extracted_count": 5,
+      "new_count": 1,
+      "error_msg": "",
+      "sample_titles": [
+        "Sở Khoa học và Công nghệ thành phố lấy ý kiến lựa chọn biểu tượng thương hiệu “Thành phố Đổi mới sáng tạo”",
+        "Ban Thường vụ Thành ủy điều động, chỉ định Bí thư và Phó Bí thư Đảng ủy xã Nguyên Giáp"
+      ]
+    },
+    {
+      "source_id": "VN-LOC-04-TN-B",
+      "name": "Ban Quản lý các Khu công nghiệp Thái Nguyên",
+      "cluster": "Cluster 5: Hub Provinces & Cities",
+      "channel": "card",
+      "province": "Thái Nguyên",
+      "status": "SUCCESS",
+      "elapsed_s": 0.42,
+      "extracted_count": 5,
+      "new_count": 0,
+      "error_msg": "",
+      "sample_titles": [
+        "Kiểm tra, đôn đốc tiến độ giải phóng mặt bằng Khu công nghiệp Yên Bình 2",
+        "Khởi công Dự án đầu tư xây dựng và kinh doanh kết cấu hạ tầng KCN Tây Phổ Yên - giai đoạn 1"
+      ]
+    },
+    {
+      "source_id": "src-A09",
+      "name": "Tham vấn ĐTM (EIA Public Consultation - MAE)",
+      "cluster": "Cluster 2: National Regulatory",
+      "channel": "table",
+      "province": "National",
+      "status": "SUCCESS",
+      "elapsed_s": 4.29,
+      "extracted_count": 5,
+      "new_count": 0,
+      "error_msg": "",
+      "sample_titles": [
+        "Dự án: “Nhà máy điện mặt trời Bản Chát 1”",
+        "Dự án: “Nhà máy điện mặt trời Bản Chát 2”"
+      ]
+    },
+    {
+      "source_id": "VN-LOC-03-BN-A",
+      "name": "Cổng thông tin điện tử tỉnh Bắc Ninh",
+      "cluster": "Cluster 5: Hub Provinces & Cities",
+      "channel": "card",
+      "province": "Bắc Ninh",
+      "status": "SUCCESS",
+      "elapsed_s": 0.95,
+      "extracted_count": 5,
+      "new_count": 1,
+      "error_msg": "",
+      "sample_titles": [
+        "Khai mạc diễn tập chiến đấu phòng thủ Cụm 3 tại phường Tiên Du",
+        "Bí thư Thành ủy Nguyễn Hồng Thái làm việc với Thường trực Đảng ủy 08 xã khu vực Sơn Động"
+      ]
+    },
+    {
       "source_id": "VN-LOC-10-DN-A",
       "name": "Cổng thông tin điện tử tỉnh Đồng Nai",
       "cluster": "Cluster 5: Hub Provinces & Cities",
       "channel": "card",
       "province": "Đồng Nai",
       "status": "SUCCESS",
-      "elapsed_s": 0.49,
+      "elapsed_s": 0.55,
       "extracted_count": 5,
       "new_count": 0,
       "error_msg": "",
@@ -433,7 +433,7 @@
       "channel": "api",
       "province": "Đà Nẵng",
       "status": "SUCCESS",
-      "elapsed_s": 0.19,
+      "elapsed_s": 0.18,
       "extracted_count": 5,
       "new_count": 0,
       "error_msg": "",
@@ -443,29 +443,13 @@
       ]
     },
     {
-      "source_id": "VN-LOC-06-QN-B",
-      "name": "Ban Quản lý Khu kinh tế Quảng Ninh (QEZA)",
-      "cluster": "Cluster 5: Hub Provinces & Cities",
-      "channel": "card",
-      "province": "Quảng Ninh",
-      "status": "SUCCESS",
-      "elapsed_s": 0.26,
-      "extracted_count": 5,
-      "new_count": 0,
-      "error_msg": "",
-      "sample_titles": [
-        "HỆ THỐNG CẤP GIẤY CHỨNG NHẬN ĐẦU TƯ",
-        "THÔNG TIN THÀNH PHỐ QUẢNG NINH"
-      ]
-    },
-    {
       "source_id": "VN-LOC-10-DN-B",
       "name": "Ban Quản lý các Khu công nghiệp Đồng Nai (DNIEZA)",
       "cluster": "Cluster 5: Hub Provinces & Cities",
       "channel": "card",
       "province": "Đồng Nai",
       "status": "SUCCESS",
-      "elapsed_s": 0.96,
+      "elapsed_s": 1.09,
       "extracted_count": 5,
       "new_count": 0,
       "error_msg": "",
@@ -475,45 +459,13 @@
       ]
     },
     {
-      "source_id": "src-A09",
-      "name": "Tham vấn ĐTM (EIA Public Consultation - MAE)",
-      "cluster": "Cluster 2: National Regulatory",
-      "channel": "table",
-      "province": "National",
-      "status": "SUCCESS",
-      "elapsed_s": 4.65,
-      "extracted_count": 5,
-      "new_count": 0,
-      "error_msg": "",
-      "sample_titles": [
-        "Dự án: “Nhà máy điện mặt trời Bản Chát 1”",
-        "Dự án: “Nhà máy điện mặt trời Bản Chát 2”"
-      ]
-    },
-    {
-      "source_id": "VN-LOC-05-HY-A",
-      "name": "Cổng thông tin điện tử tỉnh Hưng Yên",
-      "cluster": "Cluster 5: Hub Provinces & Cities",
-      "channel": "card",
-      "province": "Hưng Yên",
-      "status": "SUCCESS",
-      "elapsed_s": 0.48,
-      "extracted_count": 5,
-      "new_count": 0,
-      "error_msg": "",
-      "sample_titles": [
-        "Ban Thường vụ Tỉnh ủy họp cho ý kiến nhiều nội dung thuộc thẩm quyền Sáng ngày 4/11, đồng chí Phạm Quang Ngọc, Ủy viên Ban Chấp hành Trung ương Đảng, Bí thư Tỉnh ủy chủ trì cuộc họp Ban Thường vụ Tỉnh ủy xem xét, cho ý kiến và quyết định […]",
-        "Đồng chí Phạm Quang Ngọc, Ủy viên Ban Chấp hành Trung ương Đảng, Bí thư Tỉnh ủy kiểm tra, khảo sát một số công trình, dự án trên địa bàn tỉnh Chiều ngày 3/11, đồng chí Phạm Quang Ngọc, Ủy viên Ban Chấp hành Trung ương Đảng, Bí thư Tỉnh ủy đi kiểm tra, khảo sát một số công trình, dự án trên địa bàn tỉnh. Cùng […]"
-      ]
-    },
-    {
       "source_id": "VN-LOC-09-HCM-B",
       "name": "Ban Quản lý các Khu chế xuất và công nghiệp TP.HCM (HEPZA)",
       "cluster": "Cluster 5: Hub Provinces & Cities",
       "channel": "card",
       "province": "Hồ Chí Minh",
       "status": "SUCCESS",
-      "elapsed_s": 0.6,
+      "elapsed_s": 0.39,
       "extracted_count": 5,
       "new_count": 0,
       "error_msg": "",
@@ -523,19 +475,67 @@
       ]
     },
     {
+      "source_id": "VN-LOC-05-HY-A",
+      "name": "Cổng thông tin điện tử tỉnh Hưng Yên",
+      "cluster": "Cluster 5: Hub Provinces & Cities",
+      "channel": "card",
+      "province": "Hưng Yên",
+      "status": "SUCCESS",
+      "elapsed_s": 0.44,
+      "extracted_count": 5,
+      "new_count": 0,
+      "error_msg": "",
+      "sample_titles": [
+        "Ban Thường vụ Tỉnh ủy họp cho ý kiến nhiều nội dung thuộc thẩm quyền Sáng ngày 4/11, đồng chí Phạm Quang Ngọc, Ủy viên Ban Chấp hành Trung ương Đảng, Bí thư Tỉnh ủy chủ trì cuộc họp Ban Thường vụ Tỉnh ủy xem xét, cho ý kiến và quyết định […]",
+        "Đồng chí Phạm Quang Ngọc, Ủy viên Ban Chấp hành Trung ương Đảng, Bí thư Tỉnh ủy kiểm tra, khảo sát một số công trình, dự án trên địa bàn tỉnh Chiều ngày 3/11, đồng chí Phạm Quang Ngọc, Ủy viên Ban Chấp hành Trung ương Đảng, Bí thư Tỉnh ủy đi kiểm tra, khảo sát một số công trình, dự án trên địa bàn tỉnh. Cùng […]"
+      ]
+    },
+    {
+      "source_id": "VN-LOC-06-QN-B",
+      "name": "Ban Quản lý Khu kinh tế Quảng Ninh (QEZA)",
+      "cluster": "Cluster 5: Hub Provinces & Cities",
+      "channel": "card",
+      "province": "Quảng Ninh",
+      "status": "SUCCESS",
+      "elapsed_s": 0.66,
+      "extracted_count": 5,
+      "new_count": 0,
+      "error_msg": "",
+      "sample_titles": [
+        "HỆ THỐNG CẤP GIẤY CHỨNG NHẬN ĐẦU TƯ",
+        "THÔNG TIN THÀNH PHỐ QUẢNG NINH"
+      ]
+    },
+    {
       "source_id": "src-ASSOC-04",
       "name": "Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)",
       "cluster": "Cluster 6: Industry Associations & Real Estate",
       "channel": "card",
       "province": "National",
       "status": "SUCCESS",
-      "elapsed_s": 0.14,
+      "elapsed_s": 0.15,
       "extracted_count": 5,
-      "new_count": 5,
+      "new_count": 0,
       "error_msg": "",
       "sample_titles": [
         "Thúc đẩy hợp tác và chia sẻ kinh nghiệm vì sự tiến bộ của phụ nữ dưới mái nhà chung ACWO 04:36:00 PM GMT+7 Thứ 4 , 04/11/2026 Tại Cuộc họp Hội đồng Liên đoàn, Ban Lãnh đạo các Tổ chức Phụ nữ ASEAN (ACWO) năm 2026 diễn ra sáng ngày 4/11, bà Lê Thị Thủy, Ủy viên Trung ương Đảng, Phó Chủ tịch Ủy ban Trung ương MTTQ Việt Nam, Chủ tịch Hội LHPN Việt Nam, Chủ tịch ACWO nhiệm kỳ 2025-2026, khẳng định: ACWO là mái nhà chung, nơi kết nối các tổ chức phụ nữ quốc gia trong ASEAN, thúc đẩy đoàn kết, hữu nghị, hợp tác và chia sẻ kinh nghiệm vì sự tiến bộ của phụ nữ.",
         "Tọa đàm An toàn thực phẩm trong sản xuất, kinh doanh bia, rượu và nước giải khát: Siết trách nhiệm, củng cố niềm tin 04:18:00 PM GMT+7 Thứ 4 , 04/11/2026"
+      ]
+    },
+    {
+      "source_id": "src-IND-PROP-01",
+      "name": "Mingtiandi (亚洲与越南工业地产旗舰)",
+      "cluster": "Cluster 6: Industry Associations & Real Estate",
+      "channel": "rss",
+      "province": "Regional",
+      "status": "SUCCESS",
+      "elapsed_s": 0.4,
+      "extracted_count": 5,
+      "new_count": 0,
+      "error_msg": "",
+      "sample_titles": [
+        "Receivers Sell Hong Kong Retail Floors Seized From Schroders for $41M",
+        "Goodman Plans 2,150 Sydney Homes Across the Street From Its $1B Data Centre"
       ]
     },
     {
@@ -545,7 +545,7 @@
       "channel": "card",
       "province": "Nghệ An",
       "status": "SUCCESS",
-      "elapsed_s": 0.85,
+      "elapsed_s": 1.04,
       "extracted_count": 5,
       "new_count": 0,
       "error_msg": "",
@@ -561,7 +561,7 @@
       "channel": "card",
       "province": "National",
       "status": "SUCCESS",
-      "elapsed_s": 0.84,
+      "elapsed_s": 1.65,
       "extracted_count": 5,
       "new_count": 0,
       "error_msg": "",
@@ -571,35 +571,35 @@
       ]
     },
     {
-      "source_id": "src-IND-PROP-01",
-      "name": "Mingtiandi (亚洲与越南工业地产旗舰)",
-      "cluster": "Cluster 6: Industry Associations & Real Estate",
-      "channel": "rss",
-      "province": "Regional",
-      "status": "SUCCESS",
-      "elapsed_s": 0.52,
-      "extracted_count": 5,
-      "new_count": 0,
-      "error_msg": "",
-      "sample_titles": [
-        "Receivers Sell Hong Kong Retail Floors Seized From Schroders for $41M",
-        "Goodman Plans 2,150 Sydney Homes Across the Street From Its $1B Data Centre"
-      ]
-    },
-    {
       "source_id": "VN-LOC-03-BN-B",
       "name": "Ban Quản lý các Khu công nghiệp Bắc Ninh",
       "cluster": "Cluster 5: Hub Provinces & Cities",
       "channel": "card",
       "province": "Bắc Ninh",
       "status": "SUCCESS",
-      "elapsed_s": 3.87,
+      "elapsed_s": 4.39,
       "extracted_count": 5,
-      "new_count": 3,
+      "new_count": 0,
       "error_msg": "",
       "sample_titles": [
         "Bắc Ninh định hình khu công nghiệp thế hệ mới",
         "Bắc Ninh hướng tới trung tâm chuỗi cung ứng công nghệ cao"
+      ]
+    },
+    {
+      "source_id": "src-B04",
+      "name": "DEEP C Industrial Zones",
+      "cluster": "Cluster 4: Benchmark Industrial Parks",
+      "channel": "card",
+      "province": "Hải Phòng",
+      "status": "SUCCESS",
+      "elapsed_s": 5.14,
+      "extracted_count": 4,
+      "new_count": 0,
+      "error_msg": "",
+      "sample_titles": [
+        "Tin tức 31 Tháng 7 2026 Dự án bán dẫn trị giá 1 tỷ đô la của LG Innotek chính thức nhận được giấy chứng nhận đăng ký đầu tư",
+        "Tin tức 22 Tháng 7 2026 DEEP C CUP 2026 khép lại, lan tỏa tinh thần thể thao và kết nối cộng đồng doanh nghiệp"
       ]
     },
     {
@@ -609,7 +609,7 @@
       "channel": "card",
       "province": "National",
       "status": "SUCCESS",
-      "elapsed_s": 4.89,
+      "elapsed_s": 3.65,
       "extracted_count": 3,
       "new_count": 0,
       "error_msg": "",

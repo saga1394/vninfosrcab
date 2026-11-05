@@ -18,6 +18,7 @@ import sqlite3
 import hashlib
 import shutil
 from datetime import datetime
+from pathlib import Path
 
 if sys.platform == "win32":
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -25,7 +26,17 @@ if sys.platform == "win32":
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 OUTPUT_HTML_PATH = os.path.join(BASE_DIR, "docs", "stage2", "FULL-DIMENSIONAL-INTELLIGENCE-REPORT.html")
 DOCS_INDEX_PATH = os.path.join(BASE_DIR, "docs", "index.html")
-ARTIFACT_DIR = r"C:\Users\yy170\.gemini\antigravity\brain\b0644b1c-eea4-47ae-ba7f-bd12bdcd9a62"
+def _get_artifact_dir():
+    brain_root = Path(r"C:\Users\yy170\.gemini\antigravity\brain")
+    if brain_root.exists():
+        # Prefer conversation dirs sorted by modified time
+        dirs = [d for d in brain_root.iterdir() if d.is_dir() and not d.name.startswith(".")]
+        if dirs:
+            dirs.sort(key=lambda d: d.stat().st_mtime, reverse=True)
+            return str(dirs[0])
+    return r"C:\Users\yy170\.gemini\antigravity\brain\900c9ba0-f22b-4d88-8aa4-954d1b33b099"
+
+ARTIFACT_DIR = _get_artifact_dir()
 
 # 100% 真实爬取、逐一验证 HTTP 200 直接文章来源的今日情报列表
 CURATED_INTELLIGENCE = [
@@ -373,46 +384,61 @@ def render_category_section(cat_code, cat_title, items, icon=""):
     '''
 
 
-def build_llm_intelligence_briefing():
+def get_curated_intelligence_items() -> list:
+    """Dynamically loads curated items from data/daily/curated_today.json if available, else falls back."""
+    curated_json_path = os.path.join(BASE_DIR, "data", "daily", "curated_today.json")
+    if os.path.exists(curated_json_path):
+        try:
+            with open(curated_json_path, "r", encoding="utf-8") as f:
+                loaded = json.load(f)
+                if isinstance(loaded, list) and len(loaded) > 0:
+                    return loaded
+        except Exception as e:
+            print(f"[WARN] Failed loading {curated_json_path}: {e}")
+    return CURATED_INTELLIGENCE
+
+
+def build_llm_intelligence_briefing(custom_items=None):
     today_str = datetime.now().strftime("%Y-%m-%d")
+    items = custom_items if custom_items is not None else get_curated_intelligence_items()
 
     # Render Sections strictly according to AGENTS.md Architecture
     sec_fdi = render_category_section(
         "FDI",
         "一、 【FDI 外资投资动向】",
-        CURATED_INTELLIGENCE,
+        items,
         icon="🎯"
     )
 
     sec_parks = render_category_section(
         "INDUSTRIAL_PARKS",
         "二、 【工业园区一线动态】",
-        CURATED_INTELLIGENCE,
+        items,
         icon="🏭"
     )
 
     sec_sectors = render_category_section(
         "SECTORS",
         "三、 【重点关注产业专题】",
-        CURATED_INTELLIGENCE,
+        items,
         icon="⚡"
     )
 
     sec_approvals = render_category_section(
         "APPROVALS",
         "四、 【行政审批与法定公示】",
-        CURATED_INTELLIGENCE,
+        items,
         icon="🏛️"
     )
 
     sec_macro = render_category_section(
         "MACRO_MARKET",
         "五、 【政经与综合市场动态】",
-        CURATED_INTELLIGENCE,
+        items,
         icon="🌐"
     )
 
-    total_count = len(CURATED_INTELLIGENCE)
+    total_count = len(items)
 
     html_content = f'''<!DOCTYPE html>
 <html lang="zh-CN">
@@ -732,7 +758,7 @@ def build_llm_intelligence_briefing():
     os.makedirs(os.path.dirname(OUTPUT_HTML_PATH), exist_ok=True)
     with open(OUTPUT_HTML_PATH, "w", encoding="utf-8") as f:
         f.write(html_content)
-    print(f"✅ [100% Vietnam-Anchored Intelligence Briefing] Compiled {len(CURATED_INTELLIGENCE)} items to {OUTPUT_HTML_PATH}")
+    print(f"✅ [100% Vietnam-Anchored Intelligence Briefing] Compiled {len(items)} items to {OUTPUT_HTML_PATH}")
 
     # 2. Write directly to docs/index.html (GitHub Pages Root)
     with open(DOCS_INDEX_PATH, "w", encoding="utf-8") as f:

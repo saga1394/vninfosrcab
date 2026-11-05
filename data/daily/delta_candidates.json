@@ -1,0 +1,1689 @@
+[
+  {
+    "candidate_id": 1,
+    "source_id": "VN-LOC-03-BN-A",
+    "source_name": "Cổng thông tin điện tử tỉnh Bắc Ninh",
+    "title": "Khai mạc diễn tập chiến đấu phòng thủ Cụm 3 tại phường Tiên Du",
+    "pub_date": "2026-11-05",
+    "snippet": "Khai mạc diễn tập chiến đấu phòng thủ Cụm 3 tại phường Tiên Du",
+    "url": "https://bacninh.gov.vn/news/-/details/37632/khai-mac-dien-tap-chien-au-phong-thu-cum-3-tai-phuong-tien-du-175290603",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:09.092604+00:00"
+  },
+  {
+    "candidate_id": 2,
+    "source_id": "VN-LOC-02-HP-A",
+    "source_name": "Cổng Thông tin điện tử Thành phố Hải Phòng",
+    "title": "Sở Khoa học và Công nghệ thành phố lấy ý kiến lựa chọn biểu tượng thương hiệu “Thành phố Đổi mới sáng tạo”",
+    "pub_date": "2026-11-05",
+    "snippet": "Sở Khoa học và Công nghệ thành phố lấy ý kiến lựa chọn biểu tượng thương hiệu “Thành phố Đổi mới sáng tạo”Ban Thường vụ Thành ủy điều động, chỉ định Bí thư và Phó Bí thư Đảng ủy xã Nguyên GiápĐồng chí Nguyễn Duy Cường giữ chức Phó Bí thư Đảng ủy, Chủ",
+    "url": "https://haiphong.gov.vn/tin-so-nganh/so-khoa-hoc-va-cong-nghe-thanh-pho-lay-y-kien-lua-chon-bieu-tuong-thuong-hieu-thanh-pho-doi-moi--998282",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:08.446886+00:00"
+  },
+  {
+    "candidate_id": 3,
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "title": "CHT ICT orders surge 84% as 3Q26 results beat guidance",
+    "pub_date": "Thu, 5 Nov 2026 04:35:43 GMT",
+    "snippet": "Chunghwa Telecom (CHT) reported consolidated revenue of NT$675.9 billion (US$2.06 billion) for the third quarter of 2026, up 16.7% year over year, with revenue, operating profit, net income attributable to shareholders, and earnings per share all exc",
+    "url": "https://www.digitimes.com/news/a20261105PD201/cht-revenue-profit-growth-operating-profit.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:07.533377+00:00"
+  },
+  {
+    "candidate_id": 4,
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "title": "EU launches EUR525 million push to close chip design gap",
+    "pub_date": "Thu, 5 Nov 2026 04:45:00 GMT",
+    "snippet": "The European Union has launched a EUR525 million (approx. US$590 million) initiative to strengthen its semiconductor design industry, seeking to narrow the gap with the US and China while generating demand for chip manufacturing facilities in Europe.",
+    "url": "https://www.digitimes.com/news/a20261105VL221/design-europe-eu-manufacturing-demand.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:07.533319+00:00"
+  },
+  {
+    "candidate_id": 5,
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "title": "Chipmakers rush to secure equipment for 2029 as lead times top two years",
+    "pub_date": "Thu, 5 Nov 2026 05:00:00 GMT",
+    "snippet": "Chipmakers are moving to secure production equipment for delivery as far ahead as 2029, as AI-driven fab expansion pushes some equipment lead times beyond two years and forces manufacturers to negotiate supply contracts years earlier than usual, Sout",
+    "url": "https://www.digitimes.com/news/a20261105VL219/semiconductors-equipment-production-asml-earnings-2028.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:07.533245+00:00"
+  },
+  {
+    "candidate_id": 6,
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "title": "Qisda revenue rises 13% in October as AI businesses accelerate",
+    "pub_date": "Thu, 5 Nov 2026 05:42:00 GMT",
+    "snippet": "Qisda posted October consolidated revenue of NT$19.39 billion (US$590.8 million), up 13.47% year-over-year but down 1.85% from September, as its AI infrastructure, AI solutions, and smart manufacturing, and AI healthcare businesses all recorded doubl",
+    "url": "https://www.digitimes.com/news/a20261105PD225/revenue-qisda-healthcare-2026-infrastructure.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:07.533108+00:00"
+  },
+  {
+    "candidate_id": 7,
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "title": "Coherent pitches itself as the neutral optics supplier after Marvell-Lumentum deal",
+    "pub_date": "Thu, 5 Nov 2026 06:00:00 GMT",
+    "snippet": "Coherent is positioning itself as the optics supplier with no stake in the chip wars, two days after Marvell Technology agreed to acquire one of its closest rivals.",
+    "url": "https://www.digitimes.com/news/a20261105VL222/coherent-optics-cpo-revenue-supplier.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:07.533025+00:00"
+  },
+  {
+    "candidate_id": 8,
+    "source_id": "src-JP-MED-01",
+    "source_name": "Nikkei Asia (日经亚洲)",
+    "title": "France's Tikehau, Natixis look to Asia as US data center boom raises risks",
+    "pub_date": "2026-11-05",
+    "snippet": "France's Tikehau, Natixis look to Asia as US data center boom raises risks",
+    "url": "https://asia.nikkei.com/business/finance/france-s-tikehau-natixis-look-to-asia-as-us-data-center-boom-raises-risks",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:07.044786+00:00"
+  },
+  {
+    "candidate_id": 9,
+    "source_id": "src-JP-MED-01",
+    "source_name": "Nikkei Asia (日经亚洲)",
+    "title": "Indonesia's GDP grows 5.5% in Q3, helped by government spending",
+    "pub_date": "2026-11-05",
+    "snippet": "Indonesia's GDP grows 5.5% in Q3, helped by government spending",
+    "url": "https://asia.nikkei.com/economy/indonesia-s-gdp-grows-5.5-in-q3-helped-by-government-spending",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:07.044696+00:00"
+  },
+  {
+    "candidate_id": 10,
+    "source_id": "src-JP-MED-01",
+    "source_name": "Nikkei Asia (日经亚洲)",
+    "title": "Asian stock markets drop as Democratic win stokes fears over AI scrutiny",
+    "pub_date": "2026-11-05",
+    "snippet": "Asian stock markets drop as Democratic win stokes fears over AI scrutiny",
+    "url": "https://asia.nikkei.com/business/markets/asian-stock-markets-drop-as-democratic-win-stokes-fears-over-ai-scrutiny",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:07.044602+00:00"
+  },
+  {
+    "candidate_id": 11,
+    "source_id": "src-JP-MED-01",
+    "source_name": "Nikkei Asia (日经亚洲)",
+    "title": "Hong Kong activist Joshua Wong sentenced to 10 years for foreign collusion",
+    "pub_date": "2026-11-05",
+    "snippet": "Hong Kong activist Joshua Wong sentenced to 10 years for foreign collusion",
+    "url": "https://asia.nikkei.com/spotlight/hong-kong-security-law/hong-kong-activist-joshua-wong-sentenced-to-10-years-for-foreign-collusion",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:07.044499+00:00"
+  },
+  {
+    "candidate_id": 12,
+    "source_id": "src-JP-MED-01",
+    "source_name": "Nikkei Asia (日经亚洲)",
+    "title": "Toyota raises profit forecast as strong hybrid sales defy China slump",
+    "pub_date": "2026-11-05",
+    "snippet": "Toyota raises profit forecast as strong hybrid sales defy China slump",
+    "url": "https://asia.nikkei.com/business/automobiles/toyota-raises-profit-forecast-as-strong-hybrid-sales-defy-china-slump",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:07.044378+00:00"
+  },
+  {
+    "candidate_id": 13,
+    "source_id": "src-VN-FIN-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "title": "PVOIL lãi quý 3 gấp 5.7 lần nhờ giá dầu, dòng tiền kinh doanh âm nặng vì đọng vốn phải thu",
+    "pub_date": "Thu, 05 Nov 2026 10:00:00 +0700",
+    "snippet": "Tương tự nhiều ông lớn dầu khí khác, Tổng công ty Dầu Việt Nam - CTCP (PVOIL, UPCoM: OIL) thông báo lợi nhuận tăng vọt nhờ hưởng lợi từ đà tăng giá dầu trong quý 3/2026.",
+    "url": "http://vietstock.vn/2026/11/pvoil-lai-quy-3-gap-57-lan-nho-gia-dau-dong-tien-kinh-doanh-am-nang-vi-dong-von-phai-thu-737-1511602.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:06.862520+00:00"
+  },
+  {
+    "candidate_id": 14,
+    "source_id": "src-VN-FIN-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "title": "Nợ vay giảm gần một nửa sau 3 năm, Masan sẽ dùng nguồn lực mới vào đâu?",
+    "pub_date": "Thu, 05 Nov 2026 10:07:46 +0700",
+    "snippet": "Gần 10,800 tỷ đồng dòng tiền tự do trong 12 tháng gần nhất, tỷ lệ nợ vay giảm gần một nửa so với năm 2023 và các công ty thành viên ngày càng chủ động về tài chính. Những chuyển biến này đang giúp Masan có thêm điều kiện thực hiện 3 ưu tiên: Đơn giản",
+    "url": "http://vietstock.vn/2026/11/no-vay-giam-gan-mot-nua-sau-3-nam-masan-se-dung-nguon-luc-moi-vao-dau-737-1511736.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:06.862444+00:00"
+  },
+  {
+    "candidate_id": 15,
+    "source_id": "src-VN-FIN-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "title": "Vượt kế hoạch năm, SIP sắp chi 1,090 tỷ đồng tạm ứng cổ tức",
+    "pub_date": "Thu, 05 Nov 2026 11:35:13 +0700",
+    "snippet": "CTCP Đầu tư Sài Gòn VRG (HOSE: SIP) vượt 18% kế hoạch doanh thu và 35% kế hoạch lợi nhuận cả năm sau 9 tháng. Công ty chuẩn bị chi 1,090 tỷ đồng để tạm ứng cổ tức đợt 1/2026 với tỷ lệ 45%, vượt xa mức tối thiểu 10% được ĐHĐCĐ thông qua.",
+    "url": "http://vietstock.vn/2026/11/vuot-ke-hoach-nam-sip-sap-chi-1090-ty-dong-tam-ung-co-tuc-737-1511768.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:06.862364+00:00"
+  },
+  {
+    "candidate_id": 16,
+    "source_id": "src-VN-FIN-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "title": "DPM tăng hơn gấp đôi mục tiêu lợi nhuận 2026",
+    "pub_date": "Thu, 05 Nov 2026 11:48:14 +0700",
+    "snippet": "Sau 9 tháng kinh doanh tích cực, Tổng công ty Phân bón và Hóa chất Dầu khí - CTCP (PVFCCo - Phú Mỹ, HOSE: DPM) điều chỉnh tăng mạnh mục tiêu lợi nhuận sau thuế hợp nhất năm 2026 lên 1,445 tỷ đồng. Kế hoạch vốn đầu tư cũng được nâng thêm 20% lên gần 1",
+    "url": "http://vietstock.vn/2026/11/dpm-tang-hon-gap-doi-muc-tieu-loi-nhuan-2026-737-1511784.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:06.862258+00:00"
+  },
+  {
+    "candidate_id": 17,
+    "source_id": "src-VN-GEN-07",
+    "source_name": "VnExpress (越南快讯网商业频道)",
+    "title": "Bộ Công Thương: Hội viên chuỗi phòng tập California có thể kiện đòi hoàn phí",
+    "pub_date": "Thu, 05 Nov 2026 07:48:25 +0700",
+    "snippet": "Hội viên California Fitness & Yoga có thể khởi kiện để yêu cầu giải quyết tranh chấp hợp đồng, đòi hoàn phí khi loạt chuỗi phòng tập thuộc hệ thống này đóng cửa, theo Ủy ban Cạnh tranh.",
+    "url": "https://vnexpress.net/bo-cong-thuong-hoi-vien-chuoi-phong-tap-california-co-the-kien-doi-hoan-phi-5140891.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:06.853142+00:00"
+  },
+  {
+    "candidate_id": 18,
+    "source_id": "src-VN-GEN-07",
+    "source_name": "VnExpress (越南快讯网商业频道)",
+    "title": "Binance bù đắp 98% tài sản sau vụ hack 6,3 tỷ USD",
+    "pub_date": "Thu, 05 Nov 2026 10:07:24 +0700",
+    "snippet": "Sàn tiền số Binance cho biết đã bổ sung gần hết tài sản bị hack, đồng thời mở rộng phạm vi xác minh dự trữ từ 10 lên 44 token.",
+    "url": "https://vnexpress.net/binance-bu-dap-98-tai-san-sau-vu-hack-6-3-ty-usd-5140995.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:06.853053+00:00"
+  },
+  {
+    "candidate_id": 19,
+    "source_id": "src-VN-GEN-07",
+    "source_name": "VnExpress (越南快讯网商业频道)",
+    "title": "Giá vàng miếng lên cao nhất gần một tháng",
+    "pub_date": "Thu, 05 Nov 2026 10:09:04 +0700",
+    "snippet": "Theo đà đi lên của quốc tế, các thương hiệu tăng giá bán vàng miếng lên 144,5 triệu đồng một lượng, cao nhất kể từ ngày 10/10.",
+    "url": "https://vnexpress.net/gia-vang-moi-nhat-hom-nay-ngay-5-11-5141000.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:06.852972+00:00"
+  },
+  {
+    "candidate_id": 20,
+    "source_id": "src-VN-GEN-07",
+    "source_name": "VnExpress (越南快讯网商业频道)",
+    "title": "Vốn FDI vào TP HCM tăng hơn 4 lần",
+    "pub_date": "Thu, 05 Nov 2026 12:29:06 +0700",
+    "snippet": "Đầu tàu kinh tế thu hút 19,1 tỷ USD vốn FDI trong 10 tháng đầu năm, gấp 4,2 lần so với cùng kỳ 2025, theo cơ quan Thống kê TP HCM.",
+    "url": "https://vnexpress.net/von-fdi-vao-tp-hcm-tang-hon-4-lan-5141078.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:06.852884+00:00"
+  },
+  {
+    "candidate_id": 21,
+    "source_id": "src-VN-GEN-07",
+    "source_name": "VnExpress (越南快讯网商业频道)",
+    "title": "Ngân hàng Pháp bị tin tặc đánh cắp hơn 110 triệu USD",
+    "pub_date": "Thu, 05 Nov 2026 12:35:07 +0700",
+    "snippet": "Ngân hàng Crédit Mutuel Arkéa (Pháp) cho biết tin tặc xâm nhập vào hệ thống máy tính nhà băng, đánh cắp tiền và chuyển đổi thành tiền mã hóa.",
+    "url": "https://vnexpress.net/ngan-hang-phap-bi-tin-tac-danh-cap-hon-110-trieu-usd-5141067.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:06.852779+00:00"
+  },
+  {
+    "candidate_id": 22,
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "title": "Elon Musk làm việc đến mức nào? Cựu nhân sự X tiết lộ giờ họp khiến nhiều người bất ngờ",
+    "pub_date": "Thu, 05 Nov 2026 13:30:00 +07",
+    "snippet": "Chris Park nói nhiều lần chứng kiến Elon Musk làm việc lúc 1-3 giờ sáng. Sau bốn năm làm việc dưới quyền tỷ phú, cựu nhân sự X cho rằng mình học được lượng kiến thức tương đương cả thập kỷ.",
+    "url": "https://cafef.vn/elon-musk-lam-viec-den-muc-nao-cuu-nhan-su-x-tiet-lo-gio-hop-khien-nhieu-nguoi-bat-ngo-188261105074412339.chn",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:06.771655+00:00"
+  },
+  {
+    "candidate_id": 23,
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "title": "Học bổng lên đến 70% học phí cho chương trình MBA tích hợp AI",
+    "pub_date": "Thu, 05 Nov 2026 13:30:00 +07",
+    "snippet": "Ứng viên chương trình Thạc sĩ Quản trị kinh doanh tích hợp AI (SeMBA in AI) có thể nhận học bổng lên đến 70% học phí.",
+    "url": "https://cafef.vn/hoc-bong-len-den-70-hoc-phi-cho-chuong-trinh-mba-tich-hop-ai-188261105114025516.chn",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:06.771593+00:00"
+  },
+  {
+    "candidate_id": 24,
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "title": "‎“Kết nối cùng Kixx” - Từ câu chuyện Việt Nam đến hành trình toàn cầu",
+    "pub_date": "Thu, 05 Nov 2026 13:30:00 +07",
+    "snippet": "Mở đầu tại Việt Nam, series Kixx Connect (tựa Việt: Kết nối cùng Kixx) giới thiệu những con người đang kết nối thương hiệu với khách hàng, đối tác tại nhiều quốc gia, mang đến góc nhìn gần gũi về cách niềm tin được vun đắp.",
+    "url": "https://cafef.vn/ket-noi-cung-kixx-tu-cau-chuyen-viet-nam-den-hanh-trinh-toan-cau-188261105114513854.chn",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:06.771529+00:00"
+  },
+  {
+    "candidate_id": 25,
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "title": "Bật mí sức hút của quỹ căn hộ biển sở hữu lâu dài cuối cùng tại Blanca City",
+    "pub_date": "Thu, 05 Nov 2026 13:30:00 +07",
+    "snippet": "Nắm giữ 6 giá trị độc bản vượt trội dung hòa giữa không gian sống nghỉ dưỡng và tích sản lâu dài, tổ hợp căn hộ mặt biển Beachtro Tower tại Blanca City xác lập một chuẩn mực sống mới, đón đầu chu kỳ bứt phá của vùng kinh tế phía Nam.",
+    "url": "https://cafef.vn/bat-mi-suc-hut-cua-quy-can-ho-bien-so-huu-lau-dai-cuoi-cung-tai-blanca-city-188261105114611326.chn",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:06.771463+00:00"
+  },
+  {
+    "candidate_id": 26,
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "title": "Eaton và KPS hợp tác đưa giải pháp hạ tầng điện công nghệ Mỹ đến Việt Nam",
+    "pub_date": "Thu, 05 Nov 2026 13:30:00 +07",
+    "snippet": "Eaton và KPS hợp tác phát triển giải pháp hạ tầng điện tại Việt Nam, khởi đầu với thanh dẫn điện Busway, máy biến áp và thiết bị đóng cắt, bảo vệ điện, phục vụ các tòa nhà, trung tâm dữ liệu, cơ sở y tế, khách sạn, khu nghỉ dưỡng và công trình trọng",
+    "url": "https://cafef.vn/eaton-va-kps-hop-tac-dua-giai-phap-ha-tang-dien-cong-nghe-my-den-viet-nam-188261105114612314.chn",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:06.771378+00:00"
+  },
+  {
+    "candidate_id": 27,
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "title": "WHO đề xuất 6 giải pháp dân sinh ngăn 1,6 triệu ca tử vong mỗi năm",
+    "pub_date": "Thu, 05 Nov 2026 12:44:21 +07:00",
+    "snippet": "Theo WTO, việc triển khai đồng bộ 6 biện pháp can thiệp về khí hậu và y tế có thể giúp ngăn ngừa khoảng 1,6 triệu ca tử vong mỗi năm, tương đương cứ 40 ca tử vong thì có 1 ca được phòng tránh.Biến đổi khí hậu cần được coi là tình trạng khẩn cấp về sứ",
+    "url": "https://www.vietnamplus.vn/who-de-xuat-6-giai-phap-dan-sinh-ngan-16-trieu-ca-tu-vong-moi-nam-post1146342.vnp",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:05.332042+00:00"
+  },
+  {
+    "candidate_id": 28,
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "title": "Apple cắt giảm ngân sách liên quan đến AI",
+    "pub_date": "Thu, 05 Nov 2026 12:46:30 +07:00",
+    "snippet": "Bloomberg News ngày 4/11 dẫn các nguồn thạo tin cho hay Apple đã giảm hạn mức chi tiêu hằng ngày cho AI của một số kỹ sư từ 300 USD xuống còn 200 USD trong tháng trước.Apple tích hợp mô hình AI của Alibaba vào hệ thống iOS tại Trung QuốcApple tung d",
+    "url": "https://www.vietnamplus.vn/apple-cat-giam-ngan-sach-lien-quan-den-ai-post1146343.vnp",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:05.331842+00:00"
+  },
+  {
+    "candidate_id": 29,
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "title": "Cảnh báo dông lốc, sét và mưa đá tại nhiều phường, xã ở Hà Nội",
+    "pub_date": "Thu, 05 Nov 2026 13:16:30 +07:00",
+    "snippet": "Từ nay đến 15 giờ 30 phút ngày 5/11, vùng mây đối lưu này tiếp tục gây mưa rào và dông cho các phường, xã ở Hà Nội như Thuận An, Gia Lâm, Bát Tràng, Lĩnh Nam, Long Biên, Hoàng Mai, Thanh Trì...Không khí lạnh mạnh tràn về miền Bắc, Sa Pa có thể rét 9",
+    "url": "https://www.vietnamplus.vn/canh-bao-dong-loc-set-va-mua-da-tai-nhieu-phuong-xa-o-ha-noi-post1146344.vnp",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:05.331628+00:00"
+  },
+  {
+    "candidate_id": 30,
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "title": "Kính viễn vọng không gian Swift bốc cháy khi rơi trở lại Trái Đất",
+    "pub_date": "Thu, 05 Nov 2026 13:19:54 +07:00",
+    "snippet": "Cơ quan Hàng không vũ trụ Mỹ xác nhận kính viễn vọng không gian Swift đã rơi khỏi quỹ đạo và bốc cháy trong bầu khí quyển Trái Đất sau gần 22 năm hoạt động.NASA hoàn tất thử nghiệm 378 ngày mô phỏng sống trên Sao HỏaSự cố Starship đe dọa kế hoạch trở",
+    "url": "https://www.vietnamplus.vn/kinh-vien-vong-khong-gian-swift-boc-chay-khi-roi-tro-lai-trai-dat-post1146345.vnp",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:05.331421+00:00"
+  },
+  {
+    "candidate_id": 31,
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "title": "Bắc Ninh: Về chùa Bổ Đà, chiêm ngưỡng nét cổ kính giữa non xanh",
+    "pub_date": "Thu, 05 Nov 2026 13:28:00 +07:00",
+    "snippet": "Giữ vẻ đẹp nguyên bản của kiến trúc truyền thống Việt cổ cùng nhiều tài liệu quý hiếm, chùa Bổ Đà là một trong những di tích trong Quần thể Di sản Văn hóa Thế giới Yên Tử-Vĩnh Nghiêm-Côn Sơn-Kiếp Bạc.Bắc Giang khai hội chùa Bổ Đà và Liên hoan dân ca",
+    "url": "https://www.vietnamplus.vn/bac-ninh-ve-chua-bo-da-chiem-nguong-net-co-kinh-giua-non-xanh-post1146298.vnp",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:05.331195+00:00"
+  },
+  {
+    "candidate_id": 32,
+    "source_id": "src-A01",
+    "source_name": "Báo Chính phủ (Government Portal)",
+    "title": "Mì Hảo Hảo được kiểm soát chất lượng trong quá trình chiên như thế nào?",
+    "pub_date": "11/5/2026 10:59:00 AM",
+    "snippet": "(Chinhphu.vn) - Chiên là công đoạn quan trọng để làm giảm độ ẩm của vắt mì Hảo Hảo sau khi hấp chín. Trong khoảng 2,5 phút, các yếu tố như nhiệt độ, thời gian, lượng dầu và chất lượng dầu được theo dõi, kiểm soát trong quá trình sản xuất.",
+    "url": "https://baochinhphu.vn/mi-hao-hao-duoc-kiem-soat-chat-luong-trong-qua-trinh-chien-nhu-the-nao-102261105104825984.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:05.257499+00:00"
+  },
+  {
+    "candidate_id": 33,
+    "source_id": "src-A01",
+    "source_name": "Báo Chính phủ (Government Portal)",
+    "title": "SHB đưa giải pháp thanh toán số vào hoạt động khám chữa bệnh tại Bạch Mai",
+    "pub_date": "11/5/2026 11:49:00 AM",
+    "snippet": "(Chinhphu.vn) - SHB và Bệnh viện Bạch Mai ký kết thỏa thuận hợp tác toàn diện, tập trung triển khai giải pháp tài chính số, hiện đại hóa thanh toán viện phí, hỗ trợ quản trị bệnh viện và phối hợp thực hiện các chương trình chăm sóc sức khỏe cộng đồng",
+    "url": "https://baochinhphu.vn/shb-dua-giai-phap-thanh-toan-so-vao-hoat-dong-kham-chua-benh-tai-bach-mai-102261105115128662.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:05.257463+00:00"
+  },
+  {
+    "candidate_id": 34,
+    "source_id": "src-A01",
+    "source_name": "Báo Chính phủ (Government Portal)",
+    "title": "Khi Viettel xây bệ phóng cho chip \"Make in Vietnam\"",
+    "pub_date": "11/5/2026 12:21:00 PM",
+    "snippet": "(Chinhphu.vn) - Một dấu mốc quan trọng trong hành trình làm chủ công nghệ bán dẫn của Việt Nam được xác lập khi chip bảo mật VGC v1.0, do các kỹ sư Việt Nam tự thiết kế, vừa chính thức ra mắt. Đây không chỉ là thành quả của một nhiệm vụ nghiên cứu kh",
+    "url": "https://baochinhphu.vn/khi-viettel-xay-be-phong-cho-chip-make-in-vietnam-102261105121756743.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:05.257408+00:00"
+  },
+  {
+    "candidate_id": 35,
+    "source_id": "src-A01",
+    "source_name": "Báo Chính phủ (Government Portal)",
+    "title": "Bà Mai Kiều Liên được vinh danh trong top 100 phụ nữ quyền lực nhất châu Á tại Hội nghị Thượng đỉnh Fortune",
+    "pub_date": "11/5/2026 12:38:00 PM",
+    "snippet": "(Chinhphu.vn) - Ngày 3/11, tại Hội nghị Thượng đỉnh Fortune Southeast Asia 500 diễn ra ở TPHCM, nguyên Ủy viên Trung ương Đảng, Anh hùng Lao động, Tổng Giám đốc Vinamilk Mai Kiều Liên đón nhận hai danh hiệu của Fortune dành cho cá nhân và doanh nghiệ",
+    "url": "https://baochinhphu.vn/ba-mai-kieu-lien-duoc-vinh-danh-trong-top-100-phu-nu-quyen-luc-nhat-chau-a-tai-hoi-nghi-thuong-dinh-fortune-102261105121201205.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:05.257374+00:00"
+  },
+  {
+    "candidate_id": 36,
+    "source_id": "src-A01",
+    "source_name": "Báo Chính phủ (Government Portal)",
+    "title": "Khẩn trương chuyển từ công tác chuẩn bị sang tổ chức thực hiện Chương trình mục tiêu quốc gia",
+    "pub_date": "11/5/2026 12:41:00 PM",
+    "snippet": "(Chinhphu.vn) - Phó Thủ tướng Hồ Quốc Dũng yêu cầu các bộ, ngành, địa phương khẩn trương chuyển từ công tác chuẩn bị sang tổ chức thực hiện Chương trình mục tiêu quốc gia; không chờ hướng dẫn đối với những nội dung đã có quy định; đẩy nhanh phân bổ,",
+    "url": "https://baochinhphu.vn/khan-truong-chuyen-tu-cong-tac-chuan-bi-sang-to-chuc-thuc-hien-chuong-trinh-muc-tieu-quoc-gia-102261105120202608.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T06:36:05.257311+00:00"
+  },
+  {
+    "candidate_id": 37,
+    "source_id": "src-ASSOC-04",
+    "source_name": "Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)",
+    "title": "Tọa đàm An toàn thực phẩm trong sản xuất, kinh doanh bia, rượu và nước giải khát: Siết trách nhiệm, củng cố niềm tin 04:18:00 PM GMT+7 Thứ 4 , 04/11/2026",
+    "pub_date": "04/11/2026",
+    "snippet": "Tọa đàm An toàn thực phẩm trong sản xuất, kinh doanh bia, rượu và nước giải khát: Siết trách nhiệm, củng cố niềm tin 04:18:00 PM GMT+7 Thứ 4 , 04/11/2026",
+    "url": "https://vcci.com.vn/tin-tuc/toa-dam-an-toan-thuc-pham-trong-san-xuat-kinh-doanh-bia-ruou-va-nuoc-giai-khat-siet-trach-nhiem-cung-co-niem-tin",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:14.991451+00:00"
+  },
+  {
+    "candidate_id": 38,
+    "source_id": "src-ASSOC-04",
+    "source_name": "Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)",
+    "title": "Thúc đẩy hợp tác và chia sẻ kinh nghiệm vì sự tiến bộ của phụ nữ dưới mái nhà chung ACWO 04:36:00 PM GMT+7 Thứ 4 , 04/11/2026 Tại Cuộc họp Hội đồng Liên đoàn, Ban Lãnh đạo các Tổ chức Phụ nữ ASEAN (ACWO) năm 2026 diễn ra sáng ngày 4/11, bà Lê Thị Thủy, Ủy viên Trung ương Đảng, Phó Chủ tịch Ủy ban Trung ương MTTQ Việt Nam, Chủ tịch Hội LHPN Việt Nam, Chủ tịch ACWO nhiệm kỳ 2025-2026, khẳng định: ACWO là mái nhà chung, nơi kết nối các tổ chức phụ nữ quốc gia trong ASEAN, thúc đẩy đoàn kết, hữu nghị, hợp tác và chia sẻ kinh nghiệm vì sự tiến bộ của phụ nữ.",
+    "pub_date": "04/11/2026",
+    "snippet": "Thúc đẩy hợp tác và chia sẻ kinh nghiệm vì sự tiến bộ của phụ nữ dưới mái nhà chung ACWO 04:36:00 PM GMT+7 Thứ 4 , 04/11/2026 Tại Cuộc họp Hội đồng Liên đoàn, Ban Lãnh đạo các Tổ chức Phụ nữ ASEAN (ACWO) năm 2026 diễn ra sáng ngày 4/11, bà Lê Thị Thủy, Ủy viên Trung ương Đảng, Phó Chủ tịch Ủy ban Trung ương MTTQ Việt Nam, Chủ tịch Hội LHPN Việt Nam, Chủ tịch ACWO nhiệm kỳ 2025-2026, khẳng định: ACWO là mái nhà chung, nơi kết nối các tổ chức phụ nữ quốc gia trong ASEAN, thúc đẩy đoàn kết, hữu nghị, hợp tác và chia sẻ kinh nghiệm vì sự tiến bộ của phụ nữ.",
+    "url": "https://vcci.com.vn/tin-tuc/thuc-day-hop-tac-va-chia-se-kinh-nghiem-vi-su-tien-bo-cua-phu-nu-duoi-mai-nha-chung-acwo",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:14.991172+00:00"
+  },
+  {
+    "candidate_id": 39,
+    "source_id": "VN-LOC-03-BN-A",
+    "source_name": "Cổng thông tin điện tử tỉnh Bắc Ninh",
+    "title": "Đồng chí Mai Sơn, Phó Chủ tịch Thường trực UBND thành phố chung vui Ngày hội Đại đoàn kết toàn dân tộc tại Tổ dân phố Mão Đông, phường Mão Điền",
+    "pub_date": "2026-11-05",
+    "snippet": "Đồng chí Mai Sơn, Phó Chủ tịch Thường trực UBND thành phố chung vui Ngày hội Đại đoàn kết toàn dân tộc tại Tổ dân phố Mão Đông, phường Mão Điền",
+    "url": "https://bacninh.gov.vn/news/-/details/37632/-ong-chi-mai-son-pho-chu-tich-thuong-truc-ubnd-thanh-pho-chung-vui-ngay-hoi-ai-oan-ket-toan-dan-toc-tai-to-dan-pho-mao-ong-phuong-mao-ien-175186504",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:14.009417+00:00"
+  },
+  {
+    "candidate_id": 40,
+    "source_id": "VN-LOC-03-BN-A",
+    "source_name": "Cổng thông tin điện tử tỉnh Bắc Ninh",
+    "title": "Ban Tổ chức Trung ương tập huấn sử dụng Cổng kê khai, tổng hợp vị trí việc làm",
+    "pub_date": "2026-11-05",
+    "snippet": "Ban Tổ chức Trung ương tập huấn sử dụng Cổng kê khai, tổng hợp vị trí việc làm",
+    "url": "https://bacninh.gov.vn/news/-/details/37632/ban-to-chuc-trung-uong-tap-huan-su-dung-cong-ke-khai-tong-hop-vi-tri-viec-lam-175202715",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:14.009014+00:00"
+  },
+  {
+    "candidate_id": 41,
+    "source_id": "VN-LOC-03-BN-A",
+    "source_name": "Cổng thông tin điện tử tỉnh Bắc Ninh",
+    "title": "Phó Bí thư Thành ủy, Chủ tịch HĐND thành phố Nguyễn Việt Oanh tiếp và làm việc với Đoàn công tác Tạp chí Cầu Thị (Trung Quốc)",
+    "pub_date": "2026-11-05",
+    "snippet": "Phó Bí thư Thành ủy, Chủ tịch HĐND thành phố Nguyễn Việt Oanh tiếp và làm việc với Đoàn công tác Tạp chí Cầu Thị (Trung Quốc)",
+    "url": "https://bacninh.gov.vn/news/-/details/37632/pho-bi-thu-thanh-uy-chu-tich-h-nd-thanh-pho-nguyen-viet-oanh-tiep-va-lam-viec-voi-oan-cong-tac-tap-chi-cau-thi-trung-quoc-175208360",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:14.008511+00:00"
+  },
+  {
+    "candidate_id": 42,
+    "source_id": "VN-LOC-03-BN-A",
+    "source_name": "Cổng thông tin điện tử tỉnh Bắc Ninh",
+    "title": "Bí thư Thành ủy Nguyễn Hồng Thái làm việc với Thường trực Đảng ủy 08 xã khu vực Sơn Động",
+    "pub_date": "2026-11-05",
+    "snippet": "Bí thư Thành ủy Nguyễn Hồng Thái làm việc với Thường trực Đảng ủy 08 xã khu vực Sơn Động",
+    "url": "https://bacninh.gov.vn/news/-/details/37632/bi-thu-thanh-uy-nguyen-hong-thai-lam-viec-voi-thuong-truc-ang-uy-08-xa-khu-vuc-son-ong-175216362",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:14.008221+00:00"
+  },
+  {
+    "candidate_id": 43,
+    "source_id": "VN-LOC-02-HP-A",
+    "source_name": "Cổng Thông tin điện tử Thành phố Hải Phòng",
+    "title": "Phó Chủ tịch UBND thành phố Đào Trọng Đức dự sinh hoạt chuyên đề tại Chi bộ Cảnh sát phòng chống tội phạm xã Vĩnh Hòa",
+    "pub_date": "2026-11-05",
+    "snippet": "Phó Chủ tịch UBND thành phố Đào Trọng Đức dự sinh hoạt chuyên đề tại Chi bộ Cảnh sát phòng chống tội phạm xã Vĩnh Hòa",
+    "url": "https://haiphong.gov.vn/tin-lanh-dao-thanh-pho/pho-chu-tich-ubnd-thanh-pho-dao-trong-duc-du-sinh-hoat-chuyen-de-tai-chi-bo-canh-sat-phong-chong-998018",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:13.056629+00:00"
+  },
+  {
+    "candidate_id": 44,
+    "source_id": "VN-LOC-02-HP-A",
+    "source_name": "Cổng Thông tin điện tử Thành phố Hải Phòng",
+    "title": "Trường THPT An Dương tiếp nhận tài trợ trang thiết bị và học bổng hàng trăm triệu đồng",
+    "pub_date": "2026-11-05",
+    "snippet": "Trường THPT An Dương tiếp nhận tài trợ trang thiết bị và học bổng hàng trăm triệu đồng",
+    "url": "https://haiphong.gov.vn/cong-dan/truong-thpt-an-duong-tiep-nhan-tai-tro-trang-thiet-bi-va-hoc-bong-hang-tram-trieu-dong-997972",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:13.056205+00:00"
+  },
+  {
+    "candidate_id": 45,
+    "source_id": "VN-LOC-02-HP-A",
+    "source_name": "Cổng Thông tin điện tử Thành phố Hải Phòng",
+    "title": "Đồng chí Nguyễn Duy Cường giữ chức Phó Bí thư Đảng ủy, Chủ tịch UBND xã Ninh Giang",
+    "pub_date": "2026-11-05",
+    "snippet": "Đồng chí Nguyễn Duy Cường giữ chức Phó Bí thư Đảng ủy, Chủ tịch UBND xã Ninh Giang",
+    "url": "https://haiphong.gov.vn/tin-dia-phuong/dong-chi-nguyen-duy-cuong-giu-chuc-pho-bi-thu-dang-uy-chu-tich-ubnd-xa-ninh-giang-997977",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:13.055986+00:00"
+  },
+  {
+    "candidate_id": 46,
+    "source_id": "VN-LOC-02-HP-A",
+    "source_name": "Cổng Thông tin điện tử Thành phố Hải Phòng",
+    "title": "Ban Thường vụ Thành ủy điều động, chỉ định Bí thư và Phó Bí thư Đảng ủy xã Nguyên Giáp",
+    "pub_date": "2026-11-05",
+    "snippet": "Ban Thường vụ Thành ủy điều động, chỉ định Bí thư và Phó Bí thư Đảng ủy xã Nguyên GiápĐồng chí Nguyễn Duy Cường giữ chức Phó Bí thư Đảng ủy, Chủ tịch UBND xã Ninh GiangTrường THPT An Dương tiếp nhận tài trợ trang thiết bị và học bổng hàng trăm triệu",
+    "url": "https://haiphong.gov.vn/tin-dia-phuong/ban-thuong-vu-thanh-uy-dieu-dong-chi-dinh-bi-thu-va-pho-bi-thu-dang-uy-xa-nguyen-giap-997987",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:13.055607+00:00"
+  },
+  {
+    "candidate_id": 47,
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "title": "Google commits US$15 billion to expand Malaysian data centers in 2027 and 2028",
+    "pub_date": "Thu, 5 Nov 2026 01:19:09 GMT",
+    "snippet": "Google's plan to invest US$15 billion in Malaysia over 2027 and 2028 deepens its bet on what AFP calls Southeast Asia's fastest-growing data center hub, and ties the expansion to commitments on power, water, and skills as Malaysian authorities scruti",
+    "url": "https://www.digitimes.com/news/a20261105VL205/google-2027-2028-data-water.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:12.273219+00:00"
+  },
+  {
+    "candidate_id": 48,
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "title": "Qualcomm wins Starlink Mobile infrastructure deal as SpaceX advances terrestrial network",
+    "pub_date": "Thu, 5 Nov 2026 01:44:41 GMT",
+    "snippet": "Qualcomm has secured a role in SpaceX's planned US terrestrial mobile network, turning Starlink Mobile's ambitions for integrated satellite and ground-based connectivity into a named infrastructure deployment. Announced November 4, the multi-year agr",
+    "url": "https://www.digitimes.com/news/a20261105VL204/qualcomm-spacex-starlink-infrastructure-software.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:12.273069+00:00"
+  },
+  {
+    "candidate_id": 49,
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "title": "OpenAI moves deeper into software infrastructure with Pierre acquisition plan",
+    "pub_date": "Thu, 5 Nov 2026 01:49:17 GMT",
+    "snippet": "OpenAI plans to acquire Pierre Computer Company, extending its push into the infrastructure behind AI-generated software as competition expands beyond coding assistants to the systems that store, review, and manage their output. The November 4 announ",
+    "url": "https://www.digitimes.com/news/a20261105VL203/openai-software-acquisition-infrastructure-development.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:12.272984+00:00"
+  },
+  {
+    "candidate_id": 50,
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "title": "Corning starts optical connectivity output in western India, plans larger adjacent plant for 2027",
+    "pub_date": "Thu, 5 Nov 2026 01:58:36 GMT",
+    "snippet": "Corning's move to begin making optical connectivity products in Pune and add a larger adjacent plant by 2027 shows the AI-driven surge in data center fiber demand, so far strongest in the US, starting to reshape the company's manufacturing footprint",
+    "url": "https://www.digitimes.com/news/a20261105VL208/corning-plant-2027-demand-data-center.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:12.272881+00:00"
+  },
+  {
+    "candidate_id": 51,
+    "source_id": "src-JP-MED-01",
+    "source_name": "Nikkei Asia (日经亚洲)",
+    "title": "Japan logistics startups expand cold food networks in Malaysia, Vietnam",
+    "pub_date": "2026-11-05",
+    "snippet": "Japan logistics startups expand cold food networks in Malaysia, Vietnam",
+    "url": "https://asia.nikkei.com/business/food-beverage/japan-logistics-startups-expand-cold-food-networks-in-malaysia-vietnam",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:11.941720+00:00"
+  },
+  {
+    "candidate_id": 52,
+    "source_id": "src-JP-MED-01",
+    "source_name": "Nikkei Asia (日经亚洲)",
+    "title": "Malaysia's main opposition calls for greater power for states",
+    "pub_date": "2026-11-05",
+    "snippet": "Malaysia's main opposition calls for greater power for states",
+    "url": "https://asia.nikkei.com/politics/malaysia-s-main-opposition-calls-for-greater-power-for-states",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:11.941690+00:00"
+  },
+  {
+    "candidate_id": 53,
+    "source_id": "src-JP-MED-01",
+    "source_name": "Nikkei Asia (日经亚洲)",
+    "title": "North Korea's patient cyber operations pay off in crypto",
+    "pub_date": "2026-11-05",
+    "snippet": "North Korea's patient cyber operations pay off in crypto",
+    "url": "https://asia.nikkei.com/spotlight/cryptocurrencies/north-korea-s-patient-cyber-operations-pay-off-in-crypto",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:11.941661+00:00"
+  },
+  {
+    "candidate_id": 54,
+    "source_id": "src-JP-MED-01",
+    "source_name": "Nikkei Asia (日经亚洲)",
+    "title": "Indian capital doubles parking fees, asks 50% remote work to curb pollution",
+    "pub_date": "2026-11-05",
+    "snippet": "Indian capital doubles parking fees, asks 50% remote work to curb pollution",
+    "url": "https://asia.nikkei.com/spotlight/environment/indian-capital-doubles-parking-fees-asks-50-remote-work-to-curb-pollution",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:11.941627+00:00"
+  },
+  {
+    "candidate_id": 55,
+    "source_id": "src-JP-MED-01",
+    "source_name": "Nikkei Asia (日经亚洲)",
+    "title": "China's curbs on tungsten used in drill bits squeeze AI supply chain",
+    "pub_date": "2026-11-05",
+    "snippet": "China's curbs on tungsten used in drill bits squeeze AI supply chain",
+    "url": "https://asia.nikkei.com/spotlight/supply-chain/china-s-curbs-on-tungsten-used-in-drill-bits-squeeze-ai-supply-chain",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:11.941580+00:00"
+  },
+  {
+    "candidate_id": 56,
+    "source_id": "src-VN-FIN-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "title": "PGV đạt sản lượng điện 22.1 tỷ kWh trong 9 tháng",
+    "pub_date": "Wed, 04 Nov 2026 15:00:00 +0700",
+    "snippet": "Trong 9 tháng đầu năm 2026, Tổng Công ty Phát điện 3 - CTCP (EVNGENCO3, HOSE: PGV) ghi nhận sản lượng điện sản xuất hơn 22.1 tỷ kWh. Việc tăng cường huy động điện giúp bức tranh kinh doanh tích cực.",
+    "url": "http://vietstock.vn/2026/11/pgv-dat-san-luong-dien-221-ty-kwh-trong-9-thang-737-1511451.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:11.669587+00:00"
+  },
+  {
+    "candidate_id": 57,
+    "source_id": "src-VN-FIN-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "title": "Angimex thoát lỗ nhờ thanh lý đầu tư, Chủ tịch liên tục đăng ký bán sạch cổ phiếu",
+    "pub_date": "Wed, 04 Nov 2026 16:22:59 +0700",
+    "snippet": "Quý 3/2026, CTCP Xuất Nhập khẩu An Giang (Angimex, HOSE: AGM) thoát lỗ nhờ nguồn thu đột biến từ hoạt động thanh lý đầu tư, bất chấp mảng kinh doanh cốt lõi tiếp tục dưới giá vốn. Trước tình hình tài chính nhiều thách thức, Chủ tịch HĐQT Lương Đức Tâ",
+    "url": "http://vietstock.vn/2026/11/angimex-thoat-lo-nho-thanh-ly-dau-tu-chu-tich-lien-tuc-dang-ky-ban-sach-co-phieu-737-1511494.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:11.669534+00:00"
+  },
+  {
+    "candidate_id": 58,
+    "source_id": "src-VN-FIN-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "title": "Bluemarq cho chủ đầu tư dự án DatXanhHomes Parkview vay 358 tỷ đồng",
+    "pub_date": "Wed, 04 Nov 2026 19:33:36 +0700",
+    "snippet": "Trong 9 tháng đầu năm 2026, CTCP BLUEMARQ Group (HOSE: DXG, trước đây là CTCP Tập đoàn Đất Xanh) cho CTCP Hội An Invest vay 358 tỷ đồng. Hội An Invest là chủ đầu tư dự án chung cư cao tầng DatXanhHomes Parkview tại phường Bình Hòa, TP. Thuận An cũ (n",
+    "url": "http://vietstock.vn/2026/11/bluemarq-cho-chu-dau-tu-du-an-datxanhhomes-parkview-vay-358-ty-dong-737-1511701.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:11.669479+00:00"
+  },
+  {
+    "candidate_id": 59,
+    "source_id": "src-VN-FIN-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "title": "KOS ôm hàng ngàn tỷ tồn kho, lợi nhuận lao dốc 98% xuống đáy gần thập kỷ",
+    "pub_date": "Wed, 04 Nov 2026 22:30:04 +0700",
+    "snippet": "Cuối quý 3/2026, tồn kho KOS lập kỷ lục hơn 2,850 tỷ đồng, chiếm 56% tổng tài sản, phần lớn là chi phí dở dang tại các dự án bất động sản. Trong khi hàng ngàn tỷ đồng vốn vẫn nằm tại các dự án, lợi nhuận quý 3 giảm 98% xuống đáy gần 9 năm.",
+    "url": "http://vietstock.vn/2026/11/kos-om-hang-ngan-ty-ton-kho-loi-nhuan-lao-doc-98-xuong-day-gan-thap-ky-737-1511702.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:11.669414+00:00"
+  },
+  {
+    "candidate_id": 60,
+    "source_id": "src-VN-FIN-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "title": "Lãi quý 3 tăng 47%, PET thực hiện 96% mục tiêu lợi nhuận năm sau 9 tháng",
+    "pub_date": "Thu, 05 Nov 2026 08:32:00 +0700",
+    "snippet": "Quý 3/2026, Tổng CTCP Dịch vụ Tổng hợp Dầu khí (Petrosetco, HOSE: PET) đạt lợi nhuận sau thuế 109 tỷ đồng, tăng 47% so với cùng kỳ năm trước nhờ biên lợi nhuận gộp cải thiện, giúp công ty bù đắp áp lực từ chi phí lãi vay leo thang.",
+    "url": "http://vietstock.vn/2026/11/lai-quy-3-tang-47-pet-thuc-hien-96-muc-tieu-loi-nhuan-nam-sau-9-thang-737-1511578.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:11.669329+00:00"
+  },
+  {
+    "candidate_id": 61,
+    "source_id": "src-VN-GEN-07",
+    "source_name": "VnExpress (越南快讯网商业频道)",
+    "title": "Công ty bà Nguyễn Thị Như Loan lần đầu chia cổ tức sau 8 năm",
+    "pub_date": "Thu, 05 Nov 2026 00:05:00 +0700",
+    "snippet": "Chưa đầy một tháng từ khi bà Như Loan trở lại làm Tổng giám đốc, Quốc Cường Gia Lai thông báo sẽ trả cổ tức lỡ hẹn nhiều năm.",
+    "url": "https://vnexpress.net/cong-ty-ba-nguyen-thi-nhu-loan-lan-dau-chia-co-tuc-sau-8-nam-5140862.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:11.645518+00:00"
+  },
+  {
+    "candidate_id": 62,
+    "source_id": "src-VN-GEN-07",
+    "source_name": "VnExpress (越南快讯网商业频道)",
+    "title": "Elon Musk có thể mất gói thù lao 1.000 tỷ USD",
+    "pub_date": "Thu, 05 Nov 2026 00:25:00 +0700",
+    "snippet": "Nếu SpaceX và Tesla sáp nhập, Musk có thể mất gói thù lao khổng lồ, nhưng lại nắm quyền kiểm soát lớn mà ông mong muốn lâu nay.",
+    "url": "https://vnexpress.net/elon-musk-co-the-mat-goi-thu-lao-1-000-ty-usd-5140621.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:11.645348+00:00"
+  },
+  {
+    "candidate_id": 63,
+    "source_id": "src-VN-GEN-07",
+    "source_name": "VnExpress (越南快讯网商业频道)",
+    "title": "Gần 96% sầu riêng Việt Nam xuất sang Trung Quốc",
+    "pub_date": "Thu, 05 Nov 2026 05:00:00 +0700",
+    "snippet": "Chín tháng, Trung Quốc chiếm gần 96% kim ngạch xuất khẩu sầu riêng Việt Nam, khiến ngành hàng này gần như không có thị trường thay thế.",
+    "url": "https://vnexpress.net/gan-96-sau-rieng-viet-nam-xuat-sang-trung-quoc-5140708.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:11.645262+00:00"
+  },
+  {
+    "candidate_id": 64,
+    "source_id": "src-VN-GEN-07",
+    "source_name": "VnExpress (越南快讯网商业频道)",
+    "title": "Giá vàng thế giới tăng mạnh nhất 3 tháng",
+    "pub_date": "Thu, 05 Nov 2026 07:26:15 +0700",
+    "snippet": "Kim loại quý ghi nhận phiên tăng tốt nhất kể từ tháng 8, sau chiến thắng của đảng Dân chủ tại cuộc bầu cử tại Mỹ.",
+    "url": "https://vnexpress.net/gia-vang-the-gioi-tang-manh-nhat-3-thang-5140926.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:11.645160+00:00"
+  },
+  {
+    "candidate_id": 65,
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "title": "Bộ trưởng Chiến tranh Hegseth hứng 'bão' sau thất bại thảm hại của đảng Cộng hoà",
+    "pub_date": "Thu, 05 Nov 2026 09:29:00 +07",
+    "snippet": "Cuộc chiến của Mỹ ở Iran kéo tụt sự ủng hộ của cử tri dành cho đảng Cộng hòa và khiến đảng này hứng chịu thất bại nặng nề trong cuộc bầu cử giữa nhiệm kỳ. Thất bại mang tính lịch sử đó khiến Bộ trưởng Chiến tranh Pete Hegseth trở thành tâm điểm.",
+    "url": "https://cafef.vn/bo-truong-chien-tranh-hegseth-hung-bao-sau-that-bai-tham-hai-cua-dang-cong-hoa-188261105083316536.chn",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:11.456023+00:00"
+  },
+  {
+    "candidate_id": 66,
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "title": "Công ty TNHH Một Thành viên Quản lý Quỹ ACB (\"ACBC\") thông báo chào bán chứng chỉ Quỹ ACBC-BOND ra công chúng",
+    "pub_date": "Thu, 05 Nov 2026 09:30:00 +07",
+    "snippet": "Công ty TNHH Một Thành viên Quản lý Quỹ ACB trân trọng thông báo về đợt chào bán ra công chúng (IPO) của Quỹ Đầu Tư Trái phiếu ACBC (ACBC-BOND).",
+    "url": "https://cafef.vn/cong-ty-tnhh-mot-thanh-vien-quan-ly-quy-acb-acbc-thong-bao-chao-ban-chung-chi-quy-acbc-bond-ra-cong-chung-188261105083038836.chn",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:11.455955+00:00"
+  },
+  {
+    "candidate_id": 67,
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "title": "MC Ngọc Huy sau 14 năm dẫn Olympia: \"Olympia như 1 bữa ăn, menu luôn thay đổi, còn tôi thì chưa có lý do bỏ bữa\"",
+    "pub_date": "Thu, 05 Nov 2026 09:30:00 +07",
+    "snippet": "Từng có lúc \"chán\", từng bị kiến thức \"phản bội\", nhưng sau 14 mùa đồng hành, Ngọc Huy vẫn chưa tìm được lý do để rời Olympia.",
+    "url": "https://cafef.vn/mc-ngoc-huy-sau-14-nam-dan-olympia-olympia-nhu-1-bua-an-menu-luon-thay-doi-con-toi-thi-chua-co-ly-do-bo-bua-188261105083117547.chn",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:11.455887+00:00"
+  },
+  {
+    "candidate_id": 68,
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "title": "Viral bài đăng vợ kiếm 15 triệu đồng/tháng, chồng thà ở nhà còn hơn nhận việc 25-30 triệu",
+    "pub_date": "Thu, 05 Nov 2026 09:37:00 +07",
+    "snippet": "Tâm sự của cô vợ về tình trạng thất nghiệp của người chồng hiện đang nhận được sự quan tâm, tranh luận của cộng đồng mạng.",
+    "url": "https://cafef.vn/viral-bai-dang-vo-kiem-15-trieu-dong-thang-chong-tha-o-nha-con-hon-nhan-viec-25-30-trieu-188261105091948023.chn",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:11.455725+00:00"
+  },
+  {
+    "candidate_id": 69,
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "title": "Giảm thiểu ô nhiễm không khí: Kiểm soát chặt nguồn thải, siết trách nhiệm liên vùng",
+    "pub_date": "Thu, 05 Nov 2026 09:18:30 +07:00",
+    "snippet": "Để giảm ô nhiễm, việc nhận diện chính xác nguồn phát thải, thiết lập cơ chế điều phối thực chất, gắn trách nhiệm người đứng đầu với kết quả cải thiện chất lượng không khí là những yêu cầu then chốt.Giảm ô nhiễm không khí ở Hà Nội: 100% công trình lớn",
+    "url": "https://www.vietnamplus.vn/giam-thieu-o-nhiem-khong-khi-kiem-soat-chat-nguon-thai-siet-trach-nhiem-lien-vung-post1146245.vnp",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:10.875922+00:00"
+  },
+  {
+    "candidate_id": 70,
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "title": "Giá vàng trong nước bật tăng mạnh tới 2,2 triệu đồng mỗi lượng",
+    "pub_date": "Thu, 05 Nov 2026 09:30:42 +07:00",
+    "snippet": "Giá vàng SJC và vàng nhẫn trong nước tăng tới 2,2 triệu đồng/lượng sáng 5/11, trong khi tỷ giá trung tâm giảm 4 đồng và USD tại nhiều ngân hàng đi xuống.Giá vàng thế giới tăng 3% sau cú hích từ bầu cử giữa nhiệm kỳ ở MỹTrung Quốc ghi nhận xu hướng ch",
+    "url": "https://www.vietnamplus.vn/gia-vang-trong-nuoc-bat-tang-manh-toi-22-trieu-dong-moi-luong-post1146277.vnp",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:10.875739+00:00"
+  },
+  {
+    "candidate_id": 71,
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "title": "Trải nghiệm dù lượn trên vùng di sản Phong Nha-Kẻ Bàng",
+    "pub_date": "Thu, 05 Nov 2026 09:31:29 +07:00",
+    "snippet": "Từ ngày 24/11, du khách sẽ được trải nghiệm dịch vụ dù lượn, mỗi chuyến bay từ 20-30 phút, tại khu vực Phong Nha-Kẻ Bàng - sản phẩm du lịch trải nghiệm trên không lần đầu tiên tại vùng di sản.Đưa trải nghiệm bay dù lượn vào khai thác tại Phong Nha-Kẻ",
+    "url": "https://www.vietnamplus.vn/trai-nghiem-du-luon-tren-vung-di-san-phong-nha-ke-bang-post1146276.vnp",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:10.875538+00:00"
+  },
+  {
+    "candidate_id": 72,
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "title": "Sắc màu văn hóa Nga tại triển lãm ở Moskva",
+    "pub_date": "Thu, 05 Nov 2026 09:39:10 +07:00",
+    "snippet": "Triển lãm sản phẩm thủ công mỹ nghệ dân gian Nga diễn ra tại Moskva từ ngày 4-8/11 giới thiệu các sản phẩm mang bản sắc văn hóa truyền thống Nga như trang phục, phụ kiện, đồ thủ công mỹ nghệ độc đáo.TP Hồ Chí Minh: Đồng loạt khai mạc 5 triển lãm quốc",
+    "url": "https://www.vietnamplus.vn/sac-mau-van-hoa-nga-tai-trien-lam-o-moskva-post1146279.vnp",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:10.875296+00:00"
+  },
+  {
+    "candidate_id": 73,
+    "source_id": "src-A01",
+    "source_name": "Báo Chính phủ (Government Portal)",
+    "title": "Triển khai Chương trình 'Go Global', hỗ trợ doanh nghiệp vươn ra quốc tế",
+    "pub_date": "11/4/2026 5:03:00 PM",
+    "snippet": "(Chinhphu.vn) - Chương trình Go Gloabal hướng tới hỗ trợ doanh nghiệp lựa chọn con đường quốc tế hóa phù hợp với năng lực, nguồn lực, ngành hàng và mục tiêu phát triển. Các nội dung hỗ trợ bao gồm phát triển xuất khẩu và mở rộng thị trường, kinh doan",
+    "url": "https://baochinhphu.vn/trien-khai-chuong-trinh-go-global-ho-tro-doanh-nghiep-vuon-ra-quoc-te-102261104162031517.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:10.634549+00:00"
+  },
+  {
+    "candidate_id": 74,
+    "source_id": "src-A01",
+    "source_name": "Báo Chính phủ (Government Portal)",
+    "title": "Đổi mới tư duy 'Hàng Việt vì người Việt': Hàng Việt phải 'xứng đáng được tin dùng'",
+    "pub_date": "11/4/2026 8:21:00 PM",
+    "snippet": "(Chinhphu.vn) - Chương trình \"Hàng Việt vì người Việt\" giai đoạn 2026-2030 đặt ra yêu cầu mới: không chỉ dừng ở việc vận động người Việt dùng hàng Việt, mà quan trọng hơn là hàng Việt phải nâng cao chất lượng, giá trị và trải nghiệm để người Việt tin",
+    "url": "https://baochinhphu.vn/doi-moi-tu-duy-hang-viet-vi-nguoi-viet-hang-viet-phai-xung-dang-duoc-tin-dung-102261104162732018.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:10.634412+00:00"
+  },
+  {
+    "candidate_id": 75,
+    "source_id": "src-A03",
+    "source_name": "Tổng cục Thống kê (National Statistics Office - NSO)",
+    "title": "Một số nét chính tình hình kinh tế – xã hội tháng 10 và 10 tháng năm 2026",
+    "pub_date": "Wed, 04 Nov 2026 08:44:31 +0000",
+    "snippet": "Trong mười tháng năm 2026, kinh tế thế giới và trong nước tiếp tục gặp nhiều khó khăn, thách thức. Tuy nhiên, dưới sự lãnh đạo của Đảng, sự chỉ đạo quyết liệt của Chính phủ, Thủ tướng Chính phủ, nỗ lực của các bộ, ngành, địa phương, cộng đồng doanh n",
+    "url": "https://www.nso.gov.vn/bai-top/2026/11/mot-so-net-chinh-tinh-hinh-kinh-te-xa-hoi-thang-10-va-10-thang-nam-2026/",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-05T02:44:10.333174+00:00"
+  },
+  {
+    "candidate_id": 76,
+    "source_id": "src-ASSOC-04",
+    "source_name": "Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)",
+    "title": "LOTTE MART Việt Nam được vinh danh là doanh nghiệp phát triển ấn tượng 11:12:00 AM GMT+7 Thứ 4 , 04/11/2026 LOTTE MART được vinh danh “Doanh nghiệp Phát triển ấn tượng 2026”, ghi nhận nỗ lực đổi mới, nâng cao năng lực cạnh tranh và đóng góp cho tăng trưởng bền vững.",
+    "pub_date": "04/11/2026",
+    "snippet": "LOTTE MART Việt Nam được vinh danh là doanh nghiệp phát triển ấn tượng 11:12:00 AM GMT+7 Thứ 4 , 04/11/2026 LOTTE MART được vinh danh “Doanh nghiệp Phát triển ấn tượng 2026”, ghi nhận nỗ lực đổi mới, nâng cao năng lực cạnh tranh và đóng góp cho tăng trưởng bền vững.",
+    "url": "https://vcci.com.vn/tin-tuc/lotte-mart-viet-nam-duoc-vinh-danh-la-doanh-nghiep-phat-trien-an-tuong",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:49.570264+00:00"
+  },
+  {
+    "candidate_id": 77,
+    "source_id": "src-ASSOC-04",
+    "source_name": "Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)",
+    "title": "Những điểm sáng nổi bật trong 'bức tranh' kinh tế 10 tháng 11:14:00 AM GMT+7 Thứ 4 , 04/11/2026",
+    "pub_date": "04/11/2026",
+    "snippet": "Những điểm sáng nổi bật trong 'bức tranh' kinh tế 10 tháng 11:14:00 AM GMT+7 Thứ 4 , 04/11/2026",
+    "url": "https://vcci.com.vn/tin-tuc/nhung-diem-sang-noi-bat-trong-buc-tranh-kinh-te-10-thang",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:49.570165+00:00"
+  },
+  {
+    "candidate_id": 78,
+    "source_id": "src-ASSOC-04",
+    "source_name": "Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)",
+    "title": "Việt Nam xuất bán gần 500 tỷ USD hàng hóa ra toàn cầu 11:17:00 AM GMT+7 Thứ 4 , 04/11/2026",
+    "pub_date": "04/11/2026",
+    "snippet": "Việt Nam xuất bán gần 500 tỷ USD hàng hóa ra toàn cầu 11:17:00 AM GMT+7 Thứ 4 , 04/11/2026",
+    "url": "https://vcci.com.vn/tin-tuc/viet-nam-xuat-ban-gan-500-ty-usd-hang-hoa-ra-toan-cau",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:49.570094+00:00"
+  },
+  {
+    "candidate_id": 79,
+    "source_id": "src-ASSOC-04",
+    "source_name": "Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)",
+    "title": "Doanh nghiệp được hỗ trợ lãi suất vay đổi mới công nghệ tối đa 6%/năm 11:19:00 AM GMT+7 Thứ 4 , 04/11/2026",
+    "pub_date": "04/11/2026",
+    "snippet": "Doanh nghiệp được hỗ trợ lãi suất vay đổi mới công nghệ tối đa 6%/năm 11:19:00 AM GMT+7 Thứ 4 , 04/11/2026",
+    "url": "https://vcci.com.vn/tin-tuc/doanh-nghiep-duoc-ho-tro-lai-suat-vay-doi-moi-cong-nghe-toi-da-6-nam",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:49.570013+00:00"
+  },
+  {
+    "candidate_id": 80,
+    "source_id": "src-ASSOC-04",
+    "source_name": "Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)",
+    "title": "VCCI Miền Trung – Tây Nguyên làm việc với đoàn công tác tỉnh Tochigi (Nhật Bản) 11:20:00 AM GMT+7 Thứ 4 , 04/11/2026 VCCI Miền Trung – Tây Nguyên làm việc đoàn công tác tỉnh Tochigi về các vấn đề phát triển hoạt động kinh doanh và tìm kiếm nguồn nhân lực của các doanh nghiệp Nhật Bản.",
+    "pub_date": "04/11/2026",
+    "snippet": "VCCI Miền Trung – Tây Nguyên làm việc với đoàn công tác tỉnh Tochigi (Nhật Bản) 11:20:00 AM GMT+7 Thứ 4 , 04/11/2026 VCCI Miền Trung – Tây Nguyên làm việc đoàn công tác tỉnh Tochigi về các vấn đề phát triển hoạt động kinh doanh và tìm kiếm nguồn nhân lực của các doanh nghiệp Nhật Bản.",
+    "url": "https://vcci.com.vn/tin-tuc/vcci-mien-trung-tay-nguyen-lam-viec-voi-doan-cong-tac-tinh-tochigi-nhat-ban",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:49.569921+00:00"
+  },
+  {
+    "candidate_id": 81,
+    "source_id": "VN-LOC-05-HY-A",
+    "source_name": "Cổng thông tin điện tử tỉnh Hưng Yên",
+    "title": "Ban Thường vụ Tỉnh ủy họp cho ý kiến nhiều nội dung thuộc thẩm quyền Sáng ngày 4/11, đồng chí Phạm Quang Ngọc, Ủy viên Ban Chấp hành Trung ương Đảng, Bí thư Tỉnh ủy chủ trì cuộc họp Ban Thường vụ Tỉnh ủy xem xét, cho ý kiến và quyết định […]",
+    "pub_date": "04/11/2026",
+    "snippet": "Ban Thường vụ Tỉnh ủy họp cho ý kiến nhiều nội dung thuộc thẩm quyềnĐồng chí Phạm Quang Ngọc, Ủy viên Ban Chấp hành Trung ương Đảng, Bí thư Tỉnh ủy kiểm tra, khảo sát […]UBND tỉnh nghe báo cáo công tác chuẩn bị triển khai dự án Học viện An ninh nhân",
+    "url": "https://hungyen.gov.vn/ban-thuong-vu-tinh-uy-hop-cho-y-kien-nhieu-noi-dung-thuoc-tham-quyen-c287803.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:36.794025+00:00"
+  },
+  {
+    "candidate_id": 82,
+    "source_id": "VN-LOC-04-TN-B",
+    "source_name": "Ban Quản lý các Khu công nghiệp Thái Nguyên",
+    "title": "Kiểm tra, đôn đốc tiến độ giải phóng mặt bằng Khu công nghiệp Yên Bình 2",
+    "pub_date": "2026-11-04",
+    "snippet": "Kiểm tra, đôn đốc tiến độ giải phóng mặt bằng Khu công nghiệp Yên Bình 2",
+    "url": "https://bqlkcn.thainguyen.gov.vn/tin-tuc-su-kien/kiem-tra-don-doc-tien-do-giai-phong-mat-bang-khu-cong-nghiep-yen-binh-2-304461",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:25.195233+00:00"
+  },
+  {
+    "candidate_id": 83,
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "title": "Nữ NSƯT là mẹ đơn thân: \"Anh em tôi đang hẹn hò nhau qua Mỹ\"",
+    "pub_date": "Wed, 04 Nov 2026 14:56:00 +07",
+    "snippet": "\"Anh em tôi đang hẹn hò nhau qua Mỹ\" – NSƯT Cát Tường nói.",
+    "url": "https://cafef.vn/nu-nsut-la-me-don-than-anh-em-toi-dang-hen-ho-nhau-qua-my-188261104133757301.chn",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:19.585761+00:00"
+  },
+  {
+    "candidate_id": 84,
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "title": "Khi tủ lạnh bị hacker tấn công - Lỗ hổng của cả nền kinh tế kết nối",
+    "pub_date": "Wed, 04 Nov 2026 14:57:00 +07",
+    "snippet": "Làn sóng tấn công các hệ thống làm lạnh tại châu Âu mới đây phơi bày một lỗ hổng đáng lo ngại của nền kinh tế kết nối: những thiết bị bình thường, thậm chí tầm thường đang trở thành cửa ngõ để tội phạm mạng gây gián đoạn hoạt động kinh tế và đời sống",
+    "url": "https://cafef.vn/khi-tu-lanh-bi-hacker-tan-cong-lo-hong-cua-ca-nen-kinh-te-ket-noi-18826110413574315.chn",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:19.585716+00:00"
+  },
+  {
+    "candidate_id": 85,
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "title": "Phó Thống đốc Phạm Thanh Hà: NHNN quyết liệt triển khai các biện pháp giảm mặt bằng lãi suất",
+    "pub_date": "Wed, 04 Nov 2026 14:58:00 +07",
+    "snippet": "Ngân hàng Nhà nước cho biết sẽ điều hành thanh khoản một cách chủ động, cung ứng nguồn vốn thanh khoản cho thị trường để hỗ trợ việc giảm mặt bằng lãi suất trong thời gian tới.",
+    "url": "https://cafef.vn/pho-thong-doc-pham-thanh-ha-nhnn-quyet-liet-trien-khai-cac-bien-phap-giam-mat-bang-lai-suat-188261104145659813.chn",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:19.585669+00:00"
+  },
+  {
+    "candidate_id": 86,
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "title": "Lộ diện 'siêu dự án' đô thị tại Chu Lai",
+    "pub_date": "Wed, 04 Nov 2026 14:59:00 +07",
+    "snippet": "Hàng loạt dự án quy mô lớn đang được xúc tiến tại Khu kinh tế mở Chu Lai, TP. Đà Nẵng. Đáng chú ý, 3 dự án khu đô thị với tổng vốn đầu tư hơn 40.460 tỷ đồng đã lựa chọn nhà đầu tư và vừa được thành phố ấn định thời hạn khởi công vào cuối năm nay và n",
+    "url": "https://cafef.vn/lo-dien-sieu-du-an-do-thi-tai-chu-lai-188261104143924325.chn",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:19.585619+00:00"
+  },
+  {
+    "candidate_id": 87,
+    "source_id": "src-VN-FIN-03",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "title": "Đã thành danh, vì sao họ vẫn chọn bắt đầu lại với nghề tư vấn bảo hiểm?",
+    "pub_date": "Wed, 04 Nov 2026 15:00:00 +07",
+    "snippet": "Có người làm quan hệ nhà đầu tư 24 năm cho một quỹ quốc tế, người từng sở hữu ba trường mầm non, và có những người với hơn 20 năm kinh nghiệm thương trường.",
+    "url": "https://cafef.vn/da-thanh-danh-vi-sao-ho-van-chon-bat-dau-lai-voi-nghe-tu-van-bao-hiem-18826110414480191.chn",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:19.585552+00:00"
+  },
+  {
+    "candidate_id": 88,
+    "source_id": "src-B01",
+    "source_name": "VSIP Group (Vietnam Singapore Industrial Park)",
+    "title": "CÔNG TY TNHH VSIP BẮC NINH CÔNG BỐ DANH SÁCH KHÁCH HÀNG CÓ HỒ SƠ ĐÁP ỨNG ĐỦ ĐIỀU KIỆN MUA NOXH (BELHOMES SKY) TẠI CÁC LÔ ĐẤT NOXH-B2, NOXH-B4 VÀ KẾ HOẠCH BỐC THĂM LOẠI CĂN HỘ, VỊ TRÍ & DIỆN TÍCH",
+    "pub_date": "Wed, 04 Nov 2026 03:28:54 +0000",
+    "snippet": "Công ty TNHH VSIP Bắc Ninh trân trọng cảm ơn Quý Khách hàng đã quan tâm và đăng ký mua nhà ở xã hội tại dự án.\nSau khi tiếp nhận, xét duyệt hồ sơ theo quy định, Chủ đầu tư niêm yết danh sách khách hàng có hồ sơ đủ điều kiện đăng ký mua NOXH và công b",
+    "url": "https://www.vsip.com.vn/cong-ty-tnhh-vsip-bac-ninh-cong-bo-danh-sach-khach-hang-co-ho-so-dap-ung-du-dieu-kien-mua-noxh-belhomes-sky-tai-cac-lo-dat-noxh-b2-noxh-b4-va-ke-hoach-boc-tham-loai-can-ho-vi-tri-dien-tich/",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:19.454413+00:00"
+  },
+  {
+    "candidate_id": 89,
+    "source_id": "src-VN-GEN-07",
+    "source_name": "VnExpress (越南快讯网商业频道)",
+    "title": "Một cổ đông Nhà nước muốn thoái hết vốn khỏi Eximbank",
+    "pub_date": "Wed, 04 Nov 2026 07:48:03 +0700",
+    "snippet": "HFIC, doanh nghiệp 100% vốn nhà nước, đăng ký bán toàn bộ hơn 8 triệu cổ phiếu EIB, tương đương 0,45% vốn của Eximbank",
+    "url": "https://vnexpress.net/mot-co-dong-nha-nuoc-muon-thoai-het-von-khoi-eximbank-5140444.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:17.830821+00:00"
+  },
+  {
+    "candidate_id": 90,
+    "source_id": "src-VN-GEN-07",
+    "source_name": "VnExpress (越南快讯网商业频道)",
+    "title": "Giá USD xuống sát 25.900 đồng",
+    "pub_date": "Wed, 04 Nov 2026 10:36:10 +0700",
+    "snippet": "Giá USD ngân hàng liên tiếp đi xuống trong tuần qua, sáng nay về mức thấp nhất một năm rưỡi và giảm gần 1,7% so với đầu năm.",
+    "url": "https://vnexpress.net/gia-usd-xuong-sat-25-900-dong-5140562.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:17.830772+00:00"
+  },
+  {
+    "candidate_id": 91,
+    "source_id": "src-VN-GEN-07",
+    "source_name": "VnExpress (越南快讯网商业频道)",
+    "title": "Chuỗi nhà sách lớn nhất cả nước lãi kỷ lục",
+    "pub_date": "Wed, 04 Nov 2026 11:01:37 +0700",
+    "snippet": "Lợi nhuận sau thuế quý III của Fahasa, chuỗi nhà sách lớn nhất nước, đạt gần 20,7 tỷ đồng, tăng 28% so với cùng kỳ và là mức cao nhất từ khi công bố thông tin.",
+    "url": "https://vnexpress.net/chuoi-nha-sach-lon-nhat-ca-nuoc-lai-ky-luc-5140571.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:17.830718+00:00"
+  },
+  {
+    "candidate_id": 92,
+    "source_id": "src-VN-GEN-07",
+    "source_name": "VnExpress (越南快讯网商业频道)",
+    "title": "Giá điện sinh hoạt theo 5 bậc, cao nhất 3.844 đồng một kWh",
+    "pub_date": "Wed, 04 Nov 2026 11:22:29 +0700",
+    "snippet": "Từ 1/11, biểu giá điện sinh hoạt rút từ 6 xuống 5 bậc, với mức thấp nhất 1.901 đồng và cao nhất 3.844 đồng một kWh, chưa gồm VAT.",
+    "url": "https://vnexpress.net/gia-dien-sinh-hoat-theo-5-bac-cao-nhat-3-844-dong-mot-kwh-5139227.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:17.830650+00:00"
+  },
+  {
+    "candidate_id": 93,
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "title": "Why defense's blue ocean is no smooth sailing for automakers",
+    "pub_date": "Wed, 4 Nov 2026 06:59:00 GMT",
+    "snippet": "Although the defense market has emerged as a new blue ocean for the auto industry, entering it is far from smooth sailing. The main concern remains the national security sensitivities inherent in defense work. Amid international rivalry, automotive s",
+    "url": "https://www.digitimes.com/news/a20261104PD220/automakers-market-automotive-auto-industry-materials.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:17.674327+00:00"
+  },
+  {
+    "candidate_id": 94,
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "title": "GCS Holdings welcomes Marvell's Lumentum deal, locks in 2027 InP supply",
+    "pub_date": "Wed, 4 Nov 2026 07:17:59 GMT",
+    "snippet": "Marvell Technology and optical communications laser maker Lumentum announced on November 2 that they had signed a definitive agreement for Marvell to acquire Lumentum in an all-stock transaction. Compound semiconductor maker GCS welcomed the deal, sa",
+    "url": "https://www.digitimes.com/news/a20261104PD243/marvell-communications-inp-2027-laser.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:17.674304+00:00"
+  },
+  {
+    "candidate_id": 95,
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "title": "Intel reportedly targets DDR4 upgrades with Raptor Lake Next",
+    "pub_date": "Wed, 4 Nov 2026 07:22:47 GMT",
+    "snippet": "DDR4 memory, once gradually fading from the market, is regaining popularity as tight DRAM supply drives DDR5 prices higher. Following AMD's revival of processors supporting the AM4 platform, Intel is reportedly preparing to extend its Raptor Lake arc",
+    "url": "https://www.digitimes.com/news/a20261104PD210/intel-ddr4-raptor-lake-pc.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:17.674282+00:00"
+  },
+  {
+    "candidate_id": 96,
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "title": "CHT expands Google partnership with AI services",
+    "pub_date": "Wed, 4 Nov 2026 07:45:34 GMT",
+    "snippet": "Chunghwa Telecom (CHT) is expanding its partnership with Google beyond Google One, YouTube Premium and Pixel smartphone sales to include GenAI services. On November 4, CHT announced plans to introduce Google's latest AI offerings through its channels",
+    "url": "https://www.digitimes.com/news/a20261104PD247/google-cht-partnership-youtube-google-taiwan.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:17.674259+00:00"
+  },
+  {
+    "candidate_id": 97,
+    "source_id": "src-TW-MED-01",
+    "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+    "title": "Marvell's Lumentum deal gives optical DSP rivals until 2028 to court its customers",
+    "pub_date": "Wed, 4 Nov 2026 07:54:57 GMT",
+    "snippet": "Marvell's proposed all-stock acquisition of Lumentum faces a challenge beyond a shrinking takeover premium: whether optical module makers will shift orders away from its dominant optical digital signal processor (DSP) business.",
+    "url": "https://www.digitimes.com/news/a20261104PD238/marvell-acquisition-optical-components-2028.html",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:17.674225+00:00"
+  },
+  {
+    "candidate_id": 98,
+    "source_id": "src-VN-FIN-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "title": "Kế hoạch nâng công suất và hợp tác quốc tế mở rộng dư địa tăng trưởng dài hạn cho MSR",
+    "pub_date": "Wed, 04 Nov 2026 08:53:06 +0700",
+    "snippet": "CTCP Masan High-Tech Materials (UPCoM: MSR) đang tận dụng lợi thế về tài nguyên và công nghệ chế biến để kết nối nguồn nguyên liệu từ nhiều quốc gia với các thị trường tiêu thụ vonfram trên thế giới. Hợp tác với Elmet và GB Innovation giúp doanh nghi",
+    "url": "http://vietstock.vn/2026/11/ke-hoach-nang-cong-suat-va-hop-tac-quoc-te-mo-rong-du-dia-tang-truong-dai-han-cho-msr-737-1511334.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:17.396222+00:00"
+  },
+  {
+    "candidate_id": 99,
+    "source_id": "src-VN-FIN-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "title": "Giá nguyên liệu tăng, Vĩnh Hoàn rơi hơn 50% lãi quý 3",
+    "pub_date": "Wed, 04 Nov 2026 09:52:57 +0700",
+    "snippet": "CTCP Vĩnh Hoàn (HOSE: VHC) khép lại quý 3/2026 với lãi ròng giảm hơn một nửa so với cùng kỳ, trong bối cảnh doanh thu đi xuống, biên lãi gộp thu hẹp và doanh thu tài chính sụt mạnh. Lũy kế 9 tháng, doanh thu tăng nhẹ nhưng lãi ròng vẫn chưa thoát đà",
+    "url": "http://vietstock.vn/2026/11/gia-nguyen-lieu-tang-vinh-hoan-roi-hon-50-lai-quy-3-737-1511343.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:17.396183+00:00"
+  },
+  {
+    "candidate_id": 100,
+    "source_id": "src-VN-FIN-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "title": "Tập đoàn Bảo Việt được vinh danh trong danh sách Fortune Southeast Asia 500",
+    "pub_date": "Wed, 04 Nov 2026 11:19:23 +0700",
+    "snippet": "Tập đoàn Bảo Việt (HOSE: BVH) tiếp tục ghi danh trong Fortune Southeast Asia 500, khẳng định vị thế Tập đoàn tài chính - bảo hiểm hàng đầu Việt Nam.",
+    "url": "http://vietstock.vn/2026/11/tap-doan-bao-viet-duoc-vinh-danh-trong-danh-sach-fortune-southeast-asia-500-737-1511418.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:17.396142+00:00"
+  },
+  {
+    "candidate_id": 101,
+    "source_id": "src-VN-FIN-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "title": "PV GAS tăng lãi 80% nhờ giá dầu và LNG, sở hữu núi tiền gần 51 ngàn tỷ",
+    "pub_date": "Wed, 04 Nov 2026 12:18:31 +0700",
+    "snippet": "Đà tăng của giá dầu Brent trong quý 3 kéo theo giá khí đi lên, cũng như sản lượng tiêu thụ khí khô và LNG khởi sắc. Do vậy, Tổng Công ty Khí Việt Nam - CTCP (PVGAS, HOSE: GAS) có mức tăng trưởng lợi nhuận ấn tượng so với cùng kỳ.",
+    "url": "http://vietstock.vn/2026/11/pv-gas-tang-lai-80-nho-gia-dau-va-lng-so-huu-nui-tien-gan-51-ngan-ty-737-1511443.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:17.396099+00:00"
+  },
+  {
+    "candidate_id": 102,
+    "source_id": "src-VN-FIN-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "title": "Lỗ từ Thaigroup khiến Thaiholdings bốc hơi 80% lợi nhuận sau thuế quý 3",
+    "pub_date": "Wed, 04 Nov 2026 13:53:41 +0700",
+    "snippet": "CTCP Thaiholdings (HNX: THD) công bố BCTC hợp nhất quý 3/2026 với lợi nhuận sau thuế đạt 4.8 tỷ đồng, giảm 80% so với cùng kỳ. Nguyên nhân chính kéo lùi kết quả kinh doanh trong kỳ đến từ việc ghi nhận khoản lỗ từ công ty liên kết là CTCP - Tập đoàn",
+    "url": "http://vietstock.vn/2026/11/lo-tu-thaigroup-khien-thaiholdings-boc-hoi-80-loi-nhuan-sau-thue-quy-3-737-1511414.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:17.396035+00:00"
+  },
+  {
+    "candidate_id": 103,
+    "source_id": "src-JP-MED-01",
+    "source_name": "Nikkei Asia (日经亚洲)",
+    "title": "ASEAN auto sales rose 13% in Q3 on EV and hybrid demand in key markets",
+    "pub_date": "2026-11-04",
+    "snippet": "ASEAN auto sales rose 13% in Q3 on EV and hybrid demand in key markets",
+    "url": "https://asia.nikkei.com/business/automobiles/asean-auto-sales-rose-13-in-q3-on-ev-and-hybrid-demand-in-key-markets",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:16.929291+00:00"
+  },
+  {
+    "candidate_id": 104,
+    "source_id": "src-JP-MED-01",
+    "source_name": "Nikkei Asia (日经亚洲)",
+    "title": "Asian tech stocks slide as Democrats lead in US midterms",
+    "pub_date": "2026-11-04",
+    "snippet": "Asian tech stocks slide as Democrats lead in US midterms",
+    "url": "https://asia.nikkei.com/business/markets/asian-tech-stocks-slide-as-democrats-lead-in-us-midterms",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:16.929269+00:00"
+  },
+  {
+    "candidate_id": 105,
+    "source_id": "src-JP-MED-01",
+    "source_name": "Nikkei Asia (日经亚洲)",
+    "title": "US midterms live: Democrats win both Senate and House in election rout",
+    "pub_date": "2026-11-04",
+    "snippet": "US midterms live: Democrats win both Senate and House in election rout",
+    "url": "https://asia.nikkei.com/politics/u.s.-midterm-elections/us-midterms-live-democrats-win-both-senate-and-house-in-election-rout",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:16.929245+00:00"
+  },
+  {
+    "candidate_id": 106,
+    "source_id": "src-JP-MED-01",
+    "source_name": "Nikkei Asia (日经亚洲)",
+    "title": "Democrats win control of Congress in sharp rebuke to Trump",
+    "pub_date": "2026-11-04",
+    "snippet": "Democrats win control of Congress in sharp rebuke to Trump",
+    "url": "https://asia.nikkei.com/politics/u.s.-midterm-elections/democrats-win-control-of-congress-in-sharp-rebuke-to-trump",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:16.929220+00:00"
+  },
+  {
+    "candidate_id": 107,
+    "source_id": "src-JP-MED-01",
+    "source_name": "Nikkei Asia (日经亚洲)",
+    "title": "China's slumping state airlines pin hopes on overseas demand like exporters",
+    "pub_date": "2026-11-04",
+    "snippet": "China's slumping state airlines pin hopes on overseas demand like exporters",
+    "url": "https://asia.nikkei.com/business/transportation/china-s-slumping-state-airlines-pin-hopes-on-overseas-demand-like-exporters",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:16.929177+00:00"
+  },
+  {
+    "candidate_id": 108,
+    "source_id": "src-A01",
+    "source_name": "Báo Chính phủ (Government Portal)",
+    "title": "Quản lý thuế TMĐT tự động: Gỡ khó cho hộ kinh doanh số",
+    "pub_date": "11/4/2026 12:40:00 PM",
+    "snippet": "(Chinhphu.vn) - Quy định các nền tảng thương mại điện tử thực hiện khấu trừ, kê khai và nộp thuế thay đối với hộ, cá nhân kinh doanh góp phần đơn giản hóa thủ tục, nâng cao hiệu quả quản lý thuế và tạo môi trường kinh doanh minh bạch, công bằng. Tuy",
+    "url": "https://baochinhphu.vn/quan-ly-thue-tmdt-tu-dong-go-kho-cho-ho-kinh-doanh-so-102261103093742106.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:16.793730+00:00"
+  },
+  {
+    "candidate_id": 109,
+    "source_id": "src-A01",
+    "source_name": "Báo Chính phủ (Government Portal)",
+    "title": "Biểu giá điện mới: Hộ sử dụng dưới 900 kWh/tháng được giảm tiền điện",
+    "pub_date": "11/4/2026 1:02:00 PM",
+    "snippet": "(Chinhphu.vn) - Theo tính toán của Tập đoàn Điện lực Việt Nam (EVN), việc áp dụng biểu giá điện sinh hoạt 5 bậc kết hợp giảm 2% giá bán lẻ điện từ ngày 1/11/2026 giúp các hộ sử dụng dưới 900 kWh/tháng được giảm tiền điện.",
+    "url": "https://baochinhphu.vn/bieu-gia-dien-moi-ho-su-dung-duoi-900-kwh-thang-duoc-giam-tien-dien-102261104123406615.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:16.793705+00:00"
+  },
+  {
+    "candidate_id": 110,
+    "source_id": "src-A01",
+    "source_name": "Báo Chính phủ (Government Portal)",
+    "title": "FPT Retail ba năm liên tiếp thăng hạng trong Fortune Southeast Asia 500: Sức bật từ nâng cao hiệu quả hoạt động",
+    "pub_date": "11/4/2026 1:24:00 PM",
+    "snippet": "(Chinhphu.vn) - Ngày 3/11, FPT Retail ghi dấu ấn với \"cú đúp\" vinh danh từ Fortune, khi tiếp tục thăng hạng trong Bảng xếp hạng 500 doanh nghiệp lớn nhất Đông Nam Á theo doanh thu (Fortune Southeast Asia 500). Cùng dịp này, bà Nguyễn Bạch Điệp - Chủ",
+    "url": "https://baochinhphu.vn/fpt-retail-thang-hang-tai-fortune-southeast-asia-500-10226110412254702.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:16.793678+00:00"
+  },
+  {
+    "candidate_id": 111,
+    "source_id": "src-A01",
+    "source_name": "Báo Chính phủ (Government Portal)",
+    "title": "Giảm thuế xăng, giá điện dự kiến kéo CPI tháng 11 giảm 0,5 điểm phần trăm",
+    "pub_date": "11/4/2026 1:24:00 PM",
+    "snippet": "(Chinhphu.vn) - CPI bình quân 10 tháng năm 2026 tăng 4,57%, cao hơn mục tiêu 4,5% của cả năm. Trước áp lực này, Bộ Tài chính đề xuất 5 nhóm giải pháp điều hành giá, đồng thời triển khai các chính sách giảm thuế xăng và giá điện nhằm góp phần kiểm soá",
+    "url": "https://baochinhphu.vn/giam-thue-xang-gia-dien-du-kien-keo-cpi-thang-11-giam-05-diem-phan-tram-102261104132720477.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:16.793653+00:00"
+  },
+  {
+    "candidate_id": 112,
+    "source_id": "src-A01",
+    "source_name": "Báo Chính phủ (Government Portal)",
+    "title": "EVNNPT được chấp thuận là nhà đầu tư dự án trạm biến áp 220kV Thống Nhất và đường dây đấu nối",
+    "pub_date": "11/4/2026 2:40:00 PM",
+    "snippet": "(Chinhphu.vn) - UBND thành phố Đồng Nai vừa ban hành Quyết định chấp thuận Tổng công ty Truyền tải điện quốc gia (EVNNPT) là nhà đầu tư thực hiện dự án trạm biến áp 220 kV Thống Nhất và đường dây đấu nối.",
+    "url": "https://baochinhphu.vn/evnnpt-duoc-chap-thuan-la-nha-dau-tu-du-an-tram-bien-ap-220kv-thong-nhat-va-duong-day-dau-noi-102261104133659479.htm",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:16.793615+00:00"
+  },
+  {
+    "candidate_id": 113,
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "title": "Giá dầu thô khó định hướng do những tín hiệu trái chiều từ Mỹ",
+    "pub_date": "Wed, 04 Nov 2026 14:47:43 +07:00",
+    "snippet": "Dù lượng dự trữ dầu thô tại Mỹ giảm mạnh, thị trường năng lượng vẫn chịu áp lực giằng co trước các tín hiệu chính trị trái chiều từ cuộc bầu cử giữa nhiệm kỳ nước này và căng thẳng tại Trung Đông.Giá dầu tại châu Á tăng do lo ngại căng thẳng leo than",
+    "url": "https://www.vietnamplus.vn/gia-dau-tho-kho-dinh-huong-do-nhung-tin-hieu-trai-chieu-tu-my-post1146119.vnp",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:16.719359+00:00"
+  },
+  {
+    "candidate_id": 114,
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "title": "Thủ tướng Lê Minh Hưng: Kiên định mục tiêu tăng trưởng hai con số, kiểm soát lạm phát",
+    "pub_date": "Wed, 04 Nov 2026 14:50:25 +07:00",
+    "snippet": "Thủ tướng nhấn mạnh Chính phủ quyết tâm, kiên định mục tiêu tăng trưởng hai con số gắn với giữ vững ổn định kinh tế vĩ mô; ưu tiên cao nhất cho mục tiêu kiểm soát lạm phát trong 2 tháng cuối năm.Áp lực huy động vốn cho mục tiêu tăng trưởng hai con số",
+    "url": "https://www.vietnamplus.vn/thu-tuong-le-minh-hung-kien-dinh-muc-tieu-tang-truong-hai-con-so-kiem-soat-lam-phat-post1146121.vnp",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:16.719215+00:00"
+  },
+  {
+    "candidate_id": 115,
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "title": "Tái hiện hình ảnh xuống đồng, cày ruộng tại Lễ hội Tịch điền ở Điện Bàn Bắc",
+    "pub_date": "Wed, 04 Nov 2026 14:51:30 +07:00",
+    "snippet": "Nghi thức Tịch điền - hoạt động trọng tâm, mang ý nghĩa biểu tượng và là linh hồn của Lễ hội Tịch điền phường Điện Bàn Bắc, Đà Nẵng - sẽ tái hiện hình ảnh xuống đồng, cày ruộng theo truyền thống.Trâu Việt Nam hóa tác phẩm nghệ thuật tại Lễ hội Tịch đ",
+    "url": "https://www.vietnamplus.vn/tai-hien-hinh-anh-xuong-dong-cay-ruong-tai-le-hoi-tich-dien-o-dien-ban-bac-post1146116.vnp",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:16.719072+00:00"
+  },
+  {
+    "candidate_id": 116,
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "title": "El Nino năm 2027 dự báo khốc liệt, Lâm Đồng lên phương án ứng phó hạn hán",
+    "pub_date": "Wed, 04 Nov 2026 14:54:29 +07:00",
+    "snippet": "Hiện đang trong thời điểm mùa mưa song lượng mưa trong tháng 10/2026 ở Lâm Đồng sụt giảm nghiêm trọng so với cùng kỳ, tỉnh đang đánh giá lưu lượng nước trên lưu vực sông Đồng Nai và Sêrêpốk.Bolivia ban bố tình trạng khẩn cấp ứng phó với tác đ",
+    "url": "https://www.vietnamplus.vn/el-nino-nam-2027-du-bao-khoc-liet-lam-dong-len-phuong-an-ung-pho-han-han-post1146122.vnp",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:16.718904+00:00"
+  },
+  {
+    "candidate_id": 117,
+    "source_id": "src-VN-GEN-01",
+    "source_name": "VietnamPlus (越通社官方)",
+    "title": "Kết nối di sản với sáng tạo qua nghệ thuật sơn mài",
+    "pub_date": "Wed, 04 Nov 2026 14:56:50 +07:00",
+    "snippet": "Từ ngày 4-30/11, tại di tích đình Hà Vĩ, không gian trưng bày “Chạm di sản-sáng tạo cùng sơn mài” giới thiệu sản phẩm sơn mài kết hợp tham quan nhằm thúc đẩy phát triển văn hóa, du lịch Thủ đô.Khi tò he và sơn mài Việt Nam “kể chuyện” tại BRICS BAZAA",
+    "url": "https://www.vietnamplus.vn/ket-noi-di-san-voi-sang-tao-qua-nghe-thuat-son-mai-post1146120.vnp",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:16.718730+00:00"
+  },
+  {
+    "candidate_id": 118,
+    "source_id": "src-A10",
+    "source_name": "Tham vấn Giấy phép môi trường (Discharge Permits - MAE)",
+    "title": "Dự án Nakashima Việt Nam",
+    "pub_date": "02-11-2026",
+    "snippet": "Địa điểm: Lô CN2.2B, khu công nghiệp Đình Vũ, thuộc khu kinh tế Đình Vũ – Cát Hải, phường Đông Hải, thành phố Hải Phòng. Chủ dự án: Công ty TNHH Nakashima Việt Nam",
+    "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6421",
+    "http_status": 200,
+    "project_match": {
+      "is_match": true,
+      "project_id": "PRJ-VN-2026-MISC-0001",
+      "project_name": "Dự án Nakashima Việt Nam",
+      "project_name_cn": "Dự án Nakashima Việt Nam",
+      "investor_name": "Công ty TNHH Nakashima Việt Nam",
+      "province": "Hải Phòng",
+      "current_stage": "PERMIT_APPLIED",
+      "last_reported_milestone": null
+    },
+    "fetched_at": "2026-11-04T08:02:15.046189+00:00"
+  },
+  {
+    "candidate_id": 119,
+    "source_id": "src-A03",
+    "source_name": "Tổng cục Thống kê (National Statistics Office - NSO)",
+    "title": "Báo cáo tình hình kinh tế – xã hội tháng Mười và 10 tháng năm 2026",
+    "pub_date": "Tue, 03 Nov 2026 02:00:31 +0000",
+    "snippet": "Sản xuất nông, lâm nghiệp và thủy sản trong tháng Mười đạt kết quả tích cực nhờ điều kiện thời tiết thuận lợi. Các địa phương tập trung thu hoạch lúa mùa, gieo cấy lúa thu đông và gieo trồng cây vụ đông. Hoạt động nuôi trồng thủy sản duy trì ổn định,",
+    "url": "https://www.nso.gov.vn/bai-top/2026/11/bao-cao-tinh-hinh-kinh-te-xa-hoi-thang-muoi-va-10-thang-nam-2026/",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:14.817379+00:00"
+  },
+  {
+    "candidate_id": 120,
+    "source_id": "src-A03",
+    "source_name": "Tổng cục Thống kê (National Statistics Office - NSO)",
+    "title": "Chỉ số giá tiêu dùng, chỉ số giá vàng và chỉ số giá đô la Mỹ tháng Mười và mười tháng năm 2026",
+    "pub_date": "Tue, 03 Nov 2026 02:01:54 +0000",
+    "snippet": "Chỉ số giá tiêu dùng (CPI) tháng Mười tăng 0,20% so với tháng trước, chủ yếu do giá xăng dầu trong nước điều chỉnh tăng theo giá nhiên liệu thế giới. CPI tháng Mười tăng 4,41% so với tháng 12/2025 và tăng 5,09% so với cùng kỳ năm trước. Bình quân mườ",
+    "url": "https://www.nso.gov.vn/du-lieu-va-so-lieu-thong-ke/2026/11/chi-so-gia-tieu-dung-chi-so-gia-vang-va-chi-so-gia-do-la-my-thang-muoi-va-muoi-thang-nam-2026/",
+    "http_status": 200,
+    "project_match": {
+      "is_match": false
+    },
+    "fetched_at": "2026-11-04T08:02:14.817352+00:00"
+  }
+]

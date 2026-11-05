@@ -69,11 +69,13 @@ def load_email_config():
 
 
 def get_curated_intelligence():
-    """获取审校后的完整情报列表"""
+    """获取审校后的完整情报列表（优先读取今日动态汇编，降级读取基准底册）"""
     sys.path.insert(0, str(BASE_DIR / "scripts" / "stage2"))
     try:
         import generate_html_report
-        return generate_html_report.CURATED_INTELLIGENCE
+        if hasattr(generate_html_report, "get_curated_intelligence_items"):
+            return generate_html_report.get_curated_intelligence_items()
+        return getattr(generate_html_report, "CURATED_INTELLIGENCE", [])
     except Exception as e:
         print(f"[错误] 加载情报数据失败: {e}")
         return []

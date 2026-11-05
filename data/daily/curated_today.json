@@ -1,0 +1,193 @@
+[
+  {
+    "category": "FDI",
+    "title": "胡志明市前10月吸收外资突破191亿美元 同比大幅暴增4.2倍",
+    "fact": "2026年11月5日，胡志明市统计局通报：2026年前10个月该市吸收FDI注册与增资总额达191亿美元，同比大幅增长4.2倍，创近年新高，主要投向高科技研发、现代服务业与先进制程配套。",
+    "reason": "南部经济龙头在外资高附加值领域的集聚效应全面复苏，外资到位资金加速转化，直接带动东南部高标厂房与智慧物流园区租赁需求。",
+    "sub_tag": "FDI大盘",
+    "date": "2026-11-05",
+    "source_name": "VnExpress (越南快讯网)",
+    "url": "https://vnexpress.net/von-fdi-vao-tp-hcm-tang-hon-4-lan-5141078.html",
+    "fingerprint": "fdi_hcmc_10m_191b_20261105"
+  },
+  {
+    "category": "FDI",
+    "title": "日本枥木县政企联合代表团访越 布局中南部沿海走廊精密制造与人才对接",
+    "fact": "2026年11月4日，越南工商联合会（VCCI）中南部与西原分会与日本枥木县工作代表团举行会谈，双方就推动日资地方型精密制造企业供应链延伸及产业高技能人才合作达成深度共识。",
+    "reason": "日资地方型汽配与机械配套企业正加速向越南沿海走廊梯次转移，需密切关注其后续在岘港、广南等沿海园区的新设工厂选址意向。",
+    "sub_tag": "日资出海",
+    "date": "2026-11-04",
+    "source_name": "越南工商联合会 (VCCI)",
+    "url": "https://vcci.com.vn/tin-tuc/vcci-mien-trung-tay-nguyen-lam-viec-voi-doan-cong-tac-tinh-tochigi-nhat-ban",
+    "fingerprint": "fdi_tochigi_japan_vcci_20261104"
+  },
+  {
+    "category": "FDI",
+    "title": "东盟主要市场三季度汽车销量增长13% 电动与混动车型成外资增量主力",
+    "fact": "2026年11月4日，日经亚洲发布产业数据：受益于越南、泰国等市场对纯电及插电混动车的强劲需求，东盟第三季度汽车总销量同比增长13%，新能源车外资渗透率显著提速。",
+    "reason": "越南本土车企（VinFast）与新入局中日韩合资车企产能爬坡迅速，正在强力拉动上游动力电池、车载线束及热管理系统本土化采购链条扩张。",
+    "sub_tag": "产业转移",
+    "date": "2026-11-04",
+    "source_name": "日经亚洲 (Nikkei Asia)",
+    "url": "https://asia.nikkei.com/business/automobiles/asean-auto-sales-rose-13-in-q3-on-ev-and-hybrid-demand-in-key-markets",
+    "fingerprint": "fdi_asean_auto_ev_q3_20261104"
+  },
+  {
+    "category": "INDUSTRIAL_PARKS",
+    "title": "太原省工业园区管委会督战安平二期工业区征地拆迁 加快配套三星电子供应链",
+    "fact": "2026年11月4日，太原省各工业园区管委会现场检查并督促安平二期工业区（KCN Yên Bình 2）场地清表与征地拆迁进度，要求相关部门协同保障高科技投资商如期进场施工。",
+    "reason": "安平工业区为三星电子北越核心制造基地所在载体，二期扩建直接承接半导体与消费电子二三级供应链扩产需求，净地交付是后续开工的硬指标。",
+    "sub_tag": "园区征地",
+    "date": "2026-11-04",
+    "source_name": "太原省工业区管委会官网",
+    "url": "https://bqlkcn.thainguyen.gov.vn/tin-tuc-su-kien/kiem-tra-don-doc-tien-do-giai-phong-mat-bang-khu-cong-nghiep-yen-binh-2-304461",
+    "fingerprint": "parks_yen_binh_2_thai_nguyen_20261104"
+  },
+  {
+    "category": "INDUSTRIAL_PARKS",
+    "title": "标杆工业地产商西贡VRG（SIP）前三季度净利超额35% 拟派发1.09万亿越盾现金股息",
+    "fact": "2026年11月5日，越南南部标杆工业园区开发商西贡VRG投资股份公司（SIP）公告：前三季度超额完成全年营收18%及净利目标35%，拟斥资1.09万亿越盾实施首期现金分红，股息率达45%。",
+    "reason": "东南部（胡志明、西宁、同奈）工业地租与厂房出租率持续高位，标杆园区充裕的现金流为其后续扩充优质工业用地储备提供坚实底气。",
+    "sub_tag": "标杆开发商",
+    "date": "2026-11-05",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "url": "http://vietstock.vn/2026/11/vuot-ke-hoach-nam-sip-sap-chi-1090-ty-dong-tam-ung-co-tuc-737-1511768.htm",
+    "fingerprint": "parks_sip_saigon_vrg_dividend_20261105"
+  },
+  {
+    "category": "INDUSTRIAL_PARKS",
+    "title": "VSIP北宁正式公示园区配套工人保障房Belhomes Sky合规申购名单与抽签方案",
+    "fact": "2026年11月4日，VSIP北宁责任有限公司依法公示其园区NOXH-B2、B4地块保障性住房（Belhomes Sky）符合申购条件的产业工人名单，并确定房型与面积公开摇号方案。",
+    "reason": "越南新《土地法》与《住房法》强制要求大型工业园区配备产城融合工人居所，VSIP推进保障房落地有助于平抑园区劳动力流失率并满足ESG外资验厂标准。",
+    "sub_tag": "产城配套",
+    "date": "2026-11-04",
+    "source_name": "VSIP集团官网",
+    "url": "https://www.vsip.com.vn/cong-ty-tnhh-vsip-bac-ninh-cong-bo-danh-sach-khach-hang-co-ho-so-dap-ung-du-dieu-kien-mua-noxh-belhomes-sky-tai-cac-lo-dat-noxh-b2-noxh-b4-va-ke-hoach-boc-tham-loai-can-ho-vi-tri-dien-tich/",
+    "fingerprint": "parks_vsip_bac_ninh_belhomes_20261104"
+  },
+  {
+    "category": "SECTORS",
+    "title": "越南军工电信（Viettel）正式发布自研商用安全芯片VGC v1.0 构筑半导体本土底座",
+    "fact": "2026年11月5日，越南政府门户网通报：由越南工程师完全自主研发设计的安全芯片VGC v1.0正式发布，标志着越南半导体本土自研迈出关键一步，将用于重点通信与安防硬件。",
+    "reason": "越南国家半导体战略（至2030年）进入攻坚期，国家龙头企业推进芯片设计实体落地，将拉动本土封测（如安沛、北江工厂）与特种应用供应链整合。",
+    "sub_tag": "重点追踪",
+    "sector_name": "半导体封测与集成电路",
+    "date": "2026-11-05",
+    "source_name": "越南政府门户网 (Government Portal)",
+    "url": "https://baochinhphu.vn/khi-viettel-xay-be-phong-cho-chip-make-in-vietnam-102261105121756743.htm",
+    "fingerprint": "sec_viettel_chip_vgc_v1_20261105"
+  },
+  {
+    "category": "SECTORS",
+    "title": "全球电气巨头伊顿（Eaton）携手KPS引入美系配电设备 重点配套数据中心与算力枢纽",
+    "fact": "2026年11月5日，美国电力管理巨头伊顿（Eaton）与越南KPS集团达成战略合作，在越推广母线槽（Busway）、特种干式变压器及配电保护设备，直供算力数据中心与大型高端工业项目。",
+    "reason": "超大规模数据中心与高耗能智造厂房在越加速立项，对高阶供配电架构及母线系统的稳定性提出严苛要求，欧美高端电力设备商正加速抢滩越南本地供应链。",
+    "sub_tag": "重点追踪",
+    "sector_name": "数据中心与算力枢纽",
+    "date": "2026-11-05",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "url": "https://cafef.vn/eaton-va-kps-hop-tac-dua-giai-phap-ha-tang-dien-cong-nghe-my-den-viet-nam-188261105114612314.chn",
+    "fingerprint": "sec_eaton_kps_datacenter_power_20261105"
+  },
+  {
+    "category": "SECTORS",
+    "title": "日本冷链物流企业加速拓展越南温控仓储与配送网络 抢占高标冷库资产",
+    "fact": "2026年11月5日，日经亚洲报道：日本冷链物流科技企业通过搭建端到端温控仓储与末端冷藏配送系统，加速在越南南北走廊延伸生鲜与医药冷链网络。",
+    "reason": "越南高标冷链仓储长期处于结构性供不应求状态，外资专业运营团队进驻将提升高标冷库资产价值与周转效率，利好专业工业物流开发商。",
+    "sub_tag": "重点追踪",
+    "sector_name": "高标冷链与智慧仓储",
+    "date": "2026-11-05",
+    "source_name": "日经亚洲 (Nikkei Asia)",
+    "url": "https://asia.nikkei.com/business/food-beverage/japan-logistics-startups-expand-cold-food-networks-in-malaysia-vietnam",
+    "fingerprint": "sec_japan_cold_chain_logistics_20261105"
+  },
+  {
+    "category": "SECTORS",
+    "title": "马山高新材料（MSR）推进国际战略合作 提升全球半导体与电池级钨深加工产能",
+    "fact": "2026年11月4日，越南矿业巨头马山高新材料（Masan High-Tech Materials, MSR）披露：正通过产线升级与国际深加工合作，扩大面向半导体制造及储能电池级高纯钨合金的供给规模。",
+    "reason": "在关键矿产地缘管制背景下，越南作为全球除中国外最大的钨精矿提炼基地，其高阶材料出口与供应链绑定具有极高战略防御价值。",
+    "sub_tag": "重点追踪",
+    "sector_name": "精密制造与工业自动化",
+    "date": "2026-11-04",
+    "source_name": "Vietstock (越南证券投资门户)",
+    "url": "http://vietstock.vn/2026/11/ke-hoach-nang-cong-suat-va-hop-tac-quoc-te-mo-rong-du-dia-tang-truong-dai-han-cho-msr-737-1511334.htm",
+    "fingerprint": "sec_masan_msr_tungsten_semiconductor_20261104"
+  },
+  {
+    "category": "APPROVALS",
+    "title": "越南资源环境部（MAE）依法公示中岛（Nakashima）越南高精制造扩建项目环评报告",
+    "fact": "越南自然资源与环境部（MAE）正式挂网公示日本中岛螺旋桨制造（Nakashima Vietnam）在海防市的高精船舶推进系统扩建项目环境影响评价（ĐTM）全本文件，进入公众征询程序。",
+    "reason": "外资重工与精密铸造项目进入实质环保法定公示期，是该扩建项目开工前合规链条的决定性闭环节点，为后续排污许可审批奠定基础。",
+    "sub_tag": "环评MAE",
+    "date": "2026-11-04",
+    "source_name": "越南资源环境部法定参议公示网",
+    "url": "https://thamvan.mae.gov.vn/XemChiTiet/XemChiTietDuAn?id=6421",
+    "fingerprint": "appr_nakashima_eia_dtm_20261104"
+  },
+  {
+    "category": "APPROVALS",
+    "title": "越南国家输电公司（EVNNPT）获批统一步220kV变电站及配套送出工程投资主体",
+    "fact": "2026年11月4日，越南政府主管部门正式核准国家输电总公司（EVNNPT）作为同奈省统一步（Thống Nhất）220kV变电站及联络送电线路的法定投资主体，批复总投资额数千亿越盾。",
+    "reason": "该变电工程为同奈省工业区密集用电走廊的关键解耦枢纽，项目主体获批将直接纾解周边外资制造工厂迎峰度夏的网架负荷瓶颈。",
+    "sub_tag": "电力专项审批",
+    "date": "2026-11-04",
+    "source_name": "越南政府门户网 (Government Portal)",
+    "url": "https://baochinhphu.vn/evnnpt-duoc-chap-thuan-la-nha-dau-tu-du-an-tram-bien-ap-220kv-thong-nhat-va-duong-day-dau-noi-102261104133659479.htm",
+    "fingerprint": "appr_evnnpt_thong_nhat_220kv_20261104"
+  },
+  {
+    "category": "APPROVALS",
+    "title": "越南国家统计总局（NSO）正式发布前10月宏观经济运行公报与实体投资白皮书",
+    "fact": "2026年11月4日，越南统计总局（NSO）依法披露《2026年10月及前10个月国民经济与社会发展公报》，工业生产指数（IIP）与进出口顺差保持双位数字稳健扩张，各省项目核准数据入册。",
+    "reason": "官方权威统计数据确立了四季度各省规上企业开工率与固定资产投资（FDI实际到位）基准，为研判年终越盾汇率与工业用电走势提供法理依据。",
+    "sub_tag": "宏观法定公报",
+    "date": "2026-11-04",
+    "source_name": "越南国家统计局官网",
+    "url": "https://www.nso.gov.vn/bai-top/2026/11/mot-so-net-chinh-tinh-hinh-kinh-te-xa-hoi-thang-10-va-10-thang-nam-2026/",
+    "fingerprint": "appr_nso_economic_bulletin_10m_20261104"
+  },
+  {
+    "category": "MACRO_MARKET",
+    "title": "越南央行（NHNN）副行长明确部署决断施策 坚决压降实体经济综合借贷利率",
+    "fact": "2026年11月4日，越南国家银行（NHNN）副行长范清河（Phạm Thanh Hà）主持会议强调：央行将坚决综合施策，督促各商业银行压降营运成本，下调实体企业贷款利率。",
+    "reason": "央行定调定向宽松，重点倾斜制造业、科技型企业与出口产业，有助于缓解中越跨境出海企业的流动资金信贷成本压力。",
+    "sub_tag": "货币与金融政策",
+    "date": "2026-11-04",
+    "source_name": "CafeF (越南金融资本与上市公司)",
+    "url": "https://cafef.vn/pho-thong-doc-pham-thanh-ha-nhnn-quyet-liet-trien-khai-cac-bien-phap-giam-mat-bang-lai-suat-188261104145659813.chn",
+    "fingerprint": "macro_nhnn_rate_cut_20261104"
+  },
+  {
+    "category": "MACRO_MARKET",
+    "title": "越南工贸部正式出台全国用电新阶梯方案 最高档执行3844越盾/kWh",
+    "fact": "2026年11月4日，越南工贸部正式明确调整用电阶梯计价方案，将现行6档简化为5档阶梯，最高档定价达3,844越盾/kWh，工业与商业用电关联计费细则同步联动。",
+    "reason": "电价机制改革倒逼工业园区与高耗能企业加速配置分布式屋顶光伏（Rooftop Solar）与绿电直购（DPPA）机制，以对冲基网电价上涨成本。",
+    "sub_tag": "能源电价机制",
+    "date": "2026-11-04",
+    "source_name": "VnExpress (越南快讯网商业频道)",
+    "url": "https://vnexpress.net/gia-dien-sinh-hoat-theo-5-bac-cao-nhat-3-844-dong-mot-kwh-5139227.html",
+    "fingerprint": "macro_power_tariff_5tier_20261104"
+  },
+  {
+    "category": "MACRO_MARKET",
+    "title": "越南政府出台制造企业技术升级贴息新政 每年最高补贴商业贷款利息6%",
+    "fact": "2026年11月4日，越南官方出台制造业转型扶持细则：凡投资于设备更新、绿色减排与工业自动化技术改造的在越制造企业，政府每年提供最高6%的贷款利息补贴。",
+    "reason": "贴息政策将直接激发传统劳动密集型外资工厂采购国产/中资自动化设备及数控机床的资本开支意愿，推动产能向高精尖迭代。",
+    "sub_tag": "产业扶持政策",
+    "date": "2026-11-04",
+    "source_name": "越南工商联合会 (VCCI)",
+    "url": "https://vcci.com.vn/tin-tuc/doanh-nghiep-duoc-ho-tro-lai-suat-vay-doi-moi-cong-nghe-toi-da-6-nam",
+    "fingerprint": "macro_tech_upgrade_subsidy_6pct_20261104"
+  },
+  {
+    "category": "MACRO_MARKET",
+    "title": "越南前10个月进出口外贸总值突破近5000亿美元 制造业机电出口占主导",
+    "fact": "2026年11月4日，越南外贸统计显示：2026年前10个月越南进出口贸易总额已接近5000亿美元关口，电子计算机、手机配件及机械设备构筑外贸顺差主力支柱。",
+    "reason": "全球科技消费换代与中越跨境物流通关提速，为越南北部中资电子供应链集群提供了高景气的出货支撑，显示出极强出口韧性。",
+    "sub_tag": "宏观外贸走势",
+    "date": "2026-11-04",
+    "source_name": "越南工商联合会 (VCCI)",
+    "url": "https://vcci.com.vn/tin-tuc/viet-nam-xuat-ban-gan-500-ty-usd-hang-hoa-ra-toan-cau",
+    "fingerprint": "macro_trade_500b_export_20261104"
+  }
+]
