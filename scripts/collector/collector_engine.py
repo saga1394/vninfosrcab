@@ -419,40 +419,6 @@ class AdapterMatrix:
                             "fetched_at": datetime.now(timezone.utc).isoformat()
                         })
 
-        elif table_type == "bocao":
-            # 全国企业登记电子公告
-            resp = self.client.get(src["endpoint"], timeout=20)
-            soup = BeautifulSoup(resp.text, "html.parser")
-            target_table = None
-            for tbl in soup.find_all("table"):
-                if "Thời gian" in tbl.get_text():
-                    target_table = tbl
-                    break
-            if target_table:
-                for tr in target_table.find_all("tr")[1:6]:
-                    tds = tr.find_all("td")
-                    if len(tds) >= 4:
-                        pub_time = tds[0].get_text(strip=True)
-                        name_code = re.sub(r'\s+', ' ', tds[1].get_text(' ', strip=True))
-                        cat = tds[2].get_text(strip=True)
-                        detail_a = tds[3].find("a")
-                        link = urljoin(src["endpoint"], detail_a["href"]) if detail_a and detail_a.get("href") else src["endpoint"]
-                        records.append({
-                            "fingerprint": compute_fingerprint(src["source_id"], link, name_code),
-                            "source_id": src["source_id"],
-                            "source_name": src["name"],
-                            "category": src["category"],
-                            "tier": src["tier"],
-                            "fetch_channel": "table",
-                            "province": src.get("province", "National"),
-                            "dimension_hints": src.get("dimension_hints", []),
-                            "title": name_code,
-                            "pub_date": pub_time,
-                            "snippet": f"Loại công bố: {cat} | {name_code}",
-                            "url": link,
-                            "fetched_at": datetime.now(timezone.utc).isoformat()
-                        })
-
         return records
 
     def fetch_card(self, src: dict) -> list:

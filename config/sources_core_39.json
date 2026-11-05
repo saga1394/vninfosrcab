@@ -115,20 +115,6 @@
       "enabled": true
     },
     {
-      "source_id": "src-A08",
-      "name": "Bố cáo điện tử (National Enterprise Registration Announcements)",
-      "cluster": "Cluster 2: National Regulatory",
-      "category": "National Official",
-      "tier": "L1",
-      "province": "National",
-      "dimension_hints": ["D01", "D02"],
-      "channel": "table",
-      "target_url": "https://bocaodientu.dkkd.gov.vn",
-      "endpoint": "https://bocaodientu.dkkd.gov.vn/egazette/Forms/Egazette/DefaultAnnouncements.aspx",
-      "table_type": "bocao",
-      "enabled": true
-    },
-    {
       "source_id": "src-A01",
       "name": "Báo Chính phủ (Government Portal)",
       "cluster": "Cluster 2: National Regulatory",
