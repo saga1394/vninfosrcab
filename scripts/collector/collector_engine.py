@@ -214,10 +214,11 @@ class AdapterMatrix:
 
         if api_type == "cninfo":
             # 巨潮资讯网
+            today_fmt = datetime.now().strftime("%Y-%m-%d")
             payload = {
                 "pageNum": 1, "pageSize": 5, "column": "szse", "tabName": "fulltext",
                 "plateau": "", "stock": "", "searchkey": "越南", "secid": "",
-                "category": "", "trade": "", "seDate": "2024-01-01~2026-11-02"
+                "category": "", "trade": "", "seDate": f"2024-01-01~{today_fmt}"
             }
             resp = self.client.post(src["endpoint"], data=payload, timeout=15)
             data = resp.json()

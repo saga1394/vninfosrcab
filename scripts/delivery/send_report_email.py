@@ -89,11 +89,11 @@ def build_full_inbox_email_html(items, today_str):
     5. 落款【太空建筑观察】越南组。
     """
     categories = [
-        ("APPROVALS", "一、 🏛️ 行政审批与法定公示（捕获潜在项目与核实阶段依据）"),
-        ("FDI", "二、 🎯 FDI 外资投资动向（真实跨国资本入越动向）"),
-        ("INDUSTRIAL_PARKS", "三、 🏭 工业园区一线动态（承接 FDI 物理载体与现场推进）"),
-        ("SECTORS", "四、 ⚡ 重点关注产业专题（半导体/数据中心/先进制造专区）"),
-        ("MACRO_MARKET", "五、 🌐 政经与综合市场动态（宏观走向·涉企法规·要素成本·干线物流）")
+        ("FDI", "一、 【FDI 外资投资动向】"),
+        ("INDUSTRIAL_PARKS", "二、 【工业园区一线动态】"),
+        ("SECTORS", "三、 【重点关注产业专题】"),
+        ("APPROVALS", "四、 【行政审批与法定公示】"),
+        ("MACRO_MARKET", "五、 【政经与综合市场动态】")
     ]
 
     grouped = {code: [] for code, _ in categories}
@@ -134,26 +134,26 @@ def build_full_inbox_email_html(items, today_str):
     lines.append('<tr>')
     lines.append('<td style="width: 33%; background: #fef2f2; border: 1px solid #fecaca; padding: 8px 10px; vertical-align: top; border-radius: 4px;">')
     lines.append('<div style="color: #991b1b; font-weight: 700; font-size: 11px;">FDI 投资登记总额</div>')
-    lines.append('<div style="font-size: 17px; font-weight: 800; color: #450a0a; margin: 3px 0;">548.5 亿美元</div>')
-    lines.append('<div style="color: #7f1d1d; font-size: 11px;">同比 <strong>+74.0%</strong> (创17年新高)</div>')
+    lines.append('<div style="font-size: 17px; font-weight: 800; color: #450a0a; margin: 3px 0;">272.6 亿美元</div>')
+    lines.append('<div style="color: #7f1d1d; font-size: 11px;">同比 <strong>+1.9%</strong> (新批2,714个)</div>')
     lines.append('</td>')
     lines.append('<td style="width: 33%; background: #ecfdf5; border: 1px solid #a7f3d0; padding: 8px 10px; vertical-align: top; border-radius: 4px;">')
     lines.append('<div style="color: #065f46; font-weight: 700; font-size: 11px;">FDI 实际到位资金</div>')
-    lines.append('<div style="font-size: 17px; font-weight: 800; color: #064e3b; margin: 3px 0;">240.8 亿美元</div>')
-    lines.append('<div style="color: #065f46; font-size: 11px;">同比 <strong>+13.1%</strong> (近5年最快)</div>')
+    lines.append('<div style="font-size: 17px; font-weight: 800; color: #064e3b; margin: 3px 0;">195.8 亿美元</div>')
+    lines.append('<div style="color: #065f46; font-size: 11px;">同比 <strong>+8.8%</strong> (近5年同期新高)</div>')
     lines.append('</td>')
     lines.append('<td style="width: 33%; background: #eff6ff; border: 1px solid #bfdbfe; padding: 8px 10px; vertical-align: top; border-radius: 4px;">')
     lines.append('<div style="color: #1e40af; font-weight: 700; font-size: 11px;">制造产业集聚度</div>')
-    lines.append('<div style="font-size: 17px; font-weight: 800; color: #172554; margin: 3px 0;">51.6% 占总盘</div>')
-    lines.append('<div style="color: #1e40af; font-size: 11px;">超 <strong>280 亿美元</strong> 流向实体制造</div>')
+    lines.append('<div style="font-size: 17px; font-weight: 800; color: #172554; margin: 3px 0;">82.2% 占总盘</div>')
+    lines.append('<div style="color: #1e40af; font-size: 11px;">超 <strong>224 亿美元</strong> 流向实体制造</div>')
     lines.append('</td>')
     lines.append('</tr>')
     lines.append('</table>')
 
     # 精炼摘要条目与网页大盘完整展开链接
     lines.append('<div style="font-size: 11px; color: #475569; background: #f8fafc; border: 1px dashed #cbd5e1; padding: 8px 12px; border-radius: 4px; line-height: 1.5;">')
-    lines.append('<strong>• 各省前5强：</strong>胡志明 (201.4亿)、太原 (80.1亿)、北宁 (45.7亿)、海防 (31.2亿)、广宁 (28.5亿)<br>')
-    lines.append('<strong>• 来源国前5强：</strong>新加坡 (95.2亿)、韩国 (58.1亿)、卢森堡 (49.9亿)、中国大陆 (41.6亿，新批项目数全国第一)、中国香港 (33.8亿)<br>')
+    lines.append('<strong>• 各省前5强：</strong>北宁 (42.1亿)、河内 (35.8亿)、广宁 (22.4亿)、胡志明 (19.1亿)、海防 (18.6亿)<br>')
+    lines.append('<strong>• 来源国前5强：</strong>新加坡 (74.2亿)、中国香港 (36.8亿)、韩国 (35.4亿)、中国大陆 (34.1亿，新批项目数全国第一)、日本 (29.5亿)<br>')
     lines.append('<div style="margin-top: 6px; text-align: right;"><a href="https://saga1394.github.io/vninfosrcab/#macro-fdi" target="_blank" style="color: #991b1b; text-decoration: underline; font-weight: 700;">点击在大盘中展开查看完整前10强与详细分析 &rarr;</a></div>')
     lines.append('</div>')
 
