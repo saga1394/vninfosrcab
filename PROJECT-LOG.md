@@ -632,3 +632,15 @@
      - 5.24 秒全流程顺畅通过；
      - Pre-Flight Quality Gate 6 项检查（数量阈值、五大栏目、48~72h时效、状态排重、100%中文编译、URL存活率、邮件体积）**100% 全部 PASSED**；
      - 邮件正文纯内联 CSS 严格锁定在 34.0 KB（远低于 80 KB 截断红线）。
+
+## 2026-11-05 16:30：Git 工作区全量收敛正规化与 3852 重构验收基线确立
+
+- **工作区整理与正规化归档**：
+  - 新建 `.gitignore` 规则，彻底解除 Python 字节码缓存（`__pycache__`）对版本控制的干扰；
+  - 185 个变更（含 169 个历史探索脚本与文档正规化移动至 `archive/`、新建流水线模块及计划文档）已完成规范的 Git 暂存与提交，工作区恢复完全干净（Clean Tree）；
+  - 建立标准引用码计划文件：[`3852-2026-11-05-pipeline-reconstruction-and-autonomous-verification.md`](3852-2026-11-05-pipeline-reconstruction-and-autonomous-verification.md)（附带新会话自启动提示词）。
+- **全链路端到端回归测试**：
+  - 执行 `python run_all.py --skip-collect --dry-run`，在 5.75 秒内顺畅完成实体抽取、时空对齐、大盘/PDF/RSS 编译及前置质检；
+  - Pre-Flight Quality Gate 6 大指标（条目数、五大栏目完整度、48~72h时效、历史指纹排重、100%专业中文翻译、URL 真实性、邮件体积 34.0KB）全部通过；
+  - 明确每日自动化运行机制：Antigravity 定时 Agent 会话驱动，脚本跑腿提纯增量候选池，Agent 负责认知研判与地道中文提炼，门禁质检通过后安全发信。
+
