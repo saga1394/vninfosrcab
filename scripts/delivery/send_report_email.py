@@ -134,15 +134,18 @@ def build_full_inbox_email_html(items, today_str):
             url = it.get("url", "#")
             date = it.get("date", "")
             sub_tag = escape(it.get("sub_tag", ""))
+            sector_name = escape(it.get("sector_name", ""))
             source = escape(it.get("source_name", ""))
             fact = escape(it.get("fact", ""))
             reason = escape(it.get("reason", ""))
+
+            sector_html = f' · <span style="background: #fef3c7; color: #92400e; padding: 1px 5px; border-radius: 3px; font-weight: 700;">💡 {sector_name}</span>' if sector_name else ""
 
             lines.append('<div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 12px 14px; margin-bottom: 10px;">')
             # 标题与外链
             lines.append(f'<div style="font-size: 14px; font-weight: 700; color: #0f172a; margin-bottom: 4px;"><a href="{url}" target="_blank" style="color: #1e40af; text-decoration: none;">{title}</a></div>')
             # 元数据
-            lines.append(f'<div style="font-size: 11px; color: #64748b; margin-bottom: 6px;">🕒 {date} · <span style="background: #e2e8f0; padding: 1px 5px; border-radius: 3px; color: #334155;">{sub_tag}</span> · 来源：{source}</div>')
+            lines.append(f'<div style="font-size: 11px; color: #64748b; margin-bottom: 6px;">🕒 {date} · <span style="background: #e2e8f0; padding: 1px 5px; border-radius: 3px; color: #334155;">{sub_tag}</span>{sector_html} · 来源：{source}</div>')
             # 事实
             lines.append(f'<div style="font-size: 13px; color: #334155; margin-bottom: 6px;"><strong>【事实】</strong>{fact}</div>')
             # 看点（客观低调、不喧宾夺主）

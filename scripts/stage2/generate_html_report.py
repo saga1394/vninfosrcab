@@ -79,6 +79,31 @@ CURATED_INTELLIGENCE = [
         "reason": "关乎海防沿海核心港区与工业园区水电气市政配套主体的资信状况与资产清算进展。"
     },
 
+    {
+        "category": "APPROVALS",
+        "sub_tag": "重大重工现场督办",
+        "title": "海防市人委会主席亲赴现场办公：督办太平洋造船厂区扩建、港口岸线审批与合规清障",
+        "orig_title": "Chủ tịch UBND thành phố làm việc với Công ty CP Đóng tàu Thái Bình Dương, tháo gỡ khó khăn cho doanh nghiệp",
+        "date": "2026-11-05",
+        "source_name": "Cổng Thông tin điện tử Thành phố Hải Phòng",
+        "fingerprint": "hp-gov-pacific-shipbuilding-approval",
+        "url": "https://haiphong.gov.vn/tin-lanh-dao-thanh-pho/chu-tich-ubnd-thanh-pho-lam-viec-voi-cong-ty-cp-dong-tau-thai-binh-duong-thao-go-kho-khan-cho-do-997974",
+        "fact": "2026-11-05，海防市人委会主要领导率自然资源环境厅、建设厅等部门亲赴企业现场办公，重点协调太平洋造船股份公司厂区扩产用地清表、岸线使用合规报批及涉税堵点，确保重点船舶工业制造交付项目顺利履约。",
+        "reason": "展现海防地方政府对临港重工业与大型制造实体的现场审批调度力度，印证海防在沿海工业重工领域的合规服务提速。"
+    },
+    {
+        "category": "APPROVALS",
+        "sub_tag": "跨国干线基建批复",
+        "title": "越南建设部现场督办中越海铁联运干线瓶颈：锦李（Cẩm Lý）公铁桥分离改建与工期批复提速",
+        "orig_title": "Thứ trưởng Bộ Xây dựng Lê Hồng Vinh làm việc, tháo gỡ vướng mắc dự án cầu đường sắt Cẩm Lý",
+        "date": "2026-11-05",
+        "source_name": "Cổng thông tin điện tử tỉnh Bắc Ninh",
+        "fingerprint": "bn-gov-cam-ly-railway-bridge-mstr",
+        "url": "https://bacninh.gov.vn/news/-/details/37632/thu-truong-bo-xay-dung-le-hong-vinh-lam-viec-thao-go-vuong-mac-du-an-cau-uong-sat-cam-ly-175208400",
+        "fact": "2026-11-05，越南建设部副部长会同北宁、北江两省交通及铁路规划部门现场解决锦李桥（Cẩm Lý）铁路与公路分离改造的工程卡点，要求倒排工期以尽快消除中越边境至海防深水港铁路通道的重大运输限速瓶颈。",
+        "reason": "该桥是河内-同登-凭祥中越跨境铁路联运干线的关键堵点，改建工程批复推进将直接大幅缩短中越货运列车通关和集装箱转运周期。"
+    },
+
     # =========================================================================
     # 🎯 栏目二：【FDI 外资投资动向】（聚焦外资入越·特别是中资大厂）
     # =========================================================================
@@ -153,6 +178,19 @@ CURATED_INTELLIGENCE = [
         "url": "https://vcci.com.vn/tin-tuc/hang-loat-hang-may-tinh-quay-xe-dua-san-xuat-quay-ve-trung-quoc",
         "fact": "2026-11-03，越南工商联（VCCI）深入剖析部分外迁电脑代工因缺乏模具、精密五金与被动元器件本地二级配套，导致多段运输成本高企、部分机型回流中国的行业现象。",
         "reason": "对中资出海制造企业具有重要警示意义——缺乏本地配套集群的“孤岛式外迁”存在脱节隐患，精密配套企业出海具有巨大市场缺口。"
+    },
+
+    {
+        "category": "FDI",
+        "sub_tag": "航空高精制造",
+        "title": "越南政府力邀空客（Airbus）在同奈隆城与北宁嘉平布局飞机维修维护（MRO）与航空产业基地",
+        "orig_title": "Đề nghị Airbus nghiên cứu lập trung tâm bảo dưỡng tàu bay tại Long Thành, Gia Bình",
+        "date": "2026-11-05",
+        "source_name": "VnExpress (越南快讯网商业频道)",
+        "fingerprint": "vnexpress-airbus-mro-longthanh-giabinh",
+        "url": "https://vnexpress.net/de-nghi-airbus-nghien-cuu-lap-trung-tam-bao-duong-tau-bay-tai-long-thanh-gia-binh-5140888.html",
+        "fact": "2026-11-05，越南政府领导层正式会见欧洲空中客车（Airbus）高级代表团，提出希望空客加快在同奈省隆城国际机场与北宁省嘉平机场周边选址投资设立飞机大修工程中心（MRO）、航空零配件供应链基地及技术培训学院。",
+        "reason": "越南正利用南北两大航空枢纽（同奈隆城枢纽与北宁嘉平通用机场）加速向航空航天高精特种制造延伸，对高精密五金、机加及复合材料配套企业出海形成强拉动。"
     },
 
     # =========================================================================
@@ -265,6 +303,31 @@ CURATED_INTELLIGENCE = [
         "url": "https://www.mingtiandi.com/real-estate/logistics/mapletree-prepping-singapore-ipo-after-capitaland-merger/",
         "fact": "2026-11-01，明地报告披露，淡马锡旗下丰树集团正评估打包其在越南平阳、北宁及同奈持有的 12 处高标现代物流仓库资产，作为 REITs 平台赴新加坡公开上市。",
         "reason": "标杆级工业外资持有人的资本运作动向，反映机构资金对越南高标物流地产资产包的定价底牌。"
+    },
+
+    {
+        "category": "INDUSTRIAL_PARKS",
+        "sub_tag": "标杆园区推介",
+        "title": "泰国安美德（Amata City Ha Long）联合广宁省举行招商推介会，释放新一批次高标准工业用地",
+        "orig_title": "FOSTERING VIETNAM- INDONESIA INVESTMENT PARTNERSHIPS WITH AMATA CITY HA LONG",
+        "date": "2026-11-04",
+        "source_name": "Amata Vietnam",
+        "fingerprint": "amata-halong-indo-vn-invest",
+        "url": "https://amatavn.com/news-event/fostering-vietnam-indonesia-investment-partnerships-with-amata-city-ha-long/?utm_source=rss&utm_medium=rss&utm_campaign=fostering-vietnam-indonesia-investment-partnerships-with-amata-city-ha-long",
+        "fact": "2026-11-04，安美德下龙工业城（广宁省宋快工业区）联手广宁省投资促进中心举办外资与区域制造伙伴招商对接会，现场推介 714 公顷智慧工业园区配套，重点释放新一期净地用于承接高附加值外资制造与仓储供应链。",
+        "reason": "广宁省承接外资高新制造的标杆地块动向，紧靠中越边境东兴口岸和海防深水港，是中资及东盟制造出海的关键可选物理载体。"
+    },
+    {
+        "category": "INDUSTRIAL_PARKS",
+        "sub_tag": "园区准入升级",
+        "title": "北宁省工业区管委会发布指引：全面推行“新一代生态与智慧园区”标准，严控能耗并优先保障半导体供电",
+        "orig_title": "Bắc Ninh định hình khu công nghiệp thế hệ mới",
+        "date": "2026-11-05",
+        "source_name": "Ban Quản lý các Khu công nghiệp Bắc Ninh",
+        "fingerprint": "bn-kcn-nextgen-eco-smart",
+        "url": "https://bqlckcn.bacninh.gov.vn/news/-/details/195616/bac-ninh-inh-hinh-khu-cong-nghiep-the-he-moi-175223411",
+        "fact": "2026-11-05，北宁省工业园区管委会出台最新产业准入导向，明确现有及新增工业园区须向生态、低碳与智能化转型，严控高污染、低产出落后制造，针对半导体、先进电子设立绿色直供电（DPPA）与双回路专用电力保障通道。",
+        "reason": "北宁省已是全越工业产值与半导体外资密度最高的省份，提高准入门槛意味着外资新建厂房必须在厂务、环保及绿电认证上达标。"
     },
 
     # =========================================================================
@@ -414,6 +477,46 @@ CURATED_INTELLIGENCE = [
         "reason": "【核心赛道高亮】一线在越企业生产要素配置由“人口红利人工组装”转向“自动化技改”的先导弱信号。"
     },
 
+    {
+        "category": "SECTORS",
+        "sector_name": "半导体与先进封装",
+        "sub_tag": "芯片封测试产",
+        "title": "越南科技巨头 FPT 北宁半导体封测工厂进入试运行阶段，首期设立 6 条芯片测试线并加速封装扩产",
+        "orig_title": "FPT starts chip-testing plant trials in northern Vietnam, plans packaging expansion",
+        "date": "2026-11-05",
+        "source_name": "DigiTimes (电子时报 - 全球半导体供应链)",
+        "fingerprint": "tw-dt-fpt-bacninh-packaging",
+        "url": "https://www.digitimes.com/news/a20261105VL206/plant-packaging-testing-expansion-equipment.html",
+        "fact": "2026-11-05，越南本土科技巨头 FPT 宣布其位于北宁省的半导体封测工厂已正式开启试运行。该工厂首期配备 6 条芯片测试生产线，正抓紧推进先进封装产线配置与洁净车间投用，旨在为全球电子大厂提供本土芯片后道测试及先进封装产能。",
+        "reason": "【核心赛道高亮】标志着北越（北宁-北江半导体产业带）在继安靠（Amkor 16亿美元封测厂）投产后，越南本土龙头企业首度实现规模化半导体封测产能落地，将大幅完善北越半导体本地后道测试生态，为中资及外资芯片设计公司提供就近封测配套。"
+    },
+    {
+        "category": "SECTORS",
+        "sector_name": "高标仓储冷链",
+        "sub_tag": "温控物流扩张",
+        "title": "日资温控物流财团与初创企业加速布局越南多温区冷链网络与枢纽高标冷库",
+        "orig_title": "Japan logistics startups expand cold food networks in Malaysia, Vietnam",
+        "date": "2026-11-05",
+        "source_name": "Nikkei Asia (日经亚洲)",
+        "fingerprint": "jp-nikkei-coldchain-vietnam",
+        "url": "https://asia.nikkei.com/business/food-beverage/japan-logistics-startups-expand-cold-food-networks-in-malaysia-vietnam",
+        "fact": "2026-11-05，日经亚洲报道，以日本冷链物流企业及资本支持的物流科技团队正加速在越南南北干线部署多温区现代化冷链基础设施，重点在胡志明周边、平阳、同奈及河内周边落地温控高标仓与智能化冷链车队。",
+        "reason": "【核心赛道高亮】高标冷库与多温区仓储是目前越南工业地产中投资回报率最高、需求缺口最大的细分赛道，日资加速进驻进一步抬升优质工业仓储用地的租金与估值。"
+    },
+    {
+        "category": "SECTORS",
+        "sector_name": "半导体与高精加工材料",
+        "sub_tag": "战略金属重构",
+        "title": "关键战略金属钨管控引发全球 PCB 钻头供应链重构，跨国大厂加速向越南深加工基地转移承接",
+        "orig_title": "China's curbs on tungsten used in drill bits squeeze AI supply chain",
+        "date": "2026-11-05",
+        "source_name": "Nikkei Asia (日经亚洲)",
+        "fingerprint": "jp-nikkei-tungsten-vietnam-pcb",
+        "url": "https://asia.nikkei.com/spotlight/supply-chain/china-s-curbs-on-tungsten-used-in-drill-bits-squeeze-ai-supply-chain",
+        "fact": "2026-11-05，日经报道关键耐磨战略金属钨（用于高端服务器 PCB 微钻与高精加工刀具）供应趋紧，正推动全球 AI 硬件与半导体精密工具制造商将精深加工与采购订单向越南（全球除中国外最大钨深加工基地，如太原省 Núi Pháo 矿业与精炼厂）战略转移。",
+        "reason": "【核心赛道高亮】直接带动越南太原、永福等北部重工与材料产业园区的耐磨硬质合金、微钻工具及半导体耗材项目的就地配套扩产。"
+    },
+
     # =========================================================================
     # 🌐 栏目五：【政经与综合市场动态】（宏观走向·涉企法规·要素成本·干线物流）
     # =========================================================================
@@ -524,6 +627,30 @@ CURATED_INTELLIGENCE = [
         "url": "https://vnexpress.net/dai-bieu-quoc-hoi-can-co-che-ngan-dau-tu-nup-bong-de-rua-tien-4811234.html",
         "fact": "2026-11-02，在国会关于《反洗钱法》与《投资法》联席审议会上，多名常任代表提案要求对“零实缴资本、借本地人名义代持、频繁离岸股权转让”的外资实体实施双重实质穿透审查。",
         "reason": "提示在越中资与外资企业必须注意境外母公司代持、资金跨境回流的法定合规风险。"
+    },
+    {
+        "category": "MACRO_MARKET",
+        "sub_tag": "国家级产业政策",
+        "title": "越南政府网专题定调：全面借力 AI 算力超级周期，推动电子制造业深度嵌入全球 AI 硬件与连接器供应链",
+        "orig_title": "Việt Nam đứng trước cơ hội lớn vươn lên trong chuỗi cung ứng AI",
+        "date": "2026-11-04",
+        "source_name": "Báo Chính phủ (Government Portal)",
+        "fingerprint": "chinhphu-ai-supply-chain-expansion",
+        "url": "https://baochinhphu.vn/viet-nam-dung-truoc-co-hoi-lon-vuon-len-trong-chuoi-cung-ung-ai-102261104171449135.htm",
+        "fact": "2026-11-04，越南政府门户网刊发国家电子与半导体发展专题，强调 AI 基础设施大爆发带来服务器主板、高密度互连（HDI）、高速线缆与芯片封测的新一轮全球重配，明确将给予 AI 硬件出海企业研发与税收倾斜。",
+        "reason": "国家级产业风向标，预示着富士康、立讯精密、广达、仁宝等北越代工大厂将加速把英伟达/微软/谷歌相关 AI 服务器及配件订单产能转移至越南。"
+    },
+    {
+        "category": "MACRO_MARKET",
+        "sub_tag": "前10月宏观基本盘",
+        "title": "前 10 个月宏观大盘走强：全社会固定资产投资突破 264 万亿越盾，工业生产与出口顺差稳步扩大",
+        "orig_title": "Kinh tế 10 tháng ghi nhận nhiều điểm sáng, hơn 2,64 triệu tỷ đồng vốn đầu tư được khơi thông",
+        "date": "2026-11-04",
+        "source_name": "Liên đoàn Thương mại và Công nghiệp Việt Nam (VCCI)",
+        "fingerprint": "vcci-macro-10m-2026-investment",
+        "url": "https://vcci.com.vn/tin-tuc/kinh-te-10-thang-ghi-nhan-nhieu-diem-sang-hon-2-64-trieu-ty-dong-von-dau-tu-duoc-khoi-thong",
+        "fact": "2026-11-04，越南工商业联合会（VCCI）与国家统计总局发布今年前 10 个月经济运行数据，全社会固定资产投资保持双位数增长，加工制造业 FDI 持续担纲主力引擎，宏观通胀受控在目标区间内。",
+        "reason": "印证越南制造宏观基本盘与出口韧性，为出海企业的资本开支计划提供了稳定的宏观汇率与产业基本面环境。"
     }
 ]
 
@@ -541,7 +668,12 @@ def render_item_card(idx, item, is_sector=False):
     category = item.get("category", "")
 
     # Date badge styling
-    date_badge = '<span class="bg-red-700 text-white font-bold px-1.5 py-0.5 rounded text-[11px]">最新 11-04</span>' if "11-04" in date else f'<span class="bg-slate-700 text-white font-bold px-1.5 py-0.5 rounded text-[11px]">{date[5:]}</span>'
+    if "11-05" in date:
+        date_badge = '<span class="bg-red-700 text-white font-bold px-1.5 py-0.5 rounded text-[11px]">最新 11-05</span>'
+    elif "11-04" in date:
+        date_badge = '<span class="bg-amber-700 text-white font-bold px-1.5 py-0.5 rounded text-[11px]">昨日 11-04</span>'
+    else:
+        date_badge = f'<span class="bg-slate-700 text-white font-bold px-1.5 py-0.5 rounded text-[11px]">{date[5:]}</span>'
 
     # Sector highlight badge if applicable
     sector_badge = ""
@@ -712,7 +844,7 @@ def build_llm_intelligence_briefing():
     </div>
     """
 
-    today_count = sum(1 for it in CURATED_INTELLIGENCE if "11-04" in it.get("date", ""))
+    today_count = sum(1 for it in CURATED_INTELLIGENCE if "11-05" in it.get("date", ""))
 
     html_content = f"""<!DOCTYPE html>
 <html lang="zh-CN">
@@ -800,7 +932,7 @@ def build_llm_intelligence_briefing():
         越南实体投资与产业动态简报
       </h1>
       <div class="flex items-center gap-3 text-xs text-slate-600 mt-2 font-mono flex-wrap">
-        <span>时效周期: <strong>近 48~72 小时（2026-11-01 至 2026-11-04）</strong></span>
+        <span>时效周期: <strong>近 48~72 小时（2026-11-02 至 2026-11-05）</strong></span>
         <span>·</span>
         <span>今日增量: <strong>{today_count} 条</strong></span>
         <span>·</span>
