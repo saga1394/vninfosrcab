@@ -54,7 +54,11 @@
       "url": true
     },
     "technical_notes": "Official prime cabinet newspaper. RSS endpoint /kinh-te.rss returns 50 rich entries with complete pubdate and snippet.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "国家级部委与法定机构",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-A01-baochinhphu.md",
+    "dossier_exists": true
   },
   {
     "id": "src-A02",
@@ -111,7 +115,11 @@
       "url": true
     },
     "technical_notes": "Vite/Vue SPA architecture. Bypasses client-side DOM rendering by directly consuming the official JSON REST endpoint /api/article/reads.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "国家级部委与法定机构",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-A02-mof.md",
+    "dossier_exists": true
   },
   {
     "id": "src-A04",
@@ -168,7 +176,11 @@
       "url": true
     },
     "technical_notes": "Category /tin-tuc/phat-trien-cong-nghiep delivers structured industrial manufacturing, trade policies, and supply chain reports.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "国家级部委与法定机构",
+    "target_basket": "【重点关注产业专题】",
+    "dossier_filename": "SRC-A04-moit.md",
+    "dossier_exists": true
   },
   {
     "id": "src-A05",
@@ -225,7 +237,11 @@
       "url": true
     },
     "technical_notes": "Provides key real estate project transfer guidelines, urban planning, and construction legal consultations.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "国家级部委与法定机构",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "SRC-A05-moc.md",
+    "dossier_exists": true
   },
   {
     "id": "src-A03",
@@ -282,7 +298,11 @@
       "url": true
     },
     "technical_notes": "WordPress RSS feed is active at /feed/, providing monthly macro statistical releases and methodology seminars.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "国家级部委与法定机构",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-A03-nso.md",
+    "dossier_exists": true
   },
   {
     "id": "src-A07",
@@ -339,7 +359,11 @@
       "url": true
     },
     "technical_notes": "Lists monthly official FDI inflow and outbound reports. Detail pages offer direct XLSX/PDF downloads.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "国家级部委与法定机构",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-A07-fia.md",
+    "dossier_exists": true
   },
   {
     "id": "src-A06",
@@ -396,7 +420,11 @@
       "url": true
     },
     "technical_notes": "Contains provincial industrial park licenses, M&A guidance, and foreign investor policies. Date is embedded inside detail pages.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "国家级部委与法定机构",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-A06-investvietnam.md",
+    "dossier_exists": true
   },
   {
     "id": "src-A08",
@@ -453,7 +481,11 @@
       "url": true
     },
     "technical_notes": "Exterior default 20 announcements table is 100% accessible without captcha, returning real-time enterprise establishment & tax code.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "国家级部委与法定机构",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "SRC-A08-bocaodientu.md",
+    "dossier_exists": true
   },
   {
     "id": "src-A09",
@@ -510,7 +542,11 @@
       "url": true
     },
     "technical_notes": "Standard 11-row HTML table. OpenSSL client resets connection on Windows IIS; SChannel/curl client cleanly fetches table.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "国家级部委与法定机构",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "SRC-A09-dsdtm.md",
+    "dossier_exists": true
   },
   {
     "id": "src-A10",
@@ -567,7 +603,11 @@
       "url": true
     },
     "technical_notes": "Standard 11-row HTML table. Contains industrial manufacturing permits with location, owner, and consultation period.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "国家级部委与法定机构",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "SRC-A10-dsgiayphep.md",
+    "dossier_exists": true
   },
   {
     "id": "src-A11",
@@ -624,7 +664,11 @@
       "url": true
     },
     "technical_notes": "Main ministry portal gives strategic announcements, draft national standards (TCVN), land quality surveys, and biotechnology decrees.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "国家级部委与法定机构",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-A11-mae.md",
+    "dossier_exists": true
   },
   {
     "id": "src-A12",
@@ -681,7 +725,11 @@
       "url": true
     },
     "technical_notes": "Native RSS /home.rss exists but channel items are currently empty. Homepage HTML provides structured list of latest signed decrees (Nghị định), circulars (Thông tư), and Gazette issues.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "国家级部委与法定机构",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-A12-congbao.md",
+    "dossier_exists": true
   },
   {
     "id": "src-A13",
@@ -738,7 +786,11 @@
       "url": true
     },
     "technical_notes": "Old domain vbpl.moj.gov.vn is obsolete (DNS error). New vbpl.vn provides central sitemap /sitemap/1.xml with 5000 real-time decrees and circulars.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "国家级部委与法定机构",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-A13-vbpl.md",
+    "dossier_exists": true
   },
   {
     "id": "src-A14",
@@ -795,7 +847,11 @@
       "url": true
     },
     "technical_notes": "Official press releases on trade pacts (MERCOSUR-Singapore FTA, US-SG energy cooperation, ASEAN investments) with exact dates.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "国家级部委与法定机构",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-A14-mti_sg.md",
+    "dossier_exists": true
   },
   {
     "id": "src-A15",
@@ -852,7 +908,11 @@
       "url": true
     },
     "technical_notes": "Official sitemap /sitemap.xml contains 1390 index entries, providing updated market expansion guides and annual media briefings.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "国家级部委与法定机构",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-A15-enterprisesg.md",
+    "dossier_exists": true
   },
   {
     "id": "src-A16",
@@ -909,7 +969,11 @@
       "url": true
     },
     "technical_notes": "Native RSS endpoint /rss.xml active with 10 articles. Corporate regulatory notices, compliance rules, and statutory disclosures.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "国家级部委与法定机构",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-A16-acra_bizfile.md",
+    "dossier_exists": true
   },
   {
     "id": "src-B01",
@@ -966,7 +1030,11 @@
       "url": true
     },
     "technical_notes": "WordPress RSS feed is active at /feed/. Returns 10 articles covering park expansions, awards, and urban industrial projects.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "标杆园区开发商与工业地产",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "SRC-B01-vsip.md",
+    "dossier_exists": false
   },
   {
     "id": "src-B02",
@@ -1023,7 +1091,11 @@
       "url": true
     },
     "technical_notes": "Active domain is amatavn.com (not amatavietnam.com). Native RSS feed /feed/ provides tenant investment announcements ($110M Oji Liquid Pak project).",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "标杆园区开发商与工业地产",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "SRC-B02-amata.md",
+    "dossier_exists": false
   },
   {
     "id": "src-B03",
@@ -1080,7 +1152,11 @@
       "url": true
     },
     "technical_notes": "Native WordPress RSS /feed/ active (often has low post count); /tin-tuc/ page provides strategic park developments (VRG, IFC, SEMBCORP partnerships).",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "标杆园区开发商与工业地产",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "SRC-B03-becamex.md",
+    "dossier_exists": false
   },
   {
     "id": "src-B04",
@@ -1137,7 +1213,11 @@
       "url": true
     },
     "technical_notes": "Structured blog list on /thong-tin-chuyen-nganh/tin-tuc-su-kien/. Features Haiphong & Quang Ninh customer events, community and park updates.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "标杆园区开发商与工业地产",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "SRC-B04-deepc.md",
+    "dossier_exists": false
   },
   {
     "id": "src-B05",
@@ -1194,7 +1274,11 @@
       "url": true
     },
     "technical_notes": "Lists factory construction costs, 1.5 trillion VND bank loan resolutions, and industrial warehouse market trends.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "标杆园区开发商与工业地产",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "SRC-B05-longhau.md",
+    "dossier_exists": false
   },
   {
     "id": "src-B06",
@@ -1251,7 +1335,11 @@
       "url": true
     },
     "technical_notes": "Native WordPress RSS feed /feed/ provides 10 items including ESG governance system publications and industrial growth MoUs.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "标杆园区开发商与工业地产",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "SRC-B06-bwindustrial.md",
+    "dossier_exists": false
   },
   {
     "id": "src-B07",
@@ -1308,7 +1396,11 @@
       "url": true
     },
     "technical_notes": "Target is guarded by AWS WAF Token & Captcha challenge. Automated requests without browser cookie yield HTTP 405 Human Verification. Samples captured from baseline clearance.",
-    "_batch_name": "第一批 (国家部委与标杆园区)"
+    "_batch_name": "第一批 (国家部委与标杆园区)",
+    "category_cn": "标杆园区开发商与工业地产",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "SRC-B07-wha.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-GEN-01",
@@ -1365,7 +1457,11 @@
       "url": true
     },
     "technical_notes": "Official VNA news agency. Native RSS returns 50 entries with rich title, pubdate, and snippet.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南全国性综合权威媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-GEN-01-vietnamplus.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-GEN-02",
@@ -1422,7 +1518,11 @@
       "url": true
     },
     "technical_notes": "Central Party newspaper. RSS feed returns 50 entries with complete pubdate and snippet.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南全国性综合权威媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-GEN-02-nhandan.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-GEN-03",
@@ -1479,7 +1579,11 @@
       "url": true
     },
     "technical_notes": "National television portal. RSS /rss/home.rss returns 60 entries with pubdate and summary.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南全国性综合权威媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-GEN-03-vtv.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-GEN-04",
@@ -1536,7 +1640,11 @@
       "url": true
     },
     "technical_notes": "VOV portal economy section /kinh-te. Parsed 5 article links directly from HTML list.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南全国性综合权威媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-GEN-04-vov.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-GEN-05",
@@ -1593,7 +1701,11 @@
       "url": true
     },
     "technical_notes": "Southern municipal flagship. RSS feed returns 50 entries with full metadata.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南全国性综合权威媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-GEN-05-sggp.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-GEN-06",
@@ -1650,7 +1762,11 @@
       "url": true
     },
     "technical_notes": "National English daily newspaper. Native RSS /rss/economy.rss returns 20 rich entries.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南全国性综合权威媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-GEN-06-vietnamnews.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-GEN-07",
@@ -1707,7 +1823,11 @@
       "url": true
     },
     "technical_notes": "Leading news portal. RSS /rss/kinh-doanh.rss returns 60 business entries with pubdate and snippet.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南全国性综合权威媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-GEN-07-vnexpress.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-GEN-08",
@@ -1764,7 +1884,11 @@
       "url": true
     },
     "technical_notes": "Major national daily. Native RSS /rss/kinh-doanh.rss returns 50 entries with complete fields.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南全国性综合权威媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-GEN-08-tuoitre.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-GEN-09",
@@ -1821,7 +1945,11 @@
       "url": true
     },
     "technical_notes": "Major national daily. Native RSS /rss/kinh-te.rss returns 50 entries with complete fields.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南全国性综合权威媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-GEN-09-thanhnien.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-GEN-10",
@@ -1878,7 +2006,11 @@
       "url": true
     },
     "technical_notes": "Ministry of Information and Communications portal. RSS /rss/kinh-doanh.rss returns 1000 entries!",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南全国性综合权威媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-GEN-10-vietnamnet.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-GEN-11",
@@ -1935,7 +2067,11 @@
       "url": true
     },
     "technical_notes": "Major digital newspaper. Native RSS /rss/kinh-doanh.rss returns 100 entries with full metadata.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南全国性综合权威媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-GEN-11-dantri.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-GEN-12",
@@ -1992,7 +2128,11 @@
       "url": true
     },
     "technical_notes": "Digital magazine portal. Native RSS /rss/kinh-doanh-tai-chinh.rss returns 50 entries.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南全国性综合权威媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-GEN-12-znews.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-FIN-01",
@@ -2049,7 +2189,11 @@
       "url": true
     },
     "technical_notes": "Official newspaper of MPI. HTML list /dau-tu-c4/ yields 33 real investment stories.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南财经与产业专业媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-FIN-01-baodautu.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-FIN-02",
@@ -2106,7 +2250,11 @@
       "url": true
     },
     "technical_notes": "Leading macroeconomic publication. Native RSS /kinh-te-so.rss returns 50 entries with full metadata.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南财经与产业专业媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-FIN-02-vneconomy.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-FIN-03",
@@ -2163,7 +2311,11 @@
       "url": true
     },
     "technical_notes": "Leading capital markets & corporate financial radar. Native RSS returns 60 entries.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南财经与产业专业媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-FIN-03-cafef.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-FIN-04",
@@ -2220,7 +2372,11 @@
       "url": true
     },
     "technical_notes": "Stock exchange & corporate actions radar. Native RSS /737/... returns 20 entries with rich corporate details.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南财经与产业专业媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-FIN-04-vietstock.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-FIN-05",
@@ -2277,7 +2433,11 @@
       "url": true
     },
     "technical_notes": "Ministry of Industry and Trade official newspaper. RSS /rss/cong-nghiep.rss returns 25 industry stories.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南财经与产业专业媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-FIN-05-congthuong.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-FIN-06",
@@ -2334,7 +2494,11 @@
       "url": true
     },
     "technical_notes": "English FDI & mega project portal. /investing/ section and /sitemap.xml (1000 items) verified.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南财经与产业专业媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-FIN-06-theinvestor.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-FIN-07",
@@ -2391,7 +2555,11 @@
       "url": true
     },
     "technical_notes": "Vietnam News dedicated business portal. Native RSS /rss/corporate.rss returns 50 corporate entries.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南财经与产业专业媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-FIN-07-bizhub.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-FIN-08",
@@ -2448,7 +2616,11 @@
       "url": true
     },
     "technical_notes": "Financial weekly news. Native RSS /rss_feed/ returns 25 entries with complete metadata.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南财经与产业专业媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-FIN-08-thoibaotaichinh.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-FIN-09",
@@ -2505,7 +2677,11 @@
       "url": true
     },
     "technical_notes": "Industrial land and infrastructure development radar. /tin-tuc/ parsed 5 top articles.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南财经与产业专业媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-FIN-09-cafeland.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-FIN-10",
@@ -2562,7 +2738,11 @@
       "url": true
     },
     "technical_notes": "Official newspaper of VCCI (Vietnam Chamber of Commerce and Industry). Direct HTML list extraction.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南财经与产业专业媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-FIN-10-dddn.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-LOC-01",
@@ -2619,7 +2799,11 @@
       "url": true
     },
     "technical_notes": "Hai Phong official municipal newspaper. Economic column /kinh-te/ yields direct project & industrial entries.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南重点省市地方媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-LOC-01-baohaiphong.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-LOC-02",
@@ -2676,7 +2860,11 @@
       "url": true
     },
     "technical_notes": "Official provincial media portal bacninhtv.vn actively serves provincial economic and industrial news.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南重点省市地方媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-LOC-02-baobacninh.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-LOC-03",
@@ -2733,7 +2921,11 @@
       "url": true
     },
     "technical_notes": "Hung Yen provincial party newspaper. HTML economic column /kinh-te/ yields local industrial developments.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南重点省市地方媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-LOC-03-baohungyen.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-LOC-04",
@@ -2790,7 +2982,11 @@
       "url": true
     },
     "technical_notes": "Thai Nguyen provincial newspaper. /kinh-te/ section provides industrial zone and local investment news.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南重点省市地方媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-LOC-04-baothainguyen.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-LOC-05",
@@ -2847,7 +3043,11 @@
       "url": true
     },
     "technical_notes": "Da Nang municipal newspaper. Direct HTML scraping from /kinh-te/ provides FDI and urban project milestones.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南重点省市地方媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-LOC-05-baodanang.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-LOC-06",
@@ -2904,7 +3104,11 @@
       "url": true
     },
     "technical_notes": "Tay Ninh provincial newspaper. HTML list captures provincial tax, energy and transport project updates.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南重点省市地方媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-LOC-06-baotayninh.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-LOC-07",
@@ -2961,7 +3165,11 @@
       "url": true
     },
     "technical_notes": "Dong Nai provincial flagship. Directly extracts industrial land auctions and housing disclosures.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南重点省市地方媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-LOC-07-baodongnai.md",
+    "dossier_exists": false
   },
   {
     "id": "src-VN-LOC-08",
@@ -3018,7 +3226,11 @@
       "url": true
     },
     "technical_notes": "Quang Ninh provincial newspaper. Native RSS endpoint /rss/home.rss returns 50 rich entries.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "越南重点省市地方媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-VN-LOC-08-baoquangninh.md",
+    "dossier_exists": false
   },
   {
     "id": "src-INT-WIRE-01",
@@ -3044,7 +3256,11 @@
       "url": false
     },
     "technical_notes": "CloudFront WAF intercepts automated probes with HTTP 401. Documented for Phase 2 on-demand procurement.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "国际主流通讯社",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-INT-WIRE-01-reuters.md",
+    "dossier_exists": false
   },
   {
     "id": "src-INT-WIRE-02",
@@ -3101,7 +3317,11 @@
       "url": true
     },
     "technical_notes": "Global financial wire. Dedicated RSS /markets/news.rss returns 20 market updates.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "国际主流通讯社",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-INT-WIRE-02-bloomberg.md",
+    "dossier_exists": false
   },
   {
     "id": "src-INT-WIRE-03",
@@ -3158,7 +3378,11 @@
       "url": true
     },
     "technical_notes": "Asia regional daily. Native RSS /rss/91/feed returns 50 Asia news entries with full metadata.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "国际主流通讯社",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-INT-WIRE-03-scmp.md",
+    "dossier_exists": false
   },
   {
     "id": "src-SG-MED-01",
@@ -3215,7 +3439,11 @@
       "url": true
     },
     "technical_notes": "Southeast Asia private equity & venture deals. Extracted 5 latest deals directly from homepage.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "新加坡主流媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-SG-MED-01-dealstreetasia.md",
+    "dossier_exists": false
   },
   {
     "id": "src-SG-MED-02",
@@ -3272,7 +3500,11 @@
       "url": true
     },
     "technical_notes": "Singapore's financial paper ASEAN desk. HTML list directly yields regional economic updates.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "新加坡主流媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-SG-MED-02-businesstimes.md",
+    "dossier_exists": false
   },
   {
     "id": "src-SG-MED-03",
@@ -3329,7 +3561,11 @@
       "url": true
     },
     "technical_notes": "Singapore international broadcaster. Official RSS API returns 15 Asia regional news items.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "新加坡主流媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-SG-MED-03-cna.md",
+    "dossier_exists": false
   },
   {
     "id": "src-JP-MED-01",
@@ -3386,7 +3622,11 @@
       "url": true
     },
     "technical_notes": "Japanese business paper. Native RSS /rss/feed/nar returns 50 rich entries with ETag support.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "日本产业与财经媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-JP-MED-01-nikkei.md",
+    "dossier_exists": false
   },
   {
     "id": "src-KR-MED-01",
@@ -3443,7 +3683,11 @@
       "url": true
     },
     "technical_notes": "Korean English business portal. RSS /rss/allArticle.xml returns 50 entries.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "韩国半导体与经贸媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-KR-MED-01-businesskorea.md",
+    "dossier_exists": false
   },
   {
     "id": "src-KR-MED-02",
@@ -3500,7 +3744,11 @@
       "url": true
     },
     "technical_notes": "Korea leading English daily. RSS /rss/newsAll returns 50 entries with full pubdate.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "韩国半导体与经贸媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-KR-MED-02-koreaherald.md",
+    "dossier_exists": false
   },
   {
     "id": "src-KR-MED-03",
@@ -3557,7 +3805,11 @@
       "url": true
     },
     "technical_notes": "National wire service. RSS /RSS/news.xml returns 95 real-time news items.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "韩国半导体与经贸媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-KR-MED-03-yonhap.md",
+    "dossier_exists": false
   },
   {
     "id": "src-KR-MED-04",
@@ -3614,7 +3866,11 @@
       "url": true
     },
     "technical_notes": "Specialized electronics & display media. RSS /rss/allArticle.xml returns 50 entries.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "韩国半导体与经贸媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-KR-MED-04-theelec.md",
+    "dossier_exists": false
   },
   {
     "id": "src-KR-MED-05",
@@ -3671,7 +3927,11 @@
       "url": true
     },
     "technical_notes": "Korea Times national English daily. Extracted 5 latest stories directly from homepage.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "韩国半导体与经贸媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-KR-MED-05-koreatimes.md",
+    "dossier_exists": false
   },
   {
     "id": "src-KR-MED-06",
@@ -3728,7 +3988,11 @@
       "url": true
     },
     "technical_notes": "Leading Korean financial daily. Extracted 5 latest corporate & bond market articles.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "韩国半导体与经贸媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-KR-MED-06-fnnews.md",
+    "dossier_exists": false
   },
   {
     "id": "src-KR-MED-07",
@@ -3785,7 +4049,11 @@
       "url": true
     },
     "technical_notes": "Korea leading daily paper. Native outbound RSS returns 100 entries with complete fields.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "韩国半导体与经贸媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-KR-MED-07-chosun.md",
+    "dossier_exists": false
   },
   {
     "id": "src-KR-MED-08",
@@ -3842,7 +4110,11 @@
       "url": true
     },
     "technical_notes": "Korean financial daily. Native RSS /RSS/Economy returns 50 rich entries.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "韩国半导体与经贸媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-KR-MED-08-sedaily.md",
+    "dossier_exists": false
   },
   {
     "id": "src-TW-MED-01",
@@ -3899,7 +4171,11 @@
       "url": true
     },
     "technical_notes": "Global tech and semiconductor supply chain radar. Native RSS /rss/daily.xml returns 35 entries.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "中国台湾电子科技媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-TW-MED-01-digitimes.md",
+    "dossier_exists": false
   },
   {
     "id": "src-TW-MED-02",
@@ -3956,7 +4232,11 @@
       "url": true
     },
     "technical_notes": "Taiwan electronics & hardware industry media. Native WordPress RSS /feed/ returns 40 entries.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "中国台湾电子科技媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-TW-MED-02-technews.md",
+    "dossier_exists": false
   },
   {
     "id": "src-IN-MED-01",
@@ -3982,7 +4262,11 @@
       "url": false
     },
     "technical_notes": "TCP port 443 refused by host firewall. Marked for secondary proxy or external mirror.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "印度财经与科技媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-IN-MED-01-economictimes.md",
+    "dossier_exists": false
   },
   {
     "id": "src-IN-MED-02",
@@ -4039,7 +4323,11 @@
       "url": true
     },
     "technical_notes": "Indian financial daily. Native RSS /rss/economy-policy-102.rss returns 35 entries with full pubdate.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "印度财经与科技媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-IN-MED-02-businessstandard.md",
+    "dossier_exists": false
   },
   {
     "id": "src-IND-PROP-01",
@@ -4096,7 +4384,11 @@
       "url": true
     },
     "technical_notes": "Real estate and logistics investment intelligence. Native RSS /feed/ returns 10 in-depth deals.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "产业供应链专业媒体",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "SRC-IND-PROP-01-mingtiandi.md",
+    "dossier_exists": false
   },
   {
     "id": "src-IND-PROP-02",
@@ -4153,7 +4445,11 @@
       "url": true
     },
     "technical_notes": "Southeast Asia tech ecosystem feed. Retrieved 5 latest startups and tech rounds.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "产业供应链专业媒体",
+    "target_basket": "【重点关注产业专题】",
+    "dossier_filename": "SRC-IND-PROP-02-technode.md",
+    "dossier_exists": false
   },
   {
     "id": "src-IND-PROP-03",
@@ -4210,7 +4506,11 @@
       "url": true
     },
     "technical_notes": "Global data center industry radar. Native RSS /en/rss/ returns 20 infrastructure entries.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "产业供应链专业媒体",
+    "target_basket": "【重点关注产业专题】",
+    "dossier_filename": "SRC-IND-PROP-03-datacenterdynamics.md",
+    "dossier_exists": false
   },
   {
     "id": "src-OTH-MED-01",
@@ -4236,7 +4536,11 @@
       "url": false
     },
     "technical_notes": "Cloudflare bot mitigation triggers 403 on all public endpoints. Documented for Phase 2.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "中文原创与跨境商业媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-OTH-MED-01-manilabulletin.md",
+    "dossier_exists": false
   },
   {
     "id": "src-OTH-MED-02",
@@ -4293,7 +4597,11 @@
       "url": true
     },
     "technical_notes": "Malaysia top business daily. HTML list directly yields regional economic and industrial updates.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "中文原创与跨境商业媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-OTH-MED-02-thestar.md",
+    "dossier_exists": false
   },
   {
     "id": "src-CN-ORIG-01",
@@ -4350,7 +4658,11 @@
       "url": true
     },
     "technical_notes": "Chinese leading business media. Native RSS /index.php?m=article&a=rss returns 30 entries.",
-    "_batch_name": "第二批 (越南与境外权威媒体)"
+    "_batch_name": "第二批 (越南与境外权威媒体)",
+    "category_cn": "中文原创与跨境商业媒体",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-CN-ORIG-01-jiemian.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-01-HN-A",
@@ -4409,7 +4721,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级人民政府官方门户",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-01-HN-A-VN_HN_PORTAL.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-01-HN-B",
@@ -4468,7 +4784,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "工业园区/经开区管委会",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-01-HN-B-VN_HN_KCN.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-01-HN-C",
@@ -4527,7 +4847,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级财政厅",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-01-HN-C-VN_HN_SOTC.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-01-HN-D",
@@ -4586,7 +4910,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级农环/自规厅",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "VN-LOC-01-HN-D-VN_HN_SONNMT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-01-HN-E",
@@ -4645,7 +4973,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级建设厅",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-01-HN-E-VN_HN_SOXD.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-02-HP-A",
@@ -4704,7 +5036,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级人民政府官方门户",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-02-HP-A-VN_HP_PORTAL.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-02-HP-B",
@@ -4763,7 +5099,11 @@
       "url"
     ],
     "technical_notes": "WordPress chuẩn hoá kênh RSS 2.0 hoạt động ổn định, cập nhật thời gian thực.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "工业园区/经开区管委会",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-02-HP-B-VN_HP_HEZA.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-02-HP-C",
@@ -4822,7 +5162,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级财政厅",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-02-HP-C-VN_HP_SOTC.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-02-HP-D",
@@ -4881,7 +5225,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级农环/自规厅",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "VN-LOC-02-HP-D-VN_HP_SONNMT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-02-HP-E",
@@ -4940,7 +5288,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级建设厅",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-02-HP-E-VN_HP_SOXD.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-03-BN-A",
@@ -4999,7 +5351,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级人民政府官方门户",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-03-BN-A-VN_BN_PORTAL.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-03-BN-B",
@@ -5058,7 +5414,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "工业园区/经开区管委会",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-03-BN-B-VN_BN_KCN.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-03-BN-C",
@@ -5117,7 +5477,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级财政厅",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-03-BN-C-VN_BN_STC.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-03-BN-D",
@@ -5176,7 +5540,11 @@
       "url"
     ],
     "technical_notes": "Hợp nhất theo NQ 395/NQ-HĐND; Cổng thông tin chung bacninh.gov.vn; stnmt.bacninh.gov.vn cũ đã dừng.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级农环/自规厅",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "VN-LOC-03-BN-D-VN_BN_SONNMT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-03-BN-E",
@@ -5235,7 +5603,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级建设厅",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-03-BN-E-VN_BN_SXD.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-04-TN-A",
@@ -5294,7 +5666,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级人民政府官方门户",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-04-TN-A-VN_TN_PORTAL.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-04-TN-B",
@@ -5353,7 +5729,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "工业园区/经开区管委会",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-04-TN-B-VN_TN_KCN.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-04-TN-C",
@@ -5412,7 +5792,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级财政厅",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-04-TN-C-VN_TN_SOTC.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-04-TN-D",
@@ -5471,7 +5855,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级农环/自规厅",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "VN-LOC-04-TN-D-VN_TN_SONNMT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-04-TN-E",
@@ -5530,7 +5918,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级建设厅",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-04-TN-E-VN_TN_SOXD.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-05-HY-A",
@@ -5589,7 +5981,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级人民政府官方门户",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-05-HY-A-VN_HY_PORTAL.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-05-HY-B",
@@ -5648,7 +6044,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "工业园区/经开区管委会",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-05-HY-B-VN_HY_KKT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-05-HY-C",
@@ -5707,7 +6107,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级财政厅",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-05-HY-C-VN_HY_SOTC.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-05-HY-D",
@@ -5766,7 +6170,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级农环/自规厅",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "VN-LOC-05-HY-D-VN_HY_SONNMT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-05-HY-E",
@@ -5825,7 +6233,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级建设厅",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-05-HY-E-VN_HY_SOXD.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-06-QN-A",
@@ -5884,7 +6296,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级人民政府官方门户",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-06-QN-A-VN_QN_PORTAL.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-06-QN-B",
@@ -5943,7 +6359,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "工业园区/经开区管委会",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-06-QN-B-VN_QN_QEZA.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-06-QN-C",
@@ -6002,7 +6422,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级财政厅",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-06-QN-C-VN_QN_SOTC.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-06-QN-D",
@@ -6061,7 +6485,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级农环/自规厅",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "VN-LOC-06-QN-D-VN_QN_SONNMT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-06-QN-E",
@@ -6120,7 +6548,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级建设厅",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-06-QN-E-VN_QN_SOXD.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-07-PT-A",
@@ -6179,7 +6611,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级人民政府官方门户",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-07-PT-A-VN_PT_PORTAL.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-07-PT-B",
@@ -6238,7 +6674,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "工业园区/经开区管委会",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-07-PT-B-VN_PT_KCN.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-07-PT-C",
@@ -6297,7 +6737,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级财政厅",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-07-PT-C-VN_PT_SOTC.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-07-PT-D",
@@ -6356,7 +6800,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级农环/自规厅",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "VN-LOC-07-PT-D-VN_PT_SONNMT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-07-PT-E",
@@ -6415,7 +6863,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级建设厅",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-07-PT-E-VN_PT_SOXD.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-08-NB-A",
@@ -6474,7 +6926,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级人民政府官方门户",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-08-NB-A-VN_NB_PORTAL.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-08-NB-B",
@@ -6533,7 +6989,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "工业园区/经开区管委会",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-08-NB-B-VN_NB_IZA.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-08-NB-C",
@@ -6592,7 +7052,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级财政厅",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-08-NB-C-VN_NB_STC.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-08-NB-D",
@@ -6651,7 +7115,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级农环/自规厅",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "VN-LOC-08-NB-D-VN_NB_SONNMT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-08-NB-E",
@@ -6710,7 +7178,11 @@
       "url"
     ],
     "technical_notes": "Tên miền cũ soxaydung.ninhbinh.gov.vn phản hồi 403 Forbidden; nội dung công khai tích hợp trên Cổng tỉnh ninhbinh.gov.vn/so-xay-dung.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级建设厅",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-08-NB-E-VN_NB_SXD.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-09-HCM-A",
@@ -6769,7 +7241,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级人民政府官方门户",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-09-HCM-A-VN_HCM_PORTAL.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-09-HCM-B",
@@ -6828,7 +7304,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "工业园区/经开区管委会",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-09-HCM-B-VN_HCM_HEPZA.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-09-HCM-C",
@@ -6887,7 +7367,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级财政厅",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-09-HCM-C-VN_HCM_SOTC.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-09-HCM-D",
@@ -6946,7 +7430,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级农环/自规厅",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "VN-LOC-09-HCM-D-VN_HCM_SONNMT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-09-HCM-E",
@@ -7005,7 +7493,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级建设厅",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-09-HCM-E-VN_HCM_SOXD.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-10-DN-A",
@@ -7064,7 +7556,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级人民政府官方门户",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-10-DN-A-VN_DN_PORTAL.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-10-DN-B",
@@ -7123,7 +7619,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "工业园区/经开区管委会",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-10-DN-B-VN_DN_DNIEZA.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-10-DN-C",
@@ -7182,7 +7682,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级财政厅",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-10-DN-C-VN_DN_STC.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-10-DN-D",
@@ -7241,7 +7745,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级农环/自规厅",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "VN-LOC-10-DN-D-VN_DN_STNMT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-10-DN-E",
@@ -7300,7 +7808,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级建设厅",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-10-DN-E-VN_DN_SXD.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-11-TY-A",
@@ -7359,7 +7871,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级人民政府官方门户",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-11-TY-A-VN_TY_PORTAL.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-11-TY-B",
@@ -7418,7 +7934,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "工业园区/经开区管委会",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-11-TY-B-VN_TY_KKT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-11-TY-C",
@@ -7477,7 +7997,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级财政厅",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-11-TY-C-VN_TY_STC.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-11-TY-D",
@@ -7536,7 +8060,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级农环/自规厅",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "VN-LOC-11-TY-D-VN_TY_SNNMT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-11-TY-E",
@@ -7595,7 +8123,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级建设厅",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-11-TY-E-VN_TY_SXD.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-12-NA-A",
@@ -7654,7 +8186,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级人民政府官方门户",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-12-NA-A-VN_NA_PORTAL.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-12-NA-B",
@@ -7713,7 +8249,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "工业园区/经开区管委会",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-12-NA-B-VN_NA_DONGNAM.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-12-NA-C",
@@ -7772,7 +8312,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级财政厅",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-12-NA-C-VN_NA_SOTC.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-12-NA-D",
@@ -7819,7 +8363,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级农环/自规厅",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "VN-LOC-12-NA-D-VN_NA_SOTNMT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-12-NA-E",
@@ -7878,7 +8426,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级建设厅",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-12-NA-E-VN_NA_SOXD.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-13-TH-A",
@@ -7937,7 +8489,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级人民政府官方门户",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-13-TH-A-VN_TH_PORTAL.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-13-TH-B",
@@ -7960,7 +8516,11 @@
     "sample_entries": [],
     "fields_supported": [],
     "technical_notes": "Hệ thống SPA React, API nội bộ yêu cầu JwtBearer Authentication đối với khách không đăng nhập.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "工业园区/经开区管委会",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-13-TH-B-VN_TH_NGHISON.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-13-TH-C",
@@ -8019,7 +8579,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级财政厅",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-13-TH-C-VN_TH_STC.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-13-TH-D",
@@ -8042,7 +8606,11 @@
     "sample_entries": [],
     "fields_supported": [],
     "technical_notes": "Hiện trạng máy chủ: HTTP 503 Service Unavailable (Hệ thống đang được nâng cấp).",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级农环/自规厅",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "VN-LOC-13-TH-D-VN_TH_STNMT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-13-TH-E",
@@ -8101,7 +8669,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级建设厅",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-13-TH-E-VN_TH_SXD.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-14-DD-A",
@@ -8160,7 +8732,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级人民政府官方门户",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-14-DD-A-VN_DD_PORTAL.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-14-DD-B",
@@ -8219,7 +8795,11 @@
       "url"
     ],
     "technical_notes": "Tích hợp Backend API cung cấp dữ liệu JSON trực tiếp với đầy đủ chấp thuận chủ trương đầu tư.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "工业园区/经开区管委会",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-14-DD-B-VN_DD_DSEZA.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-14-DD-C",
@@ -8278,7 +8858,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级财政厅",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-14-DD-C-VN_DD_STC.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-14-DD-D",
@@ -8337,7 +8921,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级农环/自规厅",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "VN-LOC-14-DD-D-VN_DD_SNNMT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-14-DD-E",
@@ -8396,7 +8984,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级建设厅",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-14-DD-E-VN_DD_SXD.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-15-KH-A",
@@ -8455,7 +9047,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级人民政府官方门户",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-15-KH-A-VN_KH_PORTAL.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-15-KH-B",
@@ -8514,7 +9110,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "工业园区/经开区管委会",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-15-KH-B-VN_KH_VANPHONG.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-15-KH-C",
@@ -8573,7 +9173,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级财政厅",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-15-KH-C-VN_KH_STC.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-15-KH-D",
@@ -8632,7 +9236,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级农环/自规厅",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "VN-LOC-15-KH-D-VN_KH_SNNMT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-15-KH-E",
@@ -8691,7 +9299,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级建设厅",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-15-KH-E-VN_KH_SXD.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-16-HT-A",
@@ -8750,7 +9362,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级人民政府官方门户",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-16-HT-A-VN_HT_PORTAL.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-16-HT-B",
@@ -8809,7 +9425,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "工业园区/经开区管委会",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-16-HT-B-VN_HT_KKT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-16-HT-C",
@@ -8868,7 +9488,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级财政厅",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "VN-LOC-16-HT-C-VN_HT_SOTC.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-16-HT-D",
@@ -8927,7 +9551,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级农环/自规厅",
+    "target_basket": "【行政审批与法定公示】",
+    "dossier_filename": "VN-LOC-16-HT-D-VN_HT_SONNMT.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-16-HT-E",
@@ -8986,7 +9614,11 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级建设厅",
+    "target_basket": "【工业园区一线动态】",
+    "dossier_filename": "VN-LOC-16-HT-E-VN_HT_SOXD.md",
+    "dossier_exists": false
   },
   {
     "id": "VN-LOC-17-TH-INV",
@@ -9045,14 +9677,18 @@
       "url"
     ],
     "technical_notes": "Thành công trích xuất dữ liệu danh mục công khai.",
-    "_batch_name": "第三批 (16个核心工业省市地方政务)"
+    "_batch_name": "第三批 (16个核心工业省市地方政务)",
+    "category_cn": "省级投资促进门户",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "VN-LOC-17-TH-INV-VN_TH_INVEST.md",
+    "dossier_exists": false
   },
   {
     "id": "src-DISC-01",
     "code_name": "cninfo",
     "name": "巨潮资讯网 (CNINFO)",
     "category": "Enterprise Disclosure",
-    "category_cn": "企业原始披露",
+    "category_cn": "证券交易所企业信披",
     "target_url": "http://www.cninfo.com.cn/new/index",
     "effective_endpoint": "http://www.cninfo.com.cn/new/hisAnnouncement/query",
     "method_verified": "REST API (JSON Search)",
@@ -9103,14 +9739,17 @@
     ],
     "limitations": "中文A股上市公司官方披露；不含海外直接未上市主体",
     "recommended_strategy": "每日定时调用 hisAnnouncement/query 接口检索关键字‘越南’增量公告并存档PDF直链",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-DISC-01-cninfo.md",
+    "dossier_exists": false
   },
   {
     "id": "src-DISC-02",
     "code_name": "sse",
     "name": "上海证券交易所 (上交所 / SSE)",
     "category": "Enterprise Disclosure",
-    "category_cn": "企业原始披露",
+    "category_cn": "证券交易所企业信披",
     "target_url": "https://www.sse.com.cn/disclosure/listedinfo/announcement/",
     "effective_endpoint": "https://www.sse.com.cn/disclosure/listedinfo/announcement/",
     "method_verified": "Portal Search Column (Mirror on CNINFO)",
@@ -9130,14 +9769,17 @@
     ],
     "limitations": "上交所前端直查API强制会话Referer校验；全量法定信披已多端镜像于巨潮资讯网统一检索",
     "recommended_strategy": "通过巨潮资讯网 (CNINFO) column=sse 统一抓取沪市涉越上市公司公告，无需直破上交所专有签名",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-DISC-02-sse.md",
+    "dossier_exists": false
   },
   {
     "id": "src-DISC-03",
     "code_name": "szse",
     "name": "深圳证券交易所 (深交所 / SZSE)",
     "category": "Enterprise Disclosure",
-    "category_cn": "企业原始披露",
+    "category_cn": "证券交易所企业信披",
     "target_url": "https://www.szse.cn/disclosure/listed/notice/index.html",
     "effective_endpoint": "https://www.szse.cn/api/disc/announcement/annList",
     "method_verified": "REST API (JSON Search)",
@@ -9188,14 +9830,17 @@
     ],
     "limitations": "仅限深市主板、创业板公司；需带标准 Referer 头部调用",
     "recommended_strategy": "直接调用 annList 官方 JSON 接口，定时推送深市涉越出海制造业项目最新对外投资与担保",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-DISC-03-szse.md",
+    "dossier_exists": false
   },
   {
     "id": "src-DISC-04",
     "code_name": "bse",
     "name": "北京证券交易所 (北交所 / BSE)",
     "category": "Enterprise Disclosure",
-    "category_cn": "企业原始披露",
+    "category_cn": "证券交易所企业信披",
     "target_url": "https://www.bse.cn/disclosure/announcement.html",
     "effective_endpoint": "https://www.bse.cn/disclosure/announcement.html",
     "method_verified": "Portal Column (403 on infoResult.do / Mirror on CNINFO)",
@@ -9214,14 +9859,17 @@
     ],
     "limitations": "北交所后台 POST infoResult.do 部署严格 WAF 返回 403 Forbidden；法定公告并入巨潮资讯网",
     "recommended_strategy": "通过巨潮资讯网统一检索北交所板块公告，避免与北交所前端 WAF 发生不必要对抗",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-DISC-04-bse.md",
+    "dossier_exists": false
   },
   {
     "id": "src-DISC-05",
     "code_name": "hkexnews",
     "name": "港交所披露易 (HKEXnews)",
     "category": "Enterprise Disclosure",
-    "category_cn": "企业原始披露",
+    "category_cn": "证券交易所企业信披",
     "target_url": "https://www.hkexnews.hk/index_c.htm",
     "effective_endpoint": "https://www1.hkexnews.hk/search/titleSearchServlet.do",
     "method_verified": "REST API (JSON SearchServlet)",
@@ -9260,14 +9908,17 @@
     ],
     "limitations": "仅限香港主板及创业板上市企业；含经港股架构控制越南资产的跨国集团",
     "recommended_strategy": "调用 titleSearchServlet.do 标题检索服务，以‘越南’为关键词定期增量轮询",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-DISC-05-hkexnews.md",
+    "dossier_exists": false
   },
   {
     "id": "src-DISC-06",
     "code_name": "mops",
     "name": "台湾公开资讯观测站 (MOPS)",
     "category": "Enterprise Disclosure",
-    "category_cn": "企业原始披露",
+    "category_cn": "证券交易所企业信披",
     "target_url": "https://mops.twse.com.tw/?lang=tw",
     "effective_endpoint": "https://mops.twse.com.tw/mops/web/t05st02",
     "method_verified": "Automated Request Denied (TWSE Firewall)",
@@ -9286,14 +9937,17 @@
     ],
     "limitations": "台湾证交所安全防火墙对非交互式爬虫实施严格拦截（错误提示 FOR SECURITY REASONS, THIS PAGE CAN NOT BE ACCESSED）",
     "recommended_strategy": "在阶段二通过台湾证交所公开数据接口 (TWSE OpenAPI) 或合法合规镜像源转接，不可直接暴力轮询",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-DISC-06-mops.md",
+    "dossier_exists": false
   },
   {
     "id": "src-DISC-07",
     "code_name": "sgx",
     "name": "新加坡交易所公司公告 (SGX)",
     "category": "Enterprise Disclosure",
-    "category_cn": "企业原始披露",
+    "category_cn": "证券交易所企业信披",
     "target_url": "https://www.sgx.com/securities/company-announcements",
     "effective_endpoint": "https://www.sgx.com/securities/company-announcements",
     "method_verified": "Angular SPA Portal (CSR Dynamic Loading)",
@@ -9312,14 +9966,17 @@
     ],
     "limitations": "前端页面为纯客户端渲染 Angular SPA；API 数据需特定会话凭证解析",
     "recommended_strategy": "作为二级补充通道，配合新加坡商业时报 (The Business Times) 联动检索新交所涉越公告",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-DISC-07-sgx.md",
+    "dossier_exists": false
   },
   {
     "id": "src-DISC-08",
     "code_name": "dart",
     "name": "韩国金融监督院 (DART)",
     "category": "Enterprise Disclosure",
-    "category_cn": "企业原始披露",
+    "category_cn": "证券交易所企业信披",
     "target_url": "https://dart.fss.or.kr/",
     "effective_endpoint": "https://dart.fss.or.kr/",
     "method_verified": "HTML Table (Direct Homepage Disclosures)",
@@ -9369,14 +10026,17 @@
     ],
     "limitations": "首页展现全韩企实时信披；特定检索越南需结合 Open DART 认证 API 或针对性筛选",
     "recommended_strategy": "阶段二引入 Open DART 免费 API 密钥，针对三星、LG、SK、现代等重点韩企代码定向抓取海外法人附件",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-DISC-08-dart.md",
+    "dossier_exists": false
   },
   {
     "id": "src-DISC-09",
     "code_name": "jpx_tdnet",
     "name": "东京证券交易所 (JPX / TDnet)",
     "category": "Enterprise Disclosure",
-    "category_cn": "企业原始披露",
+    "category_cn": "证券交易所企业信披",
     "target_url": "https://www.jpx.co.jp/english/equities/listing/disclosure/tdnet/",
     "effective_endpoint": "https://www.release.tdnet.info/inbs/I_list_001_20261102.html",
     "method_verified": "HTML Table (Daily Timely Disclosure List)",
@@ -9426,14 +10086,17 @@
     ],
     "limitations": "每日静态 HTML 列表仅保全近 30 天适时披露；需按日归档或针对性匹配日文‘ベトナム’",
     "recommended_strategy": "每日下午收盘后抓取 I_list_001_YYYYMMDD.html 列表，匹配涉越日企公告并下载PDF原文",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-DISC-09-jpx_tdnet.md",
+    "dossier_exists": false
   },
   {
     "id": "src-DISC-10",
     "code_name": "sec_edgar",
     "name": "美国证券交易委员会 EDGAR (SEC EDGAR)",
     "category": "Enterprise Disclosure",
-    "category_cn": "企业原始披露",
+    "category_cn": "证券交易所企业信披",
     "target_url": "https://www.sec.gov/edgar",
     "effective_endpoint": "https://efts.sec.gov/LATEST/search-index?q=Vietnam",
     "method_verified": "REST API (EFTS Search Index)",
@@ -9483,14 +10146,17 @@
     ],
     "limitations": "严格要求符合 SEC 规范的 User-Agent (User-Agent: SampleInvest research@sample.com)；禁止超过 10 req/s",
     "recommended_strategy": "合规配置规范请求头，通过 EFTS 全文搜索接口检索 10-K/10-Q/8-K 中涉及 Vietnam 供应链与工厂投资的条款",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-DISC-10-sec_edgar.md",
+    "dossier_exists": false
   },
   {
     "id": "src-DISC-11",
     "code_name": "nse_india",
     "name": "印度国家证券交易所 (NSE)",
     "category": "Enterprise Disclosure",
-    "category_cn": "企业原始披露",
+    "category_cn": "证券交易所企业信披",
     "target_url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements",
     "effective_endpoint": "https://www.nseindia.com/companies-listing/corporate-filings-announcements",
     "method_verified": "Automated Access Blocked (Akamai WAF 403)",
@@ -9509,14 +10175,17 @@
     ],
     "limitations": "部署强力 Akamai WAF，对标准 Python HTTP 请求拦截并返回 403 Forbidden",
     "recommended_strategy": "降级为候选观察源；印度对越投资主要通过 The Economic Times / Business Standard 等媒体渠道侧面跟进",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-DISC-11-nse_india.md",
+    "dossier_exists": false
   },
   {
     "id": "src-DISC-12",
     "code_name": "bse_india",
     "name": "印度孟买证券交易所 (BSE India)",
     "category": "Enterprise Disclosure",
-    "category_cn": "企业原始披露",
+    "category_cn": "证券交易所企业信披",
     "target_url": "https://www.bseindia.com/corporates/ann.html",
     "effective_endpoint": "https://www.bseindia.com/corporates/ann.html",
     "method_verified": "Automated Access Blocked (WAF 403)",
@@ -9535,14 +10204,17 @@
     ],
     "limitations": "部署多层反爬防护，非交互式爬虫返回 403 Forbidden",
     "recommended_strategy": "同 NSE，列为低优先级候选；通过印度财经媒体捕获重大涉越项目",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-DISC-12-bse_india.md",
+    "dossier_exists": false
   },
   {
     "id": "src-DISC-13",
     "code_name": "elmet_ir",
     "name": "企业自有信披代表 (Elmet IR / 涉越跨国投资典型)",
     "category": "Enterprise Disclosure",
-    "category_cn": "企业原始披露",
+    "category_cn": "证券交易所企业信披",
     "target_url": "https://investors.theelmetgroup.com/",
     "effective_endpoint": "https://investors.theelmetgroup.com/news-events",
     "method_verified": "HTML List (Investor Relations Releases)",
@@ -9592,14 +10264,17 @@
     ],
     "limitations": "单集团材料偏欧美特种制造；不能泛化为全部对越投资企业自建IR系统能力",
     "recommended_strategy": "按需保留，作为跨国企业自有披露范例；随重大涉越项目动态接入特定企业投资者专栏",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-DISC-13-elmet_ir.md",
+    "dossier_exists": false
   },
   {
     "id": "src-ASSOC-01",
     "code_name": "vitas",
     "name": "越南纺织服装协会 (VITAS)",
     "category": "Industry Association",
-    "category_cn": "行业商协会",
+    "category_cn": "重点行业商会与协会",
     "target_url": "http://www.vietnamtextile.org.vn/",
     "effective_endpoint": "http://www.vietnamtextile.org.vn/",
     "method_verified": "HTML List (HTTP Fallback / Legacy TLS)",
@@ -9650,14 +10325,17 @@
     ],
     "limitations": "官方服务器 HTTPS 配置老旧导致 WinError 10054，必须降级使用 HTTP (Port 80) 请求",
     "recommended_strategy": "采用 HTTP 协议定向解析首页推荐及行业会展栏目，定期获取纺织出口、绿电认证及欧美关税动态",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【重点关注产业专题】",
+    "dossier_filename": "SRC-ASSOC-01-vitas.md",
+    "dossier_exists": false
   },
   {
     "id": "src-ASSOC-02",
     "code_name": "veia",
     "name": "越南电子工业协会 (VEIA)",
     "category": "Industry Association",
-    "category_cn": "行业商协会",
+    "category_cn": "重点行业商会与协会",
     "target_url": "https://veia.org.vn",
     "effective_endpoint": "https://veia.org.vn",
     "method_verified": "Portal Access (LiteSpeed Anti-Bot on Subpages)",
@@ -9676,14 +10354,17 @@
     ],
     "limitations": "部署 LiteSpeed Web Server 防火墙，高频连续抓取易触发 403 Forbidden 与 collect.js 人机验证",
     "recommended_strategy": "低频探测（单日轮询间隔大于 1 小时），或者直接通过其支持单位媒体关注电子产业联合声明",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【重点关注产业专题】",
+    "dossier_filename": "SRC-ASSOC-02-veia.md",
+    "dossier_exists": false
   },
   {
     "id": "src-ASSOC-03",
     "code_name": "vla",
     "name": "越南物流服务企业协会 (VLA)",
     "category": "Industry Association",
-    "category_cn": "行业商协会",
+    "category_cn": "重点行业商会与协会",
     "target_url": "https://vla.com.vn",
     "effective_endpoint": "https://vla.com.vn",
     "method_verified": "HTML Card / Semantic List",
@@ -9733,14 +10414,17 @@
     ],
     "limitations": "文章列表无集中发布日期标签，需进入详情页提取具体时间戳",
     "recommended_strategy": "通过首页与专栏 HTML 定向提取最新物流会展、港口堵塞预警及东盟物流峰会通知",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【重点关注产业专题】",
+    "dossier_filename": "SRC-ASSOC-03-vla.md",
+    "dossier_exists": false
   },
   {
     "id": "src-ASSOC-04",
     "code_name": "vcci",
     "name": "越南工商业联合会 (VCCI)",
     "category": "Industry Association",
-    "category_cn": "行业商协会",
+    "category_cn": "重点行业商会与协会",
     "target_url": "https://vcci.com.vn/news",
     "effective_endpoint": "https://vcci.com.vn/tin-tuc",
     "method_verified": "HTML Card / Semantic List",
@@ -9791,14 +10475,17 @@
     ],
     "limitations": "越文更新极高频，英文版较滞后；推荐以越文常规入口为主",
     "recommended_strategy": "每日抓取 /tin-tuc 栏目，重点监测中小企业融资成本、税费减免呼吁及外商在越诉求报告",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【重点关注产业专题】",
+    "dossier_filename": "SRC-ASSOC-04-vcci.md",
+    "dossier_exists": false
   },
   {
     "id": "src-ASSOC-05",
     "code_name": "vilasia",
     "name": "涉外专业律所投资专栏 (Vilasia / 越南外资法律洞察)",
     "category": "Industry Association",
-    "category_cn": "行业商协会与机构",
+    "category_cn": "重点行业商会与协会",
     "target_url": "https://vilasia.com",
     "effective_endpoint": "https://vil.asia/insights/",
     "method_verified": "HTML List (Professional Legal Insights)",
@@ -9849,14 +10536,17 @@
     ],
     "limitations": "专业深度分析机构，篇幅详实但非每日发布；需作为按专题选读的智库库源",
     "recommended_strategy": "每周轮询 /insights/，沉淀外资并购、直接购电协议 (DPPA)、新土地法落地及反垄断合规分析",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【重点关注产业专题】",
+    "dossier_filename": "SRC-ASSOC-05-vilasia.md",
+    "dossier_exists": false
   },
   {
     "id": "src-ASSOC-06",
     "code_name": "sbf",
     "name": "新加坡工商联合会 (SBF)",
     "category": "Industry Association",
-    "category_cn": "行业商协会与机构",
+    "category_cn": "重点行业商会与协会",
     "target_url": "https://www.sbf.org.sg",
     "effective_endpoint": "https://www.sbf.org.sg",
     "method_verified": "Automated Access Blocked (Cloudflare WAF 403)",
@@ -9875,14 +10565,17 @@
     ],
     "limitations": "部署 Cloudflare Bot Protection，直接 HTTP 请求均被拦截返回 403",
     "recommended_strategy": "降级为候选备用源；新加坡企业动态主要通过 The Business Times 与 Enterprise Singapore 覆盖",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【重点关注产业专题】",
+    "dossier_filename": "SRC-ASSOC-06-sbf.md",
+    "dossier_exists": false
   },
   {
     "id": "src-ASSOC-07",
     "code_name": "smf",
     "name": "新加坡制造业总会 (SMF)",
     "category": "Industry Association",
-    "category_cn": "行业商协会与机构",
+    "category_cn": "重点行业商会与协会",
     "target_url": "https://www.smfederation.org.sg",
     "effective_endpoint": "https://smfederation.org.sg/feed/",
     "method_verified": "Native RSS 2.0 Feed",
@@ -9932,14 +10625,17 @@
     ],
     "limitations": "注意 apex 域名重定向；且服务器对特定桌面浏览器 UA 存在协议重置，需采用标准 Feed 客户端标识",
     "recommended_strategy": "直接订阅其标准 WordPress RSS 2.0 Feed，稳定低开销获取新加坡制造业海外考察与商业团动态",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【重点关注产业专题】",
+    "dossier_filename": "SRC-ASSOC-07-smf.md",
+    "dossier_exists": false
   },
   {
     "id": "src-INTL-01",
     "code_name": "worldbank_vn",
     "name": "世界银行越南专页与IFC项目 (World Bank Vietnam / IFC)",
     "category": "International Development",
-    "category_cn": "国际开发机构",
+    "category_cn": "国际金融与发展组织",
     "target_url": "https://www.worldbank.org/ext/en/country/vietnam",
     "effective_endpoint": "https://www.worldbank.org/ext/en/country/vietnam",
     "method_verified": "HTML List (Official Publications & Project Briefs)",
@@ -9989,14 +10685,17 @@
     ],
     "limitations": "深度宏观与基建贷款研究为主，非高频微观企业交易跟踪",
     "recommended_strategy": "每季度抓取越南国别研究报告（如 Viet Nam 2045 专题）与世行重大港口交通贷款规划",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-INTL-01-worldbank_vn.md",
+    "dossier_exists": false
   },
   {
     "id": "src-INTL-02",
     "code_name": "adb_vn",
     "name": "亚洲开发银行 (ADB Vietnam Projects)",
     "category": "International Development",
-    "category_cn": "国际开发机构",
+    "category_cn": "国际金融与发展组织",
     "target_url": "https://www.adb.org/where-we-work/viet-nam/projects-results",
     "effective_endpoint": "https://www.adb.org/where-we-work/viet-nam/projects-results",
     "method_verified": "Automated Access Blocked (Cloudflare WAF 403)",
@@ -10015,14 +10714,17 @@
     ],
     "limitations": "全站严格部署 Cloudflare WAF，所有常规 HTTP 请求均被拒绝",
     "recommended_strategy": "降级为阶段二外部开放数据包导入或通过综合媒体转述，不作为常规爬虫日常监控项",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-INTL-02-adb_vn.md",
+    "dossier_exists": false
   },
   {
     "id": "src-INTL-03",
     "code_name": "aiib_projects",
     "name": "亚洲基础设施投资银行 (AIIB Projects)",
     "category": "International Development",
-    "category_cn": "国际开发机构",
+    "category_cn": "国际金融与发展组织",
     "target_url": "https://www.aiib.org/en/projects/list/index.html",
     "effective_endpoint": "https://www.aiib.org/en/projects/list/.content/all-projects-data.js",
     "method_verified": "Static JavaScript Dataset (JSON Evaluation)",
@@ -10072,14 +10774,17 @@
     ],
     "limitations": "项目库更新频率按月或按季，需定期拉取全量静态 JS 数据包进行差量计算",
     "recommended_strategy": "每月轮询 all-projects-data.js，筛选 economy=Viet Nam 增量项目，建立能源与物流重点融资台账",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-INTL-03-aiib_projects.md",
+    "dossier_exists": false
   },
   {
     "id": "src-SUPP-01",
     "code_name": "pr_newswire",
     "name": "企业官方通稿台: 美通社亚太 (PR Newswire)",
     "category": "Supplementary Channel",
-    "category_cn": "补充渠道与外围资讯",
+    "category_cn": "专业补充信息渠道",
     "target_url": "https://www.prnasia.com/",
     "effective_endpoint": "https://www.prnasia.com/",
     "method_verified": "HTML List (Corporate Press Release Feed)",
@@ -10129,14 +10834,17 @@
     ],
     "limitations": "属于企业单方付费通稿，仅可作为线索发现，不可直接视作独立第三方事实核实",
     "recommended_strategy": "作为出海企业重大合作的预警信号，发现线索后必须反向交叉核实地方官方批文或证券交易所公告",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-SUPP-01-pr_newswire.md",
+    "dossier_exists": false
   },
   {
     "id": "src-SUPP-02",
     "code_name": "media_outreach",
     "name": "企业官方通稿台: Media OutReach / EtNet 转载入口",
     "category": "Supplementary Channel",
-    "category_cn": "补充渠道与外围资讯",
+    "category_cn": "专业补充信息渠道",
     "target_url": "https://www.media-outreach.com/",
     "effective_endpoint": "https://www.media-outreach.com/",
     "method_verified": "HTML List (Global PR Distribution)",
@@ -10186,14 +10894,17 @@
     ],
     "limitations": "同样为企业自主公关发布平台，必须追溯具名发布主体",
     "recommended_strategy": "同美通社，作为补充线索雷达，发现涉越项目后进行源头求证",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-SUPP-02-media_outreach.md",
+    "dossier_exists": false
   },
   {
     "id": "src-SUPP-03",
     "code_name": "sina_finance",
     "name": "中文商业与转载: 新浪财经",
     "category": "Supplementary Channel",
-    "category_cn": "补充渠道与外围资讯",
+    "category_cn": "专业补充信息渠道",
     "target_url": "https://finance.sina.com.cn",
     "effective_endpoint": "https://finance.sina.com.cn",
     "method_verified": "HTML List (Major News Portal Syndication)",
@@ -10243,14 +10954,17 @@
     ],
     "limitations": "以中文二次转述和泛资讯汇聚为主，信息增量相对原始披露存在衰减",
     "recommended_strategy": "降级投入；仅在检索特定企业中文深度分析或无原始信披时作线索补漏",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-SUPP-03-sina_finance.md",
+    "dossier_exists": false
   },
   {
     "id": "src-SUPP-04",
     "code_name": "tencent_news",
     "name": "中文商业与转载: 腾讯新闻",
     "category": "Supplementary Channel",
-    "category_cn": "补充渠道与外围资讯",
+    "category_cn": "专业补充信息渠道",
     "target_url": "https://news.qq.com",
     "effective_endpoint": "https://news.qq.com",
     "method_verified": "Portal Access (CSR Dynamic Content)",
@@ -10268,14 +10982,17 @@
     ],
     "limitations": "前端全量采用客户端 JS 渲染，静态 HTML 无直接文章超链；低增量转载源",
     "recommended_strategy": "执行降级策略，不作日常持续抓取投入",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-SUPP-04-tencent_news.md",
+    "dossier_exists": false
   },
   {
     "id": "src-SUPP-05",
     "code_name": "netease_finance",
     "name": "中文商业与转载: 网易财经",
     "category": "Supplementary Channel",
-    "category_cn": "补充渠道与外围资讯",
+    "category_cn": "专业补充信息渠道",
     "target_url": "https://money.163.com",
     "effective_endpoint": "https://money.163.com",
     "method_verified": "HTML List (Portal Syndication)",
@@ -10324,14 +11041,17 @@
     ],
     "limitations": "多为自媒体与网易号聚合，真实涉越原始增量极低",
     "recommended_strategy": "遵循目录降级安排，仅对新增明确涉越线索按需检索",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-SUPP-05-netease_finance.md",
+    "dossier_exists": false
   },
   {
     "id": "src-SUPP-06",
     "code_name": "sohu_finance",
     "name": "中文商业与转载: 搜狐财经",
     "category": "Supplementary Channel",
-    "category_cn": "补充渠道与外围资讯",
+    "category_cn": "专业补充信息渠道",
     "target_url": "https://business.sohu.com",
     "effective_endpoint": "https://business.sohu.com",
     "method_verified": "HTML List (Portal Articles)",
@@ -10380,14 +11100,17 @@
     ],
     "limitations": "降级渠道；文章多数为搜狐号入驻机构发布，权威度逊于官方媒体",
     "recommended_strategy": "降级投入，排除出常规爬取轮询体系",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-SUPP-06-sohu_finance.md",
+    "dossier_exists": false
   },
   {
     "id": "src-SUPP-07",
     "code_name": "etnet",
     "name": "中文商业与转载: EtNet 经济通",
     "category": "Supplementary Channel",
-    "category_cn": "补充渠道与外围资讯",
+    "category_cn": "专业补充信息渠道",
     "target_url": "https://www.etnet.com.hk",
     "effective_endpoint": "https://www.etnet.com.hk/www/tc/news/categorized_news.php",
     "method_verified": "HTML List (HK Financial Portal)",
@@ -10437,14 +11160,17 @@
     ],
     "limitations": "香港本土综合财经资讯站，含 Media OutReach 企业通讯转载",
     "recommended_strategy": "保留作为香港与东盟投资视角的辅助验证源",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-SUPP-07-etnet.md",
+    "dossier_exists": false
   },
   {
     "id": "src-SUPP-08",
     "code_name": "yuenan_zhongwen",
     "name": "中文商业与转载: 越南中文社 / 越南网 (yuenan.com)",
     "category": "Supplementary Channel",
-    "category_cn": "补充渠道与外围资讯",
+    "category_cn": "专业补充信息渠道",
     "target_url": "https://yuenan.com/",
     "effective_endpoint": "https://yuenan.com/",
     "method_verified": "HTML List (Local Chinese Community News)",
@@ -10494,14 +11220,17 @@
     ],
     "limitations": "本土民间华人社群媒体，主打政策快讯与生活避坑，权威批文仍需核对公报",
     "recommended_strategy": "作为弱信号与草根落地痛点（如海关通关、税收抽查、签证收紧）的灵敏前哨",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【FDI 外资投资动向】",
+    "dossier_filename": "SRC-SUPP-08-yuenan_zhongwen.md",
+    "dossier_exists": false
   },
   {
     "id": "src-SUPP-09",
     "code_name": "vietnam_vn",
     "name": "中文商业与转载: Vietnam.vn (越南官方汇聚多语种门户)",
     "category": "Supplementary Channel",
-    "category_cn": "补充渠道与外围资讯",
+    "category_cn": "专业补充信息渠道",
     "target_url": "https://www.vietnam.vn",
     "effective_endpoint": "https://www.vietnam.vn/zh-CN/",
     "method_verified": "HTML List (Official Multi-Language Aggregation Portal)",
@@ -10551,14 +11280,17 @@
     ],
     "limitations": "由越南通信传媒部主导的聚合门户，文章多来自越通社与人民报二次译编",
     "recommended_strategy": "可作为获取官方多语种新闻报道的一站式便捷备用入口",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-SUPP-09-vietnam_vn.md",
+    "dossier_exists": false
   },
   {
     "id": "src-SUPP-10",
     "code_name": "longbridge",
     "name": "待定位新闻入口: Longbridge (长桥证券)",
     "category": "Supplementary Channel",
-    "category_cn": "补充渠道与外围资讯",
+    "category_cn": "专业补充信息渠道",
     "target_url": "https://longbridge.hk",
     "effective_endpoint": "https://longportapp.com/zh-CN/news",
     "method_verified": "React SPA Shell (<div id='root'></div> / In-App API Required)",
@@ -10576,14 +11308,17 @@
     ],
     "limitations": "长桥 Web 端为纯 React CSR 架构，无服务端渲染 HTML，完整资讯流绑定于移动 App 及社群内部协议",
     "recommended_strategy": "维持‘待定位原新闻入口’判定，不能作为常规可用新闻流纳入日常爬取",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-SUPP-10-longbridge.md",
+    "dossier_exists": false
   },
   {
     "id": "src-SUPP-11",
     "code_name": "fb_chinhphu",
     "name": "社交平台官方主页: 越南政府 Facebook (Thông tin Chính phủ)",
     "category": "Supplementary Channel",
-    "category_cn": "补充渠道与外围资讯",
+    "category_cn": "专业补充信息渠道",
     "target_url": "https://www.facebook.com/thongtinchinhphu",
     "effective_endpoint": "https://www.facebook.com/thongtinchinhphu",
     "method_verified": "Automated Access Blocked (Meta Anti-Crawler 400 Bad Request)",
@@ -10601,14 +11336,17 @@
     ],
     "limitations": "Meta 围墙花园对非浏览器请求实施 400 Bad Request 与严格阻断；无公开免登录 RSS/API",
     "recommended_strategy": "坚决不投入爬虫算力对抗；全量政令均同步发布于中央政府门户网站 (baochinhphu.vn，第一批已验证可用)",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-SUPP-11-fb_chinhphu.md",
+    "dossier_exists": false
   },
   {
     "id": "src-SUPP-12",
     "code_name": "fb_vnexpress",
     "name": "社交平台官方主页: VnExpress Facebook (Cộng đồng VnExpress)",
     "category": "Supplementary Channel",
-    "category_cn": "补充渠道与外围资讯",
+    "category_cn": "专业补充信息渠道",
     "target_url": "https://www.facebook.com/CongdongVnexpress",
     "effective_endpoint": "https://www.facebook.com/CongdongVnexpress",
     "method_verified": "Automated Access Blocked (Meta Anti-Crawler 400 Bad Request)",
@@ -10626,14 +11364,17 @@
     ],
     "limitations": "同 Meta 防护；爬虫无法直接穿透",
     "recommended_strategy": "直接使用第二批已 100% 验证可用的 VnExpress 原生 RSS 端点 (vnexpress.net/rss/tin-moi-nhat.rss)",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-SUPP-12-fb_vnexpress.md",
+    "dossier_exists": false
   },
   {
     "id": "src-SUPP-13",
     "code_name": "fb_baodautu",
     "name": "社交平台官方主页: Báo Đầu tư Facebook (Báo Đầu tư Online)",
     "category": "Supplementary Channel",
-    "category_cn": "补充渠道与外围资讯",
+    "category_cn": "专业补充信息渠道",
     "target_url": "https://www.facebook.com/Baodautuonline",
     "effective_endpoint": "https://www.facebook.com/Baodautuonline",
     "method_verified": "Automated Access Blocked (Meta Anti-Crawler 400 Bad Request)",
@@ -10651,14 +11392,17 @@
     ],
     "limitations": "Meta 围墙花园拦截；未取得帖子不算覆盖",
     "recommended_strategy": "直接使用第二批已验证的 Báo Đầu tư 官网投资频道与 RSS 源，放弃社交主页抓取",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-SUPP-13-fb_baodautu.md",
+    "dossier_exists": false
   },
   {
     "id": "src-SUPP-14",
     "code_name": "wechat_mp",
     "name": "备用渠道: 企业微信公众号 (搜狗微信搜索备用入口)",
     "category": "Supplementary Channel",
-    "category_cn": "补充渠道与外围资讯",
+    "category_cn": "专业补充信息渠道",
     "target_url": "https://weixin.sogou.com/",
     "effective_endpoint": "https://weixin.sogou.com/weixin?type=2&query=%E8%B6%8A%E5%8D%97+%E6%8A%95%E8%B5%84",
     "method_verified": "HTML List (Sogou Weixin Search Aggregator)",
@@ -10708,6 +11452,9 @@
     ],
     "limitations": "微信生态封闭，高频搜索会触发验证码；跳转落地页包含临时签名参数",
     "recommended_strategy": "维持‘暂缓’常规全自动抓取的目录安排；仅在重大专题调研时人工或低频通过搜狗辅助索引",
-    "_batch_name": "第四批 (交易所信披、协会与国际机构)"
+    "_batch_name": "第四批 (交易所信披、协会与国际机构)",
+    "target_basket": "【政经与综合市场动态】",
+    "dossier_filename": "SRC-SUPP-14-wechat_mp.md",
+    "dossier_exists": false
   }
 ]
