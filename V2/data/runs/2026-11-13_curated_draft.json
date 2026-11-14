@@ -1,0 +1,146 @@
+[
+  {
+    "column": "fdi",
+    "title_zh": "振邦智能（003028.SZ）披露越南子公司签订施工合同",
+    "fact_summary": "2026-11-12 至 2026-11-13，深圳证券交易所与巨潮资讯网同步披露《振邦智能：关于越南振邦签订〈施工合同〉的公告》，标志着其越南子公司厂房/产线基建正式进入施工履约环节。",
+    "insight_analysis": "中国上市电子智能控制器企业继续向实质土建履约推进，可重点留意其在越机电安装及厂房总包配套需求外溢。",
+    "ref_candidate_ids": ["C-SRC-DISC-03-0001", "C-SRC-DISC-01-0001"],
+    "is_follow_up": false
+  },
+  {
+    "column": "fdi",
+    "title_zh": "日本名幸电子（Meiko）追加 4.5 亿美元扩建越南 PCB 工厂，总投资达 8 亿美元",
+    "fact_summary": "2026-11-12 据 TechNode Global 披露，日本印制电路板（PCB）大厂 Meiko 集团宣布对其位于富寿省（原和平厂区）的越南生产基地追加投资 4.5 亿美元，使该项目累计投资额达到 8 亿美元。",
+    "insight_analysis": "继此前在北越布局后大幅追投至 8 亿美元体量，反映高阶 PCB 产业链向北越工业走廊集中扩产的趋势仍在强化。",
+    "ref_candidate_ids": ["C-SRC-IND-PROP-02-0011"],
+    "is_follow_up": false
+  },
+  {
+    "column": "fdi",
+    "title_zh": "港股新龙国际（00529.HK）公告投资越南实体公司",
+    "fact_summary": "2026-11-10，港交所披露易发布 SIS INT'L（00529.HK）自愿公告，宣布投资于越南一家实体公司。",
+    "insight_analysis": "港资上市公司通过直投实体落子越南渠道及运营网络，建议关注后续公告是否披露具体工业地产或经销实体落位。",
+    "ref_candidate_ids": ["C-SRC-DISC-05-0001"],
+    "is_follow_up": false
+  },
+  {
+    "column": "fdi",
+    "title_zh": "Vinasteel 投建约 2 万亿越盾、年产 80 万吨钢铁生产线落位富寿省",
+    "fact_summary": "2026-11-12 据 VietnamNet 报道，Vinasteel 位于富寿省的钢铁项目总投资约 2 万亿越盾，设计年产能达 80 万吨，配置同步化轧制与高速模块生产线。",
+    "insight_analysis": "大型重工业产能向河内西北翼富寿省延伸，客观上将推升当地工业园区大宗原材料就近供应能力及重型物流/电力负荷。",
+    "ref_candidate_ids": ["C-SRC-VN-GEN-10-0007"],
+    "is_follow_up": false
+  },
+  {
+    "column": "fdi",
+    "title_zh": "胡志明市芹蒢 50 亿美元国际中转港项目牵头企业获批以股代息增资",
+    "fact_summary": "2026-11-12 据《民智报》报道，主导投资总规模约 50 亿美元的芹蒢（Cần Giờ）国际中转港联合体牵头企业已获政府批准实施以股代息，用于扩充项目资本金。",
+    "insight_analysis": "资本运作落地为 50 亿美元级深水枢纽港后续资本金到位扫清行政障碍，有利于长三角/华南出口转运企业评估南越港航配套周期。",
+    "ref_candidate_ids": ["C-SRC-VN-GEN-11-0005"],
+    "is_follow_up": false
+  },
+  {
+    "column": "industrial_park",
+    "title_zh": "岘港市批准 VSIP 投资 3.525 万亿越盾建设岘港自由贸易区基础设施",
+    "fact_summary": "2026-11-12 据《西贡解放报》报道，岘港市人民委员会已正式批准越新工业区合资公司（VSIP）作为投资方，出资 3.525 万亿越盾实施岘港自由贸易区基础设施投资与经营项目。",
+    "insight_analysis": "头号园区开发商 VSIP 正式切入中越自贸区载体建设，标志着岘港保税研发及制造承载地块进入高规格基础设施开发周期。",
+    "ref_candidate_ids": ["C-SRC-VN-GEN-05-0024"],
+    "is_follow_up": false
+  },
+  {
+    "column": "industrial_park",
+    "title_zh": "河静省嘉历工业区扩建区（DragonIZ）迎来首个 1,285 亿越盾标准厂房项目",
+    "fact_summary": "2026-11-12 河静省经济区管委会与省政府门户同步披露，嘉历工业区扩建区迎来首宗入园项目，总投资逾 1,285 亿越盾，将在宜春社建设 3 栋标准厂房，新增近 1.5 万平方米可租工业厂房面积。",
+    "insight_analysis": "北中部（河静—荣市）工业载体开始由重化工主导转向标准化可租厂房补齐，适合对地价敏感、辐射中北部走廊的中小制造企业参考。",
+    "ref_candidate_ids": ["C-VN-LOC-16-HT-B-0001", "C-VN-LOC-16-HT-A-0001"],
+    "is_follow_up": false
+  },
+  {
+    "column": "industrial_park",
+    "title_zh": "海防市 Taseco 水原工业园依托临港生态加速推进招商承接",
+    "fact_summary": "2026-11-12 据《The Investor》披露，位于海防市北部的 Taseco Thủy Nguyên 工业园正依托海防深水港及工业物流集群加速释放承接空间。",
+    "insight_analysis": "海防北部（水原区）与 Deep C、VSIP 海防形成梯度互补，可作为华资精密制造及电子配套企业北越选址的备选地块之一。",
+    "ref_candidate_ids": ["C-SRC-VN-FIN-06-0007"],
+    "is_follow_up": false
+  },
+  {
+    "column": "industrial_park",
+    "title_zh": "富寿省斥资近 1,970 亿越盾新建 110kV 变电站保障 Stavian 永福工业园供电",
+    "fact_summary": "2026-11-12 据《BizHub》报道，投资额近 1,970 亿越盾的新建 110kV 变电站项目已部署推进，专项强化富寿省 Stavian 永福工业园及其周边区域的长期工业电力供给。",
+    "insight_analysis": "园区专属 110kV 变电配套落地是衡量北越园区高耗电制造业（PCB、精密金属、数据中心）实际可靠供电能力的关键先行指标。",
+    "ref_candidate_ids": ["C-SRC-VN-FIN-07-0001"],
+    "is_follow_up": false
+  },
+  {
+    "column": "industry_focus",
+    "title_zh": "越南 FPT 与日本 SBI 控股拟探讨合作投资建设在越存储芯片封测厂",
+    "fact_summary": "2026-11-11 据 TechNode Global 披露，越南科技龙头 FPT 集团正与日本 SBI Holdings 就合资投资 FPT 规划在越建设的存储芯片封装测试（OSAT）工厂展开联合评估。",
+    "insight_analysis": "在 Intel、Amkor 与 Hana Micron 之外，越企本土巨头引入日资金融科技资本探路存储封测环节，印证中后段芯片封测在越加速集群化。",
+    "ref_candidate_ids": ["C-SRC-IND-PROP-02-0020"],
+    "is_follow_up": false
+  },
+  {
+    "column": "industry_focus",
+    "title_zh": "越韩 AI 与半导体合作论坛签署 8 项技术、封测及供应链协作协议",
+    "fact_summary": "2026-11-12《VnEconomy》与《人民报》共同报道，2026 越韩 AI-半导体论坛达成 8 项合作协议，重点覆盖半导体供应链对接、芯片封装测试协同开发及高端工程人才培养。",
+    "insight_analysis": "韩越在芯片封测与 AI 算力配套领域的机制化合作持续深化，可进一步带动在越韩系半导体配套材料与洁净室工程需求。",
+    "ref_candidate_ids": ["C-SRC-VN-FIN-02-0001", "C-SRC-VN-GEN-02-0007"],
+    "is_follow_up": false
+  },
+  {
+    "column": "industry_focus",
+    "title_zh": "越南首次核定 BESS 电池储能电价框架（3,209.98 越盾/度），VinEnergo 获 UL 9540 认证",
+    "fact_summary": "2026-11-11 至 11-12，越南政府新闻网公告工贸部正式核定 2026 年电池储能系统（BESS）发电价格框架为 3,209.98 越盾/kWh（11 月 11 日起生效）；同期 VCCI 披露 VinEnergo 成为东南亚首个通过 UL 9540 安全认证的 BESS 系统制造商。",
+    "insight_analysis": "储能电价政策框架破冰叠加本土龙头斩获国际安全准入认证，标志着越南工商业园区“光伏+储能/DPPA”一体化项目开始具备商业化测算锚点。",
+    "ref_candidate_ids": ["C-SRC-MED-001-0022", "C-SRC-ASSOC-04-0008"],
+    "is_follow_up": false
+  },
+  {
+    "column": "industry_focus",
+    "title_zh": "越南工贸部将 2026 年 LNG 发电价格框架上限上调至 3,453.72 越盾/度",
+    "fact_summary": "2026-11-12，越南政府新闻网与《青年报》同步披露，工贸部颁布第 2972 号决定，核定 2026 年进口液化天然气（LNG）联合循环燃机电厂最高发电价格框架为 3,453.72 越盾/kWh，较 2025 年上调逾 126 越盾。",
+    "insight_analysis": "电价上限小幅调升有助于缓解在建 LNG 电厂的 PPA 购电协议谈判僵局，为第八电力规划下工业基荷电源按期并网提供支撑。",
+    "ref_candidate_ids": ["C-SRC-MED-001-0016", "C-SRC-VN-GEN-09-0006"],
+    "is_follow_up": false
+  },
+  {
+    "column": "legal_approval",
+    "title_zh": "嘉莱省扶美工业园二期基础设施项目进入农业与环境部环评（ĐTM）法定征询期",
+    "fact_summary": "2026-11-12 越南国家环境影响评价（ĐTM）法定公众征询平台发布《扶美工业园二期基础设施投资建设与经营项目》环评公示，实施地点位于嘉莱省扶美东社，申报单位为西原基础设施与工业区投资有限公司，自 11 月 12 日起公示 15 日。",
+    "insight_analysis": "园区二期正式进入国家级 ĐTM 环评法定公示阶段，意味着该片区后续招商供地的合规前置程序正在加速定型。",
+    "ref_candidate_ids": ["C-SRC-APP-001-0001"],
+    "is_follow_up": false
+  },
+  {
+    "column": "legal_approval",
+    "title_zh": "兴安省公开公示《Aspower Vietnam 科技工厂项目》环境许可证申领报告",
+    "fact_summary": "2026-11-10 兴安省农业与环境厅官网公开披露《Aspower Vietnam 科技工厂项目环境许可证核发建议报告》法定公示文件。",
+    "insight_analysis": "环评与排污许可进入省级部门核准公示环节，表明该项目主厂房建设已接近竣工验收或投产前法定合规审查阶段。",
+    "ref_candidate_ids": ["C-VN-LOC-05-HY-D-0008"],
+    "is_follow_up": false
+  },
+  {
+    "column": "macro_policy",
+    "title_zh": "越南—欧洲自由贸易联盟（VEFTA）协定框架明确生效即取消超 90% 税目关税",
+    "fact_summary": "2026-11-11 越南政府新闻网报道指出，VEFTA 协定一旦正式生效，欧洲自由贸易联盟国家（瑞士、挪威、冰岛、列支敦士登）将立即撤销超 90% 对越关税税目。",
+    "insight_analysis": "面向欧洲高端非欧盟自贸伙伴的零关税通道即将打开，有助于在越精密机电与消费电子出口制造企业拓展原产地优惠市场。",
+    "ref_candidate_ids": ["C-SRC-MED-001-0020"],
+    "is_follow_up": false
+  },
+  {
+    "column": "macro_policy",
+    "title_zh": "越南前 10 月公共投资到位超 717 万亿越盾（完成 74.37%），5 部委进度仍滞后",
+    "fact_summary": "2026-11-12 越南财政部公布，年初至 11 月 5 日全国公共投资财政拨付累计达 717,161.3 亿越盾，完成总理下达年度计划的 74.37%，但仍有 5 个中央部委执行率低于 20%。",
+    "insight_analysis": "全国基建支出推进整体保持中高位节奏，对干线高速、港口与电力接入配套形成托底，同时局部部委审批滞后仍需留意。",
+    "ref_candidate_ids": ["C-SRC-MED-001-0015"],
+    "is_follow_up": false
+  },
+  {
+    "column": "macro_policy",
+    "title_zh": "越南央行启动 6 个月期 20 亿美元外汇掉期操作，补充年末 50 万亿越盾流动性",
+    "fact_summary": "2026-11-12 越南政府新闻网通报，越南国家银行（NHNN）即日起开展 6 个月期外汇掉期操作，首期规模 20 亿美元，预计为商业银行体系额外注入约 50 万亿越盾本币流动性。",
+    "insight_analysis": "央行以汇率工具温和释放年末越盾流动性，短期有助于缓解在越制造及园区开发企业年底结算季的越盾信贷与融资成本压力。",
+    "ref_candidate_ids": ["C-SRC-MED-001-0007"],
+    "is_follow_up": false
+  }
+]

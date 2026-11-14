@@ -1,0 +1,267 @@
+{
+  "schema_version": "2.0",
+  "reference_date": "2026-11-13T00:00:00Z",
+  "description": "Vietnam Intelligence Radar V2 Golden Set Regression Suite (Ref: 9381 & 2946). Single-proposition assertions covering triage, 5-column routing, date quarantine, noise rejection, overseas conduction, and lifecycle dedup.",
+  "cases": [
+    {
+      "id": "GS-01",
+      "proposition": "Domestic FDI factory expansion passes triage and routes to fdi",
+      "source_meta": {"source_id": "SRC-VN-FIN-02", "cluster": "media_fdi", "priority": "P1", "name": "VnEconomy"},
+      "payload": {
+        "candidate_id": "C-GS-01",
+        "source_id": "SRC-VN-FIN-02",
+        "title": "Luxshare ICT tăng vốn thêm 150 triệu USD mở rộng nhà máy tại Bắc Giang",
+        "pub_date_raw": "2026-11-12",
+        "subject_entity": "Luxshare ICT",
+        "geo_location": "Bắc Giang",
+        "signal_type": "capital_increase",
+        "project_scale": "150M USD",
+        "evidence_snippet": "Luxshare ICT đầu tư thêm 150 triệu USD mở rộng dây chuyền sản xuất tại Việt Nam."
+      },
+      "expect": {"decision": "keep", "target_column": "fdi"}
+    },
+    {
+      "id": "GS-02",
+      "proposition": "Overseas corporate disclosure mentioning Vietnam factory expansion passes conduction and routes to fdi",
+      "source_meta": {"source_id": "SRC-DISC-03", "cluster": "corporate_disclosure", "priority": "P0", "name": "深交所"},
+      "payload": {
+        "candidate_id": "C-GS-02",
+        "source_id": "SRC-DISC-03",
+        "title": "关于投资建设越南海防生产基地及增资子公司的公告",
+        "pub_date_raw": "2026-11-12",
+        "subject_entity": "振邦智能",
+        "geo_location": "海防",
+        "signal_type": "factory_setup",
+        "project_scale": "40M USD",
+        "evidence_snippet": "公司拟在越南海防工业园设厂并增资海外子公司。"
+      },
+      "expect": {"decision": "keep", "target_column": "fdi"}
+    },
+    {
+      "id": "GS-03",
+      "proposition": "Overseas disclosure with ZERO Vietnam mention is rejected with drop_irrelevant",
+      "source_meta": {"source_id": "SRC-DISC-01", "cluster": "corporate_disclosure", "priority": "P0", "name": "巨潮资讯"},
+      "payload": {
+        "candidate_id": "C-GS-03",
+        "source_id": "SRC-DISC-01",
+        "title": "关于在成都高新区投资设立全资子公司的公告",
+        "pub_date_raw": "2026-11-12",
+        "subject_entity": "某科技",
+        "geo_location": "成都",
+        "signal_type": "factory_setup",
+        "evidence_snippet": "拟在中国四川省成都市设厂扩产。"
+      },
+      "expect": {"decision": "drop_irrelevant"}
+    },
+    {
+      "id": "GS-04",
+      "proposition": "Industrial park land handover routes to industrial_park",
+      "source_meta": {"source_id": "VN-LOC-14-DD-B", "cluster": "industrial_park", "priority": "P0", "name": "DSEZA"},
+      "payload": {
+        "candidate_id": "C-GS-04",
+        "source_id": "VN-LOC-14-DD-B",
+        "title": "KCN Hòa Ninh Đà Nẵng đẩy nhanh giải phóng mặt bằng và giao đất 400 ha cho nhà đầu tư",
+        "pub_date_raw": "12/11/2026",
+        "subject_entity": "DSEZA",
+        "geo_location": "Đà Nẵng",
+        "signal_type": "land_grant",
+        "project_scale": "400 ha",
+        "evidence_snippet": "Ban quản lý khu công nghệ cao và các khu công nghiệp Đà Nẵng hoàn tất giải phóng mặt bằng."
+      },
+      "expect": {"decision": "keep", "target_column": "industrial_park"}
+    },
+    {
+      "id": "GS-05",
+      "proposition": "Semiconductor / Data Center topic routes to industry_focus",
+      "source_meta": {"source_id": "SRC-VN-GEN-01", "cluster": "media_fdi", "priority": "P1", "name": "Báo Chính Phủ"},
+      "payload": {
+        "candidate_id": "C-GS-05",
+        "source_id": "SRC-VN-GEN-01",
+        "title": "Viettel khởi công trung tâm dữ liệu siêu quy mô 140 MW tại TP.HCM",
+        "pub_date_raw": "11/12/2026 09:30:00 AM",
+        "subject_entity": "Viettel",
+        "geo_location": "TP.HCM",
+        "signal_type": "ground_breaking",
+        "project_scale": "140 MW",
+        "evidence_snippet": "Trung tâm dữ liệu công suất lớn ứng dụng làm mát bằng chất lỏng tại TP.HCM."
+      },
+      "expect": {"decision": "keep", "target_column": "industry_focus"}
+    },
+    {
+      "id": "GS-06",
+      "proposition": "DPPA green power / BESS energy storage topic routes to industry_focus",
+      "source_meta": {"source_id": "SRC-IND-ENERGY-01", "cluster": "industry_focus", "priority": "P1", "name": "VietnamEnergy"},
+      "payload": {
+        "candidate_id": "C-GS-06",
+        "source_id": "SRC-IND-ENERGY-01",
+        "title": "Triển khai thí điểm DPPA và hệ thống pin lưu trữ năng lượng BESS tại Đồng Nai",
+        "pub_date_raw": "2026-11-11",
+        "subject_entity": "EVN",
+        "geo_location": "Đồng Nai",
+        "signal_type": "factory_setup",
+        "evidence_snippet": "Mua bán điện trực tiếp DPPA phục vụ nhà máy sản xuất xanh và hệ thống BESS."
+      },
+      "expect": {"decision": "keep", "target_column": "industry_focus"}
+    },
+    {
+      "id": "GS-07",
+      "proposition": "Provincial EIA consultation routes to legal_approval",
+      "source_meta": {"source_id": "SRC-A13", "cluster": "legal_approval", "priority": "P0", "name": "MONRE ThamVan"},
+      "payload": {
+        "candidate_id": "C-GS-07",
+        "source_id": "SRC-A13",
+        "title": "Tham vấn ĐTM Dự án Mở rộng Cụm công nghiệp Gia Lách 300 tỷ đồng",
+        "pub_date_raw": "2026-11-12",
+        "subject_entity": "MONRE",
+        "geo_location": "Hà Tĩnh",
+        "signal_type": "eia_approval",
+        "evidence_snippet": "Báo cáo đánh giá tác động môi trường dự án hạ tầng kỹ thuật cụm công nghiệp."
+      },
+      "expect": {"decision": "keep", "target_column": "legal_approval"}
+    },
+    {
+      "id": "GS-08",
+      "proposition": "FTA / Customs tariff update routes to macro_policy (not FDI false positive)",
+      "source_meta": {"source_id": "SRC-A01", "cluster": "macro_policy", "priority": "P0", "name": "CHINHPHU"},
+      "payload": {
+        "candidate_id": "C-GS-08",
+        "source_id": "SRC-A01",
+        "title": "Bộ Công Thương hướng dẫn quy tắc xuất xứ hiệp định FTA và thủ tục hải quan mới",
+        "pub_date_raw": "2026-11-12",
+        "subject_entity": "Bộ Công Thương",
+        "geo_location": "Hà Nội",
+        "signal_type": "policy_regulation",
+        "evidence_snippet": "Áp dụng ưu đãi thuế quan cho doanh nghiệp xuất khẩu tại Việt Nam."
+      },
+      "expect": {"decision": "keep", "target_column": "macro_policy"}
+    },
+    {
+      "id": "GS-09",
+      "proposition": "Domestic bank stock issuance does not hijack FDI column via 'mở rộng / tỷ'",
+      "source_meta": {"source_id": "SRC-VN-FIN-03", "cluster": "media_fdi", "priority": "P1", "name": "CafeF"},
+      "payload": {
+        "candidate_id": "C-GS-09",
+        "source_id": "SRC-VN-FIN-03",
+        "title": "Ngân hàng ACB chào bán cổ phiếu tăng vốn điều lệ 3.000 tỷ đồng mở rộng tín dụng",
+        "pub_date_raw": "2026-11-12",
+        "subject_entity": "ACB",
+        "geo_location": "Việt Nam",
+        "signal_type": "policy_regulation",
+        "evidence_snippet": "Ngân hàng thực hiện chào bán cổ phiếu và chia cổ tức theo nghị quyết ĐHĐCĐ."
+      },
+      "expect": {"decision": "keep", "target_column": "macro_policy"}
+    },
+    {
+      "id": "GS-10",
+      "proposition": "Missing pub_date_raw is strictly quarantined as isolate_unverified",
+      "source_meta": {"source_id": "SRC-A03", "cluster": "macro_policy", "priority": "P1", "name": "NSO"},
+      "payload": {
+        "candidate_id": "C-GS-10",
+        "source_id": "SRC-A03",
+        "title": "FDI đăng ký vào Việt Nam đạt mức tăng trưởng kỷ lục",
+        "pub_date_raw": "",
+        "subject_entity": "NSO",
+        "geo_location": "Hà Nội",
+        "signal_type": "factory_setup",
+        "evidence_snippet": "Báo cáo tình hình đầu tư nước ngoài."
+      },
+      "expect": {"decision": "isolate_unverified"}
+    },
+    {
+      "id": "GS-11",
+      "proposition": "Historical article older than 72h is quarantined as drop_stale",
+      "source_meta": {"source_id": "SRC-VN-GEN-02", "cluster": "media_fdi", "priority": "P1", "name": "VietnamPlus"},
+      "payload": {
+        "candidate_id": "C-GS-11",
+        "source_id": "SRC-VN-GEN-02",
+        "title": "Khánh thành nhà máy điện tử 200 triệu USD tại Hải Phòng",
+        "pub_date_raw": "2026-10-01",
+        "subject_entity": "ExampleCorp",
+        "geo_location": "Hải Phòng",
+        "signal_type": "factory_setup",
+        "evidence_snippet": "Đưa dây chuyền sản xuất vào hoạt động."
+      },
+      "expect": {"decision": "drop_stale"}
+    },
+    {
+      "id": "GS-12",
+      "proposition": "Unaccented lottery / sports / tourism social noise is dropped",
+      "source_meta": {"source_id": "SRC-VN-GEN-07", "cluster": "media_fdi", "priority": "P1", "name": "VnExpress"},
+      "payload": {
+        "candidate_id": "C-GS-12",
+        "source_id": "SRC-VN-GEN-07",
+        "title": "Ket qua xo so mien Nam va lich thi dau bong da hom nay",
+        "pub_date_raw": "2026-11-12",
+        "subject_entity": "VnExpress",
+        "geo_location": "TP.HCM",
+        "signal_type": "policy_regulation",
+        "evidence_snippet": "xổ số bóng đá giải trí"
+      },
+      "expect": {"decision": "drop_noise"}
+    },
+    {
+      "id": "GS-13",
+      "proposition": "Tourism / festival item without industrial investment is dropped",
+      "source_meta": {"source_id": "SRC-VN-GEN-05", "cluster": "media_fdi", "priority": "P1", "name": "TuoiTre"},
+      "payload": {
+        "candidate_id": "C-GS-13",
+        "source_id": "SRC-VN-GEN-05",
+        "title": "Lễ hội du lịch biển Nha Trang thu hút hàng nghìn du khách",
+        "pub_date_raw": "2026-11-12",
+        "subject_entity": "Khánh Hòa",
+        "geo_location": "Khánh Hòa",
+        "signal_type": "policy_regulation",
+        "evidence_snippet": "Sự kiện văn hóa du lịch địa phương."
+      },
+      "expect": {"decision": "drop_noise"}
+    },
+    {
+      "id": "GS-14",
+      "proposition": "Short navigation junk title is dropped as nav_or_short",
+      "source_meta": {"source_id": "SRC-B01", "cluster": "industrial_park", "priority": "P1", "name": "IZ Portal"},
+      "payload": {
+        "candidate_id": "C-GS-14",
+        "source_id": "SRC-B01",
+        "title": "Xem thêm",
+        "pub_date_raw": "2026-11-12",
+        "subject_entity": "Portal",
+        "geo_location": "Hà Nội",
+        "signal_type": "land_grant",
+        "evidence_snippet": "nav"
+      },
+      "expect": {"decision": "drop_noise"}
+    },
+    {
+      "id": "GS-15",
+      "proposition": "Vietnamese trade word 'thương mại' does not falsely trigger AI Data Center routing",
+      "source_meta": {"source_id": "SRC-VN-GEN-01", "cluster": "media_fdi", "priority": "P1", "name": "Báo Chính Phủ"},
+      "payload": {
+        "candidate_id": "C-GS-15",
+        "source_id": "SRC-VN-GEN-01",
+        "title": "Thúc đẩy thương mại song phương và thu hút FDI công nghệ cao vào khu công nghiệp mới",
+        "pub_date_raw": "2026-11-12",
+        "subject_entity": "MPI",
+        "geo_location": "Hà Nội",
+        "signal_type": "factory_setup",
+        "evidence_snippet": "Tăng cường hợp tác thương mại và đầu tư khu công nghiệp."
+      },
+      "expect": {"decision": "keep", "not_target_column": "industry_focus"}
+    },
+    {
+      "id": "GS-16",
+      "proposition": "Vietnam-linked overseas media without industrial/macro keywords is dropped as weak_overseas_macro",
+      "source_meta": {"source_id": "SRC-EXT-01", "cluster": "media_fdi", "priority": "P2", "name": "Global Press"},
+      "payload": {
+        "candidate_id": "C-GS-16",
+        "source_id": "SRC-EXT-01",
+        "title": "Hanoi autumn street food gains popularity among foreign visitors",
+        "pub_date_raw": "2026-11-12",
+        "subject_entity": "Global Press",
+        "geo_location": "Hà Nội",
+        "signal_type": "policy_regulation",
+        "evidence_snippet": "Street food coffee culture in Hanoi."
+      },
+      "expect": {"decision": "drop_noise"}
+    }
+  ]
+}
